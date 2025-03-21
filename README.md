@@ -47,6 +47,9 @@ Standard rule for generating a short name from the full ODS organization name.
 To consider:
 
 - Standard abbreviations
+  - geographic eg London -> ldn
+  - common words eg general practise -> gp
+  - conjuctions eg and &
 - Organisation types
 - Spacing and punctuation
 
