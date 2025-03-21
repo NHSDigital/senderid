@@ -53,6 +53,10 @@ To consider:
 - Organisation types
 - Spacing and punctuation
 
+Additionally:
+
+- NHS Orgs vs Orgs that provide services on behalf of NHS
+
 To author:
 
 - algorithm to generate the short name from a given string
