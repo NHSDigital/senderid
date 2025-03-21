@@ -1,6 +1,14 @@
-# Sender Identification
+# Sender Identification: 0.1.0-alpha
 
 Designing a standard to support digital messaging sender identifications for NHS Organisations.
+
+## Version History
+
+To follow [semantic versioning v2](https://semver.org/).
+
+### 0.1.0-alpha 2025-03-21
+
+Initial Draft.
 
 ## Aims
 
