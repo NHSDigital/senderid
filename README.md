@@ -2,6 +2,14 @@
 
 Designing a standard to support digital messaging sender identifications for NHS Organisations.
 
+## Aims
+
+TODO: Complete aims
+
+## Contributors
+
+TODO: Complete aims
+
 ## RCS RBM
 
 ### RCS Business Messaging
@@ -23,6 +31,21 @@ Designing a standard to support digital messaging sender identifications for NHS
 [ODS Code] - Org ODS code
 
 [Agent Description] - available for organization to set.
+
+## Short Org Name
+
+Standard rule for generating a short name from the full ODS organization name.
+
+To consider:
+
+- Standard abbreviations
+- Organisation types
+- Spacing and punctuation
+
+To author:
+
+- algorithm to generate the short name from a given string
+- version releases of full output for all ODS codes - giving a referenceable artifact that can be used
 
 ## Defined list
 
