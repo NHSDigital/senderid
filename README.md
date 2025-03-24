@@ -57,6 +57,11 @@ This would represent a general agent for the organisation, eg eg NHS Martian Hos
 
 [Agent Description] - available for organization to set.
 
+
+#### Logos and Images
+
+TODO: Define logo and image requirements
+
 ## Short Org Name
 
 Standard rule for generating a short name from the full ODS organization name.
