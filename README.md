@@ -12,6 +12,11 @@ Initial Draft.
 
 ## Aims
 
+- provide a standard to aid uk mobile network operators complete RBM agent identity verification
+- provide guidance for when to apply the NHS rule checks
+- provide a standardised algorithm for generating sender ids for each NHS organisation
+- 
+
 TODO: Complete aims
 
 ## Contributors
@@ -24,11 +29,23 @@ TODO: Complete aims
 
 #### Display Name
 
+##### Version One
+
+This would represent a specific agent for the organisation, eg NHS Martian Trust Pharmacy
+
 "NHS [Short Org Name] [Agent Name]" - Max length 30 characters
 
 [Short Org Name] - Max 16 characters - defined by this standard
 
 [Agent Name] - Max 10 characters - available for organization to set
+
+##### Version Two
+
+This would represent a general agent for the organisation, eg eg NHS Martian Hospital Trust
+
+"NHS [Medium Org Name] [Agent Name]" - Max length 30 characters
+
+[Medium Org Name] - Max 26 characters - defined by this standard
 
 #### Description
 
@@ -62,11 +79,43 @@ To author:
 - algorithm to generate the short name from a given string
 - version releases of full output for all ODS codes - giving a referenceable artifact that can be used
 
+### Agent Name
+
+Initially Agent name can be chosen from:
+
+- Pharmacy
+- Outpatient
+- Date? (Appointment is 11?)
+- Survey
+- Feedback
+- 
+
+Relax this list in future? Allow ad hoc?
+
 ## Defined list
 
 [ODS List](ods.yml)
 
 [RBM Organisation list](senderids.yml)
+
+## Trigger / Protected characteristics
+
+Always require if display name or description containing:
+
+- NHS
+- An NHS ODS Code
+
+### Secondary triggers
+
+- Hospital
+- General Practise
+- Pharmacy
+- Doctor
+- Ambulance
+
+Exclude if:
+
+- If a registered hospital / doctor / medical org, that is private, ie not NHS.
 
 ## Glossary
 
