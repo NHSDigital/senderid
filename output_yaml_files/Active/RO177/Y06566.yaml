@@ -1,0 +1,126 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01922 607000
+Date:
+  Start:
+    value: '2019-11-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOSSLEY DAY HOSPITAL
+    AddrLn2: SNEYD LANE
+    Country: ENGLAND
+    PostCode: WS3 2LW
+    Town: WALSALL
+    UPRN: '100071551242'
+LastChangeDate:
+  value: '2024-01-08'
+Name: NMP CRS WALSALL NORTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06566
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '49637'
+    id: RE6
+    uniqueRelId: '637987'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133970'
+    id: RE6
+    uniqueRelId: '608645'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2019-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161341'
+    id: RE4
+    uniqueRelId: '608646'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE4
+    uniqueRelId: '732005'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '386898'
+  - Date:
+      Start:
+        value: '2019-11-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '386899'
+Status:
+  value: Active
+metadata:
+  org_id: Y06566
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

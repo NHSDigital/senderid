@@ -1,0 +1,162 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "ALPHA HOSPITALS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2008-04-01"
+        },
+        "End": {
+            "value": "2018-10-31"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "NVR"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-09-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CYGNET HOSPITAL HARROW",
+            "AddrLn2": "LONDON ROAD",
+            "Town": "HARROW",
+            "County": "MIDDLESEX",
+            "PostCode": "HA1 3JL",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": [
+            {
+                "type": "tel",
+                "value": "02089 667016"
+            },
+            {
+                "type": "fax",
+                "value": "02088 646092"
+            }
+        ]
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO172",
+            "uniqueRoleId": "119695",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2008-04-01"
+                },
+                "End": {
+                    "value": "2018-10-31"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "29257",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2008-04-01"
+                        },
+                        "End": {
+                            "value": "2013-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2008-04-01"
+                        },
+                        "End": {
+                            "value": "2013-12-11"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q36"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO132",
+                        "uniqueRoleId": "111691"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "228354",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        },
+                        "End": {
+                            "value": "2018-10-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2013-03-20"
+                        },
+                        "End": {
+                            "value": "2018-10-31"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q71"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "168379"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "NVR",
+        "status": "Inactive",
+        "role_id": "RO172"
+    }
+}

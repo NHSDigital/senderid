@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01685 351021
+Date:
+  Start:
+    value: '2017-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KEIR HARDIE HEALTH PARK
+    AddrLn2: ABERDARE ROAD
+    Country: WALES
+    County: MID GLAMORGAN
+    PostCode: CF48 1BZ
+    Town: MERTHYR TYDFIL
+    UPRN: '10034660448'
+LastChangeDate:
+  value: '2023-08-22'
+Name: COMMUNITY CARDIOLOGY CLINIC C
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00161
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-01-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '21752'
+    id: RE4
+    uniqueRelId: '517166'
+  - Date:
+      Start:
+        value: '2017-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '21752'
+    id: RE6
+    uniqueRelId: '517167'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-01-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '288850'
+  - Date:
+      Start:
+        value: '2017-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '288851'
+Status:
+  value: Active
+metadata:
+  org_id: W00161
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

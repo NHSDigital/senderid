@@ -1,0 +1,144 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0115 9322968
+Date:
+- Start:
+    value: '2016-11-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-10-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ILKESTON HEALTH CENTRE
+    AddrLn2: SOUTH STREET
+    Country: ENGLAND
+    County: DERBYSHIRE
+    PostCode: DE7 5PZ
+    Town: ILKESTON
+LastChangeDate:
+  value: '2023-08-22'
+Name: ILKESTON ON DAY SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05567
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2016-11-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2016-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161294'
+    id: RE4
+    uniqueRelId: '514234'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2016-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161294'
+    id: RE6
+    uniqueRelId: '514235'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE6
+    uniqueRelId: '566990'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE4
+    uniqueRelId: '566991'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '286696'
+  - Date:
+    - Start:
+        value: '2016-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '286697'
+Status:
+  value: Active
+metadata:
+  org_id: Y05567
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

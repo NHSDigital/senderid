@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01233 635355
+Date:
+- Start:
+    value: '2023-10-19'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4A THE SINGLETON CENTRE
+    AddrLn2: SINGLETON HILL
+    AddrLn3: SINGLETON
+    Country: ENGLAND
+    PostCode: TN23 5GR
+    Town: ASHFORD
+    UPRN: '10012847405'
+LastChangeDate:
+  value: '2024-01-24'
+Name: ALLIED PHARMACY SINGLETON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGC23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE4
+    uniqueRelId: '832341'
+  - Date:
+    - Start:
+        value: '2023-10-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L7W0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510784'
+    id: RE6
+    uniqueRelId: '832342'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510822'
+Status:
+  value: Active
+metadata:
+  org_id: FGC23
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

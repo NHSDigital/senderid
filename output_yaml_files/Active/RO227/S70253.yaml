@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01314 557999
+Date:
+  Start:
+    value: '1980-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WHINPARK MEDICAL CENTRE
+    AddrLn2: 6 SAUGHTON ROAD
+    Country: SCOTLAND
+    PostCode: EH11 3RA
+    Town: EDINBURGH
+    UPRN: '906219655'
+LastChangeDate:
+  value: '2022-11-18'
+Name: WHINPARK MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S70253
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SS9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487563'
+    id: RE5
+    uniqueRelId: '811622'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1980-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489250'
+  - Date:
+      Start:
+        value: '1980-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178361'
+Status:
+  value: Active
+metadata:
+  org_id: S70253
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

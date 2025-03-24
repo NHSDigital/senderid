@@ -1,0 +1,100 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2017-06-09'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CIVIC CENTRE
+    AddrLn2: HIGH ROAD
+    AddrLn3: WOOD GREEN
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: N22 8LE
+    Town: LONDON
+LastChangeDate:
+  value: '2023-04-28'
+Name: HARINGEY SOCIAL SERVICES DIRECTORATE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V140AA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2017-06-09'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V140
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '111282'
+    id: RE6
+    uniqueRelId: '201'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2017-06-09'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO122
+    primaryRole: 'true'
+    uniqueRoleId: '19385'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 724AA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO222
+        uniqueRoleId: '176297'
+    Type: Successor
+    uniqueSuccId: '37126'
+metadata:
+  org_id: V140AA
+  role_id: RO122
+  status: Inactive
+orgRecordClass: RC2

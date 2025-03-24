@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01993 706498
+Date:
+- Start:
+    value: '2021-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COGGES HILL SURGERY
+    AddrLn2: 12 COGGES HILL ROAD
+    Country: ENGLAND
+    PostCode: OX28 3FP
+    Town: WITNEY
+    UPRN: '10003998296'
+LastChangeDate:
+  value: '2021-10-05'
+Name: COGGES HILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FV314
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2PN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '54472'
+    id: RE6
+    uniqueRelId: '726066'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '726067'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '411581'
+Status:
+  value: Active
+metadata:
+  org_id: FV314
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

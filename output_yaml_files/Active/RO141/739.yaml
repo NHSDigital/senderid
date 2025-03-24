@@ -1,0 +1,159 @@
+Date:
+- End:
+    value: '2023-03-31'
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE DEANE HOUSE
+    AddrLn2: BELVEDERE ROAD
+    Country: ENGLAND
+    PostCode: TA1 1HE
+    Town: TAUNTON
+    UPRN: '100041069988'
+LastChangeDate:
+  value: '2023-03-31'
+Name: SOMERSET WEST AND TAUNTON COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '739'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE5
+    uniqueRelId: '571390'
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QSL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300815'
+    id: RE5
+    uniqueRelId: '695808'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO36
+    uniqueRoleId: '345785'
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '345775'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '905'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '23487'
+    Type: Successor
+    uniqueSuccId: '38111'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '345'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '173735'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '37814'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '371'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '173766'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '37815'
+metadata:
+  org_id: '739'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

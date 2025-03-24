@@ -1,0 +1,137 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01582 531829
+Date:
+- Start:
+    value: '2018-06-18'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-06-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 GEORGE STREET WEST
+    Country: ENGLAND
+    County: BEDFORDSHIRE
+    PostCode: LU1 2BJ
+    Town: LUTON
+LastChangeDate:
+  value: '2023-08-22'
+Name: LUTON APPLIANCE MANAGEMENT SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06126
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2018-06-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161353'
+    id: RE4
+    uniqueRelId: '555791'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2018-06-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161353'
+    id: RE6
+    uniqueRelId: '555792'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1J4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400441'
+    id: RE6
+    uniqueRelId: '731895'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1J4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400441'
+    id: RE4
+    uniqueRelId: '731896'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-06-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-06-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '304364'
+  - Date:
+    - Start:
+        value: '2018-06-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-06-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '304365'
+Status:
+  value: Active
+metadata:
+  org_id: Y06126
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

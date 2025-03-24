@@ -1,0 +1,104 @@
+Date:
+  Start:
+    value: '2009-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPITALFIELD LANE
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: PO19 6SE
+    Town: CHICHESTER
+LastChangeDate:
+  value: '2012-05-15'
+Name: ST RICHARD'S HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYR16
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '62205'
+    id: RE6
+    uniqueRelId: '58554'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '106555'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXH58
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '75774'
+    Type: Predecessor
+    uniqueSuccId: '37969'
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPR01
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106331'
+    Type: Predecessor
+    uniqueSuccId: '1813'
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPL13
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106399'
+    Type: Predecessor
+    uniqueSuccId: '6147'
+metadata:
+  org_id: RYR16
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

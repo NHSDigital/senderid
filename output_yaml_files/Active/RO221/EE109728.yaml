@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01234 332500
+Date:
+  Start:
+    value: '1980-09-30'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MANTON LANE
+    Country: ENGLAND
+    PostCode: MK41 7NT
+    Town: BEDFORD
+    UPRN: '100080995753'
+LastChangeDate:
+  value: '2023-01-18'
+Name: BEDFORD MODERN SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE109728
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '625'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '174395'
+    id: RE5
+    uniqueRelId: '748733'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1J4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400441'
+    id: RE5
+    uniqueRelId: '748732'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1980-09-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '424539'
+  - Date:
+      Start:
+        value: '1980-09-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO289
+    uniqueRoleId: '424540'
+Status:
+  value: Active
+metadata:
+  org_id: EE109728
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

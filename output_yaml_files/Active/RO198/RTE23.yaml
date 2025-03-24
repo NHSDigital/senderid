@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TETBURY ROAD
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL7 1UY
+    Town: CIRENCESTER
+    UPRN: '100120433151'
+LastChangeDate:
+  value: '2021-02-04'
+Name: CIRENCESTER HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTE23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '37524'
+    id: RE6
+    uniqueRelId: '37752'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '20021'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RA557
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '20175'
+    Type: Predecessor
+    uniqueSuccId: '32353'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RH681
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '74617'
+    Type: Predecessor
+    uniqueSuccId: '10073'
+metadata:
+  org_id: RTE23
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

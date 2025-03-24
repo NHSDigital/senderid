@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01189 574999
+Date:
+- Start:
+    value: '2023-03-20'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 24 WEST END ROAD
+    AddrLn2: MORTIMER COMMON
+    Country: ENGLAND
+    PostCode: RG7 3TF
+    Town: READING
+    UPRN: '100081026439'
+LastChangeDate:
+  value: '2023-03-02'
+Name: THE LITTLE VILLAGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FD722
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-03-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '819645'
+  - Date:
+    - Start:
+        value: '2023-03-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B4I9Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '497773'
+    id: RE6
+    uniqueRelId: '819646'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-03-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '497775'
+Status:
+  value: Active
+metadata:
+  org_id: FD722
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

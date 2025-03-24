@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BOSTON DIALYSIS UNIT
+    AddrLn2: HAVENSIDE
+    AddrLn3: FISHTOFT ROAD
+    Country: ENGLAND
+    PostCode: PE21 0AH
+    Town: BOSTON
+    UPRN: '200004470735'
+LastChangeDate:
+  value: '2023-03-31'
+Name: DAVITA (UK) LTD (BOSTON)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GG002
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300754'
+    id: RE5
+    uniqueRelId: '717152'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: GG0
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '398533'
+    id: RE6
+    uniqueRelId: '717153'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '399321'
+Status:
+  value: Active
+metadata:
+  org_id: GG002
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

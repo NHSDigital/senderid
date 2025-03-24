@@ -1,0 +1,103 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01243 265037
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2025-01-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NYETIMBER LANE
+    AddrLn2: PAGHAM
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: PO21 3JX
+    Town: BOGNOR REGIS
+LastChangeDate:
+  value: '2025-02-24'
+Name: 2 POLICE HOUSE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RW853
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2025-01-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '12293'
+    id: RE6
+    uniqueRelId: '47724'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2025-01-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '108756'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX265
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '79391'
+    Type: Successor
+    uniqueSuccId: '8443'
+metadata:
+  org_id: RW853
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

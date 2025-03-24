@@ -1,0 +1,164 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NHS CHESHIRE HQ",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2020-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2020-02-14"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "27DAA"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BEVAN HOUSE",
+            "AddrLn2": "BARONY COURT",
+            "Town": "NANTWICH",
+            "County": "CHESHIRE",
+            "PostCode": "CW5 5RD",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO99",
+            "uniqueRoleId": "391280",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-14"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "619798",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-14"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "27D"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "386503"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "37782",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "01RAC"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO99",
+                        "uniqueRoleId": "275558"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37783",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "02DAA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO99",
+                        "uniqueRoleId": "275559"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "27DAA",
+        "status": "Active",
+        "role_id": "RO99"
+    }
+}

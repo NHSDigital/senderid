@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01376 512192
+Date:
+- Start:
+    value: '2023-10-24'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 NEWLAND STREET
+    Country: ENGLAND
+    PostCode: CM8 2AF
+    Town: WITHAM
+    UPRN: '10006910103'
+LastChangeDate:
+  value: '2024-05-08'
+Name: WITHAM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FM475
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '832385'
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S1U3E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510785'
+    id: RE6
+    uniqueRelId: '832386'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510844'
+Status:
+  value: Active
+metadata:
+  org_id: FM475
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

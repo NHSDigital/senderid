@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2012-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: A1 KIDDERMINSTER GENERAL HOSP
+    AddrLn2: BEWDLEY ROAD
+    Country: ENGLAND
+    County: WORCESTERSHIRE
+    PostCode: DY11 6RJ
+    Town: KIDDERMINSTER
+LastChangeDate:
+  value: '2024-04-02'
+Name: COMM HOSP WARDS (WF GP UNIT)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R1ARN
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131576'
+    id: RE6
+    uniqueRelId: '185512'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '163365'
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '163366'
+Status:
+  value: Active
+metadata:
+  org_id: R1ARN
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

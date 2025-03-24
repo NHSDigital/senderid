@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01614 066060
+Date:
+- Start:
+    value: '2023-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-03-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 34-35 WOODLEY PRECINCT
+    AddrLn2: WOODLEY
+    Country: ENGLAND
+    PostCode: SK6 1RJ
+    Town: STOCKPORT
+    UPRN: '100012785067'
+LastChangeDate:
+  value: '2023-03-30'
+Name: MEDICHEM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FG849
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE4
+    uniqueRelId: '821036'
+  - Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A4K7W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '499487'
+    id: RE6
+    uniqueRelId: '821037'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '499512'
+Status:
+  value: Active
+metadata:
+  org_id: FG849
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

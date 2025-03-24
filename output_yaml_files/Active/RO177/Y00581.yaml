@@ -1,0 +1,120 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01777 863344
+Date:
+  Start:
+    value: '2004-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BASSETLAW PCT
+    AddrLn2: RETFORD HOSPITAL
+    AddrLn3: NORTH ROAD
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: DN22 7XF
+    Town: RETFORD
+    UPRN: '10023264250'
+LastChangeDate:
+  value: '2023-08-22'
+Name: BASSETLAW DRUG & ALCOHOL SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y00581
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5ET
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '58577'
+    id: RE4
+    uniqueRelId: '278050'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE4
+    uniqueRelId: '278051'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE6
+    uniqueRelId: '459007'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '190689'
+  - Date:
+      Start:
+        value: '2004-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '83220'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '279763'
+Status:
+  value: Active
+metadata:
+  org_id: Y00581
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

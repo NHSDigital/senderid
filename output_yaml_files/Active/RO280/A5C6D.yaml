@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 12 LONDON ROAD
+    Country: ENGLAND
+    PostCode: GL1 3NE
+    Town: GLOUCESTER
+    UPRN: '100121247255'
+LastChangeDate:
+  value: '2022-04-05'
+Name: BADHAMS PHARMACY (LONDON ROAD) - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: A5C6D
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FP764
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '223361'
+    id: RE6
+    uniqueRelId: '793026'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '468953'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '468952'
+Status:
+  value: Active
+metadata:
+  org_id: A5C6D
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,213 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 0161 622 6500
+  - type: fax
+    value: 0161 622 6512
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ELLEN HOUSE
+    AddrLn2: WADDINGTON STREET
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: OL9 6EE
+    Town: OLDHAM
+LastChangeDate:
+  value: '2025-02-24'
+Name: OLDHAM PCT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5J5
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q14
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21645'
+    id: RE3
+    uniqueRelId: '73263'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE3
+    uniqueRelId: '27969'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q46
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163541'
+    id: RE5
+    uniqueRelId: '186766'
+  - Date:
+      End:
+        value: '2016-03-29'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q73
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202015'
+    id: RE5
+    uniqueRelId: '449603'
+  - Date:
+      End:
+        value: '2025-01-31'
+      Start:
+        value: '2016-03-30'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278954'
+    id: RE5
+    uniqueRelId: '506038'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO22
+    uniqueRoleId: '153647'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO179
+    primaryRole: 'true'
+    uniqueRoleId: '42274'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 4KN90
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO171
+        uniqueRoleId: '3407'
+    Type: Predecessor
+    uniqueSuccId: '10428'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '68522'
+    Type: Predecessor
+    uniqueSuccId: '23660'
+metadata:
+  org_id: 5J5
+  role_id: RO179
+  status: Active
+orgRecordClass: RC1

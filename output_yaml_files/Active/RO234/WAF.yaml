@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5-7 HIGH STREET
+    Country: ENGLAND
+    PostCode: KT1 1LB
+    Town: KINGSTON UPON THAMES
+    UPRN: '10092016146'
+LastChangeDate:
+  value: '2025-02-07'
+Name: KINGSTON CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WAF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VJ5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '229389'
+    id: RE6
+    uniqueRelId: '334729'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '201928'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '201929'
+Status:
+  value: Active
+metadata:
+  org_id: WAF
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

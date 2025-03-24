@@ -1,0 +1,164 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NHS SOUTH EAST COMMISSIONING SUPPORT UNIT",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2014-10-01"
+            },
+            "End": {
+                "value": "2017-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2014-04-01"
+            },
+            "End": {
+                "value": "2020-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "0DC"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2021-03-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1 LOWER MARSH",
+            "AddrLn2": "WATERLOO",
+            "Town": "LONDON",
+            "County": "GREATER LONDON",
+            "PostCode": "SE1 7NT",
+            "Country": "ENGLAND",
+            "UPRN": "100023225356"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO213",
+            "uniqueRoleId": "197246",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    },
+                    "End": {
+                        "value": "2017-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-04-01"
+                    },
+                    "End": {
+                        "value": "2020-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "37435",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2017-04-01"
+                    }
+                },
+                "Type": "Successor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "0DJ"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO213",
+                        "uniqueRoleId": "288102"
+                    }
+                }
+            },
+            {
+                "forwardSuccession": "true",
+                "uniqueSuccId": "37393",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "0AM"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO213",
+                        "uniqueRoleId": "163946"
+                    }
+                }
+            },
+            {
+                "forwardSuccession": "true",
+                "uniqueSuccId": "37394",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "0AX"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO213",
+                        "uniqueRoleId": "163954"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "0DC",
+        "status": "Inactive",
+        "role_id": "RO213"
+    }
+}

@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '1992-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEXDEN ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO3 3NB
+    Town: COLCHESTER
+    UPRN: '100091468726'
+LastChangeDate:
+  value: '2021-02-04'
+Name: ESSEX COUNTY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RDEEB
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118212'
+    id: RE6
+    uniqueRelId: '75334'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '77998'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAGEB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '3009'
+    Type: Predecessor
+    uniqueSuccId: '9071'
+  - Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAHEB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '12168'
+    Type: Predecessor
+    uniqueSuccId: '15316'
+metadata:
+  org_id: RDEEB
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

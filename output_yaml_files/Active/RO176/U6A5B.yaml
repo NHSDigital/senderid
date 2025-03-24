@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 27
+    AddrLn2: THE JOINERY WORKSHOP
+    AddrLn3: MAIN GATE ROAD
+    Country: ENGLAND
+    PostCode: ME4 4TZ
+    Town: CHATHAM
+    UPRN: '44013122'
+LastChangeDate:
+  value: '2024-09-10'
+Name: PRIMARY CARE SUPPORT SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: U6A5B
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-09-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE5
+    uniqueRelId: '851744'
+  - Date:
+      End:
+        value: '2024-09-09'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE5
+    uniqueRelId: '814828'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q1I7T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '492567'
+    id: RE6
+    uniqueRelId: '814829'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '492568'
+Status:
+  value: Active
+metadata:
+  org_id: U6A5B
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

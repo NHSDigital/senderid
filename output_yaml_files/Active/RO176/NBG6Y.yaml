@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WELLAND ROAD
+    AddrLn2: HILTON
+    Country: ENGLAND
+    PostCode: DE65 5GZ
+    Town: DERBY
+    UPRN: '10012009966'
+LastChangeDate:
+  value: '2020-04-05'
+Name: WELLBROOK MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NBG6Y
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NBG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '164822'
+    id: RE6
+    uniqueRelId: '565594'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '565595'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE5
+    uniqueRelId: '687075'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '344077'
+Status:
+  value: Active
+metadata:
+  org_id: NBG6Y
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

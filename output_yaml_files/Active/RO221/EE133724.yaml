@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02082 063100
+Date:
+  Start:
+    value: '2002-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KENTON
+    Country: ENGLAND
+    PostCode: HA3 9TE
+    Town: HARROW
+    UPRN: '202141486'
+LastChangeDate:
+  value: '2023-01-16'
+Name: JFS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE133724
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2002-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '719'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78184'
+    id: RE5
+    uniqueRelId: '765177'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    id: RE5
+    uniqueRelId: '765176'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2002-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '441123'
+  - Date:
+      Start:
+        value: '2002-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO282
+    uniqueRoleId: '441124'
+Status:
+  value: Active
+metadata:
+  org_id: EE133724
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

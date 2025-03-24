@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WORTHING HOSPITAL
+    AddrLn2: LYNDHURST ROAD
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: BN11 2DH
+    Town: WORTHING
+    UPRN: '100062227731'
+LastChangeDate:
+  value: '2021-02-04'
+Name: CHILDRENS CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX2D8
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133846'
+    id: RE6
+    uniqueRelId: '91609'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13638'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW8AM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '108825'
+    Type: Predecessor
+    uniqueSuccId: '9776'
+metadata:
+  org_id: RX2D8
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

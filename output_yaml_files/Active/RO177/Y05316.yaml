@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 76351057
+Date:
+  Start:
+    value: '2016-01-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LOUTH COUNTY HOSPITAL
+    AddrLn2: HIGH HOLME RD
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN11 0EU
+    Town: LOUTH
+    UPRN: '100032077462'
+LastChangeDate:
+  value: '2021-02-12'
+Name: DMC COMMUNITY DERMATOLOGY LECCG
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05316
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-01-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NCN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '122762'
+    id: RE6
+    uniqueRelId: '462159'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161290'
+    id: RE4
+    uniqueRelId: '448325'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 71E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386502'
+    id: RE4
+    uniqueRelId: '637325'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2016-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '278082'
+  - Date:
+      Start:
+        value: '2016-01-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '278083'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281554'
+Status:
+  value: Active
+metadata:
+  org_id: Y05316
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

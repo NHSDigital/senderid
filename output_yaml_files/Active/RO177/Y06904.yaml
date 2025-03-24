@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 08002 425199
+Date:
+  Start:
+    value: '2020-10-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: INVICTA HEALTH CIC
+    AddrLn2: INNOVATION HOUSE
+    AddrLn3: DISCOVERY PARK
+    Country: ENGLAND
+    PostCode: CT13 9FF
+    Town: SANDWICH
+LastChangeDate:
+  value: '2023-08-22'
+Name: PRIMARY CARE MENTAL HEALTH SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06904
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-10-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE6
+    uniqueRelId: '718260'
+  - Date:
+      Start:
+        value: '2020-10-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE4
+    uniqueRelId: '718261'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '400394'
+  - Date:
+      Start:
+        value: '2020-10-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '400393'
+Status:
+  value: Active
+metadata:
+  org_id: Y06904
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2011-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STONYDELPH HEALTH CENTRE
+    AddrLn2: ELLERBECK
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: B77 4JA
+    Town: TAMWORTH
+LastChangeDate:
+  value: '2020-07-09'
+Name: STONYDELPH DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V09407
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230513'
+    id: RE4
+    uniqueRelId: '571725'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '712184'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2011-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '346144'
+Status:
+  value: Active
+metadata:
+  org_id: V09407
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

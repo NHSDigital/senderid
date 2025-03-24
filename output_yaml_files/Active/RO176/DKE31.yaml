@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 21 DAWSON ROAD
+    AddrLn2: BROADHEATH
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: WA14 5PF
+    Town: ALTRINCHAM
+LastChangeDate:
+  value: '2020-04-03'
+Name: WEST TIMPERLEY MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DKE31
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278954'
+    id: RE5
+    uniqueRelId: '557182'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DKE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '295669'
+    id: RE6
+    uniqueRelId: '557183'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '663864'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '305370'
+Status:
+  value: Active
+metadata:
+  org_id: DKE31
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

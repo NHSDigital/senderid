@@ -1,0 +1,125 @@
+Date:
+- Start:
+    value: '2020-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 36-38 FRIARS WALK
+    Country: ENGLAND
+    PostCode: BN7 2PB
+    Town: LEWES
+    UPRN: '100062274105'
+LastChangeDate:
+  value: '2023-03-28'
+Name: NHS SUSSEX ICB - 97R
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 97R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE5
+    uniqueRelId: '619591'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '386494'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486107'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161484'
+    Type: Predecessor
+    uniqueSuccId: '37728'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161490'
+    Type: Predecessor
+    uniqueSuccId: '37729'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161529'
+    Type: Predecessor
+    uniqueSuccId: '37730'
+metadata:
+  org_id: 97R
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

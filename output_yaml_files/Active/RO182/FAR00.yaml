@@ -1,0 +1,115 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01909 472024
+Date:
+- Start:
+    value: '2021-11-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-10-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 6 NEWGATE STREET
+    Country: ENGLAND
+    PostCode: S80 2HD
+    Town: WORKSOP
+    UPRN: '100032186942'
+LastChangeDate:
+  value: '2022-12-15'
+Name: NEWGATE STREET PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAR00
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1QH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '162327'
+    id: RE6
+    uniqueRelId: '797871'
+  - Date:
+    - End:
+        value: '2022-06-30'
+      Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-06-30'
+      Start:
+        value: '2021-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '797872'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE4
+    uniqueRelId: '808814'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '474845'
+Status:
+  value: Active
+metadata:
+  org_id: FAR00
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

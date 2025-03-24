@@ -1,0 +1,84 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "KESWICK HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2013-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "01HAV"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2013-08-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MARY HEWETSON COMMUNITY HOSPITAL",
+            "AddrLn2": "CROSTHWAITE ROAD",
+            "Town": "KESWICK",
+            "County": "CUMBRIA",
+            "PostCode": "CA12 5PH",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO99",
+            "uniqueRoleId": "172653",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "234496",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "01H"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "161412"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "01HAV",
+        "status": "Active",
+        "role_id": "RO99"
+    }
+}

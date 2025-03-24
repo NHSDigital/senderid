@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01234 930500
+Date:
+  Start:
+    value: '2019-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 1 CAXTON PARK
+    AddrLn2: CAXTON ROAD
+    AddrLn3: ELMS FARM INDUSTRIAL ESTATE
+    Country: ENGLAND
+    PostCode: MK41 0TY
+    Town: BEDFORD
+    UPRN: '100081311658'
+LastChangeDate:
+  value: '2020-07-06'
+Name: 121 PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FCC16
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE4
+    uniqueRelId: '604932'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300768'
+    id: RE4
+    uniqueRelId: '647808'
+  - Date:
+      Start:
+        value: '2019-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4RY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '382962'
+    id: RE6
+    uniqueRelId: '604933'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '382964'
+Status:
+  value: Active
+metadata:
+  org_id: FCC16
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

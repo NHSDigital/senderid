@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07384 887154
+Date:
+  Start:
+    value: '2021-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PEAR TREE COURT
+    AddrLn2: WOOLAGE GREEN
+    Country: ENGLAND
+    PostCode: CT4 6SG
+    Town: CANTERBURY
+    UPRN: '100062052782'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PRIMARY CARE ENT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07011
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE6
+    uniqueRelId: '726953'
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE4
+    uniqueRelId: '726954'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '412549'
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '412548'
+Status:
+  value: Active
+metadata:
+  org_id: Y07011
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

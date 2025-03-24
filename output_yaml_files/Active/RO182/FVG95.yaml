@@ -1,0 +1,105 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 941470
+Date:
+- Start:
+    value: '2015-08-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-07-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 359 RIPPLE ROAD
+    Country: ENGLAND
+    PostCode: IG11 9PN
+    Town: BARKING
+    UPRN: '100047390'
+LastChangeDate:
+  value: '2022-11-03'
+Name: DAY LEWIS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVG95
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-08-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P05F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94690'
+    id: RE6
+    uniqueRelId: '385768'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-08-03'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '385769'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '656777'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2015-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '233571'
+Status:
+  value: Active
+metadata:
+  org_id: FVG95
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01642 087338
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH LANE
+    AddrLn2: ACKLAM
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS5 7DX
+    Town: MIDDLESBROUGH
+LastChangeDate:
+  value: '2020-04-01'
+Name: TEES VALLEY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06278
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NVC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132258'
+    id: RE6
+    uniqueRelId: '559460'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161396'
+    id: RE4
+    uniqueRelId: '559461'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '637865'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '307478'
+  - Date:
+      Start:
+        value: '2018-10-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '307479'
+Status:
+  value: Active
+metadata:
+  org_id: Y06278
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HOPE STREET
+    Country: ENGLAND
+    County: SOUTH HUMBERSIDE
+    PostCode: DN32 7QL
+    Town: GRIMSBY
+    UPRN: '11083921'
+LastChangeDate:
+  value: '2021-07-21'
+Name: HOPE STREET CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RJL23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '70437'
+    id: RE6
+    uniqueRelId: '60902'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '30152'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RF6FA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '23965'
+    Type: Predecessor
+    uniqueSuccId: '36421'
+metadata:
+  org_id: RJL23
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

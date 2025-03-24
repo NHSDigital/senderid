@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BROOKE ROAD
+    Country: ENGLAND
+    PostCode: RM17 5BX
+    Town: GRAYS
+    UPRN: '100091538300'
+LastChangeDate:
+  value: '2025-01-13'
+Name: GRAYS CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VLA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: WCM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '229387'
+    id: RE6
+    uniqueRelId: '334617'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '202275'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '202276'
+Status:
+  value: Active
+metadata:
+  org_id: VLA
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

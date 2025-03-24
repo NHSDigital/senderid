@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01706 824747
+Date:
+- Start:
+    value: '2022-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-05-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 MARKET STREET
+    AddrLn2: EDENFIELD
+    AddrLn3: RAMSBOTTOM
+    Country: ENGLAND
+    PostCode: BL0 0JQ
+    Town: BURY
+    UPRN: '100012550959'
+LastChangeDate:
+  value: '2022-05-12'
+Name: SCOUT MOOR PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FN638
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '806087'
+  - Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H1K0Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '483929'
+    id: RE6
+    uniqueRelId: '806086'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '483933'
+Status:
+  value: Active
+metadata:
+  org_id: FN638
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

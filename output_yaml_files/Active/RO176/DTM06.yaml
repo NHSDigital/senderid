@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NHS NIGHTINGALE EXETER
+    AddrLn2: MOOR LANE
+    AddrLn3: SOWTON
+    Country: ENGLAND
+    PostCode: EX2 7JG
+    Town: EXETER
+LastChangeDate:
+  value: '2020-09-10'
+Name: ULTRACARDIAC NIGHTINGALE EXETER
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DTM06
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300813'
+    id: RE5
+    uniqueRelId: '716316'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DTM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '306808'
+    id: RE6
+    uniqueRelId: '716317'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '398435'
+Status:
+  value: Active
+metadata:
+  org_id: DTM06
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

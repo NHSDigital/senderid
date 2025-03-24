@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07813 032299
+Date:
+  Start:
+    value: '2024-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HEALTH & WELLBEING CENTRE
+    AddrLn2: 1 BRISTOL ROAD SOUTH
+    Country: ENGLAND
+    PostCode: B31 2GH
+    Town: BIRMINGHAM
+    UPRN: '10095573427'
+LastChangeDate:
+  value: '2024-03-21'
+Name: NHS BSOL SOUTH LOCALITY HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08376
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE4
+    uniqueRelId: '841705'
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE6
+    uniqueRelId: '841706'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '521794'
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '521793'
+Status:
+  value: Active
+metadata:
+  org_id: Y08376
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

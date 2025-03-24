@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2005-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LONGLEY LANE
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S5 7JN
+    Town: SHEFFIELD
+LastChangeDate:
+  value: '2012-05-15'
+Name: SHEFFIELD CENTRE (NHS BLOOD & TRANSPLANT)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: T146D
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1460
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO189
+        uniqueRoleId: '99818'
+    id: RE6
+    uniqueRelId: '40824'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO191
+    primaryRole: 'true'
+    uniqueRoleId: '27640'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T129D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '24326'
+    Type: Predecessor
+    uniqueSuccId: '23833'
+metadata:
+  org_id: T146D
+  role_id: RO191
+  status: Active
+orgRecordClass: RC2

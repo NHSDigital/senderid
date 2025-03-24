@@ -1,0 +1,136 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 76351013
+Date:
+- Start:
+    value: '2019-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-03-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEMBLEY CENTRE FOR HEALTH
+    AddrLn2: 116 CHAPLIN ROAD
+    Country: ENGLAND
+    PostCode: HA0 4UZ
+    Town: WEMBLEY
+    UPRN: '202190980'
+LastChangeDate:
+  value: '2024-04-01'
+Name: DMC COMMUNITY DERM BRENT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06418
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NCN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '122762'
+    id: RE6
+    uniqueRelId: '565840'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161260'
+    id: RE4
+    uniqueRelId: '565841'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    id: RE4
+    uniqueRelId: '731957'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O4I9P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521954'
+    id: RE11
+    uniqueRelId: '843659'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '344239'
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '344240'
+Status:
+  value: Active
+metadata:
+  org_id: Y06418
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 44 LONDON ROAD
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL1 3NZ
+    Town: GLOUCESTER
+    UPRN: '100121247303'
+LastChangeDate:
+  value: '2021-02-05'
+Name: EARLY INTERVENTION TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTQ71
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '21602'
+    id: RE6
+    uniqueRelId: '51246'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '86259'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RA510
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '36552'
+    Type: Predecessor
+    uniqueSuccId: '9817'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RH732
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '70158'
+    Type: Predecessor
+    uniqueSuccId: '33933'
+metadata:
+  org_id: RTQ71
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

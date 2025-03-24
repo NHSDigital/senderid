@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 832862
+Date:
+- Start:
+    value: '2015-04-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-04-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 40/42 MAIN STREET
+    AddrLn2: DENHOLME
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD13 4BL
+    Town: BRADFORD
+    UPRN: '10090977987'
+LastChangeDate:
+  value: '2024-01-09'
+Name: PRIMED PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FK571
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '372814'
+  - Date:
+      Start:
+        value: '2015-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: PT5H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '231380'
+    id: RE6
+    uniqueRelId: '372815'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '651892'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2015-04-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-04-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '231418'
+Status:
+  value: Active
+metadata:
+  org_id: FK571
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

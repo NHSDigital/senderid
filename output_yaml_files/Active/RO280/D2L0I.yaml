@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2021-02-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 123 COMMERCIAL ROAD
+    Country: ENGLAND
+    PostCode: SN1 5PL
+    Town: SWINDON
+    UPRN: '100121343894'
+LastChangeDate:
+  value: '2022-04-08'
+Name: EPICARE HEALTH PHARMACY (EPICARE HEALTH LTD) - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: D2L0I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-02-28'
+      Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FQ775
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '224168'
+    id: RE6
+    uniqueRelId: '805125'
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FKW51
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '407801'
+    id: RE6
+    uniqueRelId: '805126'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '413744'
+  - Date:
+      Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '413743'
+Status:
+  value: Active
+metadata:
+  org_id: D2L0I
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

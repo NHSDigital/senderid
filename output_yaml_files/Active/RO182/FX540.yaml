@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02392 262267
+Date:
+- Start:
+    value: '2025-02-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 61 LONDON ROAD
+    AddrLn2: COWPLAIN
+    Country: ENGLAND
+    PostCode: PO8 8UJ
+    Town: WATERLOOVILLE
+    UPRN: '100062646153'
+LastChangeDate:
+  value: '2025-01-23'
+Name: TUCKERS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FX540
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '857459'
+  - Date:
+    - Start:
+        value: '2025-02-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O5S0Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536716'
+    id: RE6
+    uniqueRelId: '857460'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536731'
+Status:
+  value: Active
+metadata:
+  org_id: FX540
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

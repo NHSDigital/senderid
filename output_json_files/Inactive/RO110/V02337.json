@@ -1,0 +1,175 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "STOCKLAND GREEN HEALTH CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-04-01"
+        },
+        "End": {
+            "value": "2018-07-20"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V02337"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2018-10-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "192 RESERVOIR ROAD",
+            "AddrLn2": "ERDINGTON",
+            "Town": "BIRMINGHAM",
+            "County": "WEST MIDLANDS",
+            "PostCode": "B23 6DJ",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO110",
+            "uniqueRoleId": "205506",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                },
+                "End": {
+                    "value": "2018-07-20"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "294762",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        },
+                        "End": {
+                            "value": "2015-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        },
+                        "End": {
+                            "value": "2016-07-06"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "12T"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "163826"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "377746",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2015-04-01"
+                        },
+                        "End": {
+                            "value": "2018-07-20"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2016-07-07"
+                        },
+                        "End": {
+                            "value": "2018-07-20"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230515"
+                    }
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37494",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2015-04-01"
+                }
+            },
+            "Type": "Successor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "V81636"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO110",
+                    "uniqueRoleId": "307414"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "V02337",
+        "status": "Inactive",
+        "role_id": "RO110"
+    }
+}

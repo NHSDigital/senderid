@@ -1,0 +1,139 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07881 020975
+Date:
+- Start:
+    value: '2018-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-08-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WINGERWORTH SURGERY
+    AddrLn2: ALLENDALE ROAD
+    AddrLn3: WINGERWORTH
+    Country: ENGLAND
+    County: DERBYSHIRE
+    PostCode: S42 6PX
+    Town: CHESTERFIELD
+LastChangeDate:
+  value: '2023-08-22'
+Name: NORTH EASTERN DERBYSHIRE HEALTHCARE LTD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06183
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161311'
+    id: RE4
+    uniqueRelId: '558095'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161311'
+    id: RE6
+    uniqueRelId: '558096'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE6
+    uniqueRelId: '567024'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE4
+    uniqueRelId: '567025'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-08-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '306210'
+  - Date:
+    - Start:
+        value: '2018-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-08-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '306211'
+Status:
+  value: Active
+metadata:
+  org_id: Y06183
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

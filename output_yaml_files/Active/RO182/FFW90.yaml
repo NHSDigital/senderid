@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01706 342050
+Date:
+- Start:
+    value: '2023-07-10'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 462 WHITWORTH ROAD
+    Country: ENGLAND
+    PostCode: OL12 0SN
+    Town: ROCHDALE
+    UPRN: '23064934'
+LastChangeDate:
+  value: '2023-06-23'
+Name: HEALEY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FFW90
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE4
+    uniqueRelId: '827791'
+  - Date:
+    - Start:
+        value: '2023-07-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R8R5G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506270'
+    id: RE6
+    uniqueRelId: '827792'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506318'
+Status:
+  value: Active
+metadata:
+  org_id: FFW90
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

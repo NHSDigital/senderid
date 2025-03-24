@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ARION BUSINESS CENTRE
+    AddrLn2: 118 HIGH STREET
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: B23 6BG
+    Town: BIRMINGHAM
+LastChangeDate:
+  value: '2020-04-27'
+Name: PEGASUS MEDICAL (ERDINGTON)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GDX02
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE5
+    uniqueRelId: '711493'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: GDX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '394249'
+    id: RE6
+    uniqueRelId: '711494'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '394251'
+Status:
+  value: Active
+metadata:
+  org_id: GDX02
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

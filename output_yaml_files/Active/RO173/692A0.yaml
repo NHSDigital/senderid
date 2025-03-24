@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: IPSWICH HOSPITAL
+    AddrLn2: HEATH ROAD
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP4 5PD
+    Town: IPSWICH
+LastChangeDate:
+  value: '2020-03-25'
+Name: IPSWICH HOSPITAL LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 692A0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2018-06-30'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RGQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '70440'
+    id: RE3
+    uniqueRelId: '45268'
+  - Date:
+      Start:
+        value: '2018-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118212'
+    id: RE3
+    uniqueRelId: '621317'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '28093'
+Status:
+  value: Active
+metadata:
+  org_id: 692A0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,135 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 71887188
+Date:
+  Start:
+    value: '2015-07-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GUYS HOSPITAL
+    AddrLn2: GREAT MAZE POND
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SE1 9RT
+    Town: LONDON
+LastChangeDate:
+  value: '2024-04-01'
+Name: THERAPY SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05105
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-07-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJ1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '116733'
+    id: RE6
+    uniqueRelId: '461959'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 08Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161282'
+    id: RE4
+    uniqueRelId: '385724'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 72Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386495'
+    id: RE4
+    uniqueRelId: '637225'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D7Z1O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521970'
+    id: RE11
+    uniqueRelId: '843515'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '233524'
+  - Date:
+      Start:
+        value: '2015-07-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233525'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281452'
+Status:
+  value: Active
+metadata:
+  org_id: Y05105
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

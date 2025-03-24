@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 244 CHEETHAM HILL ROAD
+    Country: ENGLAND
+    PostCode: M8 8AU
+    Town: MANCHESTER
+    UPRN: '10091812221'
+LastChangeDate:
+  value: '2021-03-23'
+Name: CHEETHAM HILL MEDICAL CENTRE NORTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: H1P2Y
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NPR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '77610'
+    id: RE6
+    uniqueRelId: '726876'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '726877'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '412445'
+Status:
+  value: Active
+metadata:
+  org_id: H1P2Y
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

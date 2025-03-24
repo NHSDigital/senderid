@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0191 2031200
+Date:
+  Start:
+    value: '2013-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 7-8 SILVER FOX WAY
+    AddrLn2: COBALT BUSINESS PARK
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE27 0QJ
+    Town: NEWCASTLE UPON TYNE
+    UPRN: '47227291'
+LastChangeDate:
+  value: '2023-08-22'
+Name: NORTHUMBERLAND PALLIATIVE CARE TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04374
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161395'
+    id: RE4
+    uniqueRelId: '337721'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161395'
+    id: RE6
+    uniqueRelId: '461260'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194880'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194881'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281029'
+Status:
+  value: Active
+metadata:
+  org_id: Y04374
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

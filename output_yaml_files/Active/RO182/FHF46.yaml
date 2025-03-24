@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01923 222666
+Date:
+- Start:
+    value: '2024-04-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-02-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 98 LEAVESDEN ROAD
+    Country: ENGLAND
+    PostCode: WD24 5EH
+    Town: WATFORD
+    UPRN: '100080941581'
+LastChangeDate:
+  value: '2024-02-29'
+Name: PYRAMID PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHF46
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-04-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '840153'
+  - Date:
+    - Start:
+        value: '2024-04-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4MD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '306007'
+    id: RE6
+    uniqueRelId: '840154'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-04-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '520058'
+Status:
+  value: Active
+metadata:
+  org_id: FHF46
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

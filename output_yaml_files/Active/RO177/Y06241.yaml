@@ -1,0 +1,113 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07342 385488
+Date:
+- Start:
+    value: '2018-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-09-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OAK TREE LODGE
+    AddrLn2: ST CATHS SITE, TICKHILL ROAD
+    AddrLn3: BALBY
+    Country: ENGLAND
+    PostCode: DN4 8QN
+    Town: DONCASTER
+LastChangeDate:
+  value: '2023-10-04'
+Name: DONCASTER EAST PCN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06241
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161461'
+    id: RE4
+    uniqueRelId: '559099'
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161461'
+    id: RE6
+    uniqueRelId: '559100'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2018-09-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '307136'
+  - Date:
+    - Start:
+        value: '2018-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-09-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '307137'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511390'
+Status:
+  value: Active
+metadata:
+  org_id: Y06241
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

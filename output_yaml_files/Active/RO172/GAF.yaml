@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2ND FLOOR, GOODHART ROAD
+    AddrLn2: BRANSHOLME
+    Country: ENGLAND
+    PostCode: HU7 4DW
+    Town: HULL
+    UPRN: '10024644783'
+LastChangeDate:
+  value: '2020-04-03'
+Name: BEVAN HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GAF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '607590'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE5
+    uniqueRelId: '665389'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '385803'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO266
+    uniqueRoleId: '385804'
+Status:
+  value: Active
+metadata:
+  org_id: GAF
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

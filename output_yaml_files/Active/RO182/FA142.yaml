@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01695 580665
+Date:
+- Start:
+    value: '2023-09-21'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 38 BURSCOUGH STREET
+    Country: ENGLAND
+    PostCode: L39 2ES
+    Town: ORMSKIRK
+    UPRN: '100012653693'
+LastChangeDate:
+  value: '2023-09-07'
+Name: ALLIED PHARMACY ORMSKIRK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA142
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-09-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '831158'
+  - Date:
+    - Start:
+        value: '2023-09-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V9D6L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '509450'
+    id: RE6
+    uniqueRelId: '831159'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-09-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '509455'
+Status:
+  value: Active
+metadata:
+  org_id: FA142
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

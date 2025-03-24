@@ -1,0 +1,87 @@
+Date:
+- Start:
+    value: '2011-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2011-06-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OSBORNE ROAD
+    Country: ENGLAND
+    County: WORCESTERSHIRE
+    PostCode: WR14 1JE
+    Town: MALVERN
+    UPRN: '10024320377'
+LastChangeDate:
+  value: '2021-07-21'
+Name: OSBORNE COURT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R1ACY
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-06-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131576'
+    id: RE6
+    uniqueRelId: '100427'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-06-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '113974'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWQ19
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '75196'
+    Type: Predecessor
+    uniqueSuccId: '20701'
+metadata:
+  org_id: R1ACY
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

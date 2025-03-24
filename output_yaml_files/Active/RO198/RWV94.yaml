@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 HOSPITAL LANE
+    Country: ENGLAND
+    County: DEVON
+    PostCode: EX1 3PQ
+    Town: EXETER
+LastChangeDate:
+  value: '2012-05-15'
+Name: HOSPITAL LANE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWV94
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '56512'
+    id: RE6
+    uniqueRelId: '55756'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '101596'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REA94
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '67599'
+    Type: Predecessor
+    uniqueSuccId: '28367'
+metadata:
+  org_id: RWV94
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

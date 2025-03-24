@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 41 GOODWINS ROAD
+    Country: ENGLAND
+    PostCode: PE30 5QX
+    Town: KING'S LYNN
+    UPRN: '100091527559'
+LastChangeDate:
+  value: '2020-11-25'
+Name: SOUTHGATES MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W9W2M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NEB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '165739'
+    id: RE6
+    uniqueRelId: '719200'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE5
+    uniqueRelId: '719201'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '401410'
+Status:
+  value: Active
+metadata:
+  org_id: W9W2M
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

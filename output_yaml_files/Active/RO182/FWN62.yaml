@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01749 675508
+Date:
+- Start:
+    value: '2023-01-23'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-01-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROSEBANK
+    AddrLn2: PRIORY HEALTH PARK
+    AddrLn3: GLASTONBURY ROAD
+    Country: ENGLAND
+    PostCode: BA5 1XJ
+    Town: WELLS
+    UPRN: '250051213'
+LastChangeDate:
+  value: '2024-01-11'
+Name: WELLS CITY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FWN62
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-01-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4GN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '290006'
+    id: RE6
+    uniqueRelId: '818136'
+  - Date:
+    - Start:
+        value: '2023-01-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QSL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300815'
+    id: RE4
+    uniqueRelId: '818135'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-01-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496273'
+Status:
+  value: Active
+metadata:
+  org_id: FWN62
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

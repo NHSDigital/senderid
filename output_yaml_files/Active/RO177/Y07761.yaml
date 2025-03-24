@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01902 377999
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE ROYAL WOLVERHAMPTON
+    AddrLn2: NEW CROSS HOSP, WOLVERHAMPTON RD
+    AddrLn3: HEATH TOWN
+    Country: ENGLAND
+    PostCode: WV10 0QP
+    Town: WOLVERHAMPTON
+    UPRN: '100071556759'
+LastChangeDate:
+  value: '2023-10-04'
+Name: WOLVERHAMPTON RWT PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07761
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE4
+    uniqueRelId: '816161'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE6
+    uniqueRelId: '816162'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '494015'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '494014'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511763'
+Status:
+  value: Active
+metadata:
+  org_id: Y07761
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

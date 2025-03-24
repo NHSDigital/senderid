@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "OXON AOT",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-10-01"
+        },
+        "End": {
+            "value": "2024-12-31"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RNU62"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2025-01-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NEILL UNIT",
+            "AddrLn2": "WARNEFORD HOSPITAL",
+            "AddrLn3": "HEADINGTON",
+            "Town": "OXFORD",
+            "PostCode": "OX3 7JX",
+            "Country": "ENGLAND",
+            "UPRN": "100121297786"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "503656",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    },
+                    "End": {
+                        "value": "2024-12-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "503657",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    },
+                    "End": {
+                        "value": "2024-12-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "825132",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2022-10-01"
+                },
+                "End": {
+                    "value": "2024-12-31"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RNU"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "61547"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RNU62",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

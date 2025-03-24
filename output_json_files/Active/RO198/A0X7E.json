@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ROYAL LANCASTER INFIRMARY - NOVAVAX COVID19 TRIAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A0X7E"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-06-23"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROYAL LANCASTER INFIRMARY",
+            "AddrLn2": "ASHTON ROAD",
+            "Town": "LANCASTER",
+            "PostCode": "LA1 4RP",
+            "Country": "ENGLAND",
+            "UPRN": "100012622534"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "468763",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "468764",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "792794",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTX"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "95631"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A0X7E",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

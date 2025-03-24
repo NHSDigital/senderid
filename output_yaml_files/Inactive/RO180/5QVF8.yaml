@@ -1,0 +1,100 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: JUBILEE WING
+    AddrLn2: HEMEL HEMPSTEAD GENERAL HOSPITAL
+    AddrLn3: HILLFIELD ROAD
+    Country: ENGLAND
+    County: HERTFORDSHIRE
+    PostCode: HP2 4AD
+    Town: HEMEL HEMPSTEAD
+LastChangeDate:
+  value: '2023-04-28'
+Name: WEST HERTS MEDICAL CENTRE UR
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5QVF8
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5QV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '92525'
+    id: RE6
+    uniqueRelId: '170196'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '132447'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P4VG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '120146'
+    Type: Predecessor
+    uniqueSuccId: '36649'
+metadata:
+  org_id: 5QVF8
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

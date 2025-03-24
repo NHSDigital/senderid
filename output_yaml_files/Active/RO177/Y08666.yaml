@@ -1,0 +1,109 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01372 216500
+Date:
+- Start:
+    value: '2025-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3RD FLOOR
+    AddrLn2: GATTON PLACE
+    AddrLn3: ST. MATTHEWS ROAD
+    Country: ENGLAND
+    PostCode: RH1 1TA
+    Town: REDHILL
+    UPRN: '100062683649'
+LastChangeDate:
+  value: '2025-01-30'
+Name: EARLY INTERVENTION IN PSYCHOSIS SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08666
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '103932'
+    id: RE6
+    uniqueRelId: '857595'
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 92A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386492'
+    id: RE4
+    uniqueRelId: '857594'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '536844'
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '536845'
+Status:
+  value: Active
+metadata:
+  org_id: Y08666
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

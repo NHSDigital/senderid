@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01380 723804
+Date:
+- Start:
+    value: '2022-08-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-07-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 LITTLE BRITTOX
+    Country: ENGLAND
+    PostCode: SN10 1AR
+    Town: DEVIZES
+    UPRN: '200001116161'
+LastChangeDate:
+  value: '2022-07-21'
+Name: DEVIZES PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKF81
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '809654'
+  - Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L5T5D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '407290'
+    id: RE6
+    uniqueRelId: '809655'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '486935'
+Status:
+  value: Active
+metadata:
+  org_id: FKF81
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

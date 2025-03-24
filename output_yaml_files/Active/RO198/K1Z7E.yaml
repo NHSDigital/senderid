@@ -1,0 +1,83 @@
+Date:
+- Start:
+    value: '2025-01-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-11-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH MIDDLESEX HOSPITAL
+    AddrLn2: STERLING WAY
+    Country: ENGLAND
+    PostCode: N18 1QX
+    Town: LONDON
+    UPRN: '207169107'
+LastChangeDate:
+  value: '2024-12-19'
+Name: T7 WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: K1Z7E
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-11-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RAL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91534'
+    id: RE6
+    uniqueRelId: '854413'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-11-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '533669'
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-11-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '533670'
+Status:
+  value: Active
+metadata:
+  org_id: K1Z7E
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

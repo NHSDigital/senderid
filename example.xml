@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HSCOrgRefData:OrgRefData xmlns:HSCOrgRefData="http://refdata.hscic.gov.uk/org/v2-0-0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://refdata.hscic.gov.uk/org/v2-0-0/HSCOrgRefData.xsd">
+  <Manifest>
+    <Version value="2-0-0" />
+    <PublicationType value="Full" />
+    <PublicationSource value="HSCIC" />
+    <PublicationDate value="2025-02-24" />
+    <PublicationSeqNum value="3660" />
+    <FileCreationDateTime value="2025-02-24T15:42:45" />
+    <RecordCount value="290971" />
+    <ContentDescription value="HSCOrgRefData_Full_20250224" />
+    <PrimaryRoleScope>
+      <PrimaryRole id="RO198" displayName="NHS TRUST SITE" />
+    </PrimaryRoleScope>
+  </Manifest>
+  <CodeSystems>
+    <CodeSystem name="OrganisationRecordClass" oid="2.16.840.1.113883.2.1.3.2.4.23">
+      <concept id="RC2" code="2" displayName="HSCSite" />
+      <concept id="RC1" code="1" displayName="HSCOrg" />
+    </CodeSystem>
+    <CodeSystem name="OrganisationRole" oid="2.16.840.1.113883.2.1.3.2.4.17.507">
+      <concept id="RO197" code="197" displayName="NHS TRUST" />
+    </CodeSystem>
+    <CodeSystem name="OrganisationRelationship" oid="2.16.840.1.113883.2.1.3.2.4.17.508">
+      <concept id="RE6" code="6" displayName="IS OPERATED BY" />
+      <concept id="RE5" code="5" displayName="IS LOCATED IN THE GEOGRAPHY OF" />
+      <concept id="RE3" code="3" displayName="IS DIRECTED BY" />
+      <concept id="RE4" code="4" displayName="IS COMMISSIONED BY" />
+      <concept id="RE8" code="8" displayName="IS PARTNER TO" />
+      <concept id="RE9" code="9" displayName="IS NOMINATED PAYEE FOR" />
+      <concept id="RE10" code="10" displayName="IS COVID NOMINATED PAYEE FOR" />
+      <concept id="RE11" code="11" displayName="IS CONSTITUENT OF" />
+      <concept id="RE2" code="2" displayName="IS A SUB-DIVISION OF" />
+    </CodeSystem>
+  </CodeSystems>
+  <Organisations>
+    <Organisation orgRecordClass="RC2">
+      <Name>PLATT BRIDGE CLINIC</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2001-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC"
+        extension="RRF12" />
+      <Status value="Active" />
+      <LastChangeDate value="2021-07-21" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>1 RIVINGTON AVENUE</AddrLn1>
+          <AddrLn2>PLATT BRIDGE</AddrLn2>
+          <Town>WIGAN</Town>
+          <County>LANCASHIRE</County>
+          <PostCode>WN2 5NG</PostCode>
+          <Country>ENGLAND</Country>
+          <UPRN>10009211670</UPRN>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO198" uniqueRoleId="117" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2001-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="57641">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2001-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC"
+              extension="RRF" />
+            <PrimaryRoleId id="RO197" uniqueRoleId="61853" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="14115">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2001-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC"
+              extension="RJY12" />
+            <PrimaryRoleId id="RO198" uniqueRoleId="98719" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+  </Organisations>
+</HSCOrgRefData:OrgRefData>

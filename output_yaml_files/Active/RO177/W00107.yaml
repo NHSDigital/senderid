@@ -1,0 +1,90 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01492 807528
+Date:
+  Start:
+    value: '2010-03-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COLWYN BAY COMMUNITY HOSPITAL
+    AddrLn2: HESKETH ROAD
+    AddrLn3: OLD COLWYN
+    Country: WALES
+    County: CLWYD
+    PostCode: LL29 8AY
+    Town: COLWYN BAY
+    UPRN: '200002948426'
+LastChangeDate:
+  value: '2023-08-22'
+Name: COLWYN BAY CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00107
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2010-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '275212'
+  - Date:
+      Start:
+        value: '2010-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '458260'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189547'
+  - Date:
+      Start:
+        value: '2010-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73988'
+Status:
+  value: Active
+metadata:
+  org_id: W00107
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

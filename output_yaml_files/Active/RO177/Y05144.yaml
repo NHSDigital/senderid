@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 1231144
+Date:
+  Start:
+    value: '2015-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOOR STREET
+    AddrLn2: KIRKHAM
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: PR4 2DL
+    Town: PRESTON
+    UPRN: '100012753931'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PDS WOUND CARE KIRKHAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05144
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-09-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161454'
+    id: RE4
+    uniqueRelId: '386433'
+  - Date:
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161454'
+    id: RE6
+    uniqueRelId: '461993'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2015-09-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '234131'
+  - Date:
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '234132'
+Status:
+  value: Active
+metadata:
+  org_id: Y05144
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

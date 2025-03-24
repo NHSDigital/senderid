@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2016-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 RIVINGTON ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: CH65 0AW
+    Town: ELLESMERE PORT
+    UPRN: '100012593605'
+LastChangeDate:
+  value: '2021-06-01'
+Name: ONE TO ONE MIDWIVES CLINIC (ELLESMERE PORT CENTRE)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NDE10
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NDE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137929'
+    id: RE6
+    uniqueRelId: '513529'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '513530'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '665046'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '286200'
+Status:
+  value: Active
+metadata:
+  org_id: NDE10
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

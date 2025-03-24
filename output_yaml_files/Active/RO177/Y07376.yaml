@@ -1,0 +1,124 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02088 013999
+Date:
+- Start:
+    value: '2022-07-15'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-07-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 590 SEVEN SISTERS ROAD
+    Country: ENGLAND
+    PostCode: N15 6HR
+    Town: LONDON
+    UPRN: '100023154288'
+LastChangeDate:
+  value: '2024-04-01'
+Name: HAGA
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07376
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AJ6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '198065'
+    id: RE6
+    uniqueRelId: '809175'
+  - Date:
+    - Start:
+        value: '2022-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 93C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386497'
+    id: RE4
+    uniqueRelId: '809174'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B1G9X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '522005'
+    id: RE11
+    uniqueRelId: '843756'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2022-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '486395'
+  - Date:
+    - Start:
+        value: '2022-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '486394'
+Status:
+  value: Active
+metadata:
+  org_id: Y07376
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

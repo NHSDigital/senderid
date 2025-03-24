@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5A COLLEGE STREET
+    AddrLn2: HIGHAM FERRERS
+    Country: ENGLAND
+    County: NORTHAMPTONSHIRE
+    PostCode: NN10 8DX
+    Town: RUSHDEN
+LastChangeDate:
+  value: '2012-05-15'
+Name: HIGHAM FERRERS CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RP1A9
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RP1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '102781'
+    id: RE6
+    uniqueRelId: '83025'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '60702'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RNR10
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '29691'
+    Type: Predecessor
+    uniqueSuccId: '938'
+metadata:
+  org_id: RP1A9
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

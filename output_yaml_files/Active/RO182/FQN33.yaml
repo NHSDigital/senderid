@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01268 792310
+Date:
+- Start:
+    value: '2022-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-05-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 299 HIGH ROAD
+    Country: ENGLAND
+    PostCode: SS7 5HA
+    Town: BENFLEET
+    UPRN: '100091601061'
+LastChangeDate:
+  value: '2022-06-15'
+Name: BENFLEET PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQN33
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P26G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94638'
+    id: RE6
+    uniqueRelId: '806668'
+  - Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '806669'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-05-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '484582'
+Status:
+  value: Active
+metadata:
+  org_id: FQN33
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

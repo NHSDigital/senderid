@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01254 617194
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BARBARA CASTLE WAY HEALTH CENTRE
+    AddrLn2: SIMMONS STREET
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BB2 1AX
+    Town: BLACKBURN
+    UPRN: '200004507345'
+LastChangeDate:
+  value: '2023-08-22'
+Name: OPHTHALMOLOGY CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: P81786
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '119403'
+    id: RE4
+    uniqueRelId: '273074'
+  - Date:
+      End:
+        value: '2010-03-31'
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5CC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '121791'
+    id: RE4
+    uniqueRelId: '273075'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161399'
+    id: RE4
+    uniqueRelId: '273076'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161399'
+    id: RE6
+    uniqueRelId: '457726'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '188827'
+  - Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '131961'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO252
+    uniqueRoleId: '279641'
+Status:
+  value: Active
+metadata:
+  org_id: P81786
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

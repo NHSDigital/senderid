@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01235 816445
+Date:
+- Start:
+    value: '2023-07-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-11-09'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 7 LOSTOCK PLACE
+    Country: ENGLAND
+    PostCode: OX11 7XT
+    Town: DIDCOT
+    UPRN: '100121302759'
+LastChangeDate:
+  value: '2022-11-10'
+Name: APOLLO PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRV15
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-09'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '814873'
+  - Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-09'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X8T9O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '492596'
+    id: RE6
+    uniqueRelId: '814874'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-09'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '492610'
+Status:
+  value: Active
+metadata:
+  org_id: FRV15
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

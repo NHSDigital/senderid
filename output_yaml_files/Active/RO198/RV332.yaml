@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 020 8846 6868
+  - type: fax
+    value: 020 8846 6119
+Date:
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 NIGHTINGALE PLACE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW10 9NG
+    Town: LONDON
+    UPRN: '217107489'
+LastChangeDate:
+  value: '2021-02-05'
+Name: SOUTH KENSINGTON & CHELSEA MENTAL HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RV332
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137975'
+    id: RE6
+    uniqueRelId: '93790'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '90450'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFY02
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '33193'
+    Type: Predecessor
+    uniqueSuccId: '1440'
+metadata:
+  org_id: RV332
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

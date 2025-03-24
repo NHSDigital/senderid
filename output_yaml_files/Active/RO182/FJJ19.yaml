@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01604 816162
+Date:
+- Start:
+    value: '2023-06-12'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 170 PARK AVENUE NORTH
+    Country: ENGLAND
+    PostCode: NN3 2HZ
+    Town: NORTHAMPTON
+    UPRN: '15026968'
+LastChangeDate:
+  value: '2023-05-25'
+Name: PARK AVENUE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJJ19
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-06-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4KG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '298120'
+    id: RE6
+    uniqueRelId: '826278'
+  - Date:
+    - Start:
+        value: '2023-06-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QPM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300775'
+    id: RE4
+    uniqueRelId: '826277'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-06-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504788'
+Status:
+  value: Active
+metadata:
+  org_id: FJJ19
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

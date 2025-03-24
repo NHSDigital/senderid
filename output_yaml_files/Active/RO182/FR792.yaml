@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01245 320344
+Date:
+- Start:
+    value: '2025-01-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-12-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 36-38 HULLBRIDGE ROAD
+    AddrLn2: SOUTH WOODHAM FERRERS
+    Country: ENGLAND
+    PostCode: CM3 5NG
+    Town: CHELMSFORD
+    UPRN: '100091446369'
+LastChangeDate:
+  value: '2024-12-12'
+Name: VILLAGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FR792
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '856304'
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: N9L5E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '535648'
+    id: RE6
+    uniqueRelId: '856305'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '535655'
+Status:
+  value: Active
+metadata:
+  org_id: FR792
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

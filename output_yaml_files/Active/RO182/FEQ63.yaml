@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01773 836328
+Date:
+- Start:
+    value: '2023-07-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-07'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALFRETON PRIMARY CARE DEV
+    AddrLn2: ALFRETON PARK
+    Country: ENGLAND
+    County: DERBYSHIRE
+    PostCode: DE55 7BD
+    Town: ALFRETON
+LastChangeDate:
+  value: '2023-06-08'
+Name: MEDICINE STOP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEQ63
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2X2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '121786'
+    id: RE6
+    uniqueRelId: '826625'
+  - Date:
+    - Start:
+        value: '2023-07-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '826624'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '505093'
+Status:
+  value: Active
+metadata:
+  org_id: FEQ63
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

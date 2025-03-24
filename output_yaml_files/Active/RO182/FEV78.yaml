@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01933 678290
+Date:
+- Start:
+    value: '2023-06-05'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2-3 STUBBS CLOSE
+    AddrLn2: REDHILL FARM
+    Country: ENGLAND
+    PostCode: NN8 4UQ
+    Town: WELLINGBOROUGH
+    UPRN: '100032266239'
+LastChangeDate:
+  value: '2023-05-25'
+Name: REDHILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEV78
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-06-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3YY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '278314'
+    id: RE6
+    uniqueRelId: '826250'
+  - Date:
+    - Start:
+        value: '2023-06-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QPM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300775'
+    id: RE4
+    uniqueRelId: '826249'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-06-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504774'
+Status:
+  value: Active
+metadata:
+  org_id: FEV78
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

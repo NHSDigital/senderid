@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01215 536870
+Date:
+- Start:
+    value: '2017-07-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-07-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 8 ST. MICHAELS COURT
+    AddrLn2: VICTORIA STREET
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: B70 8ET
+    Town: WEST BROMWICH
+    UPRN: '32112352'
+LastChangeDate:
+  value: '2024-01-09'
+Name: SAMA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FH118
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-07-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE4
+    uniqueRelId: '524209'
+  - Date:
+      Start:
+        value: '2017-07-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4HR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '293909'
+    id: RE6
+    uniqueRelId: '524210'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '650626'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2017-07-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '293920'
+Status:
+  value: Active
+metadata:
+  org_id: FH118
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

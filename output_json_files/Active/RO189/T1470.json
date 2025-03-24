@@ -1,0 +1,81 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NHS COMMISSIONING BOARD AUTHORITY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2011-10-31"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "T1470"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2012-05-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1W09, 1ST FLOOR, QUARRY HOUSE",
+            "AddrLn2": "QUARRY HILL",
+            "Town": "LEEDS",
+            "County": "WEST YORKSHIRE",
+            "PostCode": "LS2 7UE",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO189",
+            "uniqueRoleId": "75930",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2011-10-31"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37475",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2012-06-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1240"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "95698"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "T1470",
+        "status": "Active",
+        "role_id": "RO189"
+    }
+}

@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02476 392215
+Date:
+- Start:
+    value: '2023-10-20'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 CAMP HILL ROAD
+    Country: ENGLAND
+    PostCode: CV10 0JH
+    Town: NUNEATON
+    UPRN: '100070140451'
+LastChangeDate:
+  value: '2024-01-17'
+Name: HARTSHILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FNK25
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300764'
+    id: RE4
+    uniqueRelId: '832391'
+  - Date:
+    - Start:
+        value: '2023-10-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H4B0W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510774'
+    id: RE6
+    uniqueRelId: '832392'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510847'
+Status:
+  value: Active
+metadata:
+  org_id: FNK25
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

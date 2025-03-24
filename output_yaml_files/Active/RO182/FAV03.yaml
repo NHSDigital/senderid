@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01616 914420
+Date:
+- Start:
+    value: '2023-12-18'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-11-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROUND FLOOR
+    AddrLn2: 544 LIVERPOOL ROAD
+    AddrLn3: IRLAM
+    Country: ENGLAND
+    PostCode: M44 6AJ
+    Town: MANCHESTER
+LastChangeDate:
+  value: '2023-11-23'
+Name: M44 PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAV03
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-12-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE4
+    uniqueRelId: '835760'
+  - Date:
+    - Start:
+        value: '2023-12-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y0B7W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '515193'
+    id: RE6
+    uniqueRelId: '835761'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-12-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '515205'
+Status:
+  value: Active
+metadata:
+  org_id: FAV03
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

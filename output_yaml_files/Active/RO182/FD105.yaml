@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 543332
+Date:
+  Start:
+    value: '2018-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 16 CARLISLE ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD8 8AD
+    Town: BRADFORD
+    UPRN: '100051955400'
+LastChangeDate:
+  value: '2024-01-09'
+Name: H S CHEMIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FD105
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '558268'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '648219'
+  - Date:
+      Start:
+        value: '2018-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4MP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '306326'
+    id: RE6
+    uniqueRelId: '558269'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '306347'
+Status:
+  value: Active
+metadata:
+  org_id: FD105
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

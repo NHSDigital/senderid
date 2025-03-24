@@ -1,0 +1,127 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07824 807359
+Date:
+- Start:
+    value: '2011-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2011-03-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE VICTORIA
+    AddrLn2: 1 CIVIC DRIVE
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP1 2AR
+    Town: IPSWICH
+    UPRN: '10035060184'
+LastChangeDate:
+  value: '2021-02-08'
+Name: CRI IPSWICH RECOVERY SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y03313
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2011-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '58573'
+    id: RE4
+    uniqueRelId: '282745'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161347'
+    id: RE4
+    uniqueRelId: '282746'
+  - Date:
+      Start:
+        value: '2013-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NMS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '169566'
+    id: RE6
+    uniqueRelId: '460342'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '193060'
+  - Date:
+    - Start:
+        value: '2011-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-03-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '135885'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '280353'
+Status:
+  value: Active
+metadata:
+  org_id: Y03313
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

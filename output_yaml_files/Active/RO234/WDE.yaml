@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HAMMERSMITH POLICE STATION
+    AddrLn2: 226 SHEPHERDS BUSH ROAD
+    Country: ENGLAND
+    PostCode: W6 7NX
+    Town: LONDON
+    UPRN: '34026612'
+LastChangeDate:
+  value: '2025-02-10'
+Name: HAMMERSMITH CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WDE
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VER
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '202473'
+    id: RE6
+    uniqueRelId: '334928'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '229555'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '229556'
+Status:
+  value: Active
+metadata:
+  org_id: WDE
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

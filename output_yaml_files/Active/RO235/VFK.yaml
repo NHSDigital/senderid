@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE LAW COURTS
+    AddrLn2: SMALL STREET
+    Country: ENGLAND
+    PostCode: BS1 1DA
+    Town: BRISTOL
+    UPRN: '103384'
+LastChangeDate:
+  value: '2020-04-20'
+Name: BRISTOL CROWN COURT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VFK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230521'
+    id: RE4
+    uniqueRelId: '709840'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297755'
+    id: RE4
+    uniqueRelId: '619731'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '389645'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO235
+    primaryRole: 'true'
+    uniqueRoleId: '389646'
+Status:
+  value: Active
+metadata:
+  org_id: VFK
+  role_id: RO235
+  status: Active
+orgRecordClass: RC1

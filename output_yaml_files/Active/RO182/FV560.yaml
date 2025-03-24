@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01384 239841
+Date:
+- Start:
+    value: '2024-04-15'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-03-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 BEAN ROAD
+    Country: ENGLAND
+    PostCode: DY2 8TH
+    Town: DUDLEY
+    UPRN: '90157232'
+LastChangeDate:
+  value: '2024-04-11'
+Name: ASH PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FV560
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-04-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '842008'
+  - Date:
+    - Start:
+        value: '2024-04-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D1U7D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '522031'
+    id: RE6
+    uniqueRelId: '842009'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-04-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '522048'
+Status:
+  value: Active
+metadata:
+  org_id: FV560
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01482 799145
+Date:
+- Start:
+    value: '2025-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 164 SHANNON ROAD
+    Country: ENGLAND
+    PostCode: HU8 9RW
+    Town: HULL
+    UPRN: '10070551396'
+LastChangeDate:
+  value: '2025-01-10'
+Name: LONGHILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FW300
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE4
+    uniqueRelId: '856795'
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9N5L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536050'
+    id: RE6
+    uniqueRelId: '856796'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536088'
+Status:
+  value: Active
+metadata:
+  org_id: FW300
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

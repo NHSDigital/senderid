@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEST PARK HOSPITAL
+    Country: ENGLAND
+    County: COUNTY DURHAM
+    PostCode: DL2 2TS
+    Town: DARLINGTON
+LastChangeDate:
+  value: '2024-04-02'
+Name: NMP DARL CRISIS TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX30T
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118662'
+    id: RE6
+    uniqueRelId: '231654'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '169889'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '169890'
+Status:
+  value: Active
+metadata:
+  org_id: RX30T
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

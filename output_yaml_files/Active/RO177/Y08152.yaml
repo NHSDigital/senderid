@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01279 278206
+Date:
+  Start:
+    value: '2023-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STELLAR HEALTHCARE
+    AddrLn2: FLORENCE NIGHTINGALE HEALTH CENTRE
+    AddrLn3: CHURCH LANGLEY WAY
+    Country: ENGLAND
+    PostCode: CM17 9TG
+    Town: HARLOW
+    UPRN: '100091437975'
+LastChangeDate:
+  value: '2023-11-30'
+Name: PAH URGENT TREATMENT CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08152
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161360'
+    id: RE4
+    uniqueRelId: '835916'
+  - Date:
+      Start:
+        value: '2023-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161360'
+    id: RE6
+    uniqueRelId: '835917'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '515355'
+  - Date:
+      Start:
+        value: '2023-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '515356'
+Status:
+  value: Active
+metadata:
+  org_id: Y08152
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

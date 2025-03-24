@@ -1,0 +1,144 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01903 924192
+Date:
+- Start:
+    value: '2015-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-06-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. LAWRENCE SURGERY
+    AddrLn2: 79 ST LAWRENCE AVENUE
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: BN14 7JL
+    Town: WORTHING
+LastChangeDate:
+  value: '2023-08-22'
+Name: MIAMI CLINIC - ST LAWRENCE SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05078
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161485'
+    id: RE4
+    uniqueRelId: '384913'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161485'
+    id: RE6
+    uniqueRelId: '461936'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 70F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386493'
+    id: RE6
+    uniqueRelId: '637208'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 70F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386493'
+    id: RE4
+    uniqueRelId: '637209'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '232915'
+  - Date:
+    - Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '232916'
+Status:
+  value: Active
+metadata:
+  org_id: Y05078
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

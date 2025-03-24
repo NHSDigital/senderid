@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 400578
+Date:
+- Start:
+    value: '2020-12-14'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-12-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KENSINGTON STREET HEALTH CENTRE
+    AddrLn2: WHITEFIELD PLACE
+    Country: ENGLAND
+    PostCode: BD8 9LB
+    Town: BRADFORD
+    UPRN: '100052225017'
+LastChangeDate:
+  value: '2021-10-05'
+Name: BRADFORD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FC259
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2020-12-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2DY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '169900'
+    id: RE6
+    uniqueRelId: '719367'
+  - Date:
+    - Start:
+        value: '2020-12-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '719368'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-12-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '401599'
+Status:
+  value: Active
+metadata:
+  org_id: FC259
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

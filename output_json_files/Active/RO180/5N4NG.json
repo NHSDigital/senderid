@@ -1,0 +1,219 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NORTHERN GENERAL HOSPITAL",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2013-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "5N4NG"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HERRIES ROAD",
+            "Town": "SHEFFIELD",
+            "County": "SOUTH YORKSHIRE",
+            "PostCode": "S5 7AU",
+            "Country": "ENGLAND",
+            "UPRN": "100050995915"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO180",
+            "uniqueRoleId": "39215",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "176947",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5N4"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO179",
+                    "uniqueRoleId": "137166"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "33470",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5ENNG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "23078"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "18",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5EPNG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "29361"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "3662",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5EQNG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "29514"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "866",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5EENG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "45952"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "5N4NG",
+        "status": "Active",
+        "role_id": "RO180"
+    }
+}

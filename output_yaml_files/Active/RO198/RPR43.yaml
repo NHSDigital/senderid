@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2009-03-31'
+  Start:
+    value: '2003-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2003-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DODSLEY LANE
+    AddrLn2: EASEBOURNE
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: GU29 9AW
+    Town: MIDHURST
+    UPRN: '100062341240'
+LastChangeDate:
+  value: '2021-02-05'
+Name: RIVERBANK MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RPR43
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2009-03-31'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '62204'
+    id: RE6
+    uniqueRelId: '58499'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2009-03-31'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '106380'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYR12
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106551'
+    Type: Successor
+    uniqueSuccId: '908'
+metadata:
+  org_id: RPR43
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

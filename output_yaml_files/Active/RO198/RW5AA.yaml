@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HASLINGDEN ROAD
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BB2 3HH
+    Town: BLACKBURN
+    UPRN: '100012540739'
+LastChangeDate:
+  value: '2021-02-08'
+Name: ROYAL BLACKBURN HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RW5AA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '47846'
+    id: RE6
+    uniqueRelId: '7645'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '118139'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RME01
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '3744'
+    Type: Predecessor
+    uniqueSuccId: '13161'
+metadata:
+  org_id: RW5AA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

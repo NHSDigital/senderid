@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01138 434495
+Date:
+  Start:
+    value: '2007-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BEESTON HILL HC
+    AddrLn2: 123 CEMETERY ROAD
+    AddrLn3: BEESTON
+    Country: ENGLAND
+    PostCode: LS11 8LH
+    Town: LEEDS
+    UPRN: '72018347'
+LastChangeDate:
+  value: '2024-07-04'
+Name: LEEDS SEXUAL HEALTH SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y02041
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2007-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5N1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '54725'
+    id: RE4
+    uniqueRelId: '280466'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91540'
+    id: RE6
+    uniqueRelId: '459530'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161470'
+    id: RE4
+    uniqueRelId: '280467'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540314'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '191817'
+  - Date:
+      Start:
+        value: '2007-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '83607'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280036'
+Status:
+  value: Active
+metadata:
+  org_id: Y02041
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01296 468580
+Date:
+  Start:
+    value: '2022-05-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: POPLAR GROVE PRACTICE
+    AddrLn2: MEADOW WAY
+    Country: ENGLAND
+    PostCode: HP20 1XB
+    Town: AYLESBURY
+    UPRN: '766297289'
+LastChangeDate:
+  value: '2023-10-04'
+Name: CENTRAL MAPLE PCN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07362
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-05-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297653'
+    id: RE4
+    uniqueRelId: '809026'
+  - Date:
+      Start:
+        value: '2022-05-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297653'
+    id: RE6
+    uniqueRelId: '809027'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-05-02'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '486279'
+  - Date:
+      Start:
+        value: '2022-05-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '486278'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511505'
+Status:
+  value: Active
+metadata:
+  org_id: Y07362
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01745 443128
+Date:
+  Start:
+    value: '2020-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROYAL ALEXANDRA HOSPITAL
+    AddrLn2: MARINE DRIVE
+    Country: WALES
+    PostCode: LL18 3AS
+    Town: RHYL
+LastChangeDate:
+  value: '2023-08-22'
+Name: ROOM 15 CONTINENCE OFFICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00172
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '630303'
+  - Date:
+      Start:
+        value: '2020-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '630304'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-03-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '392790'
+  - Date:
+      Start:
+        value: '2020-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '392791'
+Status:
+  value: Active
+metadata:
+  org_id: W00172
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

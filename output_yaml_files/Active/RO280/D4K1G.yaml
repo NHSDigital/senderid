@@ -1,0 +1,65 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 6-10 HARLESTONE ROAD
+    Country: ENGLAND
+    PostCode: NN5 7AE
+    Town: NORTHAMPTON
+LastChangeDate:
+  value: '2022-08-10'
+Name: TOUCHWOOD PHARMACY - NORTHAMPTON - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: D4K1G
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FV506
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '226530'
+    id: RE6
+    uniqueRelId: '810149'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '487526'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '487527'
+Status:
+  value: Active
+metadata:
+  org_id: D4K1G
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

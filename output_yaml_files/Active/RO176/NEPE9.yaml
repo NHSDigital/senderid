@@ -1,0 +1,96 @@
+Date:
+  Start:
+    value: '2016-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EMBANKMENT PRIMARY CARE CENTRE
+    AddrLn2: 50-60 WILFORD LANE
+    AddrLn3: WEST BRIDGFORD
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG2 7SD
+    Town: NOTTINGHAM
+    UPRN: '3040049501'
+LastChangeDate:
+  value: '2021-02-12'
+Name: MUSTERS MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NEPE9
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NEP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '136430'
+    id: RE6
+    uniqueRelId: '511497'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '511498'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE5
+    uniqueRelId: '679760'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '284818'
+Status:
+  value: Active
+metadata:
+  org_id: NEPE9
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

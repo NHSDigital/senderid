@@ -1,0 +1,173 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ROCHDALE INFIRMARY",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2013-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "5NQ16"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WHITEHALL STREET",
+            "Town": "ROCHDALE",
+            "County": "LANCASHIRE",
+            "PostCode": "OL12 0NB",
+            "Country": "ENGLAND",
+            "UPRN": "23062326"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO180",
+            "uniqueRoleId": "34740",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "172139",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5NQ"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO179",
+                    "uniqueRoleId": "104021"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "13316",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5JYRH"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "59620"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "22045",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5F4RH"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "102602"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "5NQ16",
+        "status": "Active",
+        "role_id": "RO180"
+    }
+}

@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST PETERS HOSPITAL
+    AddrLn2: GUILDFORD ROAD
+    Country: ENGLAND
+    County: SURREY
+    PostCode: KT16 0PZ
+    Town: CHERTSEY
+LastChangeDate:
+  value: '2020-04-04'
+Name: UTC - ST PETER'S HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AD920
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AD9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '173616'
+    id: RE6
+    uniqueRelId: '557698'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q88
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299784'
+    id: RE5
+    uniqueRelId: '557699'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QXU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300809'
+    id: RE5
+    uniqueRelId: '679266'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '305834'
+Status:
+  value: Active
+metadata:
+  org_id: AD920
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

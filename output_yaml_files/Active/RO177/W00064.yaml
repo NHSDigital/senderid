@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01437 774141
+Date:
+  Start:
+    value: '2006-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HAVEN WAY DAY UNIT
+    AddrLn2: FORT ROAD
+    Country: WALES
+    PostCode: SA72 6SY
+    Town: PEMBROKE DOCK
+    UPRN: '200002961224'
+LastChangeDate:
+  value: '2023-08-22'
+Name: HAVEN WAY DAY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00064
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE4
+    uniqueRelId: '275137'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE6
+    uniqueRelId: '458226'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2006-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '126455'
+    id: RE4
+    uniqueRelId: '275138'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189506'
+  - Date:
+      Start:
+        value: '2006-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73946'
+Status:
+  value: Active
+metadata:
+  org_id: W00064
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

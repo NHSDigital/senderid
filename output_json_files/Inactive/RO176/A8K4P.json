@@ -1,0 +1,123 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "SINGLETON HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-10-01"
+        },
+        "End": {
+            "value": "2021-11-30"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A8K4P"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2021-12-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SKETTY LANE",
+            "AddrLn2": "SKETTY",
+            "Town": "SWANSEA",
+            "PostCode": "SA2 8QA",
+            "Country": "WALES"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "477538",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-10-01"
+                },
+                "End": {
+                    "value": "2021-11-30"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "800168",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    },
+                    "End": {
+                        "value": "2021-11-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A3"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "40383"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "799957",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    },
+                    "End": {
+                        "value": "2021-11-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NV1"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "137020"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "A8K4P",
+        "status": "Inactive",
+        "role_id": "RO176"
+    }
+}

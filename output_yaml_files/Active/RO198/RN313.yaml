@@ -1,0 +1,91 @@
+Date:
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GENERAL HOSPITAL
+    Country: ENGLAND
+    County: WILTSHIRE
+    PostCode: SN8 3HL
+    Town: MARLBOROUGH
+    UPRN: '200001178162'
+LastChangeDate:
+  value: '2021-07-21'
+Name: SAVERNAKE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RN313
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RN3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118658'
+    id: RE6
+    uniqueRelId: '77372'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '62391'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AXG02
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO176
+        uniqueRoleId: '283815'
+    Type: Successor
+    uniqueSuccId: '37403'
+  - Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: JH113
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '7427'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '30118'
+metadata:
+  org_id: RN313
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

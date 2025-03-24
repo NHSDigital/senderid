@@ -1,0 +1,168 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2-4 VICTORIA HOUSE
+    AddrLn2: CAPITAL PARK, FULBOURN
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: CB21 5XB
+    Town: CAMBRIDGE
+    UPRN: '10033033910'
+LastChangeDate:
+  value: '2021-02-09'
+Name: EAST OF ENGLAND STRATEGIC HEALTH AUTHORITY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Q35
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO128
+        uniqueRoleId: '75912'
+    id: RE5
+    uniqueRelId: '323'
+  - Date:
+      End:
+        value: '2007-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y43
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO185
+        uniqueRoleId: '136553'
+    id: RE5
+    uniqueRelId: '6680'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y51
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO185
+        uniqueRoleId: '136556'
+    id: RE5
+    uniqueRelId: '6705'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO132
+    primaryRole: 'true'
+    uniqueRoleId: '137019'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q01
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21632'
+    Type: Predecessor
+    uniqueSuccId: '18279'
+  - Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q02
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21633'
+    Type: Predecessor
+    uniqueSuccId: '27692'
+  - Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q03
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21634'
+    Type: Predecessor
+    uniqueSuccId: '23954'
+metadata:
+  org_id: Q35
+  role_id: RO132
+  status: Active
+orgRecordClass: RC1

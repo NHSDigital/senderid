@@ -1,0 +1,108 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 10 KINGFISHER WAY
+    Country: ENGLAND
+    PostCode: NW10 8TF
+    Town: LONDON
+    UPRN: '202213302'
+LastChangeDate:
+  value: '2021-04-01'
+Name: HARNESS SOUTH PCN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: U11559
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161260'
+    id: RE4
+    uniqueRelId: '714468'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    id: RE4
+    uniqueRelId: '732160'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO272
+    primaryRole: 'true'
+    uniqueRoleId: '396617'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U12587
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '388189'
+    Type: Predecessor
+    uniqueSuccId: '37798'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U88724
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '388192'
+    Type: Predecessor
+    uniqueSuccId: '37799'
+metadata:
+  org_id: U11559
+  role_id: RO272
+  status: Active
+orgRecordClass: RC1

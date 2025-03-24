@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: INFIRMARY SQUARE
+    Country: ENGLAND
+    PostCode: TD15 1LT
+    Town: BERWICK-UPON-TWEED
+    UPRN: '100110808915'
+LastChangeDate:
+  value: '2024-04-02'
+Name: BERWICK INFIRMARY PRESCRIBING
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W9J7F
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118204'
+    id: RE6
+    uniqueRelId: '841067'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '521066'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '521067'
+Status:
+  value: Active
+metadata:
+  org_id: W9J7F
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

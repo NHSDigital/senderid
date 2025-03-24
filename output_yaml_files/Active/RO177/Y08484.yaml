@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01904 464680
+Date:
+- Start:
+    value: '2024-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-06-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 BLOSSOM STREET
+    Country: ENGLAND
+    PostCode: YO24 1AU
+    Town: YORK
+    UPRN: '100052162804'
+LastChangeDate:
+  value: '2024-06-06'
+Name: YORK DRUG & ALCOHOL SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08484
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161477'
+    id: RE4
+    uniqueRelId: '847413'
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NMS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '169566'
+    id: RE6
+    uniqueRelId: '847414'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '526400'
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '526399'
+Status:
+  value: Active
+metadata:
+  org_id: Y08484
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

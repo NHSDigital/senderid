@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTPS://WWW.CORNWALL.GOV.UK/CHILDRENSAUTISM
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. AUSTELL OFFICES
+    AddrLn2: 39 PENWINNICK ROAD
+    Country: ENGLAND
+    PostCode: PL25 5DR
+    Town: ST. AUSTELL
+    UPRN: '100041031005'
+LastChangeDate:
+  value: '2020-04-06'
+Name: AUTISM SPECTRUM TEAM, CORNWALL COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GCA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE5
+    uniqueRelId: '618195'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300811'
+    id: RE5
+    uniqueRelId: '694012'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '389876'
+Status:
+  value: Active
+metadata:
+  org_id: GCA
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

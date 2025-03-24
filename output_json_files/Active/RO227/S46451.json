@@ -1,0 +1,107 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NEWHILLS MEDICAL PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1986-08-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S46451"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-11-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "EASTERHOUSE HEALTH CENTRE",
+            "AddrLn2": "9 AUCHINLEA ROAD",
+            "Town": "GLASGOW",
+            "County": "LANARKSHIRE",
+            "PostCode": "G34 9HQ",
+            "Country": "SCOTLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01415 318170"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO76",
+                "uniqueRoleId": "488987",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1986-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "177703",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1986-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "811359",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SG9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487558"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S46451",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

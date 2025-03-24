@@ -1,0 +1,95 @@
+Date:
+- End:
+    value: '2014-03-31'
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 6
+    AddrLn2: WATERFRONT BUSINESS PARK
+    AddrLn3: DUDLEY ROAD
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: DY5 1LX
+    Town: BRIERLEY HILL
+    UPRN: '90161267'
+LastChangeDate:
+  value: '2021-02-04'
+Name: NHS DIRECT (DUDLEY)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYH17
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137067'
+    id: RE6
+    uniqueRelId: '93182'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '6726'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T137J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '74051'
+    Type: Predecessor
+    uniqueSuccId: '12109'
+metadata:
+  org_id: RYH17
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

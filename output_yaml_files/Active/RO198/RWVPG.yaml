@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HAYTOR UNIT
+    AddrLn2: TORBAY HOSPITAL
+    AddrLn3: NEWTON ROAD
+    Country: ENGLAND
+    PostCode: TQ2 7AA
+    Town: TORQUAY
+    UPRN: '10000009565'
+LastChangeDate:
+  value: '2024-04-02'
+Name: TORBAY HTT (NMP)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWVPG
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '56512'
+    id: RE6
+    uniqueRelId: '604243'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '382312'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '382313'
+Status:
+  value: Active
+metadata:
+  org_id: RWVPG
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

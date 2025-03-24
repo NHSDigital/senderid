@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01772 647004
+Date:
+  Start:
+    value: '2015-02-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE OXFORD ANNEX
+    AddrLn2: OXFORD ROAD
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: PR1 3SG
+    Town: PRESTON
+    UPRN: '10090425713'
+LastChangeDate:
+  value: '2023-08-22'
+Name: EATING DISORDER SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04939
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-03-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161404'
+    id: RE4
+    uniqueRelId: '337091'
+  - Date:
+      Start:
+        value: '2015-02-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161404'
+    id: RE6
+    uniqueRelId: '461800'
+  - Date:
+      End:
+        value: '2015-03-04'
+      Start:
+        value: '2015-03-04'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161409'
+    id: RE4
+    uniqueRelId: '336874'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-03-04'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '230496'
+  - Date:
+      Start:
+        value: '2015-02-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '230497'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281359'
+Status:
+  value: Active
+metadata:
+  org_id: Y04939
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

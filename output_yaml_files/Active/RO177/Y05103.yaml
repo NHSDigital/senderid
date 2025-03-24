@@ -1,0 +1,155 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 34483137
+Date:
+- Start:
+    value: '2015-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-07-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NHNN PHARMACY
+    AddrLn2: QUEEN SQUARE
+    Country: ENGLAND
+    PostCode: WC1N 3BG
+    Town: LONDON
+    UPRN: '5133289'
+LastChangeDate:
+  value: '2024-04-01'
+Name: FITZROY PLACE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05103
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '136467'
+    id: RE6
+    uniqueRelId: '461957'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161262'
+    id: RE4
+    uniqueRelId: '385722'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 93C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386497'
+    id: RE4
+    uniqueRelId: '637224'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J0P1R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '522003'
+    id: RE11
+    uniqueRelId: '843514'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '233520'
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233521'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281450'
+Status:
+  value: Active
+metadata:
+  org_id: Y05103
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

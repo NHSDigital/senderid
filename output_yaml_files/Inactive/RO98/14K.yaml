@@ -1,0 +1,133 @@
+Date:
+- End:
+    value: '2020-03-31'
+  Start:
+    value: '2016-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2021-09-30'
+  Start:
+    value: '2016-03-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: C/O NHS ENGLAND
+    AddrLn2: 1W09 1ST FLOOR QUARRY HOUSE
+    AddrLn3: QUARRY HILL
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS2 7UE
+    Town: LEEDS
+LastChangeDate:
+  value: '2025-02-24'
+Name: LANCASHIRE COMMISSIONING HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 14K
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2016-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q84
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278955'
+    id: RE5
+    uniqueRelId: '449797'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2016-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '278958'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2016-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO218
+    uniqueRoleId: '278959'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 27T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386569'
+    Type: Successor
+    uniqueSuccId: '37756'
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '163847'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '37387'
+metadata:
+  org_id: 14K
+  role_id: RO98
+  status: Inactive
+orgRecordClass: RC1

@@ -1,0 +1,82 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.MEDISORT.CO.UK
+Date:
+  Start:
+    value: '2019-06-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT A
+    AddrLn2: FORT ROAD
+    AddrLn3: WICK
+    Country: ENGLAND
+    PostCode: BN17 7QU
+    Town: LITTLEHAMPTON
+    UPRN: '10000193622'
+LastChangeDate:
+  value: '2020-04-05'
+Name: MEDISORT LIMITED
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 8KC46
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q88
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299784'
+    id: RE5
+    uniqueRelId: '576260'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE5
+    uniqueRelId: '686506'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO157
+    primaryRole: 'true'
+    uniqueRoleId: '358648'
+Status:
+  value: Active
+metadata:
+  org_id: 8KC46
+  role_id: RO157
+  status: Active
+orgRecordClass: RC1

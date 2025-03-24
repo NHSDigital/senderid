@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01273 302800
+Date:
+- Start:
+    value: '2022-12-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-11-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 LONGRIDGE AVENUE
+    AddrLn2: SALTDEAN
+    Country: ENGLAND
+    PostCode: BN2 8LG
+    Town: BRIGHTON
+    UPRN: '22110717'
+LastChangeDate:
+  value: '2022-11-24'
+Name: KAMSONS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FCL23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-12-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P11F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94322'
+    id: RE6
+    uniqueRelId: '815783'
+  - Date:
+    - Start:
+        value: '2022-12-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE4
+    uniqueRelId: '815782'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-12-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '493650'
+Status:
+  value: Active
+metadata:
+  org_id: FCL23
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,144 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BASSETLAW DIST GEN HOSP LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "69080"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-03-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BASSETLAW DISTRICT GENERAL HOSPITAL",
+            "AddrLn2": "KILTON HILL",
+            "Town": "WORKSOP",
+            "County": "NOTTINGHAMSHIRE",
+            "PostCode": "S81 0BD",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO173",
+            "uniqueRoleId": "107368",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE3",
+                "uniqueRelId": "45253",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2001-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RCP"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "61862"
+                    }
+                }
+            },
+            {
+                "id": "RE3",
+                "uniqueRelId": "46176",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2010-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RP5"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "116819"
+                    }
+                }
+            },
+            {
+                "id": "RE3",
+                "uniqueRelId": "46188",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    },
+                    "End": {
+                        "value": "2010-09-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RHA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "118523"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "69080",
+        "status": "Active",
+        "role_id": "RO173"
+    }
+}

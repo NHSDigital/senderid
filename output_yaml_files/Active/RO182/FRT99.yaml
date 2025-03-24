@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 85395984
+Date:
+  Start:
+    value: '2009-05-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 768 LEA BRIDGE ROAD
+    AddrLn2: WALTHAMSTOW
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E17 9DN
+    Town: LONDON
+    UPRN: '100022561924'
+LastChangeDate:
+  value: '2021-02-11'
+Name: LEYTON GREEN PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRT99
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-05-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2PL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '132219'
+    id: RE6
+    uniqueRelId: '326743'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '326744'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '655818'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2009-05-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '225470'
+  - Date:
+      Start:
+        value: '2019-04-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO268
+    uniqueRoleId: '344983'
+Status:
+  value: Active
+metadata:
+  org_id: FRT99
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

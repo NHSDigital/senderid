@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KILTON HILL
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: S81 0BD
+    Town: WORKSOP
+    UPRN: '10013975653'
+LastChangeDate:
+  value: '2021-07-21'
+Name: BASSETLAW HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RP5BA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RP5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '116819'
+    id: RE6
+    uniqueRelId: '73781'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '650'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCPAA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '70282'
+    Type: Predecessor
+    uniqueSuccId: '27358'
+metadata:
+  org_id: RP5BA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

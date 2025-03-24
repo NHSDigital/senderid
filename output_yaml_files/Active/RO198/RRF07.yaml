@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BILLINGE HOSPITAL
+    AddrLn2: UPHOLLAND ROAD
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: WN5 7ET
+    Town: WIGAN
+LastChangeDate:
+  value: '2024-04-02'
+Name: PAEDIATRIC CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RRF07
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61853'
+    id: RE6
+    uniqueRelId: '833945'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '513397'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '513396'
+Status:
+  value: Active
+metadata:
+  org_id: RRF07
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

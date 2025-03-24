@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2012-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2012-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ASHTONS GREEN DRIVE
+    AddrLn2: PARR
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: WA9 2AP
+    Town: ST. HELENS
+    UPRN: '39002207'
+LastChangeDate:
+  value: '2021-07-21'
+Name: ASHTONS GREEN HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTVN1
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61637'
+    id: RE6
+    uniqueRelId: '183410'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '161188'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J7Y5C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '446456'
+    Type: Successor
+    uniqueSuccId: '38035'
+metadata:
+  org_id: RTVN1
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

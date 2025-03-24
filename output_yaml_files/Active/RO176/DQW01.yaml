@@ -1,0 +1,106 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WICKHAM MARKET MEDICAL CENTRE
+    AddrLn2: CHAPEL LANE
+    AddrLn3: WICKHAM MARKET
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP13 0SB
+    Town: WOODBRIDGE
+LastChangeDate:
+  value: '2020-04-05'
+Name: DHG ON THE DAY TEAM (WICKHAM MARKET)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DQW01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '556793'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE5
+    uniqueRelId: '689332'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DQW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '305051'
+    id: RE6
+    uniqueRelId: '556794'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '305054'
+  - Date:
+      End:
+        value: '2018-04-02'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO267
+    uniqueRoleId: '305055'
+Status:
+  value: Active
+metadata:
+  org_id: DQW01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

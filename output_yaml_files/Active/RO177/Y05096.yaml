@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01302 346988
+Date:
+  Start:
+    value: '2015-06-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 77 THORNE ROAD
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: DN1 2ET
+    Town: DONCASTER
+    UPRN: '100052183043'
+LastChangeDate:
+  value: '2023-08-22'
+Name: THE LEGER CLINIC (BASSETLAW)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05096
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-07-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE4
+    uniqueRelId: '385309'
+  - Date:
+      Start:
+        value: '2015-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE6
+    uniqueRelId: '461953'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-07-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '233235'
+  - Date:
+      Start:
+        value: '2015-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233236'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281447'
+Status:
+  value: Active
+metadata:
+  org_id: Y05096
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

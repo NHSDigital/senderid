@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01792 458066
+Date:
+  Start:
+    value: '2003-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COMMUNITY HEALTH CENTRE
+    AddrLn2: 41 HIGH STREET
+    Country: WALES
+    County: WEST GLAMORGAN
+    PostCode: SA1 1LT
+    Town: SWANSEA
+    UPRN: '10010031014'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PRIMECARE DR
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00013
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE4
+    uniqueRelId: '285060'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE6
+    uniqueRelId: '793299'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189458'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73896'
+Status:
+  value: Active
+metadata:
+  org_id: W00013
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

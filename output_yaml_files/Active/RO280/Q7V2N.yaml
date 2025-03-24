@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 300-302 CHISWICK HIGH ROAD
+    Country: ENGLAND
+    PostCode: W4 1NP
+    Town: LONDON
+    UPRN: '10092002542'
+LastChangeDate:
+  value: '2022-08-08'
+Name: CAMPBELLS CHEMIST - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Q7V2N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FK550
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '220083'
+    id: RE6
+    uniqueRelId: '810015'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '487301'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '487302'
+Status:
+  value: Active
+metadata:
+  org_id: Q7V2N
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

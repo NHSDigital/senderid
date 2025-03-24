@@ -1,0 +1,124 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 029 20641213
+Date:
+- Start:
+    value: '2016-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-03-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KALEIDOSCOPE
+    AddrLn2: 2-10 HOLTON ROAD
+    Country: WALES
+    County: SOUTH GLAMORGAN
+    PostCode: CF63 4HD
+    Town: BARRY
+    UPRN: '64031946'
+LastChangeDate:
+  value: '2023-08-22'
+Name: KALEIDOSCOPE BARRY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00151
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2016-04-30'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '21752'
+    id: RE6
+    uniqueRelId: '458302'
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40385'
+    id: RE4
+    uniqueRelId: '449247'
+  - Date:
+      Start:
+        value: '2016-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40385'
+    id: RE6
+    uniqueRelId: '510712'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '278515'
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '278516'
+Status:
+  value: Active
+metadata:
+  org_id: W00151
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

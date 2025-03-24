@@ -1,0 +1,123 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "DENTAL SURGERY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-04-01"
+        },
+        "End": {
+            "value": "2020-01-13"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V06992"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2020-01-14"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "59 CROMWELL ROAD",
+            "Town": "GRIMSBY",
+            "PostCode": "DN31 2DN",
+            "Country": "ENGLAND",
+            "UPRN": "11011757"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO110",
+            "uniqueRoleId": "209587",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                },
+                "End": {
+                    "value": "2020-01-13"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "298843",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2007-09-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "TAN"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO107",
+                        "uniqueRoleId": "124122"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "572744",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-11-02"
+                    },
+                    "End": {
+                        "value": "2020-01-13"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "13V"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230504"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V06992",
+        "status": "Inactive",
+        "role_id": "RO110"
+    }
+}

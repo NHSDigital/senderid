@@ -1,0 +1,128 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 2303200
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRAMHOPE HEALTH CENTRE
+    AddrLn2: TREDGOLD CRESCENT
+    AddrLn3: BRAMHOPE
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS16 9BR
+    Town: LEEDS
+    UPRN: '72346697'
+LastChangeDate:
+  value: '2023-08-22'
+Name: BRAMHOPE DERMATOLOGY COMMUNITY CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05027
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2015-06-03'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161464'
+    id: RE4
+    uniqueRelId: '384107'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161464'
+    id: RE6
+    uniqueRelId: '461885'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540710'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE6
+    uniqueRelId: '540711'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2015-06-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '232192'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '232193'
+Status:
+  value: Active
+metadata:
+  org_id: Y05027
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

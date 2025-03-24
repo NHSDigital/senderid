@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.CLN.NHS.UK
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MAYO BUILDING
+    AddrLn2: STOTT LANE
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M6 8HD
+    Town: SALFORD
+LastChangeDate:
+  value: '2022-10-20'
+Name: NHS CLINICAL LEADERS NETWORK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: G1V0N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '814527'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO30
+    uniqueRoleId: '492285'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO161
+    primaryRole: 'true'
+    uniqueRoleId: '492286'
+Status:
+  value: Active
+metadata:
+  org_id: G1V0N
+  role_id: RO161
+  status: Active
+orgRecordClass: RC1

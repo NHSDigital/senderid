@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01423 865308
+Date:
+- Start:
+    value: '2023-08-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 34 HIGH STREET
+    Country: ENGLAND
+    PostCode: HG5 0EQ
+    Town: KNARESBOROUGH
+    UPRN: '100052010627'
+LastChangeDate:
+  value: '2024-07-24'
+Name: KNARESBOROUGH - PHARMACY+HEALTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTQ73
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE4
+    uniqueRelId: '829433'
+  - Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O2C4T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506789'
+    id: RE6
+    uniqueRelId: '829434'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '507681'
+Status:
+  value: Active
+metadata:
+  org_id: FTQ73
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

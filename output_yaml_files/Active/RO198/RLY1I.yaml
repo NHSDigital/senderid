@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 134 BROAD STREET
+    Country: ENGLAND
+    PostCode: ST1 4EQ
+    Town: STOKE-ON-TRENT
+    UPRN: '3455111789'
+LastChangeDate:
+  value: '2024-04-02'
+Name: MOTHER AND BABY UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RLY1I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RLY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '70439'
+    id: RE6
+    uniqueRelId: '821001'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '499457'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '499458'
+Status:
+  value: Active
+metadata:
+  org_id: RLY1I
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

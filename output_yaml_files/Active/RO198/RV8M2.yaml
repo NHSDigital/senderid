@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2014-09-30'
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WATFORD ROAD
+    Country: ENGLAND
+    County: MIDDLESEX
+    PostCode: HA1 3UJ
+    Town: HARROW
+    UPRN: '202148998'
+LastChangeDate:
+  value: '2021-07-21'
+Name: ST MARK'S HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RV8M2
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-09-30'
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137991'
+    id: RE6
+    uniqueRelId: '93930'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-09-30'
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '119231'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFZM2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '18492'
+    Type: Predecessor
+    uniqueSuccId: '22852'
+metadata:
+  org_id: RV8M2
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "FRONTIER PATHOLOGY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "69980"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2018-05-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROYAL SUSSEX COUNTY HOSPITAL",
+            "AddrLn2": "EASTERN ROAD",
+            "Town": "BRIGHTON",
+            "County": "EAST SUSSEX",
+            "PostCode": "BN2 5BE",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO71",
+                "uniqueRoleId": "303313",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO173",
+                "uniqueRoleId": "303314",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "554581",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2018-05-10"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "8K028"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO157",
+                    "uniqueRoleId": "303311"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "69980",
+        "status": "Active",
+        "role_id": "RO173"
+    }
+}

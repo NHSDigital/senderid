@@ -63,9 +63,19 @@ This would represent a general agent for the organisation, eg eg NHS Martian Hos
 [Agent Description] - available for organization to set.
 
 
-#### Logos and Images
+#### Logos and Hero Images
+
+- hero image?
+- logo?
+
+Sizes - resolutions?
 
 TODO: Define logo and image requirements
+
+#### NHS NO Reply
+
+- Requirement for NHSNoReply as the prefix - as RCS is only 2 way, and won't show "Not deleivered". It will show delivered, even if an auto reply from the agent comes back saying "This isn't monitored, phone agent on, phone 111, or phone our or 999 etc".
+- 
 
 ## Short Org Name
 

@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROYAL LANCASTER INFIRMARY
+    AddrLn2: ASHTON ROAD
+    Country: ENGLAND
+    PostCode: LA1 4RP
+    Town: LANCASTER
+    UPRN: '100012622534'
+LastChangeDate:
+  value: '2024-04-02'
+Name: WOMENS HEALTH(LANCASTER)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTXL3
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '95631'
+    id: RE6
+    uniqueRelId: '821451'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500195'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500196'
+Status:
+  value: Active
+metadata:
+  org_id: RTXL3
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

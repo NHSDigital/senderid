@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2017-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SUNFIELD PLACE
+    AddrLn2: STANNINGLEY
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS28 6DR
+    Town: PUDSEY
+LastChangeDate:
+  value: '2020-04-03'
+Name: SUNFIELD MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DDV02
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '525717'
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DDV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '287268'
+    id: RE6
+    uniqueRelId: '525718'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '662859'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '294989'
+Status:
+  value: Active
+metadata:
+  org_id: DDV02
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

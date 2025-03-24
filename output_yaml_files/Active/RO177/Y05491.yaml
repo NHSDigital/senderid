@@ -1,0 +1,109 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01788 513733
+Date:
+  Start:
+    value: '2016-08-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HUNTER HOUSE
+    AddrLn2: THE RAILINGS
+    AddrLn3: WOODSIDE PARK
+    Country: ENGLAND
+    County: WARWICKSHIRE
+    PostCode: CV21 2AW
+    Town: RUGBY
+    UPRN: '10010512241'
+LastChangeDate:
+  value: '2021-12-01'
+Name: RISE RUGBY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05491
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-08-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61736'
+    id: RE6
+    uniqueRelId: '512416'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2016-08-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161319'
+    id: RE4
+    uniqueRelId: '512417'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B2M3M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400452'
+    id: RE4
+    uniqueRelId: '731782'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-08-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '285544'
+  - Date:
+      Start:
+        value: '2016-08-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '285545'
+Status:
+  value: Active
+metadata:
+  org_id: Y05491
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

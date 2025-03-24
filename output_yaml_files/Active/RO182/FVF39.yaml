@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01162 884568
+Date:
+- Start:
+    value: '2022-12-30'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-12-07'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 90 SHACKERDALE ROAD
+    AddrLn2: WEST KNIGHTON
+    Country: ENGLAND
+    PostCode: LE2 6HS
+    Town: LEICESTER
+    UPRN: '2465069438'
+LastChangeDate:
+  value: '2022-12-08'
+Name: YOUR PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVF39
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-12-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '816145'
+  - Date:
+    - Start:
+        value: '2022-12-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W6A7X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '493976'
+    id: RE6
+    uniqueRelId: '816146'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-12-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '494000'
+Status:
+  value: Active
+metadata:
+  org_id: FVF39
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

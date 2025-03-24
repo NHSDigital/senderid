@@ -1,0 +1,79 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01952 605441
+Date:
+  Start:
+    value: '2023-05-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 6 THE PARADE
+    AddrLn2: DONNINGTON
+    Country: ENGLAND
+    PostCode: TF2 8EB
+    Town: TELFORD
+    UPRN: '452094423'
+LastChangeDate:
+  value: '2023-06-05'
+Name: PARADE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FK027
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2JC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '174854'
+    id: RE6
+    uniqueRelId: '826452'
+  - Date:
+      Start:
+        value: '2023-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300749'
+    id: RE4
+    uniqueRelId: '826451'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2023-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504926'
+Status:
+  value: Active
+metadata:
+  org_id: FK027
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

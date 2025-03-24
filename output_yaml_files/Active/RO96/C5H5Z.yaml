@@ -1,0 +1,104 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 30A WELLESLEY AVENUE NORTH
+    Country: ENGLAND
+    PostCode: NR1 4NT
+    Town: NORWICH
+    UPRN: '10090483861'
+LastChangeDate:
+  value: '2024-07-01'
+Name: LIONWOOD MEDICAL PRACTICE - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: C5H5Z
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2024-06-30'
+      Start:
+        value: '2023-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D82011
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '92891'
+    id: RE6
+    uniqueRelId: '835969'
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D82073
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '92951'
+    id: RE6
+    uniqueRelId: '848661'
+  - Date:
+      End:
+        value: '2023-11-30'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y02751
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '118954'
+    id: RE6
+    uniqueRelId: '724601'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '408810'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '408811'
+Status:
+  value: Active
+metadata:
+  org_id: C5H5Z
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

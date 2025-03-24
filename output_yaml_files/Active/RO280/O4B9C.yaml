@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 47 SCOTT STREET
+    Country: ENGLAND
+    PostCode: BD21 2JH
+    Town: KEIGHLEY
+    UPRN: '200004707766'
+LastChangeDate:
+  value: '2022-08-08'
+Name: WELL - SCOTT STREET - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: O4B9C
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FTR43
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '226256'
+    id: RE6
+    uniqueRelId: '809993'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '487267'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '487268'
+Status:
+  value: Active
+metadata:
+  org_id: O4B9C
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

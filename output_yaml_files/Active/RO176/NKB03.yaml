@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 1
+    AddrLn2: THE SQUARE
+    AddrLn3: SOUTHALL LANE
+    Country: ENGLAND
+    PostCode: UB2 5NH
+    Town: SOUTHALL
+LastChangeDate:
+  value: '2020-08-07'
+Name: SMILE DENTAL TRIAGE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NKB03
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NKB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '168798'
+    id: RE6
+    uniqueRelId: '715296'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '715297'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '397484'
+Status:
+  value: Active
+metadata:
+  org_id: NKB03
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

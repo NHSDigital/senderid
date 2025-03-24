@@ -1,0 +1,110 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2004-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2004-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FLATTS LANE CENTRE
+    AddrLn2: FLATTS LANE
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS6 0SZ
+    Town: MIDDLESBROUGH
+LastChangeDate:
+  value: '2024-04-02'
+Name: FORENSIC LD SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVXDP
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2010-07-13'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39270'
+    id: RE6
+    uniqueRelId: '11461'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '158864'
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '11932'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3HE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '62728'
+    Type: Successor
+    uniqueSuccId: '18528'
+metadata:
+  org_id: RVXDP
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

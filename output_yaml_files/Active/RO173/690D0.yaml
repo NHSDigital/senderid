@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: QUEENS PARK HOSPITAL
+    AddrLn2: HASLINGDEN ROAD
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BB2 3HH
+    Town: BLACKBURN
+LastChangeDate:
+  value: '2012-05-15'
+Name: QUEEN'S PARK HOSPITAL LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 690D0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2003-03-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '84923'
+    id: RE3
+    uniqueRelId: '45289'
+  - Date:
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118660'
+    id: RE3
+    uniqueRelId: '46201'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '28080'
+Status:
+  value: Active
+metadata:
+  org_id: 690D0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2017-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 61 MANNAMEAD ROAD
+    Country: ENGLAND
+    County: DEVON
+    PostCode: PL3 4SS
+    Town: PLYMOUTH
+LastChangeDate:
+  value: '2020-04-23'
+Name: THE MEAD DENTAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V80373
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230521'
+    id: RE4
+    uniqueRelId: '533872'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300813'
+    id: RE4
+    uniqueRelId: '710569'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '307979'
+  - Date:
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '301092'
+Status:
+  value: Active
+metadata:
+  org_id: V80373
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

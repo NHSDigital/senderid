@@ -1,0 +1,70 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01314 528406
+Date:
+  Start:
+    value: '1978-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 MORNINGSIDE PLACE
+    Country: SCOTLAND
+    County: MIDLOTHIAN
+    PostCode: EH10 5ER
+    Town: EDINBURGH
+LastChangeDate:
+  value: '2022-11-18'
+Name: MORNINGSIDE MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S70790
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SS9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487563'
+    id: RE5
+    uniqueRelId: '811655'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1978-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489283'
+  - Date:
+      Start:
+        value: '1978-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178444'
+Status:
+  value: Active
+metadata:
+  org_id: S70790
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

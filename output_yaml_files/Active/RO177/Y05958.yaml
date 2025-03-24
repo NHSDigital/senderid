@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01795 418300
+Date:
+  Start:
+    value: '2017-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SITTINGBOURNE MEMORIAL HOSPITAL
+    AddrLn2: BELL ROAD
+    Country: ENGLAND
+    County: KENT
+    PostCode: ME10 4DT
+    Town: SITTINGBOURNE
+LastChangeDate:
+  value: '2020-04-01'
+Name: DGSS INPATIENT SERVICES - SITTINGBOURNE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05958
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NDA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '122771'
+    id: RE6
+    uniqueRelId: '531700'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161496'
+    id: RE4
+    uniqueRelId: '531701'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE4
+    uniqueRelId: '637666'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '299470'
+  - Date:
+      Start:
+        value: '2017-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '299471'
+Status:
+  value: Active
+metadata:
+  org_id: Y05958
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

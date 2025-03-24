@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALDER HEY HOSPITAL
+    AddrLn2: EATON ROAD
+    AddrLn3: WEST DERBY
+    Country: ENGLAND
+    PostCode: L12 2AP
+    Town: LIVERPOOL
+    UPRN: '38049828'
+LastChangeDate:
+  value: '2024-04-02'
+Name: NURSE PRESCIBER (URO)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RBSCS
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RBS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '79057'
+    id: RE6
+    uniqueRelId: '823551'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '502608'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '502609'
+Status:
+  value: Active
+metadata:
+  org_id: RBSCS
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

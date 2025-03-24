@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02083 909601
+Date:
+- Start:
+    value: '2024-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-08-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SURBITON HEALTH CENTRE
+    AddrLn2: 99 EWELL ROAD
+    Country: ENGLAND
+    PostCode: KT6 6EZ
+    Town: SURBITON
+    UPRN: '128042268'
+LastChangeDate:
+  value: '2024-08-15'
+Name: PAYDENS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKF73
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-08-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P74H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94474'
+    id: RE6
+    uniqueRelId: '850734'
+  - Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-08-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '850733'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-08-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '529829'
+Status:
+  value: Active
+metadata:
+  org_id: FKF73
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

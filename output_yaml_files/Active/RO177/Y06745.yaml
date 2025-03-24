@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 08002 335444
+Date:
+  Start:
+    value: '2020-04-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 6
+    AddrLn2: RIVERSIDE COURT
+    AddrLn3: CASTLE STREET
+    Country: ENGLAND
+    PostCode: EX31 1DR
+    Town: BARNSTAPLE
+LastChangeDate:
+  value: '2024-07-17'
+Name: TOGETHER DRUG & ALCOHOL SERVICE - NORTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06745
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AJ6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '198065'
+    id: RE6
+    uniqueRelId: '849112'
+  - Date:
+      Start:
+        value: '2020-04-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '710006'
+  - Date:
+      End:
+        value: '2024-05-31'
+      Start:
+        value: '2020-04-08'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DWA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '342024'
+    id: RE6
+    uniqueRelId: '710005'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '393531'
+  - Date:
+      Start:
+        value: '2020-04-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '393532'
+Status:
+  value: Active
+metadata:
+  org_id: Y06745
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 2 THE VIBE
+    AddrLn2: 175 BROUGHTON LANE
+    Country: ENGLAND
+    PostCode: M7 1UD
+    Town: SALFORD
+LastChangeDate:
+  value: '2024-01-31'
+Name: ZEMMEL CHEMIST - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: L2B1J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2023-11-05'
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAQ56
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '214082'
+    id: RE6
+    uniqueRelId: '811964'
+  - Date:
+      Start:
+        value: '2023-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FT440
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '513995'
+    id: RE6
+    uniqueRelId: '838685'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '489638'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '489639'
+Status:
+  value: Active
+metadata:
+  org_id: L2B1J
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

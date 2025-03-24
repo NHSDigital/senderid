@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01709 563684
+Date:
+- Start:
+    value: '2021-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-01-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 19-21 KIMBERWORTH ROAD
+    Country: ENGLAND
+    PostCode: S61 1AB
+    Town: ROTHERHAM
+    UPRN: '100052102823'
+LastChangeDate:
+  value: '2021-10-05'
+Name: ARCHWAY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA562
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-01-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '722305'
+  - Date:
+    - Start:
+        value: '2021-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-01-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S4F4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '405811'
+    id: RE6
+    uniqueRelId: '722304'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-01-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '405877'
+Status:
+  value: Active
+metadata:
+  org_id: FA562
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

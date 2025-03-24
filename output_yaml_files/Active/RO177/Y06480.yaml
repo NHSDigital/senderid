@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01664 503000
+Date:
+  Start:
+    value: '2019-05-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SAGE CROSS STREET
+    Country: ENGLAND
+    PostCode: LE13 1NX
+    Town: MELTON MOWBRAY
+    UPRN: '100032043500'
+LastChangeDate:
+  value: '2019-06-19'
+Name: LHMC CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06480
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161292'
+    id: RE4
+    uniqueRelId: '596677'
+  - Date:
+      Start:
+        value: '2019-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DAY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '284774'
+    id: RE6
+    uniqueRelId: '596678'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '376256'
+  - Date:
+      Start:
+        value: '2019-06-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '376257'
+Status:
+  value: Active
+metadata:
+  org_id: Y06480
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,128 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "DONCASTER ROYAL INFIRMARY LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "69180"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "DONCASTER ROYAL INFIRMARY",
+            "AddrLn2": "ARMTHORPE ROAD",
+            "Town": "DONCASTER",
+            "County": "SOUTH YORKSHIRE",
+            "PostCode": "DN2 5LT",
+            "Country": "ENGLAND",
+            "UPRN": "10006580750"
+        }
+    },
+    "Contacts": {
+        "Contact": [
+            {
+                "type": "tel",
+                "value": "01302 553131"
+            },
+            {
+                "type": "fax",
+                "value": "01302 553132"
+            }
+        ]
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO173",
+            "uniqueRoleId": "22057",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE3",
+                "uniqueRelId": "45053",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2001-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RAG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "1415"
+                    }
+                }
+            },
+            {
+                "id": "RE3",
+                "uniqueRelId": "46177",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RP5"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "116819"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "69180",
+        "status": "Active",
+        "role_id": "RO173"
+    }
+}

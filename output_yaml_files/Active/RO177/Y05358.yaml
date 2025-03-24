@@ -1,0 +1,136 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 30494652
+Date:
+  Start:
+    value: '2016-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ELMCOURT MEDICAL CENTRE
+    AddrLn2: 214 NORWOOD ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SE27 9AW
+    Town: LONDON
+    UPRN: '10008789844'
+LastChangeDate:
+  value: '2024-04-01'
+Name: COMMUNITY HEART FAILURE TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05358
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJ1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '116733'
+    id: RE6
+    uniqueRelId: '462201'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-03-16'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 08K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161277'
+    id: RE4
+    uniqueRelId: '449261'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 72Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386495'
+    id: RE4
+    uniqueRelId: '637343'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H1A0E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521993'
+    id: RE11
+    uniqueRelId: '843551'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2016-03-16'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '278748'
+  - Date:
+      Start:
+        value: '2016-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '278749'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281576'
+Status:
+  value: Active
+metadata:
+  org_id: Y05358
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

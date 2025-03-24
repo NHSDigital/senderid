@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 124-127 WITHAM
+    Country: ENGLAND
+    PostCode: HU9 1AT
+    Town: HULL
+    UPRN: '10008635366'
+LastChangeDate:
+  value: '2025-01-09'
+Name: HULL LATE NIGHT PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: L2O5Y
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      End:
+        value: '2024-12-31'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FJ235
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '219201'
+    id: RE6
+    uniqueRelId: '723718'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '407769'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '407768'
+Status:
+  value: Active
+metadata:
+  org_id: L2O5Y
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

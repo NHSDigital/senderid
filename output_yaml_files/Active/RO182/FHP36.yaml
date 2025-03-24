@@ -1,0 +1,93 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01588 638408
+Date:
+- Start:
+    value: '2025-03-04'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-02-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH STREET
+    Country: ENGLAND
+    PostCode: SY9 5AE
+    Town: BISHOPS CASTLE
+LastChangeDate:
+  value: '2025-02-13'
+Name: BISHOPS CASTLE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHP36
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-03-04'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300749'
+    id: RE4
+    uniqueRelId: '857800'
+  - Date:
+    - Start:
+        value: '2025-03-04'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y9Q6A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536998'
+    id: RE6
+    uniqueRelId: '857801'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-03-04'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '537035'
+Status:
+  value: Active
+metadata:
+  org_id: FHP36
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01452 223014
+Date:
+- Start:
+    value: '2024-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-03-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: IMPERIAL CHAMBERS
+    AddrLn2: 43 LONGSMITH STREET
+    Country: ENGLAND
+    PostCode: GL1 2HT
+    Town: GLOUCESTER
+    UPRN: '100121245863'
+LastChangeDate:
+  value: '2024-03-21'
+Name: VIA GLOUCESTERSHIRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08365
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE4
+    uniqueRelId: '840975'
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ARG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '233934'
+    id: RE6
+    uniqueRelId: '840976'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '520933'
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '520932'
+Status:
+  value: Active
+metadata:
+  org_id: Y08365
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,125 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01903 703281
+Date:
+- Start:
+    value: '2016-12-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-10-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ADMINISTRATION OFFICE
+    AddrLn2: 51 CHESSWOOD ROAD
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: BN11 2AA
+    Town: WORTHING
+LastChangeDate:
+  value: '2020-04-01'
+Name: WEST KENT DERMATOLOGY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05555
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133345'
+    id: RE6
+    uniqueRelId: '514039'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-12-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161485'
+    id: RE4
+    uniqueRelId: '514040'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 70F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386493'
+    id: RE4
+    uniqueRelId: '637485'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-12-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '286543'
+  - Date:
+    - Start:
+        value: '2016-12-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '286544'
+Status:
+  value: Active
+metadata:
+  org_id: Y05555
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

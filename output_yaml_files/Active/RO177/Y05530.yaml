@@ -1,0 +1,145 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0151 2133000
+Date:
+  Start:
+    value: '2016-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HM PRISON KENNET
+    AddrLn2: PARKBOURN, MAGHULL
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L31 1HX
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2023-08-22'
+Name: HMP KENNET
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05530
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2016-09-20'
+      Start:
+        value: '2016-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230511'
+    id: RE4
+    uniqueRelId: '512900'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-09-21'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '278958'
+    id: RE4
+    uniqueRelId: '513428'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '278958'
+    id: RE6
+    uniqueRelId: '513429'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 32T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386573'
+    id: RE6
+    uniqueRelId: '637453'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 32T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386573'
+    id: RE4
+    uniqueRelId: '637454'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO82
+    uniqueRoleId: '285915'
+  - Date:
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '285916'
+Status:
+  value: Active
+metadata:
+  org_id: Y05530
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2017-03-31'
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLACTON & DISTRICT HOSPITAL
+    AddrLn2: TOWER ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO15 1LH
+    Town: CLACTON-ON-SEA
+    UPRN: '100091463441'
+LastChangeDate:
+  value: '2021-07-21'
+Name: LANDERMERE CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RRDB7
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '70443'
+    id: RE6
+    uniqueRelId: '61852'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '66068'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDJB7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '5110'
+    Type: Predecessor
+    uniqueSuccId: '32751'
+metadata:
+  org_id: RRDB7
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

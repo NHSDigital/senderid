@@ -1,0 +1,105 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03452 413313
+Date:
+- Start:
+    value: '2015-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-08-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RIVERSIDE CLINIC
+    AddrLn2: 2 LANDSEER ROAD
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP3 0AZ
+    Town: IPSWICH
+    UPRN: '10035057830'
+LastChangeDate:
+  value: '2025-02-12'
+Name: SUFFOLK GP+
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05117
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NDL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '78731'
+    id: RE6
+    uniqueRelId: '462414'
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161347'
+    id: RE4
+    uniqueRelId: '386012'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '233777'
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233778'
+Status:
+  value: Active
+metadata:
+  org_id: Y05117
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

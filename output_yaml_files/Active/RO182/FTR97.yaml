@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01438 314747
+Date:
+- Start:
+    value: '2023-07-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 118 OAKS CROSS
+    Country: ENGLAND
+    PostCode: SG2 8LU
+    Town: STEVENAGE
+    UPRN: '100081254383'
+LastChangeDate:
+  value: '2023-06-05'
+Name: OAKS CROSS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTR97
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '826481'
+  - Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B6U1R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '504912'
+    id: RE6
+    uniqueRelId: '826482'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504941'
+Status:
+  value: Active
+metadata:
+  org_id: FTR97
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

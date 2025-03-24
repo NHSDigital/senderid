@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01506 670027
+Date:
+  Start:
+    value: '1980-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LINLITHGOW HEALTH CENTRE
+    AddrLn2: 288 HIGH STREET
+    Country: SCOTLAND
+    County: WEST LOTHIAN
+    PostCode: EH49 7ER
+    Town: LINLITHGOW
+LastChangeDate:
+  value: '2022-08-18'
+Name: LINLITHGOW GROUP MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S78166
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SS9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487563'
+    id: RE5
+    uniqueRelId: '811720'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1980-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489348'
+  - Date:
+      Start:
+        value: '1980-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178595'
+Status:
+  value: Active
+metadata:
+  org_id: S78166
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

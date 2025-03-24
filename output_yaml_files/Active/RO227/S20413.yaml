@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01334 651201
+Date:
+  Start:
+    value: '1990-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE HEALTH CENTRE
+    AddrLn2: BANK STREET
+    Country: SCOTLAND
+    County: FIFE
+    PostCode: KY15 4JN
+    Town: CUPAR
+LastChangeDate:
+  value: '2022-08-18'
+Name: BANK STREET MEDICAL GROUP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S20413
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SF9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487557'
+    id: RE5
+    uniqueRelId: '811055'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488683'
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176894'
+Status:
+  value: Active
+metadata:
+  org_id: S20413
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

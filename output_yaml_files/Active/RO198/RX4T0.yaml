@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 CHESTERS CLOSE
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE9 5PB
+    Town: GATESHEAD
+    UPRN: '10022985368'
+LastChangeDate:
+  value: '2021-02-04'
+Name: ROSLIN MENTAL HEALTH COMMUNITY UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX4T0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '90365'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13931'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RM642
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '73436'
+    Type: Predecessor
+    uniqueSuccId: '11429'
+metadata:
+  org_id: RX4T0
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01386 852337
+Date:
+  Start:
+    value: '2000-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE FORGE
+    AddrLn2: 34 HIGH STREET
+    Country: ENGLAND
+    PostCode: WR12 7DT
+    Town: BROADWAY
+    UPRN: '10013942784'
+LastChangeDate:
+  value: '2020-04-02'
+Name: SALTS MEDILINK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FLD15
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q53
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163548'
+    id: RE5
+    uniqueRelId: '335353'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '356980'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE5
+    uniqueRelId: '652633'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO94
+    primaryRole: 'true'
+    uniqueRoleId: '229962'
+Status:
+  value: Active
+metadata:
+  org_id: FLD15
+  role_id: RO94
+  status: Active
+orgRecordClass: RC1

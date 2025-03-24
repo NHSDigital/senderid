@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01543 462457
+Date:
+  Start:
+    value: '2010-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COLLIERS WAY
+    AddrLn2: HUNTINGTON
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: WS12 4UD
+    Town: CANNOCK
+    UPRN: '10094875438'
+LastChangeDate:
+  value: '2024-01-09'
+Name: COLLIERY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEV94
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2010-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3FM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '95243'
+    id: RE6
+    uniqueRelId: '309082'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q60
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163555'
+    id: RE4
+    uniqueRelId: '309083'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE4
+    uniqueRelId: '353716'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '649357'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2010-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '216637'
+Status:
+  value: Active
+metadata:
+  org_id: FEV94
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

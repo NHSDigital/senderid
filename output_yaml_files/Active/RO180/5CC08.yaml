@@ -1,0 +1,109 @@
+Date:
+- End:
+    value: '2010-03-31'
+  Start:
+    value: '2000-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2000-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. MARYS GARDENS
+    AddrLn2: MELLOR
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BB2 7JW
+    Town: BLACKBURN
+LastChangeDate:
+  value: '2012-10-09'
+Name: MELLOR CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5CC08
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5CC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '121791'
+    id: RE6
+    uniqueRelId: '180162'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '119993'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAP08
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO108
+        uniqueRoleId: '118035'
+    Type: Successor
+    uniqueSuccId: '36558'
+  - Date:
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RME32
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '64230'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '17033'
+metadata:
+  org_id: 5CC08
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

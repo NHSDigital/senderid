@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 9
+    AddrLn2: HAYDOCK CROSS
+    AddrLn3: KILBUCK LANE
+    Country: ENGLAND
+    PostCode: WA11 9UX
+    Town: ST. HELENS
+    UPRN: '39079163'
+LastChangeDate:
+  value: '2023-06-05'
+Name: UCS MEDICAL LTD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: O7N3R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2023-06-04'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '814066'
+  - Date:
+      Start:
+        value: '2023-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '826573'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '491752'
+Status:
+  value: Active
+metadata:
+  org_id: O7N3R
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

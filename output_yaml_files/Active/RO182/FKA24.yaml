@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 902214
+Date:
+  Start:
+    value: '2020-01-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 167-169 HIGH ROAD
+    AddrLn2: CHADWELL HEATH
+    Country: ENGLAND
+    PostCode: RM6 6NL
+    Town: ROMFORD
+    UPRN: '100013013'
+LastChangeDate:
+  value: '2020-05-04'
+Name: BRITANNIA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKA24
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0Q2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '110680'
+    id: RE6
+    uniqueRelId: '618219'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2020-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '618220'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '651993'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '389912'
+Status:
+  value: Active
+metadata:
+  org_id: FKA24
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

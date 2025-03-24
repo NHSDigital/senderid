@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 78 YORK STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: W1H 1DP
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-05'
+Name: AMBULATORY SURGERY INTERNATIONAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DEJ01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '516354'
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DEJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '288300'
+    id: RE6
+    uniqueRelId: '516355'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '688702'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '288301'
+Status:
+  value: Active
+metadata:
+  org_id: DEJ01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

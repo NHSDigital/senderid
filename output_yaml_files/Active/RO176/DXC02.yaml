@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2019-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PARK LORNE
+    AddrLn2: 111 PARK ROAD
+    Country: ENGLAND
+    PostCode: NW8 7JL
+    Town: LONDON
+    UPRN: '100023618553'
+LastChangeDate:
+  value: '2020-04-05'
+Name: CARE FERTILITY (LONDON)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DXC02
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '565470'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '690050'
+  - Date:
+      Start:
+        value: '2019-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DXC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '343973'
+    id: RE6
+    uniqueRelId: '565471'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '343975'
+Status:
+  value: Active
+metadata:
+  org_id: DXC02
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

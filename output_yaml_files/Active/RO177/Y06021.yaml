@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01603 514096
+Date:
+- Start:
+    value: '2018-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-03-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 BARTON WAY
+    AddrLn2: CITY OFFICE PARK
+    Country: ENGLAND
+    County: NORFOLK
+    PostCode: NR1 1DL
+    Town: NORWICH
+LastChangeDate:
+  value: '2020-04-01'
+Name: CGL NORFOLK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06021
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161357'
+    id: RE4
+    uniqueRelId: '533958'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NMS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '169566'
+    id: RE6
+    uniqueRelId: '533959'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 26A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386489'
+    id: RE4
+    uniqueRelId: '637715'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '301151'
+  - Date:
+    - Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '301152'
+Status:
+  value: Active
+metadata:
+  org_id: Y06021
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

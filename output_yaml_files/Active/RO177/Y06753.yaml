@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01912 820889
+Date:
+  Start:
+    value: '2020-04-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DOWNHILL LANE
+    AddrLn2: EAST BOLDON
+    AddrLn3: HIGH HEATON
+    Country: ENGLAND
+    PostCode: NE36 0BB
+    Town: EAST BOLDON
+LastChangeDate:
+  value: '2020-05-07'
+Name: NIGHTINGALE NE - DISCHARGE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06753
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '104982'
+    id: RE6
+    uniqueRelId: '711565'
+  - Date:
+      Start:
+        value: '2020-05-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161398'
+    id: RE4
+    uniqueRelId: '711751'
+  - Date:
+      End:
+        value: '2020-05-05'
+      Start:
+        value: '2020-04-23'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '199602'
+    id: RE4
+    uniqueRelId: '711566'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '394356'
+  - Date:
+      Start:
+        value: '2020-04-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '394357'
+Status:
+  value: Active
+metadata:
+  org_id: Y06753
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

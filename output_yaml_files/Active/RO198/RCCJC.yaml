@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2012-06-30'
+  Start:
+    value: '1992-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1992-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WHITBY HOSPITAL
+    AddrLn2: SPRINGHILL
+    Country: ENGLAND
+    County: NORTH YORKSHIRE
+    PostCode: YO21 1DP
+    Town: WHITBY
+    UPRN: '100052160677'
+LastChangeDate:
+  value: '2021-02-04'
+Name: WHITBY HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RCCJC
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2012-06-30'
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131773'
+    id: RE6
+    uniqueRelId: '94240'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2012-06-30'
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '25993'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: BG1JC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '99090'
+    Type: Predecessor
+    uniqueSuccId: '13692'
+metadata:
+  org_id: RCCJC
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

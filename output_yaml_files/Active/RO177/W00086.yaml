@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01244 831798
+Date:
+  Start:
+    value: '2008-05-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROWLEYS DRIVE CLINIC
+    AddrLn2: SHOTTON
+    Country: WALES
+    County: CLWYD
+    PostCode: CH5 1PU
+    Town: DEESIDE
+    UPRN: '100100930298'
+LastChangeDate:
+  value: '2023-08-22'
+Name: FLINTSHIRE SUBS MISUSE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00086
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '275182'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '458247'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2008-05-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6B5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '111175'
+    id: RE4
+    uniqueRelId: '275183'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189528'
+  - Date:
+      Start:
+        value: '2008-05-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73968'
+Status:
+  value: Active
+metadata:
+  org_id: W00086
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

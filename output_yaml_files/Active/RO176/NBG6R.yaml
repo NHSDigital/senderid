@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CEDAR PARK HOUSE
+    AddrLn2: BOUNDARY LANE
+    AddrLn3: SOUTH HYKEHAM
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN6 9NQ
+    Town: LINCOLN
+LastChangeDate:
+  value: '2020-04-05'
+Name: CEDAR PARK HEALTHCARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NBG6R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NBG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '164822'
+    id: RE6
+    uniqueRelId: '563014'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE5
+    uniqueRelId: '563015'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300754'
+    id: RE5
+    uniqueRelId: '687073'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '342365'
+Status:
+  value: Active
+metadata:
+  org_id: NBG6R
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TRAFFORD STREET
+    AddrLn2: NEWTOWN
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: CH2 1AD
+    Town: CHESTER
+    UPRN: '100012825171'
+LastChangeDate:
+  value: '2021-07-21'
+Name: CHESTER AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX772
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109850'
+    id: RE6
+    uniqueRelId: '86930'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '30701'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RB630
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '30012'
+    Type: Predecessor
+    uniqueSuccId: '5269'
+metadata:
+  org_id: RX772
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01295 817667
+Date:
+- Start:
+    value: '2015-10-19'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-09-30'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EXETER SURGERY
+    AddrLn2: EXETER CLOSE
+    AddrLn3: OXFORD ROAD
+    Country: ENGLAND
+    County: OXFORDSHIRE
+    PostCode: OX5 1AP
+    Town: KIDLINGTON
+    UPRN: '10011883657'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PML NEIGHBOURHOOD HUB (KIDLINGTON)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05186
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2015-10-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-09-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE4
+    uniqueRelId: '430238'
+  - Date:
+      Start:
+        value: '2015-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE6
+    uniqueRelId: '462032'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-10-19'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-09-30'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '267894'
+  - Date:
+    - Start:
+        value: '2015-10-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-09-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '267895'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '281476'
+Status:
+  value: Active
+metadata:
+  org_id: Y05186
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

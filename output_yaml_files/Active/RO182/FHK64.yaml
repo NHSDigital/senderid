@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01273 552060
+Date:
+  Start:
+    value: '2018-11-30'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 12 MATLOCK ROAD
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN1 5BF
+    Town: BRIGHTON
+    UPRN: '22041288'
+LastChangeDate:
+  value: '2024-01-09'
+Name: MATLOCK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHK64
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-11-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3QT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '195883'
+    id: RE6
+    uniqueRelId: '562286'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-11-30'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q88
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299784'
+    id: RE4
+    uniqueRelId: '562287'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE4
+    uniqueRelId: '650969'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-11-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '341669'
+Status:
+  value: Active
+metadata:
+  org_id: FHK64
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

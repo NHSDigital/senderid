@@ -1,0 +1,157 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CHILD HEALTH CENTRE",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "1999-04-01"
+            },
+            "End": {
+                "value": "2011-12-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "1999-04-01"
+            },
+            "End": {
+                "value": "2022-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RT602"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HOSPITAL ROAD",
+            "Town": "BURY ST. EDMUNDS",
+            "County": "SUFFOLK",
+            "PostCode": "IP33 3ND",
+            "Country": "ENGLAND",
+            "UPRN": "100091504911"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "97605",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1999-04-01"
+                    },
+                    "End": {
+                        "value": "2011-12-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1999-04-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "71368",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1999-04-01"
+                    },
+                    "End": {
+                        "value": "2011-12-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1999-04-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RT6"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "95634"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "7436",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "1999-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RGL11"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "42029"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RT602",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

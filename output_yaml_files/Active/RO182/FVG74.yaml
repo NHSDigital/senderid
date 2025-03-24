@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01787 247284
+Date:
+- Start:
+    value: '2024-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-05-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 HIGH STREET
+    AddrLn2: LAVENHAM
+    Country: ENGLAND
+    PostCode: CO10 9PX
+    Town: SUDBURY
+    UPRN: '10091905837'
+LastChangeDate:
+  value: '2024-05-09'
+Name: LAVENHAM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVG74
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE4
+    uniqueRelId: '846211'
+  - Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B1T7R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '525206'
+    id: RE6
+    uniqueRelId: '846212'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '525219'
+Status:
+  value: Active
+metadata:
+  org_id: FVG74
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

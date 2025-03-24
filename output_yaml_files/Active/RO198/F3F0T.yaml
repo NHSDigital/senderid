@@ -1,0 +1,86 @@
+Date:
+- Start:
+    value: '2021-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-05-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WINDERMERE AVENUE
+    Country: ENGLAND
+    PostCode: WA11 7AF
+    Town: ST. HELENS
+    UPRN: '39063780'
+LastChangeDate:
+  value: '2021-05-28'
+Name: WINDERMERE MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F3F0T
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18922'
+    id: RE6
+    uniqueRelId: '768445'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '444384'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTVR8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '197666'
+    Type: Predecessor
+    uniqueSuccId: '38049'
+metadata:
+  org_id: F3F0T
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

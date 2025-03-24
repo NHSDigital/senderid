@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 COURT ROAD
+    AddrLn2: FRAMPTON COTTERELL
+    Country: ENGLAND
+    PostCode: BS36 2DE
+    Town: BRISTOL
+    UPRN: '573607'
+LastChangeDate:
+  value: '2020-04-05'
+Name: FROME VALLEY MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NFC0U
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NFC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '100457'
+    id: RE6
+    uniqueRelId: '618439'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q86
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299782'
+    id: RE5
+    uniqueRelId: '618440'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300817'
+    id: RE5
+    uniqueRelId: '689077'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '390064'
+Status:
+  value: Active
+metadata:
+  org_id: NFC0U
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01513 179873
+Date:
+  Start:
+    value: '2020-09-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNITS 4-6 ENTERPRISE WAY
+    AddrLn2: WAVERTREE BUSINESS PARK
+    Country: ENGLAND
+    PostCode: L13 1FB
+    Town: LIVERPOOL
+    UPRN: '10091998429'
+LastChangeDate:
+  value: '2023-08-22'
+Name: NHS 111 FIRST CLINICAL ADVICE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06891
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-09-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161447'
+    id: RE6
+    uniqueRelId: '717219'
+  - Date:
+      Start:
+        value: '2020-09-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161447'
+    id: RE4
+    uniqueRelId: '717220'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-09-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '399371'
+  - Date:
+      Start:
+        value: '2020-09-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '399370'
+Status:
+  value: Active
+metadata:
+  org_id: Y06891
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

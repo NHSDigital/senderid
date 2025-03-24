@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CRESCENT DRIVE
+    Country: ENGLAND
+    PostCode: CM15 8DR
+    Town: BRENTWOOD
+    UPRN: '100091435718'
+LastChangeDate:
+  value: '2024-09-02'
+Name: BRENTWOOD COMMUNITY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V42953
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-12-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE4
+    uniqueRelId: '719438'
+  - Date:
+      End:
+        value: '2020-12-02'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '713865'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '396558'
+Status:
+  value: Active
+metadata:
+  org_id: V42953
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

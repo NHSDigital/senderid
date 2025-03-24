@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02076 396401
+Date:
+- Start:
+    value: '2023-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-07'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 127 BELLENDEN ROAD
+    AddrLn2: PECKHAM
+    Country: ENGLAND
+    PostCode: SE15 4QY
+    Town: LONDON
+    UPRN: '200003392964'
+LastChangeDate:
+  value: '2023-06-08'
+Name: PHARMTRACK LIMITED
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHW06
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '826642'
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Z1C7L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '505075'
+    id: RE6
+    uniqueRelId: '826643'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '505102'
+Status:
+  value: Active
+metadata:
+  org_id: FHW06
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

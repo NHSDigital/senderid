@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01752 435589
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1ST FLOOR
+    AddrLn2: CUMBERLAND CENTRE
+    AddrLn3: DAMERAL CLOSE, DEVONPORT
+    Country: ENGLAND
+    PostCode: PL1 4JZ
+    Town: PLYMOUTH
+    UPRN: '10091563514'
+LastChangeDate:
+  value: '2022-06-06'
+Name: CMHS CUMBERLAND
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04050
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NR5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132231'
+    id: RE6
+    uniqueRelId: '460968'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161532'
+    id: RE4
+    uniqueRelId: '283806'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '566924'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194238'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194239'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280794'
+Status:
+  value: Active
+metadata:
+  org_id: Y04050
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01534 445000
+Date:
+  Start:
+    value: '2023-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HEALTH & COMMUNITY SVS
+    AddrLn2: 1-2 HAMPTON PLACE, MAISON LE PAPE
+    AddrLn3: ST. HELIER
+    Country: CHANNEL ISLANDS
+    County: CHANNEL ISLANDS
+    PostCode: JE2 3PU
+    Town: JERSEY
+LastChangeDate:
+  value: '2024-05-13'
+Name: ALCOHOL AND DRUGS SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: JER127
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: YAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO126
+        uniqueRoleId: '109488'
+    id: RE5
+    uniqueRelId: '834249'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '513863'
+  - Date:
+      Start:
+        value: '2023-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '513862'
+Status:
+  value: Active
+metadata:
+  org_id: JER127
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

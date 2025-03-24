@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STAMFORD RESOURCE CENTRE
+    AddrLn2: ST. GEORGES AVENUE
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: PE9 1UN
+    Town: STAMFORD
+    UPRN: '200002781504'
+LastChangeDate:
+  value: '2021-02-05'
+Name: MENTAL HEALTH UNIT - STAMFORD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RP7WK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RP7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120861'
+    id: RE6
+    uniqueRelId: '79503'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '96890'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVPWK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '6130'
+    Type: Predecessor
+    uniqueSuccId: '31746'
+metadata:
+  org_id: RP7WK
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

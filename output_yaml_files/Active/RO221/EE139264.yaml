@@ -1,0 +1,103 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01205 369111
+Date:
+  Start:
+    value: '2013-01-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRIDGE HOUSE
+    AddrLn2: GRANTHAM ROAD
+    Country: ENGLAND
+    PostCode: PE21 7NL
+    Town: BOSTON
+    UPRN: '200004465143'
+LastChangeDate:
+  value: '2024-06-24'
+Name: BRIDGE HOUSE INDEPENDENT SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE139264
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '503'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78153'
+    id: RE5
+    uniqueRelId: '772783'
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 71E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386502'
+    id: RE5
+    uniqueRelId: '772782'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2013-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '448695'
+  - Date:
+      Start:
+        value: '2024-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO288
+    uniqueRoleId: '527593'
+  - Date:
+      End:
+        value: '2024-06-23'
+      Start:
+        value: '2013-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO289
+    uniqueRoleId: '448696'
+Status:
+  value: Active
+metadata:
+  org_id: EE139264
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

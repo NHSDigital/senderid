@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01215 859065
+Date:
+- Start:
+    value: '2023-08-08'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST MARGARETS WELL SURGERY
+    AddrLn2: 2 QUARRY LANE
+    Country: ENGLAND
+    PostCode: B63 4WD
+    Town: HALESOWEN
+    UPRN: '90155740'
+LastChangeDate:
+  value: '2023-06-23'
+Name: HASBURY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FX548
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1W9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '165399'
+    id: RE6
+    uniqueRelId: '827842'
+  - Date:
+    - Start:
+        value: '2023-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '827841'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506343'
+Status:
+  value: Active
+metadata:
+  org_id: FX548
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

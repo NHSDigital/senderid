@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01277 227711
+Date:
+  Start:
+    value: '2022-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TILE HOUSE SURGERY
+    AddrLn2: 33 SHENFIELD ROAD
+    Country: ENGLAND
+    PostCode: CM15 8AQ
+    Town: BRENTWOOD
+    UPRN: '100091435710'
+LastChangeDate:
+  value: '2023-10-04'
+Name: BRENTWOOD PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07497
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161373'
+    id: RE4
+    uniqueRelId: '813368'
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161373'
+    id: RE6
+    uniqueRelId: '813369'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491084'
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491083'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511559'
+Status:
+  value: Active
+metadata:
+  org_id: Y07497
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

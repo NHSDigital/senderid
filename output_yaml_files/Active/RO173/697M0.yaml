@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2012-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PARK FIELD DRIVE
+    Country: ENGLAND
+    County: SOMERSET
+    PostCode: TA1 5DA
+    Town: TAUNTON
+LastChangeDate:
+  value: '2020-09-24'
+Name: SPS MUSGROVE PARK HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 697M0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RBA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '71582'
+    id: RE3
+    uniqueRelId: '45271'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RH5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '103936'
+    id: RE3
+    uniqueRelId: '716975'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '138300'
+Status:
+  value: Active
+metadata:
+  org_id: 697M0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

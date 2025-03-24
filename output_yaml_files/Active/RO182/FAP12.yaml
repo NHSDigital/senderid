@@ -1,0 +1,91 @@
+Date:
+- Start:
+    value: '2024-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-09-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 66 HEXTHORPE ROAD
+    AddrLn2: HEXTHORPE
+    Country: ENGLAND
+    PostCode: DN4 0AJ
+    Town: DONCASTER
+    UPRN: '100050734219'
+LastChangeDate:
+  value: '2024-09-05'
+Name: CRESTPHARMACY-HEXTHORPE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAP12
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '851640'
+  - Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S4R7R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '530802'
+    id: RE6
+    uniqueRelId: '851641'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '530821'
+Status:
+  value: Active
+metadata:
+  org_id: FAP12
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

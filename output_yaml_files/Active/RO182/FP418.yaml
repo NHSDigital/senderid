@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01455 619153
+Date:
+- Start:
+    value: '2023-05-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-04-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 6-8 TILTON ROAD
+    AddrLn2: BURBAGE
+    Country: ENGLAND
+    PostCode: LE10 2SE
+    Town: HINCKLEY
+    UPRN: '100032038394'
+LastChangeDate:
+  value: '2023-04-27'
+Name: HINCKLEY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FP418
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-05-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P27W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '95378'
+    id: RE6
+    uniqueRelId: '823731'
+  - Date:
+    - Start:
+        value: '2023-05-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '823730'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-05-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '502815'
+Status:
+  value: Active
+metadata:
+  org_id: FP418
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

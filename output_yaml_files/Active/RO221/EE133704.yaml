@@ -1,0 +1,102 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02380 773363
+Date:
+  Start:
+    value: '2003-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WINDERMERE AVENUE
+    Country: ENGLAND
+    PostCode: SO16 9QX
+    Town: SOUTHAMPTON
+    UPRN: '100062511112'
+LastChangeDate:
+  value: '2023-03-16'
+Name: NEWLANDS PRIMARY SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE133704
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2003-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '814'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '23472'
+    id: RE5
+    uniqueRelId: '765161'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE5
+    uniqueRelId: '765160'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2003-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '441107'
+  - Date:
+      End:
+        value: '2023-03-15'
+      Start:
+        value: '2003-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO281
+    uniqueRoleId: '441108'
+  - Date:
+      Start:
+        value: '2023-03-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO284
+    uniqueRoleId: '498994'
+Status:
+  value: Active
+metadata:
+  org_id: EE133704
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

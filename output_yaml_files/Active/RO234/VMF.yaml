@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2016-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 GRINDLOW STREET
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M13 0LL
+    Town: MANCHESTER
+    UPRN: '10023052668'
+LastChangeDate:
+  value: '2021-02-12'
+Name: LONGSIGHT POLICE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VMF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199101'
+    id: RE6
+    uniqueRelId: '511392'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '284755'
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '284756'
+Status:
+  value: Active
+metadata:
+  org_id: VMF
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,132 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "LEYLANDS LANE PHARMACY - BRADFORD - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "H9I6A"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-03-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LEYLANDS MEDICAL CENTRE",
+            "AddrLn2": "81 LEYLANDS LANE",
+            "Town": "BRADFORD",
+            "PostCode": "BD9 5PZ",
+            "Country": "ENGLAND",
+            "UPRN": "100051956536"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "471060",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "471059",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "795264",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    },
+                    "End": {
+                        "value": "2021-10-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FLJ02"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "306958"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "801227",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-11-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FTA80"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "469215"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "H9I6A",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

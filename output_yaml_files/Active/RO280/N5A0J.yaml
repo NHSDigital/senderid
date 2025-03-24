@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 13-15 RYBURN BUILDINGS
+    Country: ENGLAND
+    PostCode: HX6 3AH
+    Town: SOWERBY BRIDGE
+    UPRN: '10010164762'
+LastChangeDate:
+  value: '2025-01-09'
+Name: PHARMACY+HEALTH - SOWERBY BRIDGE - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: N5A0J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FV648
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '300154'
+    id: RE6
+    uniqueRelId: '725484'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '410533'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '410532'
+Status:
+  value: Active
+metadata:
+  org_id: N5A0J
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

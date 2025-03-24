@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: AVONRIDGE
+    AddrLn2: FRONT STREET WEST
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE22 5TT
+    Town: BEDLINGTON
+    UPRN: '10012420654'
+LastChangeDate:
+  value: '2021-02-04'
+Name: AVONRIDGE MENTAL HEALTH COMMUNITY UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX482
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '90692'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13783'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RM614
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '13043'
+    Type: Predecessor
+    uniqueSuccId: '24649'
+metadata:
+  org_id: RX482
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,86 @@
+Date:
+- Start:
+    value: '2013-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2013-01-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 7-8 WELLINGTON PLACE
+    Country: ENGLAND
+    PostCode: LS1 4AP
+    Town: LEEDS
+    UPRN: '72766088'
+LastChangeDate:
+  value: '2023-01-31'
+Name: NHS ENGLAND - X26 - LEEDS GOVERNMENT HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: X2601
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-01-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X26
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO116
+        uniqueRoleId: '166234'
+    id: RE6
+    uniqueRelId: '189283'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-01-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO90
+    primaryRole: 'true'
+    uniqueRoleId: '166244'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1431
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '30905'
+    Type: Predecessor
+    uniqueSuccId: '36590'
+metadata:
+  org_id: X2601
+  role_id: RO90
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,91 @@
+Date:
+- Start:
+    value: '2023-08-29'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 2A, BUILDING A
+    AddrLn2: 142 VAUGHAN WAY
+    AddrLn3: LNDN DOCK
+    Country: ENGLAND
+    PostCode: E1W 2AF
+    Town: LONDON
+LastChangeDate:
+  value: '2023-07-14'
+Name: CITY DOCK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTM20
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '828630'
+  - Date:
+    - Start:
+        value: '2023-08-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I8Y4B
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506806'
+    id: RE6
+    uniqueRelId: '828631'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506851'
+Status:
+  value: Active
+metadata:
+  org_id: FTM20
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

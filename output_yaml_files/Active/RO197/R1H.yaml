@@ -1,0 +1,184 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTPS://WWW.BARTSHEALTH.NHS.UK/
+Date:
+- Start:
+    value: '2012-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2012-03-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE ROYAL LONDON HOSPITAL
+    AddrLn2: 80 NEWARK STREET
+    Country: ENGLAND
+    PostCode: E1 2ES
+    Town: LONDON
+    UPRN: '6362645'
+LastChangeDate:
+  value: '2023-11-14'
+Name: BARTS HEALTH NHS TRUST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R1H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '111691'
+    id: RE5
+    uniqueRelId: '74280'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '227238'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '695894'
+  - Date:
+      Start:
+        value: '2023-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE8
+    uniqueRelId: '834614'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO197
+    primaryRole: 'true'
+    uniqueRoleId: '91531'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RNJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91528'
+    Type: Predecessor
+    uniqueSuccId: '27375'
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RNH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91529'
+    Type: Predecessor
+    uniqueSuccId: '15041'
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RGC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91530'
+    Type: Predecessor
+    uniqueSuccId: '22132'
+metadata:
+  org_id: R1H
+  role_id: RO197
+  status: Active
+orgRecordClass: RC1

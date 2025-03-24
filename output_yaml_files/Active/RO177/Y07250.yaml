@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01892 652284
+Date:
+  Start:
+    value: '2022-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CROWBOROUGH HOSPITAL MIU
+    AddrLn2: SOUTHVIEW ROAD
+    Country: ENGLAND
+    PostCode: TN6 1HB
+    Town: CROWBOROUGH
+    UPRN: '100062590847'
+LastChangeDate:
+  value: '2022-02-11'
+Name: CROWBOROUGH HOSPITAL MINOR INJURIES UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07250
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48407'
+    id: RE6
+    uniqueRelId: '802815'
+  - Date:
+      Start:
+        value: '2022-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 97R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386494'
+    id: RE4
+    uniqueRelId: '802816'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '480690'
+  - Date:
+      Start:
+        value: '2022-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '480691'
+Status:
+  value: Active
+metadata:
+  org_id: Y07250
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

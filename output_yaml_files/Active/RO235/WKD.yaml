@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE COURT HOUSE
+    AddrLn2: WILTON ROAD
+    Country: ENGLAND
+    PostCode: SP2 7EP
+    Town: SALISBURY
+    UPRN: '10014609549'
+LastChangeDate:
+  value: '2020-04-20'
+Name: SALISBURY LAW COURTS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WKD
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2020-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161531'
+    id: RE4
+    uniqueRelId: '619742'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230521'
+    id: RE4
+    uniqueRelId: '709870'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '389659'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO235
+    primaryRole: 'true'
+    uniqueRoleId: '389660'
+Status:
+  value: Active
+metadata:
+  org_id: WKD
+  role_id: RO235
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,85 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0121 525 6612
+Date:
+  End:
+    value: '2020-03-31'
+  Start:
+    value: '2003-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1ST FLOOR
+    AddrLn2: 323 HIGH STREET
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: B70 8LU
+    Town: WEST BROMWICH
+LastChangeDate:
+  value: '2022-06-20'
+Name: STAFF SUPPORT SERVICE (CONTACT)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: TAJ41
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '49637'
+    id: RE6
+    uniqueRelId: '13089'
+Roles:
+  Role:
+    Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO108
+    primaryRole: 'true'
+    uniqueRoleId: '128569'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RQ441
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '86451'
+    Type: Predecessor
+    uniqueSuccId: '12839'
+metadata:
+  org_id: TAJ41
+  role_id: RO108
+  status: Inactive
+orgRecordClass: RC2

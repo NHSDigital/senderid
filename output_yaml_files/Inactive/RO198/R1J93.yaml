@@ -1,0 +1,99 @@
+Date:
+- End:
+    value: '2019-09-30'
+  Start:
+    value: '2013-03-22'
+  Type:
+    value: Legal
+- End:
+    value: '2023-05-31'
+  Start:
+    value: '2013-02-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VALE HOSPITAL
+    AddrLn2: LISTER ROAD
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL11 4BA
+    Town: DURSLEY
+LastChangeDate:
+  value: '2025-02-24'
+Name: ENT PRIMARY CARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R1J93
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2019-09-30'
+      Start:
+        value: '2013-03-22'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-05-31'
+      Start:
+        value: '2013-02-25'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '166955'
+    id: RE6
+    uniqueRelId: '223575'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2019-09-30'
+      Start:
+        value: '2013-03-22'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-05-31'
+      Start:
+        value: '2013-02-25'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO31
+    uniqueRoleId: '167502'
+  - Date:
+    - End:
+        value: '2019-09-30'
+      Start:
+        value: '2013-03-22'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-05-31'
+      Start:
+        value: '2013-02-25'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '167503'
+Status:
+  value: Inactive
+metadata:
+  org_id: R1J93
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

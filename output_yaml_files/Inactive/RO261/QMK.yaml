@@ -1,0 +1,83 @@
+Date:
+- End:
+    value: '2018-03-31'
+  Start:
+    value: '2017-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2017-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIVERSITY HOSPITAL OF HARTLEPOOL
+    AddrLn2: HOLDFORTH ROAD
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS24 9AH
+    Town: HARTLEPOOL
+LastChangeDate:
+  value: '2020-11-05'
+Name: DURHAM, DARLINGTON, TEESIDE, HAMBLETON, RICHMONDSHIRE AND WHITBY STP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: QMK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2018-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO261
+    primaryRole: 'true'
+    uniqueRoleId: '300732'
+  - Date:
+      End:
+        value: '2020-09-30'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO262
+    uniqueRoleId: '300733'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    Type: Successor
+    uniqueSuccId: '37479'
+metadata:
+  org_id: QMK
+  role_id: RO261
+  status: Inactive
+orgRecordClass: RC1

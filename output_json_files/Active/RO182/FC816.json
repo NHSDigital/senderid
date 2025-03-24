@@ -1,0 +1,148 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BRIMINGTON PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-06-20"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FC816"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "54 CHURCH STREET",
+            "AddrLn2": "BRIMINGTON",
+            "Town": "CHESTERFIELD",
+            "County": "DERBYSHIRE",
+            "PostCode": "S43 1JG",
+            "Country": "ENGLAND",
+            "UPRN": "74042690"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01246 273291"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO182",
+            "uniqueRoleId": "233032",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2015-06-20"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "385064",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-06-20"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P76H"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "94849"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "385065",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-06-20"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q76"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202018"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "647769",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QJ2"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300752"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FC816",
+        "status": "Active",
+        "role_id": "RO182"
+    }
+}

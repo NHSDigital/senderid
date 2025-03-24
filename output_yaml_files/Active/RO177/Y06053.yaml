@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01642 130089
+Date:
+- Start:
+    value: '2018-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-03-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 161 HIGH STREET
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS10 3AN
+    Town: REDCAR
+LastChangeDate:
+  value: '2020-06-24'
+Name: WE ARE WITH YOU REDCAR&CLEVELAND-REDCAR
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06053
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161396'
+    id: RE4
+    uniqueRelId: '534383'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NI3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '166377'
+    id: RE6
+    uniqueRelId: '534384'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '637743'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-03-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '301423'
+  - Date:
+    - Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-03-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '301424'
+Status:
+  value: Active
+metadata:
+  org_id: Y06053
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

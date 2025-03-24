@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01457 861366
+Date:
+- Start:
+    value: '2024-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-07-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 10-14 WINSTER MEWS
+    AddrLn2: GAMESLEY
+    Country: ENGLAND
+    PostCode: SK13 0LU
+    Town: GLOSSOP
+    UPRN: '10010765745'
+LastChangeDate:
+  value: '2024-07-25'
+Name: THE MEWS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA497
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '849885'
+  - Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1Q0X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '529025'
+    id: RE6
+    uniqueRelId: '849886'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '529041'
+Status:
+  value: Active
+metadata:
+  org_id: FA497
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

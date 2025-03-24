@@ -1,0 +1,134 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01767 680488
+Date:
+- Start:
+    value: '2017-09-27'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 MARKET SQUARE
+    Country: ENGLAND
+    PostCode: SG19 1HU
+    Town: SANDY
+    UPRN: '100080079324'
+LastChangeDate:
+  value: '2021-10-05'
+Name: BRITANNIA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FX692
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2017-09-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0Q2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '110680'
+    id: RE6
+    uniqueRelId: '620316'
+  - Date:
+    - End:
+        value: '2019-04-09'
+      Start:
+        value: '2017-09-27'
+      Type:
+        value: Legal
+    - End:
+        value: '2019-04-09'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE4
+    uniqueRelId: '527994'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE4
+    uniqueRelId: '569978'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300768'
+    id: RE4
+    uniqueRelId: '657841'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2017-09-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '296526'
+Status:
+  value: Active
+metadata:
+  org_id: FX692
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

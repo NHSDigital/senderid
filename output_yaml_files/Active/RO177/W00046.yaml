@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07966 769281
+Date:
+  Start:
+    value: '2004-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 CASTLE STREET
+    Country: WALES
+    County: POWYS
+    PostCode: LD3 9DD
+    Town: BRECON
+    UPRN: '100100936910'
+LastChangeDate:
+  value: '2023-08-22'
+Name: BRECON CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00046
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '38494'
+    id: RE4
+    uniqueRelId: '284702'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '38494'
+    id: RE6
+    uniqueRelId: '458210'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2004-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6C4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '126461'
+    id: RE4
+    uniqueRelId: '284703'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '195417'
+  - Date:
+      Start:
+        value: '2004-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73929'
+Status:
+  value: Active
+metadata:
+  org_id: W00046
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

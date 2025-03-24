@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST ANNE'S ANNEX
+    AddrLn2: ST. ANNES ROAD
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN2 5RA
+    Town: LINCOLN
+LastChangeDate:
+  value: '2012-05-15'
+Name: PRIMARY CARE SERVICES OFFICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RP7DB
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RP7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120861'
+    id: RE6
+    uniqueRelId: '79852'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '96994'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RK4DC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '56528'
+    Type: Predecessor
+    uniqueSuccId: '29078'
+metadata:
+  org_id: RP7DB
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

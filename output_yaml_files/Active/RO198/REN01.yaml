@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLATTERBRIDGE ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: CH63 4JY
+    Town: WIRRAL
+LastChangeDate:
+  value: '2024-04-02'
+Name: CLATTERBRIDGE ONCOLOGY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: REN01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '128491'
+    id: RE6
+    uniqueRelId: '824638'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '503311'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '503312'
+Status:
+  value: Active
+metadata:
+  org_id: REN01
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

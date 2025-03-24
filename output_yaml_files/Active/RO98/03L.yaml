@@ -1,0 +1,139 @@
+Date:
+- Start:
+    value: '2013-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2011-12-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OAK HOUSE
+    AddrLn2: MOORHEAD WAY
+    AddrLn3: BRAMLEY
+    Country: ENGLAND
+    PostCode: S66 1YY
+    Town: ROTHERHAM
+    UPRN: '10000859370'
+LastChangeDate:
+  value: '2023-09-21'
+Name: NHS SOUTH YORKSHIRE ICB - 03L
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 03L
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q51
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163546'
+    id: RE5
+    uniqueRelId: '186360'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '346556'
+  - Date:
+      End:
+        value: '2019-03-28'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '69786'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO173
+        uniqueRoleId: '295007'
+    id: RE5
+    uniqueRelId: '525993'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE5
+    uniqueRelId: '662638'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '161474'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486051'
+Status:
+  value: Active
+metadata:
+  org_id: 03L
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

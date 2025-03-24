@@ -1,0 +1,65 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 77 THE BOULEVARD
+    Country: ENGLAND
+    PostCode: ST6 6BD
+    Town: STOKE-ON-TRENT
+LastChangeDate:
+  value: '2023-04-18'
+Name: THE TERRACE DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V84275
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '822182'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '501374'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '501375'
+Status:
+  value: Active
+metadata:
+  org_id: V84275
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

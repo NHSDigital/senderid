@@ -1,0 +1,121 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03001 230874
+Date:
+- Start:
+    value: '2021-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-09-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALEXANDRA RETAIL CENTRE
+    AddrLn2: BEAUMONT ROAD
+    Country: ENGLAND
+    PostCode: ST6 6BE
+    Town: STOKE-ON-TRENT
+    UPRN: '3455145529'
+LastChangeDate:
+  value: '2023-10-04'
+Name: HIPC PCN - EXTEND ACC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07135
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161339'
+    id: RE6
+    uniqueRelId: '796516'
+  - Date:
+    - Start:
+        value: '2021-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161339'
+    id: RE4
+    uniqueRelId: '796517'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2021-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '472948'
+  - Date:
+    - Start:
+        value: '2021-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '472947'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511463'
+Status:
+  value: Active
+metadata:
+  org_id: Y07135
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

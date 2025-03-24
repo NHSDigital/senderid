@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.MEDICOPARTNERS.COM
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE C I B A BUILDING
+    AddrLn2: 146 HAGLEY ROAD
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: B16 9NX
+    Town: BIRMINGHAM
+LastChangeDate:
+  value: '2020-04-05'
+Name: MEDICO PARTNERS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AX8
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '449534'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE5
+    uniqueRelId: '684236'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '278841'
+Status:
+  value: Active
+metadata:
+  org_id: AX8
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

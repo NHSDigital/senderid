@@ -1,0 +1,106 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 2951000
+Date:
+  Start:
+    value: '2016-11-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPENCER PLACE
+    Country: ENGLAND
+    PostCode: LS7 4BB
+    Town: LEEDS
+    UPRN: '72190339'
+LastChangeDate:
+  value: '2020-02-12'
+Name: COMMUNITY IV SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05623
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-11-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91540'
+    id: RE6
+    uniqueRelId: '515110'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2016-11-16'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161470'
+    id: RE4
+    uniqueRelId: '515111'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540738'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-11-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '287367'
+  - Date:
+      Start:
+        value: '2016-11-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '287368'
+Status:
+  value: Active
+metadata:
+  org_id: Y05623
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

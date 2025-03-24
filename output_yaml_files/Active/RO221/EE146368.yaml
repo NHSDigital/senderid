@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02077 358348
+Date:
+  Start:
+    value: '2018-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COWLEY ROAD
+    Country: ENGLAND
+    PostCode: SW9 6HF
+    Town: LONDON
+    UPRN: '100023386954'
+LastChangeDate:
+  value: '2023-01-16'
+Name: VAN GOGH PRIMARY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE146368
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '708'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78174'
+    id: RE5
+    uniqueRelId: '783845'
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 72Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386495'
+    id: RE5
+    uniqueRelId: '783844'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '459739'
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO302
+    uniqueRoleId: '459740'
+Status:
+  value: Active
+metadata:
+  org_id: EE146368
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

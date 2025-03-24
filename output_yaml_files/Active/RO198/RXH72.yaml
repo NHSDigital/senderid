@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2021-03-31'
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALBION WAY
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: RH12 1BG
+    Town: HORSHAM
+    UPRN: '100062476171'
+LastChangeDate:
+  value: '2021-04-22'
+Name: PARK SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXH72
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '106193'
+    id: RE6
+    uniqueRelId: '385972'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '233737'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2L8V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '408582'
+    Type: Successor
+    uniqueSuccId: '37983'
+metadata:
+  org_id: RXH72
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

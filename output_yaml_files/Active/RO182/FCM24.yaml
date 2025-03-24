@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01403 259417
+Date:
+- Start:
+    value: '2025-03-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 10 FITZALAN ROAD
+    AddrLn2: ROFFEY
+    Country: ENGLAND
+    PostCode: RH13 6AA
+    Town: HORSHAM
+    UPRN: '100062478829'
+LastChangeDate:
+  value: '2025-01-31'
+Name: ROFFEY CHEMIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FCM24
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-03-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE4
+    uniqueRelId: '857556'
+  - Date:
+    - Start:
+        value: '2025-03-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O6K4B
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536803'
+    id: RE6
+    uniqueRelId: '857557'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-03-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536822'
+Status:
+  value: Active
+metadata:
+  org_id: FCM24
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

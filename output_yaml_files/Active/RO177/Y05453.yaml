@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01253 951400
+Date:
+  Start:
+    value: '2016-06-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOOR PARK HEALTH CENTRE
+    AddrLn2: BRISTOL AVENUE
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: FY2 0JG
+    Town: BLACKPOOL
+LastChangeDate:
+  value: '2023-08-22'
+Name: BLACKPOOL EXTENSIVE CARE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05453
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-06-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161400'
+    id: RE4
+    uniqueRelId: '510391'
+  - Date:
+      Start:
+        value: '2016-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161400'
+    id: RE6
+    uniqueRelId: '510392'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-06-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '284013'
+  - Date:
+      Start:
+        value: '2016-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '284014'
+Status:
+  value: Active
+metadata:
+  org_id: Y05453
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

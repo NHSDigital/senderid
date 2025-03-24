@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2021-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 KNOWSLEY PLACE
+    AddrLn2: KNOWSLEY STREET
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BL9 0SN
+    Town: BURY
+LastChangeDate:
+  value: '2024-08-19'
+Name: NON-OBSTETRIC ULTRASOUND (NOUS) - PML - TOWNSIDE PRIMARY CARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I8Z4L
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NXV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107213'
+    id: RE6
+    uniqueRelId: '799163'
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '799164'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '476597'
+Status:
+  value: Active
+metadata:
+  org_id: I8Z4L
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

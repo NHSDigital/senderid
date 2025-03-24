@@ -1,0 +1,108 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HEALTHCARE GROUP",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1990-01-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "GUE050"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-03-29"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROHAIS MEDICAL CENTRE",
+            "AddrLn2": "THE SURGERY, ROHAIS",
+            "AddrLn3": "ST PETER PORT",
+            "Town": "GUERNSEY",
+            "County": "CHANNEL ISLANDS",
+            "PostCode": "GY1 1FF",
+            "Country": "CHANNEL ISLANDS"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01481 723322"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "203237",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-02-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "127866",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1990-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "565893",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "1996-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "YAE"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO126",
+                    "uniqueRoleId": "107315"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "GUE050",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

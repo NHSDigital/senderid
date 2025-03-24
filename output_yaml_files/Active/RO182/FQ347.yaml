@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02036 593149
+Date:
+- Start:
+    value: '2016-05-09'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-05-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROUND FLOOR
+    AddrLn2: GROSVENOR HOUSE
+    AddrLn3: 160 GILLETT ROAD
+    Country: ENGLAND
+    County: SURREY
+    PostCode: CR7 8SN
+    Town: THORNTON HEATH
+    UPRN: '10093757112'
+LastChangeDate:
+  value: '2024-01-09'
+Name: PRESCRIPTION COUNTER
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQ347
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-05-09'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '463760'
+  - Date:
+      Start:
+        value: '2016-05-09'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4DN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '282032'
+    id: RE6
+    uniqueRelId: '463761'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '654804'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2016-05-09'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-05-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '282208'
+Status:
+  value: Active
+metadata:
+  org_id: FQ347
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

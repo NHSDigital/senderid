@@ -1,0 +1,85 @@
+Date:
+- Start:
+    value: '2021-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-05-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LONGVIEW DRIVE
+    Country: ENGLAND
+    PostCode: L36 6EG
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2021-05-28'
+Name: OUR PLACE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F8E6S
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18922'
+    id: RE6
+    uniqueRelId: '768312'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '444253'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV1M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '203036'
+    Type: Predecessor
+    uniqueSuccId: '38068'
+metadata:
+  org_id: F8E6S
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

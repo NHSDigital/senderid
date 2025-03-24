@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01527 62431
+Date:
+- Start:
+    value: '2023-10-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-08-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 7 CHURCH GREEN WEST
+    Country: ENGLAND
+    PostCode: B97 4DU
+    Town: REDDITCH
+    UPRN: '100121269277'
+LastChangeDate:
+  value: '2023-08-24'
+Name: CHURCH GREEN PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJW97
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2J7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '174521'
+    id: RE6
+    uniqueRelId: '830902'
+  - Date:
+    - Start:
+        value: '2023-10-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '830901'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '509199'
+Status:
+  value: Active
+metadata:
+  org_id: FJW97
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

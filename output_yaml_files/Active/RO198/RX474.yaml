@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LOANSDEAN
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE61 2BT
+    Town: MORPETH
+    UPRN: '2920008518'
+LastChangeDate:
+  value: '2021-07-21'
+Name: MORPETH COTTAGE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX474
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '90691'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13639'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RM606
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '13031'
+    Type: Predecessor
+    uniqueSuccId: '17551'
+metadata:
+  org_id: RX474
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

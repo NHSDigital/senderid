@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01865 223900
+Date:
+  Start:
+    value: '2020-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OXFED
+    AddrLn2: NORTHWAY COMMUNITY CENTRE
+    Country: ENGLAND
+    PostCode: OX3 9RF
+    Town: OXFORD
+LastChangeDate:
+  value: '2023-08-22'
+Name: OXFED CALM CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06774
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE6
+    uniqueRelId: '711901'
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE4
+    uniqueRelId: '711902'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '394866'
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '394865'
+Status:
+  value: Active
+metadata:
+  org_id: Y06774
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

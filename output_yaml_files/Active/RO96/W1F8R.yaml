@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2024-08-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MALLING STREET
+    Country: ENGLAND
+    PostCode: BN7 2RD
+    Town: LEWES
+    UPRN: '100062274317'
+LastChangeDate:
+  value: '2024-11-01'
+Name: RIVER LODGE SURGERY - COVID LOCAL VACCINATION SERVICE 3
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W1F8R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2024-10-31'
+      Start:
+        value: '2024-08-08'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G81100
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '103308'
+    id: RE6
+    uniqueRelId: '850503'
+  - Date:
+      Start:
+        value: '2024-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G81021
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '128604'
+    id: RE6
+    uniqueRelId: '854355'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-08-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '529528'
+  - Date:
+      Start:
+        value: '2024-08-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '529529'
+Status:
+  value: Active
+metadata:
+  org_id: W1F8R
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

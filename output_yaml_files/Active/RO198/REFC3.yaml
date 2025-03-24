@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2011-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CAMBORNE/REDRUTH COMMUNITY HOSPITAL
+    Country: ENGLAND
+    County: CORNWALL
+    PostCode: TR15 3ER
+    Town: REDRUTH
+LastChangeDate:
+  value: '2024-04-02'
+Name: GASTROENTEROLOGY CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: REFC3
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2011-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '52056'
+    id: RE6
+    uniqueRelId: '52965'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2011-04-02'
+      Start:
+        value: '2011-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO29
+    uniqueRoleId: '155899'
+  - Date:
+      Start:
+        value: '2011-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '155898'
+  - Date:
+      Start:
+        value: '2011-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '125158'
+Status:
+  value: Active
+metadata:
+  org_id: REFC3
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

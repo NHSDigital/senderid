@@ -1,0 +1,148 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "MIDWAY PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FQ304"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-07-20"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "FOUNTAIN MEDICAL CENTRE",
+            "AddrLn2": "LITTLE FOUNTAIN STREET",
+            "AddrLn3": "MORLEY",
+            "Town": "LEEDS",
+            "PostCode": "LS27 9EN",
+            "Country": "ENGLAND",
+            "UPRN": "72357772"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01132 535574"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO182",
+            "uniqueRoleId": "412734",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "737134",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QWO"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300736"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "737133",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    },
+                    "End": {
+                        "value": "2022-07-19"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "N5Z4I"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "412724"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "809664",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-07-20"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U5Z5B"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "486883"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FQ304",
+        "status": "Active",
+        "role_id": "RO182"
+    }
+}

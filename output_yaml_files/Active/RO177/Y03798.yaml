@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01512 506061
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MEDS MANAGEMENT BUILDING
+    AddrLn2: MAGHULL HLTH PK
+    AddrLn3: PARKBOURN
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L31 1HW
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2024-12-05'
+Name: MERSEY CARE NHS TRUST - NMP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y03798
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161479'
+    id: RE4
+    uniqueRelId: '283557'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161479'
+    id: RE6
+    uniqueRelId: '460741'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '193740'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '193741'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280605'
+Status:
+  value: Active
+metadata:
+  org_id: Y03798
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

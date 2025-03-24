@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01708 728261
+Date:
+- Start:
+    value: '2022-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-09-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RUSH GREEN MEDICAL CENTRE
+    AddrLn2: 261 DAGENHAM ROAD
+    Country: ENGLAND
+    PostCode: RM7 0XR
+    Town: ROMFORD
+    UPRN: '100101988'
+LastChangeDate:
+  value: '2024-04-01'
+Name: HAVERING CREST EAS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07526
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE4
+    uniqueRelId: '813558'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE6
+    uniqueRelId: '813559'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W5Y6K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '522001'
+    id: RE11
+    uniqueRelId: '843785'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491266'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491265'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511586'
+Status:
+  value: Active
+metadata:
+  org_id: Y07526
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

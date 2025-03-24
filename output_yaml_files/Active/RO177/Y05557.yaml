@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01226 730000
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UCC, BARNSLEY HOSPITAL
+    AddrLn2: GAWBER ROAD
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S75 2EP
+    Town: BARNSLEY
+    UPRN: '100052201981'
+LastChangeDate:
+  value: '2021-06-29'
+Name: BARNSLEY HOSPITAL UCC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05557
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161456'
+    id: RE4
+    uniqueRelId: '514043'
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NLO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '169084'
+    id: RE6
+    uniqueRelId: '514044'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '286547'
+  - Date:
+      Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '286548'
+Status:
+  value: Active
+metadata:
+  org_id: Y05557
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

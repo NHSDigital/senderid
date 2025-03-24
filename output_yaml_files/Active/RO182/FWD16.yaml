@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01287 650985
+Date:
+  Start:
+    value: '2016-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 29 HIGH STREET
+    AddrLn2: LINGDALE
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS12 3DZ
+    Town: SALTBURN-BY-THE-SEA
+    UPRN: '100110082478'
+LastChangeDate:
+  value: '2021-06-01'
+Name: LINGDALE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FWD16
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q74
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202016'
+    id: RE4
+    uniqueRelId: '511799'
+  - Date:
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4EM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '284970'
+    id: RE6
+    uniqueRelId: '511800'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '657332'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '284993'
+Status:
+  value: Active
+metadata:
+  org_id: FWD16
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

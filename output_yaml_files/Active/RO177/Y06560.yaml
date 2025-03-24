@@ -1,0 +1,106 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01507 600100
+Date:
+  Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HIGH HOLME ROAD
+    Country: ENGLAND
+    PostCode: LN11 0EU
+    Town: LOUTH
+    UPRN: '100032077462'
+LastChangeDate:
+  value: '2020-04-01'
+Name: LOUTH UTC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06560
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '101109'
+    id: RE6
+    uniqueRelId: '608478'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161290'
+    id: RE4
+    uniqueRelId: '608479'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 71E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386502'
+    id: RE4
+    uniqueRelId: '637986'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '386765'
+  - Date:
+      Start:
+        value: '2019-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '386766'
+Status:
+  value: Active
+metadata:
+  org_id: Y06560
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

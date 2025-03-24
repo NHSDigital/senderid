@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01902 781844
+Date:
+- Start:
+    value: '2020-08-31'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-08-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PENDEFORD HEALTH CENTRE
+    AddrLn2: WHITBURN CLOSE
+    Country: ENGLAND
+    PostCode: WV9 5NJ
+    Town: WOLVERHAMPTON
+    UPRN: '100071406642'
+LastChangeDate:
+  value: '2021-10-05'
+Name: PENDEFORD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHX23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2020-08-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-08-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '715245'
+  - Date:
+    - Start:
+        value: '2020-08-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-08-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4YD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '397434'
+    id: RE6
+    uniqueRelId: '715244'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-08-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-08-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '397441'
+Status:
+  value: Active
+metadata:
+  org_id: FHX23
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

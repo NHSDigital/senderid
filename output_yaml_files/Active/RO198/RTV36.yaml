@@ -1,0 +1,92 @@
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LATHOM ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L36 9XX
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2021-06-02'
+Name: LATHOM ROAD HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTV36
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61637'
+    id: RE6
+    uniqueRelId: '57005'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '86271'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RER08
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '69456'
+    Type: Predecessor
+    uniqueSuccId: '17815'
+metadata:
+  org_id: RTV36
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HARROGATE DISTRICT HOSPITAL
+    AddrLn2: LANCASTER PARK ROAD
+    Country: ENGLAND
+    PostCode: HG2 7SX
+    Town: HARROGATE
+    UPRN: '10003597440'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ROWAN WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX3OY
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118662'
+    id: RE6
+    uniqueRelId: '605063'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '383102'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '383103'
+Status:
+  value: Active
+metadata:
+  org_id: RX3OY
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

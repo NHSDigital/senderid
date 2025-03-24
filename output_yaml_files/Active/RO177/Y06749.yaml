@@ -1,0 +1,106 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03002 002008
+Date:
+  Start:
+    value: '2020-04-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: AVENUE HOUSE
+    AddrLn2: MANOR COURT AVENUE
+    Country: ENGLAND
+    PostCode: CV11 5HX
+    Town: NUNEATON
+LastChangeDate:
+  value: '2021-04-01'
+Name: NORTH - COVID HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06749
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61736'
+    id: RE6
+    uniqueRelId: '711557'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161323'
+    id: RE4
+    uniqueRelId: '711558'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B2M3M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400452'
+    id: RE4
+    uniqueRelId: '732044'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '394349'
+  - Date:
+      Start:
+        value: '2020-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '394348'
+Status:
+  value: Active
+metadata:
+  org_id: Y06749
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

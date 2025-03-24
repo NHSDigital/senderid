@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01670 811378
+Date:
+- Start:
+    value: '2023-11-21'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 LINTONVILLE TERRACE
+    Country: ENGLAND
+    PostCode: NE63 9UN
+    Town: ASHINGTON
+    UPRN: '100110768278'
+LastChangeDate:
+  value: '2024-03-21'
+Name: ASHINGTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FXT85
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '832429'
+  - Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A2R2M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510754'
+    id: RE6
+    uniqueRelId: '832430'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510866'
+Status:
+  value: Active
+metadata:
+  org_id: FXT85
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

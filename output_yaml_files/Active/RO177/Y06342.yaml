@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 3034548
+Date:
+- Start:
+    value: '2019-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-01-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE COUNCIL HOUSE
+    AddrLn2: CHURCH ROAD
+    Country: ENGLAND
+    PostCode: CW9 5PD
+    Town: NORTHWICH
+LastChangeDate:
+  value: '2023-09-13'
+Name: VIA CWAC NORTHWICH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06342
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161446'
+    id: RE4
+    uniqueRelId: '563197'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ARG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '233934'
+    id: RE6
+    uniqueRelId: '563198'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 27D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386503'
+    id: RE4
+    uniqueRelId: '637898'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-01-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '342518'
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-01-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '342519'
+Status:
+  value: Active
+metadata:
+  org_id: Y06342
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

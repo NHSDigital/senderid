@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02084 432783
+Date:
+- Start:
+    value: '2021-05-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT B
+    AddrLn2: 170 SOUTH STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: EN3 4GE
+    Town: ENFIELD
+LastChangeDate:
+  value: '2024-02-22'
+Name: ELECTRA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FD779
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE4
+    uniqueRelId: '727998'
+  - Date:
+    - Start:
+        value: '2021-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L5M8C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '412637'
+    id: RE6
+    uniqueRelId: '727997'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '412645'
+Status:
+  value: Active
+metadata:
+  org_id: FD779
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

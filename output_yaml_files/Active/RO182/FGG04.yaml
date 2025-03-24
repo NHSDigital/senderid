@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01689 820949
+Date:
+  Start:
+    value: '1948-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 13 STATION SQUARE
+    AddrLn2: PETTS WOOD
+    Country: ENGLAND
+    County: KENT
+    PostCode: BR5 1LY
+    Town: ORPINGTON
+    UPRN: '100022898063'
+LastChangeDate:
+  value: '2021-02-10'
+Name: FARRANTS(EXCEL PHARMACIES)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGG04
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P74H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94474'
+    id: RE6
+    uniqueRelId: '311700'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '311701'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '650311'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1948-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '217946'
+Status:
+  value: Active
+metadata:
+  org_id: FGG04
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

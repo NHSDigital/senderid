@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '1948-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 30 HATCH LANE
+    AddrLn2: CHINGFORD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E4 6LQ
+    Town: LONDON
+    UPRN: '100022998167'
+LastChangeDate:
+  value: '2021-02-10'
+Name: HATCH PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEN07
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P98G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '96388'
+    id: RE6
+    uniqueRelId: '308749'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '308750'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '649248'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1948-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '216470'
+Status:
+  value: Active
+metadata:
+  org_id: FEN07
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

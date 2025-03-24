@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02082 964466
+Date:
+  Start:
+    value: '2020-10-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOLESEY HOSPITAL
+    AddrLn2: HIGH STREET
+    Country: ENGLAND
+    PostCode: KT8 2LU
+    Town: WEST MOLESEY
+    UPRN: '100062372869'
+LastChangeDate:
+  value: '2023-10-04'
+Name: EAST ELMBRIDGE PCN (SDH&C)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06924
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137970'
+    id: RE6
+    uniqueRelId: '718501'
+  - Date:
+      Start:
+        value: '2020-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 92A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386492'
+    id: RE4
+    uniqueRelId: '718502'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '400635'
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2020-10-19'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO247
+    uniqueRoleId: '400636'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511441'
+Status:
+  value: Active
+metadata:
+  org_id: Y06924
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

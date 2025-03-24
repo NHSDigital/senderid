@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02083 032707
+Date:
+- Start:
+    value: '2022-08-08'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-07-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 172 BROADWAY
+    Country: ENGLAND
+    PostCode: DA6 7BN
+    Town: BEXLEYHEATH
+    UPRN: '100022922546'
+LastChangeDate:
+  value: '2022-07-28'
+Name: BROADWAY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FH718
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '809745'
+  - Date:
+    - Start:
+        value: '2022-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B4R3U
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '487007'
+    id: RE6
+    uniqueRelId: '809746'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-08-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-07-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '487012'
+Status:
+  value: Active
+metadata:
+  org_id: FH718
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

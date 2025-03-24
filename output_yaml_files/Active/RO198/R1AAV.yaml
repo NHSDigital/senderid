@@ -1,0 +1,87 @@
+Date:
+- Start:
+    value: '2011-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2011-06-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TURRALL STREET
+    Country: ENGLAND
+    County: WORCESTERSHIRE
+    PostCode: WR3 8AJ
+    Town: WORCESTER
+    UPRN: '10014147966'
+LastChangeDate:
+  value: '2021-02-08'
+Name: CROMWELL HOUSE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R1AAV
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-06-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131576'
+    id: RE6
+    uniqueRelId: '100119'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-06-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '118097'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2011-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWQ24
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '75199'
+    Type: Predecessor
+    uniqueSuccId: '23179'
+metadata:
+  org_id: R1AAV
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

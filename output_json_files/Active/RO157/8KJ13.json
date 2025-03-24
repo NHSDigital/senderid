@@ -1,0 +1,122 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "LOCAL MEDICAL SERVICES LTD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-02-18"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "8KJ13"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 7",
+            "AddrLn2": "FIELDSIDE FARM",
+            "AddrLn3": "DODDERSHALL",
+            "Town": "AYLESBURY",
+            "PostCode": "HP22 4DQ",
+            "Country": "ENGLAND",
+            "UPRN": "766314199"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.LOCALMEDICALSERVICES.CO.UK"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO157",
+            "uniqueRoleId": "391311",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-02-18"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "619831",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-18"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q87"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "299783"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "677579",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QU9"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300828"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "8KJ13",
+        "status": "Active",
+        "role_id": "RO157"
+    }
+}

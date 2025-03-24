@@ -1,0 +1,87 @@
+Date:
+- Start:
+    value: '2020-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH STREET
+    AddrLn2: STAPLEFORD
+    Country: ENGLAND
+    PostCode: NG9 8DA
+    Town: NOTTINGHAM
+    UPRN: '10003430698'
+LastChangeDate:
+  value: '2020-02-12'
+Name: STAPLEFORD CARE CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 52RAD
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 52R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386500'
+    id: RE6
+    uniqueRelId: '619423'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO99
+    primaryRole: 'true'
+    uniqueRoleId: '391092'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04MAE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO99
+        uniqueRoleId: '230577'
+    Type: Predecessor
+    uniqueSuccId: '37779'
+metadata:
+  org_id: 52RAD
+  role_id: RO99
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01268 205033
+Date:
+  Start:
+    value: '2022-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 91 RUSHBOTTOM LANE
+    Country: ENGLAND
+    PostCode: SS7 4EA
+    Town: BENFLEET
+    UPRN: '100091600611'
+LastChangeDate:
+  value: '2023-10-04'
+Name: BENFLEET PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07493
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161374'
+    id: RE4
+    uniqueRelId: '813360'
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161374'
+    id: RE6
+    uniqueRelId: '813361'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491076'
+  - Date:
+      Start:
+        value: '2022-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491075'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511555'
+Status:
+  value: Active
+metadata:
+  org_id: Y07493
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

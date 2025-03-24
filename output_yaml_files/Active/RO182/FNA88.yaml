@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01142 722048
+Date:
+- Start:
+    value: '2023-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-01-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 7 SUNDERLAND STREET
+    Country: ENGLAND
+    PostCode: S11 8HN
+    Town: SHEFFIELD
+    UPRN: '100052186687'
+LastChangeDate:
+  value: '2023-01-19'
+Name: PORTERBROOK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FNA88
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '818127'
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y6I2F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '496254'
+    id: RE6
+    uniqueRelId: '818128'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496269'
+Status:
+  value: Active
+metadata:
+  org_id: FNA88
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

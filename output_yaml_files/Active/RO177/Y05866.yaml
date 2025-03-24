@@ -1,0 +1,101 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0161 2124231
+Date:
+- Start:
+    value: '2017-10-16'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SALFORD PCT
+    AddrLn2: 2 CITY APPROACH,ALBERT ST
+    AddrLn3: ECCLES
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M30 0BL
+    Town: MANCHESTER
+LastChangeDate:
+  value: '2023-08-22'
+Name: SALFORD ACUTE HOME VISITING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05866
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-10-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161411'
+    id: RE4
+    uniqueRelId: '527207'
+  - Date:
+      Start:
+        value: '2017-10-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161411'
+    id: RE6
+    uniqueRelId: '527208'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-10-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '296112'
+  - Date:
+    - Start:
+        value: '2017-10-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '296113'
+Status:
+  value: Active
+metadata:
+  org_id: Y05866
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

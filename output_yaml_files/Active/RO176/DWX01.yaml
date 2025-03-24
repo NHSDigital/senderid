@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2ND FLOOR KINGSWOOD CIVIC CENTRE
+    AddrLn2: HIGH STREET
+    AddrLn3: KINGSWOOD
+    Country: ENGLAND
+    PostCode: BS15 9TR
+    Town: BRISTOL
+    UPRN: '528161'
+LastChangeDate:
+  value: '2020-04-05'
+Name: COMMUNITY CHILDREN'S HEALTH (BRISTOL)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DWX01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q86
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299782'
+    id: RE5
+    uniqueRelId: '564068'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300817'
+    id: RE5
+    uniqueRelId: '690045'
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DWX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '343165'
+    id: RE6
+    uniqueRelId: '564069'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '343166'
+Status:
+  value: Active
+metadata:
+  org_id: DWX01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

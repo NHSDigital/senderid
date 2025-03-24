@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 86500640
+Date:
+  Start:
+    value: '1948-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 182 HIGH STREET
+    Country: ENGLAND
+    County: KENT
+    PostCode: BR3 1EW
+    Town: BECKENHAM
+    UPRN: '100022894005'
+LastChangeDate:
+  value: '2022-03-16'
+Name: BOOTS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKG02
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P08F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '115504'
+    id: RE6
+    uniqueRelId: '316515'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '316516'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '652097'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1948-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '220355'
+Status:
+  value: Active
+metadata:
+  org_id: FKG02
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

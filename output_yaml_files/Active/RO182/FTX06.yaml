@@ -1,0 +1,93 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01767 313115
+Date:
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 1 MARKET SQUARE
+    Country: ENGLAND
+    PostCode: SG18 8AP
+    Town: BIGGLESWADE
+LastChangeDate:
+  value: '2023-07-20'
+Name: BIGGLESWADE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTX06
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300768'
+    id: RE4
+    uniqueRelId: '829435'
+  - Date:
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0N9J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '507610'
+    id: RE6
+    uniqueRelId: '829436'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '507682'
+Status:
+  value: Active
+metadata:
+  org_id: FTX06
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

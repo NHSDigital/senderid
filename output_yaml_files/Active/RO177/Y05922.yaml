@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01204 390390
+Date:
+  Start:
+    value: '2017-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MINERVA ROAD
+    AddrLn2: FARNWORTH
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BL4 0JR
+    Town: BOLTON
+LastChangeDate:
+  value: '2017-11-23'
+Name: WALKDEN ANTE-NATAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05922
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118214'
+    id: RE6
+    uniqueRelId: '528976'
+  - Date:
+      Start:
+        value: '2017-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161401'
+    id: RE4
+    uniqueRelId: '528977'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '297288'
+  - Date:
+      Start:
+        value: '2017-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '297289'
+Status:
+  value: Active
+metadata:
+  org_id: Y05922
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

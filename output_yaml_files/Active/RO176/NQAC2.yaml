@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 145 OLD ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO15 3AU
+    Town: CLACTON-ON-SEA
+    UPRN: '100091464247'
+LastChangeDate:
+  value: '2021-06-01'
+Name: OLD ROAD MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NQAC2
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NQA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '126654'
+    id: RE6
+    uniqueRelId: '515132'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '515133'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE5
+    uniqueRelId: '692212'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '287383'
+Status:
+  value: Active
+metadata:
+  org_id: NQAC2
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

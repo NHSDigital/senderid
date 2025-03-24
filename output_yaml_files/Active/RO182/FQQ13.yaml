@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02381 782844
+Date:
+- Start:
+    value: '2023-11-21'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-10-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 67 NEW ROAD
+    AddrLn2: NETLEY ABBEY
+    Country: ENGLAND
+    PostCode: SO31 5BN
+    Town: SOUTHAMPTON
+    UPRN: '100062524378'
+LastChangeDate:
+  value: '2023-10-30'
+Name: NIGHTINGALE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQQ13
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '834216'
+  - Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: E8L5E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '513830'
+    id: RE6
+    uniqueRelId: '834217'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-11-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '513836'
+Status:
+  value: Active
+metadata:
+  org_id: FQQ13
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

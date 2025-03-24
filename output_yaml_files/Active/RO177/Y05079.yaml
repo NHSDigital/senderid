@@ -1,0 +1,139 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01752 435613
+Date:
+- Start:
+    value: '2015-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-06-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROBIN WARD
+    AddrLn2: MOUNT GOULD HOSPITAL
+    Country: ENGLAND
+    County: DEVON
+    PostCode: PL4 7QD
+    Town: PLYMOUTH
+    UPRN: '100041164865'
+LastChangeDate:
+  value: '2021-06-29'
+Name: ROBIN CAH & AC@H TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05079
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NR5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132231'
+    id: RE6
+    uniqueRelId: '461937'
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161532'
+    id: RE4
+    uniqueRelId: '384914'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '566977'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '232917'
+  - Date:
+    - Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '232918'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281440'
+Status:
+  value: Active
+metadata:
+  org_id: Y05079
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

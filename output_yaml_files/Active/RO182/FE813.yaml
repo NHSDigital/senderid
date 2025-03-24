@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01634 404142
+Date:
+- Start:
+    value: '2024-10-21'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-09-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 139 NEW ROAD
+    Country: ENGLAND
+    PostCode: ME4 4PT
+    Town: CHATHAM
+    UPRN: '44005329'
+LastChangeDate:
+  value: '2024-09-26'
+Name: CHATHAM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FE813
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-10-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4GD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '289408'
+    id: RE6
+    uniqueRelId: '852660'
+  - Date:
+    - Start:
+        value: '2024-10-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE4
+    uniqueRelId: '852659'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-10-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '531891'
+Status:
+  value: Active
+metadata:
+  org_id: FE813
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

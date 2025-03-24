@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01621 782058
+Date:
+- Start:
+    value: '2020-12-07'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-11-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 FOUNDRY LANE
+    Country: ENGLAND
+    PostCode: CM0 8BL
+    Town: BURNHAM-ON-CROUCH
+    UPRN: '100091627366'
+LastChangeDate:
+  value: '2024-01-09'
+Name: FIVEWAYS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FLK60
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2020-12-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-11-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2VY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '132669'
+    id: RE6
+    uniqueRelId: '719104'
+  - Date:
+    - Start:
+        value: '2020-12-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-11-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '719105'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-12-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-11-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '401314'
+Status:
+  value: Active
+metadata:
+  org_id: FLK60
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

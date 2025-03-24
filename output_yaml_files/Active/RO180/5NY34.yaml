@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WROSE HEALTH CENTRE
+    AddrLn2: KINGS ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD2 1QG
+    Town: BRADFORD
+    UPRN: '100052225030'
+LastChangeDate:
+  value: '2021-01-28'
+Name: OCCUPATIONAL HEALTH DEPARTMENT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5NY34
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5NY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '126824'
+    id: RE6
+    uniqueRelId: '181932'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '35689'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5CH02
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '95428'
+    Type: Predecessor
+    uniqueSuccId: '29283'
+metadata:
+  org_id: 5NY34
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

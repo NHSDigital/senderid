@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. LEONARDS HOSPITAL
+    AddrLn2: RINGWOOD ROAD
+    AddrLn3: ST LEONARDS
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: BH24 2RR
+    Town: RINGWOOD
+LastChangeDate:
+  value: '2024-04-02'
+Name: HEART FAILURE SERVICE NIP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RDYYH
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '71567'
+    id: RE6
+    uniqueRelId: '286665'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '196817'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '196818'
+Status:
+  value: Active
+metadata:
+  org_id: RDYYH
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

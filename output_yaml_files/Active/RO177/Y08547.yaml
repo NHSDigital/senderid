@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01752 435005
+Date:
+  Start:
+    value: '2024-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LOCAL CARE CENTRE
+    AddrLn2: 200 MOUNT GOULD ROAD
+    Country: ENGLAND
+    PostCode: PL4 7PY
+    Town: PLYMOUTH
+    UPRN: '10012061452'
+LastChangeDate:
+  value: '2024-08-22'
+Name: CARE COORDINATION HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08547
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NR5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132231'
+    id: RE6
+    uniqueRelId: '850857'
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '850856'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '529932'
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '529933'
+Status:
+  value: Active
+metadata:
+  org_id: Y08547
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

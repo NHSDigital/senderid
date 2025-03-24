@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "DIABETES CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2025-02-13"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V6R1V"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-13"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "FLEET HEALTH CENTRE",
+            "AddrLn2": "VALE ROAD",
+            "AddrLn3": "NORTHFLEET",
+            "Town": "GRAVESEND",
+            "PostCode": "DA11 8BZ",
+            "Country": "ENGLAND",
+            "UPRN": "10012027654"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "537099",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2025-02-13"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "857883",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-02-13"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NDA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "122771"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "857884",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-02-13"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QKS"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300803"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V6R1V",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

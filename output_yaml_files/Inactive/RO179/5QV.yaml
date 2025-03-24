@@ -1,0 +1,176 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2010-03-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHARTER HOUSE
+    AddrLn2: PARKWAY
+    Country: ENGLAND
+    County: HERTFORDSHIRE
+    PostCode: AL8 6JL
+    Town: WELWYN GARDEN CITY
+    UPRN: '100081157584'
+LastChangeDate:
+  value: '2023-09-21'
+Name: HERTFORDSHIRE PCT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5QV
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2010-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q35
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '137019'
+    id: RE3
+    uniqueRelId: '37427'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q58
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163553'
+    id: RE5
+    uniqueRelId: '186918'
+  - Date:
+      End:
+        value: '2020-09-30'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE5
+    uniqueRelId: '449537'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO22
+    uniqueRoleId: '153833'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2010-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO179
+    primaryRole: 'true'
+    uniqueRoleId: '92525'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '119674'
+    Type: Predecessor
+    uniqueSuccId: '36659'
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '119675'
+    Type: Predecessor
+    uniqueSuccId: '36637'
+metadata:
+  org_id: 5QV
+  role_id: RO179
+  status: Inactive
+orgRecordClass: RC1

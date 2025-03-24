@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ATTWOOD GREEN HEALTH CENTRE
+    AddrLn2: 30 BATH ROW
+    Country: ENGLAND
+    PostCode: B15 1LZ
+    Town: BIRMINGHAM
+    UPRN: '10024452090'
+LastChangeDate:
+  value: '2020-04-05'
+Name: ATTWOOD GREEN HEALTH CENTRE (ATTWOOD GREEN)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NQT61
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NQT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '122770'
+    id: RE6
+    uniqueRelId: '605101'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '605102'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE5
+    uniqueRelId: '682629'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '383159'
+Status:
+  value: Active
+metadata:
+  org_id: NQT61
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

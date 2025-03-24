@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 2066565
+Date:
+- Start:
+    value: '2017-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. JAMES'S UNIVERSITY HOSPITAL
+    AddrLn2: BECKETT STREET
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS9 7TF
+    Town: LEEDS
+LastChangeDate:
+  value: '2023-08-22'
+Name: SJUH GPS IN A+E
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05864
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161459'
+    id: RE4
+    uniqueRelId: '527203'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161459'
+    id: RE6
+    uniqueRelId: '527204'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540748'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE6
+    uniqueRelId: '540749'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '296108'
+  - Date:
+    - Start:
+        value: '2017-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '296109'
+Status:
+  value: Active
+metadata:
+  org_id: Y05864
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

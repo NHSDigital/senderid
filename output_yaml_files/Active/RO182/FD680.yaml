@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 89400698
+Date:
+  Start:
+    value: '1987-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 STATION PARADE
+    AddrLn2: KEW
+    Country: ENGLAND
+    County: SURREY
+    PostCode: TW9 3PS
+    Town: RICHMOND
+    UPRN: '100022317632'
+LastChangeDate:
+  value: '2021-02-10'
+Name: KEW PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FD680
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P876
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94156'
+    id: RE6
+    uniqueRelId: '306366'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '306367'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '648358'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1987-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '215278'
+Status:
+  value: Active
+metadata:
+  org_id: FD680
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

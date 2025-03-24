@@ -1,0 +1,149 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "ASDA PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2001-09-03"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FLG01"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-01-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1 LEYTON MILLS",
+            "AddrLn2": "MARSHALL ROAD",
+            "AddrLn3": "LEYTON",
+            "Town": "LONDON",
+            "County": "GREATER LONDON",
+            "PostCode": "E10 5NH",
+            "Country": "ENGLAND",
+            "UPRN": "10095404175"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "020 89888300"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO182",
+            "uniqueRoleId": "221194",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-09-03"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "318193",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P10F"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "94320"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "318194",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q71"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "168379"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "652702",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QMF"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300832"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FLG01",
+        "status": "Active",
+        "role_id": "RO182"
+    }
+}

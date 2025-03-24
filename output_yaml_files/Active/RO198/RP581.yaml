@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RETFORD HOSPITAL
+    AddrLn2: NORTH ROAD
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: DN22 7XF
+    Town: RETFORD
+LastChangeDate:
+  value: '2024-04-02'
+Name: WOMEN'S SERVICES OPD (RETFORD)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RP581
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RP5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '116819'
+    id: RE6
+    uniqueRelId: '833940'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '513387'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '513386'
+Status:
+  value: Active
+metadata:
+  org_id: RP581
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

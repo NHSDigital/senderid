@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01248 674312
+Date:
+  Start:
+    value: '2007-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: H M STANLEY HOSPITAL
+    AddrLn2: UPPER DENBIGH ROAD
+    Country: WALES
+    County: CLWYD
+    PostCode: LL17 0RS
+    Town: ST. ASAPH
+    UPRN: '200002945916'
+LastChangeDate:
+  value: '2023-08-22'
+Name: TY LIVINGSTONE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00072
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '275153'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '458233'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2007-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6C1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '111176'
+    id: RE4
+    uniqueRelId: '275154'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189514'
+  - Date:
+      Start:
+        value: '2007-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73954'
+Status:
+  value: Active
+metadata:
+  org_id: W00072
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

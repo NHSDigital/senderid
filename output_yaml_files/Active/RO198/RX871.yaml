@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FAIRFIELD
+    AddrLn2: MOORGATE ROAD
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S60 2BQ
+    Town: ROTHERHAM
+    UPRN: '200000575525'
+LastChangeDate:
+  value: '2021-07-21'
+Name: SOUTH YORKSHIRE AMBULANCE HQ
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX871
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '47850'
+    id: RE6
+    uniqueRelId: '8153'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '33992'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RB8HQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '31789'
+    Type: Predecessor
+    uniqueSuccId: '4585'
+metadata:
+  org_id: RX871
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

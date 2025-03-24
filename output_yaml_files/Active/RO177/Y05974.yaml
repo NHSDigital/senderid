@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 3045555
+Date:
+  Start:
+    value: '2017-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EDDERCLIFFE HEALTH CENTRE
+    AddrLn2: BRADFORD ROAD
+    Country: ENGLAND
+    PostCode: WF15 6LP
+    Town: LIVERSEDGE
+    UPRN: '83230888'
+LastChangeDate:
+  value: '2025-01-16'
+Name: CALDERDALE HEALTH VISITORS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05974
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NL8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107197'
+    id: RE6
+    uniqueRelId: '532551'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2017-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161472'
+    id: RE4
+    uniqueRelId: '532552'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2C4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '401261'
+    id: RE4
+    uniqueRelId: '731878'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '300036'
+  - Date:
+      Start:
+        value: '2018-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '300037'
+Status:
+  value: Active
+metadata:
+  org_id: Y05974
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

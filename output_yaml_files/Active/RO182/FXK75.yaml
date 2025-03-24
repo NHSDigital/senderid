@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01706 215654
+Date:
+- Start:
+    value: '2022-08-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-06-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST JAMES MEDICAL CENTRE
+    AddrLn2: BURNLEY ROAD
+    AddrLn3: RAWTENSTALL
+    Country: ENGLAND
+    PostCode: BB4 8HH
+    Town: ROSSENDALE
+    UPRN: '10014224657'
+LastChangeDate:
+  value: '2022-06-06'
+Name: RAWTENSTALL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FXK75
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1M7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '87046'
+    id: RE6
+    uniqueRelId: '807033'
+  - Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '807034'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '484938'
+Status:
+  value: Active
+metadata:
+  org_id: FXK75
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

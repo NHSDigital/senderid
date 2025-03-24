@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02089 890597
+Date:
+  Start:
+    value: '1991-12-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 75-77 HIGH STREET
+    AddrLn2: WANSTEAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E11 2AE
+    Town: LONDON
+    UPRN: '10034922730'
+LastChangeDate:
+  value: '2024-01-09'
+Name: WANSTEAD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FLD13
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P8AD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '95924'
+    id: RE6
+    uniqueRelId: '317997'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '317998'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '652632'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1991-12-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '221096'
+Status:
+  value: Active
+metadata:
+  org_id: FLD13
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

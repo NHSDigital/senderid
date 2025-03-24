@@ -1,0 +1,126 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07970 992105
+Date:
+  Start:
+    value: '2020-05-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PRINCESS ROYAL HEALTH CENTRE
+    AddrLn2: GREENHEAD ROAD
+    Country: ENGLAND
+    PostCode: HD1 4EW
+    Town: HUDDERSFIELD
+    UPRN: '83045593'
+LastChangeDate:
+  value: '2023-08-22'
+Name: HUDDERSFIELD COVID19 REFERRAL UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06801
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161463'
+    id: RE6
+    uniqueRelId: '712936'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161463'
+    id: RE4
+    uniqueRelId: '712937'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2C4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '401261'
+    id: RE6
+    uniqueRelId: '732068'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2C4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '401261'
+    id: RE4
+    uniqueRelId: '732069'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '395709'
+  - Date:
+      Start:
+        value: '2020-05-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '395708'
+Status:
+  value: Active
+metadata:
+  org_id: Y06801
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

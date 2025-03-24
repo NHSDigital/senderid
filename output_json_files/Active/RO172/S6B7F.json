@@ -1,0 +1,119 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "EAST CLEVELAND PCN LTD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S6B7F"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HILLSIDE",
+            "AddrLn2": "WINDERMERE DRIVE",
+            "AddrLn3": "SKELTON-IN-CLEVELAND",
+            "Town": "SALTBURN-BY-THE-SEA",
+            "PostCode": "TS12 2TG",
+            "Country": "ENGLAND",
+            "UPRN": "10013580571"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://EASTCLEVELANDPCN.NHS.UK"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO172",
+            "uniqueRoleId": "506509",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2023-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "827976",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QHM"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "303773"
+                    }
+                }
+            },
+            {
+                "id": "RE9",
+                "uniqueRelId": "828120",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-07-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U07842"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO272",
+                        "uniqueRoleId": "388374"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "S6B7F",
+        "status": "Active",
+        "role_id": "RO172"
+    }
+}

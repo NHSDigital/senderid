@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "UNIVERSITY HOSPITAL NORTH DURHAM (UHND)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-09-21"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V31999"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-11-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NORTH ROAD",
+            "Town": "DURHAM",
+            "PostCode": "DH1 5TW",
+            "Country": "ENGLAND",
+            "UPRN": "200003216669"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO110",
+            "uniqueRoleId": "344334",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2015-09-21"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "566007",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-09-21"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "13X"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230509"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "714291",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QHM"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "303773"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V31999",
+        "status": "Active",
+        "role_id": "RO110"
+    }
+}

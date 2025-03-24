@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01592 872761
+Date:
+  Start:
+    value: '1980-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BURNTISLAND HEALTH CENTRE
+    AddrLn2: 74 SOMERVILLE STREET
+    Country: SCOTLAND
+    PostCode: KY3 9DF
+    Town: BURNTISLAND
+    UPRN: '320182009'
+LastChangeDate:
+  value: '2023-01-16'
+Name: BURNTISLAND MEDICAL GROUP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S20151
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SF9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487557'
+    id: RE5
+    uniqueRelId: '811049'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1980-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488677'
+  - Date:
+      Start:
+        value: '1980-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176878'
+Status:
+  value: Active
+metadata:
+  org_id: S20151
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

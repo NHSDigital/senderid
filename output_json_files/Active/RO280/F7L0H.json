@@ -1,0 +1,131 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "KAILA PHARMACY - HEBBURN - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "F7L0H"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-03-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "2 ST JOHNS PRECINCT",
+            "Town": "HEBBURN",
+            "PostCode": "NE31 1LQ",
+            "Country": "ENGLAND",
+            "UPRN": "100000503813"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "471882",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "471881",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "795621",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    },
+                    "End": {
+                        "value": "2021-10-18"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FWW76"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "409569"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "801226",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FWK72"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "474861"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "F7L0H",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

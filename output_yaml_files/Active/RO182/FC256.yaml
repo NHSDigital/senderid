@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0116 2323242
+Date:
+  Start:
+    value: '2008-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 234 ASTILL LODGE ROAD
+    AddrLn2: ANSTEY HEIGHTS
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE4 1EF
+    Town: LEICESTER
+    UPRN: '2465027999'
+LastChangeDate:
+  value: '2021-02-10'
+Name: ASTILL LODGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FC256
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2008-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1MQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '92518'
+    id: RE6
+    uniqueRelId: '304463'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q59
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163554'
+    id: RE4
+    uniqueRelId: '304464'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE4
+    uniqueRelId: '358097'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '647646'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2008-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '214326'
+Status:
+  value: Active
+metadata:
+  org_id: FC256
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

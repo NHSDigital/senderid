@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: L. T. H. T.
+    AddrLn2: PO BOX 269
+    Country: ENGLAND
+    PostCode: PR7 1GZ
+    Town: CHORLEY
+    UPRN: '10015060447'
+LastChangeDate:
+  value: '2024-04-02'
+Name: DERMATOLOGY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXNA6
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '107702'
+    id: RE6
+    uniqueRelId: '834069'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '513645'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '513644'
+Status:
+  value: Active
+metadata:
+  org_id: RXNA6
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

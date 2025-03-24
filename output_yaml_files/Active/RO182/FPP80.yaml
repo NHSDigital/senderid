@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 007070
+Date:
+- Start:
+    value: '2024-07-12'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-07-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 155 MANFORD WAY
+    Country: ENGLAND
+    PostCode: IG7 4DN
+    Town: CHIGWELL
+    UPRN: '100023052105'
+LastChangeDate:
+  value: '2024-07-23'
+Name: ICON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FPP80
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-07-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '848920'
+  - Date:
+    - Start:
+        value: '2024-07-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R4U6I
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '527922'
+    id: RE6
+    uniqueRelId: '848921'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-07-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '527953'
+Status:
+  value: Active
+metadata:
+  org_id: FPP80
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

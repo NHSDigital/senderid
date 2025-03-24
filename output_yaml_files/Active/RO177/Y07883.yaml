@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03001 235433
+Date:
+  Start:
+    value: '2023-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EFU ST MARGARETS HOSPITAL
+    AddrLn2: THE PLAIN
+    Country: ENGLAND
+    PostCode: CM16 6TN
+    Town: EPPING
+    UPRN: '200001055308'
+LastChangeDate:
+  value: '2024-08-21'
+Name: WEST ESSEX HOSPITAL AT HOME SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07883
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161360'
+    id: RE4
+    uniqueRelId: '821062'
+  - Date:
+      Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '288798'
+    id: RE6
+    uniqueRelId: '821063'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '499527'
+  - Date:
+      Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '499528'
+Status:
+  value: Active
+metadata:
+  org_id: Y07883
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01709 447767
+Date:
+- Start:
+    value: '2019-08-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-06-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FERHAM CLINIC
+    AddrLn2: KIMBERWORTH ROAD
+    Country: ENGLAND
+    PostCode: S61 1AJ
+    Town: ROTHERHAM
+    UPRN: '100052102939'
+LastChangeDate:
+  value: '2022-02-11'
+Name: ROTH SOUTH OP CMHT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06466
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '126919'
+    id: RE6
+    uniqueRelId: '572510'
+  - Date:
+      Start:
+        value: '2019-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161474'
+    id: RE4
+    uniqueRelId: '572511'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2019-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '350486'
+  - Date:
+    - Start:
+        value: '2019-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-06-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '350487'
+Status:
+  value: Active
+metadata:
+  org_id: Y06466
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CASTLE STREET
+    Country: ENGLAND
+    County: HERTFORDSHIRE
+    PostCode: HP4 2DW
+    Town: BERKHAMSTED
+    UPRN: '100081183903'
+LastChangeDate:
+  value: '2021-07-21'
+Name: BERKHAMSTEAD AMBULANCE STATION AND FIRE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYCA9
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109851'
+    id: RE6
+    uniqueRelId: '87005'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '98104'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFU14
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '98046'
+    Type: Predecessor
+    uniqueSuccId: '16048'
+metadata:
+  org_id: RYCA9
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

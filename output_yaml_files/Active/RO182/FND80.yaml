@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01249 793600
+Date:
+- Start:
+    value: '2022-08-30'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-08-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 12A CAVALIER COURT
+    AddrLn2: BUMPERS FARM ESTATE
+    AddrLn3: BUMPERS WAY
+    Country: ENGLAND
+    PostCode: SN14 6LH
+    Town: CHIPPENHAM
+    UPRN: '10070787997'
+LastChangeDate:
+  value: '2022-08-23'
+Name: CHIPPENHAM PHARMACY AND HEALTH CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FND80
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '810071'
+  - Date:
+    - Start:
+        value: '2022-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S1U2C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '487383'
+    id: RE6
+    uniqueRelId: '810072'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '487389'
+Status:
+  value: Active
+metadata:
+  org_id: FND80
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

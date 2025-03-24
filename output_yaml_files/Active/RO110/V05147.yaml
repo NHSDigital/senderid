@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 90 NORTHERN ROAD
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: PO6 3ER
+    Town: PORTSMOUTH
+    UPRN: '1775060463'
+LastChangeDate:
+  value: '2021-04-22'
+Name: BUPA DENTAL CARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V05147
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '163842'
+    id: RE4
+    uniqueRelId: '297224'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '705595'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '207968'
+Status:
+  value: Active
+metadata:
+  org_id: V05147
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

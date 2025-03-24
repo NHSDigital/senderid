@@ -1,0 +1,169 @@
+Date:
+- Start:
+    value: '2020-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2ND FLOOR
+    AddrLn2: LAYCOCK STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: N1 1TH
+    Town: LONDON
+LastChangeDate:
+  value: '2024-03-26'
+Name: NHS NORTH CENTRAL LONDON ICB - 93C
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 93C
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE5
+    uniqueRelId: '619590'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '386497'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486106'
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO326
+    uniqueRoleId: '521930'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 08H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161254'
+    Type: Predecessor
+    uniqueSuccId: '37717'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161258'
+    Type: Predecessor
+    uniqueSuccId: '37718'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161262'
+    Type: Predecessor
+    uniqueSuccId: '37719'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161266'
+    Type: Predecessor
+    uniqueSuccId: '37720'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 08D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161270'
+    Type: Predecessor
+    uniqueSuccId: '37721'
+metadata:
+  org_id: 93C
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

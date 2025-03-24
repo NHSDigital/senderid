@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07912 699148
+Date:
+  Start:
+    value: '2022-09-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TAMWORTH HEALTH CENTRE
+    AddrLn2: UPPER GUNGATE
+    Country: ENGLAND
+    PostCode: B79 7EA
+    Town: TAMWORTH
+    UPRN: '394038208'
+LastChangeDate:
+  value: '2023-10-04'
+Name: MERCIAN PCN ENHANCED ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07600
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-09-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161329'
+    id: RE4
+    uniqueRelId: '813817'
+  - Date:
+      Start:
+        value: '2022-09-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161329'
+    id: RE6
+    uniqueRelId: '813818'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491515'
+  - Date:
+      Start:
+        value: '2022-09-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491514'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511657'
+Status:
+  value: Active
+metadata:
+  org_id: Y07600
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

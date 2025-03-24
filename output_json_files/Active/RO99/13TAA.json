@@ -1,0 +1,188 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NHS NEWCASTLE GATESHEAD HQ",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2014-12-11"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2014-11-26"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "13TAA"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "RIVERSIDE HOUSE",
+            "AddrLn2": "GOLDCREST WAY",
+            "AddrLn3": "NEWBURN RIVERSIDE",
+            "Town": "NEWCASTLE UPON TYNE",
+            "County": "TYNE AND WEAR",
+            "PostCode": "NE15 8NY",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO99",
+            "uniqueRoleId": "199884",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-12-11"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-11-26"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "290052",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-12-11"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-11-26"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "13T"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "199602"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "37232",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2015-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00FAA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO99",
+                        "uniqueRoleId": "179122"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37233",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2015-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00GAA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO99",
+                        "uniqueRoleId": "179126"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37234",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2015-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00HAA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO99",
+                        "uniqueRoleId": "179131"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "13TAA",
+        "status": "Active",
+        "role_id": "RO99"
+    }
+}

@@ -1,0 +1,139 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 024 76212176
+Date:
+- Start:
+    value: '2015-08-31'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-08-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WILLENHALL PCC
+    AddrLn2: REMEMBRANCE ROAD
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: CV3 3DG
+    Town: COVENTRY
+    UPRN: '10014007872'
+LastChangeDate:
+  value: '2021-06-29'
+Name: MATERNAL MENTAL HEALTH TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05139
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-08-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61736'
+    id: RE6
+    uniqueRelId: '461988'
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-08-31'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161319'
+    id: RE4
+    uniqueRelId: '386333'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B2M3M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400452'
+    id: RE4
+    uniqueRelId: '731711'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-08-31'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '234045'
+  - Date:
+    - Start:
+        value: '2015-08-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '234046'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281458'
+Status:
+  value: Active
+metadata:
+  org_id: Y05139
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

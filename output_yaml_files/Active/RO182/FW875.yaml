@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01394 285329
+Date:
+- Start:
+    value: '2021-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE GROVE MEDICAL CENTRE
+    AddrLn2: GROVE ROAD
+    Country: ENGLAND
+    PostCode: IP11 9GA
+    Town: FELIXSTOWE
+    UPRN: '10090645561'
+LastChangeDate:
+  value: '2021-10-05'
+Name: FELIXSTOWE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FW875
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE4
+    uniqueRelId: '726069'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D3R3U
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '411562'
+    id: RE6
+    uniqueRelId: '726068'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '411582'
+Status:
+  value: Active
+metadata:
+  org_id: FW875
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

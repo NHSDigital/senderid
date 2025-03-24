@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01954 718296
+Date:
+- Start:
+    value: '2023-08-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 HIGH STREET
+    AddrLn2: GREAT CAMBOURNE
+    Country: ENGLAND
+    PostCode: CB23 6JX
+    Town: CAMBRIDGE
+    UPRN: '10008083051'
+LastChangeDate:
+  value: '2023-07-14'
+Name: JARDINES PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQD41
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P00F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94301'
+    id: RE6
+    uniqueRelId: '828613'
+  - Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300777'
+    id: RE4
+    uniqueRelId: '828612'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506842'
+Status:
+  value: Active
+metadata:
+  org_id: FQD41
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

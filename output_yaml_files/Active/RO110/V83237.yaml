@@ -1,0 +1,69 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.BETTERCARECLINIC.CO.UK
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 53A QUEENS ROAD
+    Country: ENGLAND
+    PostCode: WD17 2QN
+    Town: WATFORD
+LastChangeDate:
+  value: '2020-05-05'
+Name: BETTER CARE CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V83237
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '711715'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '394612'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '394613'
+Status:
+  value: Active
+metadata:
+  org_id: V83237
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

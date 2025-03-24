@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01224 556502
+Date:
+  Start:
+    value: '2014-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PRIMARY CARE CONTRACTS TEAM
+    AddrLn2: WESTHOLME
+    AddrLn3: WOODEND HOSPITAL, EDAY ROAD
+    Country: SCOTLAND
+    PostCode: AB15 6LS
+    Town: ABERDEEN
+    UPRN: '9051009663'
+LastChangeDate:
+  value: '2023-01-13'
+Name: OPHTHALMIC PRESCRIBING
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S34971
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SN9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487561'
+    id: RE5
+    uniqueRelId: '811231'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488859'
+  - Date:
+      Start:
+        value: '2014-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '196182'
+Status:
+  value: Active
+metadata:
+  org_id: S34971
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

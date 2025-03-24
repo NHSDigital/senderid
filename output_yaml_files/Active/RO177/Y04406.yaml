@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01908 724500
+Date:
+  Start:
+    value: '2013-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HOSPITAL CAMPUS
+    AddrLn2: STANDING WAY
+    AddrLn3: EAGLESTONE
+    Country: ENGLAND
+    County: BUCKINGHAMSHIRE
+    PostCode: MK6 5NG
+    Town: MILTON KEYNES
+LastChangeDate:
+  value: '2023-06-07'
+Name: CNWL-MK MEDICAL PRESCRIBER
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04406
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137975'
+    id: RE6
+    uniqueRelId: '461292'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161300'
+    id: RE4
+    uniqueRelId: '284164'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1J4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400441'
+    id: RE4
+    uniqueRelId: '731555'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194944'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194945'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281056'
+Status:
+  value: Active
+metadata:
+  org_id: Y04406
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

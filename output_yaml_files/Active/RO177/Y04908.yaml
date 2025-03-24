@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 1230814
+Date:
+  Start:
+    value: '2015-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STAFFORDSHIRE HOUSE
+    AddrLn2: 2 CAMPBELL ROAD
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: ST4 4RJ
+    Town: STOKE-ON-TRENT
+    UPRN: '3455146780'
+LastChangeDate:
+  value: '2023-08-22'
+Name: STAFFORDSHIRE DOCTORS URGENT CARE OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04908
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161318'
+    id: RE4
+    uniqueRelId: '337779'
+  - Date:
+      Start:
+        value: '2015-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161318'
+    id: RE6
+    uniqueRelId: '461771'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2015-02-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '203257'
+  - Date:
+      Start:
+        value: '2015-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '203258'
+Status:
+  value: Active
+metadata:
+  org_id: Y04908
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

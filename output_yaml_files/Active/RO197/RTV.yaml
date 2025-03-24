@@ -1,0 +1,273 @@
+Contacts:
+  Contact:
+  - type: http
+    value: HTTP://WWW.NWBH.NHS.UK/
+  - type: tel
+    value: 01925 664000
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HOLLINS PARK HOUSE
+    AddrLn2: HOLLINS PARK HOSPITAL
+    AddrLn3: HOLLINS LANE
+    Country: ENGLAND
+    PostCode: WA2 8WA
+    Town: WARRINGTON
+    UPRN: '200000972848'
+LastChangeDate:
+  value: '2021-06-03'
+Name: NORTH WEST BOROUGHS HEALTHCARE NHS FOUNDATION TRUST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTV
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q15
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21646'
+    id: RE5
+    uniqueRelId: '72734'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-08-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE5
+    uniqueRelId: '76180'
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-02-25'
+      Start:
+        value: '2014-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q44
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163539'
+    id: RE5
+    uniqueRelId: '193490'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-02-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '349263'
+  - Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '666187'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2010-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2010-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO57
+    uniqueRoleId: '155219'
+  - Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO197
+    primaryRole: 'true'
+    uniqueRoleId: '61637'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18922'
+    Type: Successor
+    uniqueSuccId: '37995'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RBP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '1419'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '28015'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RER
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '31169'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '4376'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '37513'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '15721'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '97389'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '29151'
+metadata:
+  org_id: RTV
+  role_id: RO197
+  status: Active
+orgRecordClass: RC1

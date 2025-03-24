@@ -1,0 +1,159 @@
+Date:
+- End:
+    value: '2020-03-31'
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2025-01-31'
+  Start:
+    value: '2015-01-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BIRCH HOUSE
+    AddrLn2: SOUTHWELL ROAD WEST
+    AddrLn3: RAINWORTH
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG21 0HJ
+    Town: MANSFIELD
+LastChangeDate:
+  value: '2025-02-24'
+Name: NHS ENGLAND MIDLANDS (NORTH MIDLANDS)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Q76
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO128
+        uniqueRoleId: '75911'
+    id: RE5
+    uniqueRelId: '338183'
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2015-01-16'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y55
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO209
+        uniqueRoleId: '163591'
+    id: RE2
+    uniqueRelId: '291357'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y60
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO209
+        uniqueRoleId: '309120'
+    id: RE2
+    uniqueRelId: '570109'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2025-01-31'
+      Start:
+        value: '2015-01-16'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO210
+    primaryRole: 'true'
+    uniqueRoleId: '202018'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q55
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163550'
+    Type: Predecessor
+    uniqueSuccId: '37263'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q60
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163555'
+    Type: Predecessor
+    uniqueSuccId: '37264'
+metadata:
+  org_id: Q76
+  role_id: RO210
+  status: Inactive
+orgRecordClass: RC1

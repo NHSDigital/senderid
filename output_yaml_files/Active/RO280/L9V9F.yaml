@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 46 ST GEORGES ROAD
+    AddrLn2: ELEPHANT & CASTLE
+    Country: ENGLAND
+    PostCode: SE1 6ET
+    Town: LONDON
+    UPRN: '10093340408'
+LastChangeDate:
+  value: '2021-03-30'
+Name: ST GEORGES PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: L9V9F
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FPG52
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '223574'
+    id: RE6
+    uniqueRelId: '725968'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '411452'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '411451'
+Status:
+  value: Active
+metadata:
+  org_id: L9V9F
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

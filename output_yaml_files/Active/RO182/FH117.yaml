@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01384 273020
+Date:
+- Start:
+    value: '2023-08-15'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOSS GROVE SURGERY
+    AddrLn2: 15 MOSS GROVE
+    Country: ENGLAND
+    PostCode: DY6 9HS
+    Town: KINGSWINFORD
+    UPRN: '90211417'
+LastChangeDate:
+  value: '2024-04-10'
+Name: JHOOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FH117
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '828582'
+  - Date:
+    - Start:
+        value: '2023-08-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J4L4C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506796'
+    id: RE6
+    uniqueRelId: '828583'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506827'
+Status:
+  value: Active
+metadata:
+  org_id: FH117
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

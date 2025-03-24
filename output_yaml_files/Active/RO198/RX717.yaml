@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHARLES STREET
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M6 7DU
+    Town: SALFORD
+    UPRN: '100012720019'
+LastChangeDate:
+  value: '2021-02-04'
+Name: SALFORD AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX717
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109850'
+    id: RE6
+    uniqueRelId: '86858'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '56299'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMA17
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '24225'
+    Type: Predecessor
+    uniqueSuccId: '25310'
+metadata:
+  org_id: RX717
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

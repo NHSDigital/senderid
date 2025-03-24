@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01614 322881
+Date:
+- Start:
+    value: '2024-04-29'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-04-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 215 BURNAGE LANE
+    AddrLn2: BURNAGE
+    Country: ENGLAND
+    PostCode: M19 1FN
+    Town: MANCHESTER
+    UPRN: '77145217'
+LastChangeDate:
+  value: '2024-11-07'
+Name: BURNAGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKG14
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-04-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-04-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE4
+    uniqueRelId: '845022'
+  - Date:
+    - Start:
+        value: '2024-04-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-04-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y2O7P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '503773'
+    id: RE6
+    uniqueRelId: '845023'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-04-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-04-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '524009'
+Status:
+  value: Active
+metadata:
+  org_id: FKG14
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

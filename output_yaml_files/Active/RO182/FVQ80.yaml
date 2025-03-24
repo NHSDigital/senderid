@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01636 812241
+Date:
+- Start:
+    value: '2023-03-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-03-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2-4 KING STREET
+    Country: ENGLAND
+    PostCode: NG25 0EN
+    Town: SOUTHWELL
+    UPRN: '100032116209'
+LastChangeDate:
+  value: '2023-03-09'
+Name: WELL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVQ80
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-03-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0MG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '16003'
+    id: RE6
+    uniqueRelId: '819831'
+  - Date:
+    - Start:
+        value: '2023-03-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE4
+    uniqueRelId: '819830'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-03-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '497948'
+Status:
+  value: Active
+metadata:
+  org_id: FVQ80
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

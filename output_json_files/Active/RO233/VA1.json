@@ -1,0 +1,115 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BEDFORDSHIRE CONSTABULARY POLICE HEADQUARTERS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2003-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VA1"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WOBURN ROAD",
+            "AddrLn2": "KEMPSTON",
+            "Town": "BEDFORD",
+            "PostCode": "MK43 9AX",
+            "Country": "ENGLAND",
+            "UPRN": "10033178751"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO233",
+            "uniqueRoleId": "199090",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "292329",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "06N"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161352"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "709830",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14E"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230519"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VA1",
+        "status": "Active",
+        "role_id": "RO233"
+    }
+}

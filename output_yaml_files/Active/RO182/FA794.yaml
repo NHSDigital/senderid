@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01902 842935
+Date:
+- Start:
+    value: '2023-07-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 86 WOLVERHAMPTON ROAD
+    AddrLn2: CODSALL
+    Country: ENGLAND
+    PostCode: WV8 1PE
+    Town: WOLVERHAMPTON
+    UPRN: '200004528408'
+LastChangeDate:
+  value: '2023-06-23'
+Name: BIRCHES BRIDGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA794
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '827779'
+  - Date:
+    - Start:
+        value: '2023-07-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: E3U6G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506269'
+    id: RE6
+    uniqueRelId: '827780'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506312'
+Status:
+  value: Active
+metadata:
+  org_id: FA794
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

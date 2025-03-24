@@ -1,0 +1,145 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 0030776
+Date:
+- Start:
+    value: '2016-10-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-10-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SHFT, ROOM 145
+    AddrLn2: FAREHAM HEALTH CENTRE
+    AddrLn3: CIVIC WAY
+    Country: ENGLAND
+    PostCode: PO16 7ER
+    Town: FAREHAM
+    UPRN: '100062408020'
+LastChangeDate:
+  value: '2025-02-12'
+Name: FAREHAM & GOSPORT CONTINENCE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05561
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2016-10-17'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161502'
+    id: RE4
+    uniqueRelId: '514051'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2016-10-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161502'
+    id: RE6
+    uniqueRelId: '514052'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE6
+    uniqueRelId: '731790'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE4
+    uniqueRelId: '731791'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-10-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '286555'
+  - Date:
+    - Start:
+        value: '2016-10-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '286556'
+Status:
+  value: Active
+metadata:
+  org_id: Y05561
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

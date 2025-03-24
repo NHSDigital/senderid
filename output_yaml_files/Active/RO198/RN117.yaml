@@ -1,0 +1,92 @@
+Date:
+- End:
+    value: '2012-01-09'
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1994-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ADELAIDE ROAD
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: SP10 1HF
+    Town: ANDOVER
+LastChangeDate:
+  value: '2015-04-02'
+Name: ADELAIDE HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RN117
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2012-01-09'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RN1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '76280'
+    id: RE6
+    uniqueRelId: '63559'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2012-01-09'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '79743'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: JE217
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '7414'
+    Type: Predecessor
+    uniqueSuccId: '29007'
+metadata:
+  org_id: RN117
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

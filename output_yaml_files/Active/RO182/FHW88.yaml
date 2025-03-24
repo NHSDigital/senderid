@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01842 752371
+Date:
+- Start:
+    value: '2024-01-29'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-01-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROVE SURGERY
+    AddrLn2: GROVE LANE
+    Country: ENGLAND
+    County: NORFOLK
+    PostCode: IP24 2HY
+    Town: THETFORD
+LastChangeDate:
+  value: '2024-12-04'
+Name: LIME PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHW88
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-01-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE4
+    uniqueRelId: '837592'
+  - Date:
+    - Start:
+        value: '2024-01-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I8X8J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '517320'
+    id: RE6
+    uniqueRelId: '837593'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-01-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '517330'
+Status:
+  value: Active
+metadata:
+  org_id: FHW88
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

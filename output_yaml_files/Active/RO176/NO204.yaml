@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROUND FLOOR
+    AddrLn2: TELFORD COURT
+    AddrLn3: LOANSDEAN
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE61 2DB
+    Town: MORPETH
+LastChangeDate:
+  value: '2023-09-05'
+Name: NHS NORTHUMBERLAND TALKING THERAPIES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NO204
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NO2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '169939'
+    id: RE6
+    uniqueRelId: '384899'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q74
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202016'
+    id: RE5
+    uniqueRelId: '384900'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '663622'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '232892'
+Status:
+  value: Active
+metadata:
+  org_id: NO204
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

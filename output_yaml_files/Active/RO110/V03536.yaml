@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RAYDENS
+    AddrLn2: UPMINSTER ROAD SOUTH
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: RM13 9AB
+    Town: RAINHAM
+    UPRN: '100023516420'
+LastChangeDate:
+  value: '2021-02-09'
+Name: RAYDENS DENTAL SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V03536
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '168380'
+    id: RE4
+    uniqueRelId: '295835'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '704720'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '206579'
+Status:
+  value: Active
+metadata:
+  org_id: V03536
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

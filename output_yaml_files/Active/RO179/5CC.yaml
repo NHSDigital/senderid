@@ -1,0 +1,187 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 01254 267000
+  - type: fax
+    value: 01254 267009
+Date:
+- End:
+    value: '2010-03-31'
+  Start:
+    value: '2000-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2000-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE GUIDE BUSINESS CENTRE
+    AddrLn2: SCHOOL LANE
+    AddrLn3: GUIDE
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BB1 2QH
+    Town: BLACKBURN
+LastChangeDate:
+  value: '2021-03-26'
+Name: BLACKBURN WITH DARWEN PCT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5CC
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q13
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21644'
+    id: RE3
+    uniqueRelId: '72438'
+  - Date:
+      End:
+        value: '2002-03-31'
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QCX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '46349'
+    id: RE3
+    uniqueRelId: '50739'
+  - Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE3
+    uniqueRelId: '27968'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO22
+    uniqueRoleId: '153477'
+  - Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO179
+    primaryRole: 'true'
+    uniqueRoleId: '121791'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '119403'
+    Type: Successor
+    uniqueSuccId: '36551'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RME
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48135'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '5204'
+  - Date:
+      Start:
+        value: '2000-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 4XH63
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO171
+        uniqueRoleId: '80814'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '10872'
+metadata:
+  org_id: 5CC
+  role_id: RO179
+  status: Active
+orgRecordClass: RC1

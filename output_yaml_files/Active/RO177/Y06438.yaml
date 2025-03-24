@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0151 2542553
+Date:
+  Start:
+    value: '2019-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PRIMARY CARE 24 LTD
+    AddrLn2: LOWE HOUSE
+    AddrLn3: 103 CRAB ST
+    Country: ENGLAND
+    PostCode: WA10 2DJ
+    Town: ST. HELENS
+    UPRN: '39090004'
+LastChangeDate:
+  value: '2023-08-22'
+Name: ST HELENS OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06438
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE4
+    uniqueRelId: '571069'
+  - Date:
+      Start:
+        value: '2019-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE6
+    uniqueRelId: '571070'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-05-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '345446'
+  - Date:
+      Start:
+        value: '2019-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '345447'
+Status:
+  value: Active
+metadata:
+  org_id: Y06438
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

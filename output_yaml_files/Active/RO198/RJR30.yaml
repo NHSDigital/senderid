@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COUNTESS OF CHESTER HEALTH PARK
+    AddrLn2: LIVERPOOL ROAD
+    Country: ENGLAND
+    PostCode: CH2 1UL
+    Town: CHESTER
+    UPRN: '200000825928'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ONCOLOGY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RJR30
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137093'
+    id: RE6
+    uniqueRelId: '821329'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '499988'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '499989'
+Status:
+  value: Active
+metadata:
+  org_id: RJR30
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

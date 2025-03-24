@@ -1,0 +1,191 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 0161 968 3700
+  - type: fax
+    value: 0161 746 7214
+Date:
+- End:
+    value: '2012-03-31'
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1994-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TRAFFORD GENERAL HOSPITAL
+    AddrLn2: MOORSIDE ROAD
+    AddrLn3: URMSTON
+    Country: ENGLAND
+    PostCode: M41 5SL
+    Town: MANCHESTER
+    UPRN: '10070406438'
+LastChangeDate:
+  value: '2021-05-28'
+Name: TRAFFORD HEALTHCARE NHS TRUST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RM4
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '1996-03-31'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P27
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO109
+        uniqueRoleId: '19597'
+    id: RE5
+    uniqueRelId: '46591'
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q14
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21645'
+    id: RE5
+    uniqueRelId: '71995'
+  - Date:
+      End:
+        value: '2002-03-31'
+      Start:
+        value: '1996-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QC6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '46329'
+    id: RE5
+    uniqueRelId: '73688'
+  - Date:
+    - End:
+        value: '2012-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE5
+    uniqueRelId: '76144'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2012-03-31'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO7
+    uniqueRoleId: '155042'
+  - Date:
+    - End:
+        value: '2012-03-31'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO197
+    primaryRole: 'true'
+    uniqueRoleId: '76155'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133849'
+    Type: Successor
+    forwardSuccession: 'true'
+    uniqueSuccId: '9295'
+  - Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: PU1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO111
+        uniqueRoleId: '3095'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '12212'
+metadata:
+  org_id: RM4
+  role_id: RO197
+  status: Active
+orgRecordClass: RC1

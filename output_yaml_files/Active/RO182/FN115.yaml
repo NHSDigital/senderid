@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01305 213475
+Date:
+- Start:
+    value: '2023-03-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-02-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 FREDERICK TREVES HOUSE
+    AddrLn2: ST JOHN WAY
+    AddrLn3: POUNDBURY
+    Country: ENGLAND
+    PostCode: DT1 2FD
+    Town: DORCHESTER
+    UPRN: '10023246756'
+LastChangeDate:
+  value: '2023-02-09'
+Name: POUNDBURY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FN115
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3HW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '76511'
+    id: RE6
+    uniqueRelId: '818520'
+  - Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QVV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300822'
+    id: RE4
+    uniqueRelId: '818519'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496625'
+Status:
+  value: Active
+metadata:
+  org_id: FN115
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

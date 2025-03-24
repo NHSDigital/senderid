@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01733 466667
+Date:
+  Start:
+    value: '2015-02-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CITY HEALTH CLINIC
+    AddrLn2: WELLINGTON STREET
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: PE1 5DU
+    Town: PETERBOROUGH
+    UPRN: '100091512307'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PETERBOROUGH SYSTEM CONTINENCE PILOT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04963
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '337825'
+  - Date:
+      Start:
+        value: '2015-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '462408'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '230875'
+  - Date:
+      Start:
+        value: '2015-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '230876'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281644'
+Status:
+  value: Active
+metadata:
+  org_id: Y04963
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HARROGATE DISTRICT HOSPITAL
+    AddrLn2: LANCASTER PARK ROAD
+    Country: ENGLAND
+    PostCode: HG2 7SX
+    Town: HARROGATE
+    UPRN: '10003597440'
+LastChangeDate:
+  value: '2024-10-21'
+Name: HARROGATE, LEEDS AND YORK BOWEL CANCER SCREENING CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: A99951
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '88066'
+    id: RE6
+    uniqueRelId: '555970'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161467'
+    id: RE4
+    uniqueRelId: '555972'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 42D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386506'
+    id: RE4
+    uniqueRelId: '662553'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '304486'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '304487'
+Status:
+  value: Active
+metadata:
+  org_id: A99951
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

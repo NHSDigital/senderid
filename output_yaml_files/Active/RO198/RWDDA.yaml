@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GREETWELL ROAD
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN2 5QY
+    Town: LINCOLN
+    UPRN: '235033632'
+LastChangeDate:
+  value: '2021-02-04'
+Name: LINCOLN COUNTY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWDDA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '102784'
+    id: RE6
+    uniqueRelId: '84571'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '25634'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRXDA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '33482'
+    Type: Predecessor
+    uniqueSuccId: '91'
+metadata:
+  org_id: RWDDA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

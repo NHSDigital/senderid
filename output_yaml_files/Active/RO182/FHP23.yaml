@@ -1,0 +1,116 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01924 255007
+Date:
+- Start:
+    value: '2023-09-05'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-08-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 7 SANDAL CASTLE MEDICAL CENTRE
+    AddrLn2: ASDALE ROAD
+    AddrLn3: SANDAL
+    Country: ENGLAND
+    PostCode: WF2 7JE
+    Town: WAKEFIELD
+LastChangeDate:
+  value: '2024-02-07'
+Name: LO'S PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHP23
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2024-02-06'
+      Start:
+        value: '2023-09-05'
+      Type:
+        value: Legal
+    - End:
+        value: '2024-02-06'
+      Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0YA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '40505'
+    id: RE6
+    uniqueRelId: '829765'
+  - Date:
+      Start:
+        value: '2024-02-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P31H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94362'
+    id: RE6
+    uniqueRelId: '838994'
+  - Date:
+    - Start:
+        value: '2023-09-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '829764'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-09-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '507992'
+Status:
+  value: Active
+metadata:
+  org_id: FHP23
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

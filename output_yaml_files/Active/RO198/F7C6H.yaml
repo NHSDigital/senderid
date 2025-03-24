@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH MOOR HOUSE
+    AddrLn2: NORTH MOOR ROAD
+    Country: ENGLAND
+    PostCode: DL6 2FG
+    Town: NORTHALLERTON
+    UPRN: '10093404657'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ACUTE HOSP. LIAISON TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F7C6H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118662'
+    id: RE6
+    uniqueRelId: '832249'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '510715'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '510716'
+Status:
+  value: Active
+metadata:
+  org_id: F7C6H
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,69 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 14 HUDDERSFIELD ROAD
+    AddrLn2: MELTHAM
+    Country: ENGLAND
+    PostCode: HD9 4AE
+    Town: HOLMFIRTH
+    UPRN: '83011118'
+LastChangeDate:
+  value: '2024-02-29'
+Name: MELTHAM PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: U6K7B
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      End:
+        value: '2024-02-29'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAR06
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '306785'
+    id: RE6
+    uniqueRelId: '820864'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '499165'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '499166'
+Status:
+  value: Active
+metadata:
+  org_id: U6K7B
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

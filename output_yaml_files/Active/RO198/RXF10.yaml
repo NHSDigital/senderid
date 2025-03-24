@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HALIFAX ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: WF13 4HS
+    Town: DEWSBURY
+    UPRN: '83150133'
+LastChangeDate:
+  value: '2021-07-21'
+Name: DEWSBURY & DISTRICT HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXF10
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120039'
+    id: RE6
+    uniqueRelId: '79467'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '73657'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMW10
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '68060'
+    Type: Predecessor
+    uniqueSuccId: '31137'
+metadata:
+  org_id: RXF10
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

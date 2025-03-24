@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VICTORIA STREET
+    Country: ENGLAND
+    PostCode: DN31 1PE
+    Town: GRIMSBY
+    UPRN: '11052053'
+LastChangeDate:
+  value: '2025-01-29'
+Name: GRIMSBY CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VTQ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199104'
+    id: RE6
+    uniqueRelId: '334895'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '229499'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '229500'
+Status:
+  value: Active
+metadata:
+  org_id: VTQ
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

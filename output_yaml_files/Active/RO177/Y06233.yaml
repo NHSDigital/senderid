@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01306 735459
+Date:
+- Start:
+    value: '2018-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-09-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DORKING HOSPITAL
+    AddrLn2: HORSHAM ROAD
+    Country: ENGLAND
+    County: SURREY
+    PostCode: RH4 2AA
+    Town: DORKING
+LastChangeDate:
+  value: '2023-08-22'
+Name: DORKING HEALTHCARE - EXTENDED ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06233
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161527'
+    id: RE4
+    uniqueRelId: '559082'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161527'
+    id: RE6
+    uniqueRelId: '559083'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 92A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386492'
+    id: RE6
+    uniqueRelId: '637829'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 92A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386492'
+    id: RE4
+    uniqueRelId: '637830'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-09-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '307119'
+  - Date:
+    - Start:
+        value: '2018-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-09-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '307120'
+Status:
+  value: Active
+metadata:
+  org_id: Y06233
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

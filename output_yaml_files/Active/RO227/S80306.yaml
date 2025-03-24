@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01294 211993
+Date:
+  Start:
+    value: '1978-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE HEALTH CENTRE
+    AddrLn2: CHEVIOT WAY
+    AddrLn3: BOURTREEHILL SOUTH
+    Country: SCOTLAND
+    PostCode: KA11 1JU
+    Town: IRVINE
+    UPRN: '126061535'
+LastChangeDate:
+  value: '2022-12-09'
+Name: BOURTREEHILL MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S80306
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SA9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487555'
+    id: RE5
+    uniqueRelId: '811752'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1978-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489380'
+  - Date:
+      Start:
+        value: '1978-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178676'
+Status:
+  value: Active
+metadata:
+  org_id: S80306
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

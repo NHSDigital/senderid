@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01782 212682
+Date:
+- Start:
+    value: '2023-08-23'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 29 DERBY STREET
+    Country: ENGLAND
+    PostCode: ST1 3LE
+    Town: STOKE-ON-TRENT
+    UPRN: '3455123420'
+LastChangeDate:
+  value: '2024-04-10'
+Name: JHOOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FC038
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '828560'
+  - Date:
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V9O4A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506793'
+    id: RE6
+    uniqueRelId: '828561'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506816'
+Status:
+  value: Active
+metadata:
+  org_id: FC038
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

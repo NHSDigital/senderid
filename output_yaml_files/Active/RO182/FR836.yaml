@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01246 275825
+Date:
+- Start:
+    value: '2023-08-19'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 18 THE GREEN
+    AddrLn2: HASLAND
+    Country: ENGLAND
+    PostCode: S41 0LJ
+    Town: CHESTERFIELD
+    UPRN: '74015375'
+LastChangeDate:
+  value: '2023-07-06'
+Name: HASLAND PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FR836
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '828375'
+  - Date:
+    - Start:
+        value: '2023-08-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: F5M9F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506678'
+    id: RE6
+    uniqueRelId: '828376'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-19'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506712'
+Status:
+  value: Active
+metadata:
+  org_id: FR836
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

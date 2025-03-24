@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ONLEY
+    AddrLn2: WILLOUGHBY
+    Country: ENGLAND
+    County: WARWICKSHIRE
+    PostCode: CV23 8AP
+    Town: RUGBY
+LastChangeDate:
+  value: '2024-06-10'
+Name: TIME FOR TEETH HMP ONLEY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V08731
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '111083'
+    id: RE4
+    uniqueRelId: '300373'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QPM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300775'
+    id: RE4
+    uniqueRelId: '714366'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '211117'
+Status:
+  value: Active
+metadata:
+  org_id: V08731
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

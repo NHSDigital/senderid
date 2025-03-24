@@ -1,0 +1,142 @@
+Date:
+- End:
+    value: '2021-03-31'
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-02-28'
+  Start:
+    value: '2011-12-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 15 MARYLEBONE ROAD
+    Country: ENGLAND
+    PostCode: NW1 5JD
+    Town: LONDON
+    UPRN: '10033538203'
+LastChangeDate:
+  value: '2023-09-21'
+Name: NHS CENTRAL LONDON (WESTMINSTER) CCG
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 09A
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '228331'
+  - Date:
+      End:
+        value: '2019-03-28'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 69R48
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO173
+        uniqueRoleId: '295011'
+    id: RE5
+    uniqueRelId: '526279'
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-02-28'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '688366'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-02-28'
+      Start:
+        value: '2011-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '161289'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    Type: Successor
+    uniqueSuccId: '37902'
+metadata:
+  org_id: 09A
+  role_id: RO98
+  status: Inactive
+orgRecordClass: RC1

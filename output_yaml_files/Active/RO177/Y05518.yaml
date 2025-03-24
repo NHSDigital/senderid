@@ -1,0 +1,126 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 85886000
+Date:
+  Start:
+    value: '2016-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: JEBB AVENUE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW2 5XF
+    Town: LONDON
+    UPRN: '200000487964'
+LastChangeDate:
+  value: '2023-08-22'
+Name: HMP BRIXTON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05518
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '168380'
+    id: RE4
+    uniqueRelId: '512876'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '168380'
+    id: RE6
+    uniqueRelId: '512877'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '296817'
+    id: RE6
+    uniqueRelId: '637429'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '296817'
+    id: RE4
+    uniqueRelId: '637430'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO82
+    uniqueRoleId: '285891'
+  - Date:
+      Start:
+        value: '2016-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '285892'
+Status:
+  value: Active
+metadata:
+  org_id: Y05518
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

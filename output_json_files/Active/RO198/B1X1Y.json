@@ -1,0 +1,104 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "HIGH PEAK OA CMHT",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "B1X1Y"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-09-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CORBAR VIEW",
+            "AddrLn2": "1-3 FOUNTAIN STREET",
+            "Town": "BUXTON",
+            "PostCode": "SK17 6HU",
+            "Country": "ENGLAND",
+            "UPRN": "10010742067"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "493745",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    },
+                    "End": {
+                        "value": "2023-05-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "493746",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "815880",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2022-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXM"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "136477"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "B1X1Y",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2019-03-31'
+  Start:
+    value: '1993-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1993-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEAR STREET
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE32 3UX
+    Town: JARROW
+    UPRN: '100000504029'
+LastChangeDate:
+  value: '2021-02-05'
+Name: PALMER COMMUNITY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RE9GF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1993-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RE9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '114594'
+    id: RE6
+    uniqueRelId: '73258'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1993-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '82033'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AR3GF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '80745'
+    Type: Predecessor
+    uniqueSuccId: '11900'
+metadata:
+  org_id: RE9GF
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

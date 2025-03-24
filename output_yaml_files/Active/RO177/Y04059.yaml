@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01752 434033
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTBOURNE UNIT
+    AddrLn2: SCOTT BUSINESS PARK
+    AddrLn3: BEACON PARK ROAD
+    Country: ENGLAND
+    PostCode: PL2 2PQ
+    Town: PLYMOUTH
+    UPRN: '10070771596'
+LastChangeDate:
+  value: '2022-05-19'
+Name: COMMUNITY LEARNING DISABILITIES TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04059
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NR5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132231'
+    id: RE6
+    uniqueRelId: '460977'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161532'
+    id: RE4
+    uniqueRelId: '283815'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '566932'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194256'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194257'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280803'
+Status:
+  value: Active
+metadata:
+  org_id: Y04059
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

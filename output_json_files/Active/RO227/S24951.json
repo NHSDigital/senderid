@@ -1,0 +1,102 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PALLIATIVE SPECIALIST NURSE PRESCRIBER",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-09-28"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S24951"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-10-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "INPATIENTS (W DIVISION) & PALL CARE",
+            "AddrLn2": "ROOM 2SA.8 (POD), DIR OFFICES",
+            "AddrLn3": "QUEEN MARGARET HOSP, WHITEFIELD RD",
+            "Town": "DUNFERMLINE",
+            "PostCode": "KY12 0SU",
+            "Country": "SCOTLAND",
+            "UPRN": "320188710"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "488418",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-09-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "488417",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-09-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "810836",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2016-09-28"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SF9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487557"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S24951",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

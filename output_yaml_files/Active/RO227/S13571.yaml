@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01382 534301
+Date:
+  Start:
+    value: '1988-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MONIFIETH HEALTH CENTRE
+    AddrLn2: VICTORIA STREET
+    AddrLn3: MONIFIETH
+    Country: SCOTLAND
+    PostCode: DD5 4LX
+    Town: DUNDEE
+    UPRN: '117096711'
+LastChangeDate:
+  value: '2023-01-16'
+Name: MONIFIETH MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S13571
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ST9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487564'
+    id: RE5
+    uniqueRelId: '810970'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1988-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488598'
+  - Date:
+      Start:
+        value: '1988-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176660'
+Status:
+  value: Active
+metadata:
+  org_id: S13571
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

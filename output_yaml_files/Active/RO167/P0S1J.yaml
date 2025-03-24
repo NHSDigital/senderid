@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 100 MENEAGE STREET
+    Country: ENGLAND
+    PostCode: TR13 8RF
+    Town: HELSTON
+    UPRN: '100041025546'
+LastChangeDate:
+  value: '2023-05-10'
+Name: MENEAGE STREET SURGERY HEALTHCARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: P0S1J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300811'
+    id: RE4
+    uniqueRelId: '825422'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H9Y0X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO166
+        uniqueRoleId: '503922'
+    id: RE6
+    uniqueRelId: '825423'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO167
+    primaryRole: 'true'
+    uniqueRoleId: '503923'
+Status:
+  value: Active
+metadata:
+  org_id: P0S1J
+  role_id: RO167
+  status: Active
+orgRecordClass: RC1

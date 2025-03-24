@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01514 888449
+Date:
+  Start:
+    value: '2022-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPRNGVW
+    AddrLn2: CLATTERBRIDGE HOSPITAL
+    AddrLn3: CLATTERBRIDGE ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: CH63 4JY
+    Town: WIRRAL
+LastChangeDate:
+  value: '2022-09-08'
+Name: WIRRAL HOME TREATMENT TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07434
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120884'
+    id: RE6
+    uniqueRelId: '812448'
+  - Date:
+      Start:
+        value: '2022-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161845'
+    id: RE4
+    uniqueRelId: '812447'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '490144'
+  - Date:
+      Start:
+        value: '2022-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '490145'
+Status:
+  value: Active
+metadata:
+  org_id: Y07434
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

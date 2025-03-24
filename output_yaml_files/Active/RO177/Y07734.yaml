@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01709 820000
+Date:
+  Start:
+    value: '2022-11-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROTHERHAM HOSPITAL
+    AddrLn2: MOORGATE ROAD
+    Country: ENGLAND
+    PostCode: S60 2UD
+    Town: ROTHERHAM
+    UPRN: '200000582870'
+LastChangeDate:
+  value: '2022-11-24'
+Name: THE ROTHERHAM VIRTUAL WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07734
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-11-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48125'
+    id: RE6
+    uniqueRelId: '815811'
+  - Date:
+      Start:
+        value: '2022-11-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161474'
+    id: RE4
+    uniqueRelId: '815810'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-11-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '493672'
+  - Date:
+      Start:
+        value: '2022-11-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '493673'
+Status:
+  value: Active
+metadata:
+  org_id: Y07734
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

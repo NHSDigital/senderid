@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: POOLE GENERAL HOSPITAL
+    AddrLn2: LONGFLEET ROAD
+    Country: ENGLAND
+    County: DORSET
+    PostCode: BH15 2JB
+    Town: POOLE
+    UPRN: '100041056131'
+LastChangeDate:
+  value: '2021-01-28'
+Name: POOLE GENERAL HOSPITAL LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 693S0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-09-30'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RD3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '104891'
+    id: RE3
+    uniqueRelId: '45316'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R0D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '397555'
+    id: RE3
+    uniqueRelId: '717349'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '22069'
+Status:
+  value: Active
+metadata:
+  org_id: 693S0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

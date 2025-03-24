@@ -1,0 +1,99 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH HILL
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN9 9HH
+    Town: NEWHAVEN
+    UPRN: '10033260134'
+LastChangeDate:
+  value: '2022-12-05'
+Name: NEWHAVEN DOWNS HOUSE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXDDJ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '12294'
+    id: RE6
+    uniqueRelId: '48602'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '108885'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX2J9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '43304'
+    Type: Successor
+    uniqueSuccId: '11150'
+metadata:
+  org_id: RXDDJ
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

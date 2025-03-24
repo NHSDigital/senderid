@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MARKS TEY PHARMACY
+    AddrLn2: 89 LONDON ROAD
+    AddrLn3: MARKS TEY
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO6 1EB
+    Town: COLCHESTER
+LastChangeDate:
+  value: '2021-03-29'
+Name: MARKS TEY PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: G1B3R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FEL66
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '216421'
+    id: RE6
+    uniqueRelId: '726901'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '412483'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '412482'
+Status:
+  value: Active
+metadata:
+  org_id: G1B3R
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

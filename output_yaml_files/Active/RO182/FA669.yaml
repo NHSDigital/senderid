@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01268 520100
+Date:
+- Start:
+    value: '2025-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-02-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 418 WHITMORE WAY
+    Country: ENGLAND
+    PostCode: SS14 2HB
+    Town: BASILDON
+    UPRN: '100091588611'
+LastChangeDate:
+  value: '2025-02-24'
+Name: WHITMORE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA669
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE4
+    uniqueRelId: '857925'
+  - Date:
+    - Start:
+        value: '2025-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D6Y8Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '537145'
+    id: RE6
+    uniqueRelId: '857926'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '537155'
+Status:
+  value: Active
+metadata:
+  org_id: FA669
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01905 359926
+Date:
+- Start:
+    value: '2023-08-18'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 3-4
+    AddrLn2: ST. PETERS DRIVE
+    Country: ENGLAND
+    PostCode: WR5 3TA
+    Town: WORCESTER
+    UPRN: '10000854014'
+LastChangeDate:
+  value: '2023-07-06'
+Name: ST PETERS CHEMIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEP03
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '828331'
+  - Date:
+    - Start:
+        value: '2023-08-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4X8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '392765'
+    id: RE6
+    uniqueRelId: '828332'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-18'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506690'
+Status:
+  value: Active
+metadata:
+  org_id: FEP03
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

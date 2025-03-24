@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01653 609609
+Date:
+- Start:
+    value: '2018-05-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-04-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MALTON COMMUNITY HOSPITAL
+    Country: ENGLAND
+    PostCode: YO17 7NG
+    Town: MALTON
+    UPRN: '10002318831'
+LastChangeDate:
+  value: '2023-01-04'
+Name: HUMBER FT COMMUNITY CORE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06072
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '100941'
+    id: RE6
+    uniqueRelId: '551971'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161475'
+    id: RE4
+    uniqueRelId: '551972'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 42D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386506'
+    id: RE4
+    uniqueRelId: '637760'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-04-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '302897'
+  - Date:
+    - Start:
+        value: '2018-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-04-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '302898'
+Status:
+  value: Active
+metadata:
+  org_id: Y06072
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

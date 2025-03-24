@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01722 320520
+Date:
+- Start:
+    value: '2024-03-14'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-01-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MILLSTREAM MEDICAL CENTRE
+    AddrLn2: AVON APPROACH
+    Country: ENGLAND
+    PostCode: SP1 3SL
+    Town: SALISBURY
+    UPRN: '10091000039'
+LastChangeDate:
+  value: '2024-01-18'
+Name: ALLIED PHARMACY MILLSTREAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAP60
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-03-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '837588'
+  - Date:
+    - Start:
+        value: '2024-03-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W4U2Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '517319'
+    id: RE6
+    uniqueRelId: '837589'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-03-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '517328'
+Status:
+  value: Active
+metadata:
+  org_id: FAP60
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

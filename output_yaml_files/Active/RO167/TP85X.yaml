@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 295 HEATHWAY
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: RM9 5AQ
+    Town: DAGENHAM
+    UPRN: '100013816'
+LastChangeDate:
+  value: '2021-06-01'
+Name: HEATHWAY EYECARE (DAGENHAM)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: TP85X
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '516570'
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1A6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO166
+        uniqueRoleId: '288471'
+    id: RE6
+    uniqueRelId: '516572'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '700304'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO167
+    primaryRole: 'true'
+    uniqueRoleId: '288472'
+Status:
+  value: Active
+metadata:
+  org_id: TP85X
+  role_id: RO167
+  status: Active
+orgRecordClass: RC1

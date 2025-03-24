@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: A DIVISION
+    AddrLn2: ST. ANNE STREET POLICE STATION
+    AddrLn3: ST. ANNE STREET
+    Country: ENGLAND
+    PostCode: L3 3HJ
+    Town: LIVERPOOL
+    UPRN: '10092013689'
+LastChangeDate:
+  value: '2021-06-25'
+Name: ST ANNE STREET (SAS) CUSTODY SUITE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VD2
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199111'
+    id: RE6
+    uniqueRelId: '715846'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '398070'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '398071'
+Status:
+  value: Active
+metadata:
+  org_id: VD2
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

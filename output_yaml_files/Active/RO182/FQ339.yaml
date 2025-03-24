@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01772 782643
+Date:
+- Start:
+    value: '2023-08-21'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 40 BERRY LANE
+    AddrLn2: LONGRIDGE
+    Country: ENGLAND
+    PostCode: PR3 3JJ
+    Town: PRESTON
+    UPRN: '100012752602'
+LastChangeDate:
+  value: '2023-07-20'
+Name: COHENS CHEMIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQ339
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P438
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94814'
+    id: RE6
+    uniqueRelId: '829410'
+  - Date:
+    - Start:
+        value: '2023-08-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '829409'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-21'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '507669'
+Status:
+  value: Active
+metadata:
+  org_id: FQ339
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

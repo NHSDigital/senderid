@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 87600035
+Date:
+  Start:
+    value: '2001-07-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 20 LONDON ROAD
+    Country: ENGLAND
+    County: SURREY
+    PostCode: CR0 2TA
+    Town: CROYDON
+    UPRN: '200001210740'
+LastChangeDate:
+  value: '2021-02-10'
+Name: A-Z PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKQ95
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P83M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94695'
+    id: RE6
+    uniqueRelId: '316973'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '316974'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '652269'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-07-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '220584'
+Status:
+  value: Active
+metadata:
+  org_id: FKQ95
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

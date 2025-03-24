@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BOHEMIA ROAD
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: TN34 1ET
+    Town: HASTINGS
+    UPRN: '10002501372'
+LastChangeDate:
+  value: '2021-07-21'
+Name: HASTINGS AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYD3N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '126680'
+    id: RE6
+    uniqueRelId: '102012'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '27939'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RQ212
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '26861'
+    Type: Predecessor
+    uniqueSuccId: '28856'
+metadata:
+  org_id: RYD3N
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

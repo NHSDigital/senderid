@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FREDERICK STREET
+    AddrLn2: FARNWORTH
+    Country: ENGLAND
+    PostCode: BL4 9AH
+    Town: BOLTON
+    UPRN: '100012560492'
+LastChangeDate:
+  value: '2022-04-07'
+Name: FARNWORTH HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I2E5O
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '119719'
+    id: RE6
+    uniqueRelId: '805073'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '805074'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '482889'
+Status:
+  value: Active
+metadata:
+  org_id: I2E5O
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

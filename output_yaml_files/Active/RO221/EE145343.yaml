@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01409 253430
+Date:
+  Start:
+    value: '2018-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VICTORIA HILL
+    Country: ENGLAND
+    PostCode: EX22 6JD
+    Town: HOLSWORTHY
+    UPRN: '100041032126'
+LastChangeDate:
+  value: '2023-01-23'
+Name: HOLSWORTHY COMMUNITY COLLEGE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE145343
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '912'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '23482'
+    id: RE5
+    uniqueRelId: '782078'
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-12-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE5
+    uniqueRelId: '782077'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '457976'
+  - Date:
+      Start:
+        value: '2018-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO302
+    uniqueRoleId: '457977'
+Status:
+  value: Active
+metadata:
+  org_id: EE145343
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

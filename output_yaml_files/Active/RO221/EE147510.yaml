@@ -1,0 +1,92 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02083 981310
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLAYGATE LANE
+    AddrLn2: HINCHLEY WOOD
+    Country: ENGLAND
+    PostCode: KT10 0AQ
+    Town: ESHER
+    UPRN: '100062355799'
+LastChangeDate:
+  value: '2023-02-14'
+Name: HINCHLEY WOOD PRIMARY SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE147510
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '805'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '99531'
+    id: RE5
+    uniqueRelId: '785675'
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 92A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386492'
+    id: RE5
+    uniqueRelId: '785674'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '461556'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO302
+    uniqueRoleId: '461557'
+Status:
+  value: Active
+metadata:
+  org_id: EE147510
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

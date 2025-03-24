@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01242 339146
+Date:
+  Start:
+    value: '2022-08-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNDERWOOD SURGERY
+    AddrLn2: 139 ST GEORGE'S ROAD
+    Country: ENGLAND
+    PostCode: GL50 3EQ
+    Town: CHELTENHAM
+    UPRN: '100121230315'
+LastChangeDate:
+  value: '2023-08-22'
+Name: CHELTENHAM CENTRAL SHARED HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07449
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-08-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE4
+    uniqueRelId: '812477'
+  - Date:
+      Start:
+        value: '2022-08-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE6
+    uniqueRelId: '812478'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-08-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '490175'
+  - Date:
+      Start:
+        value: '2022-08-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '490174'
+Status:
+  value: Active
+metadata:
+  org_id: Y07449
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

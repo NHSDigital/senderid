@@ -1,0 +1,134 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "EAST & CENTRAL BRIGHTON PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U29677"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE SCHOOL CLINIC",
+            "AddrLn2": "MORLEY STREET",
+            "Town": "BRIGHTON",
+            "PostCode": "BN2 9DH",
+            "Country": "ENGLAND",
+            "UPRN": "22252790"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "412780",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "737218",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "09D"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "161482"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "37929",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U07199"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO272",
+                        "uniqueRoleId": "388840"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37930",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U54308"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO272",
+                        "uniqueRoleId": "388841"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U29677",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}

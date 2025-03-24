@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2005-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EGERTON ROAD
+    Country: ENGLAND
+    County: SURREY
+    PostCode: GU2 7XX
+    Town: GUILDFORD
+    UPRN: '100062331026'
+LastChangeDate:
+  value: '2021-02-04'
+Name: ROYAL SURREY COUNTY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXX24
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '103932'
+    id: RE6
+    uniqueRelId: '84663'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '61145'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTJ05
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '54294'
+    Type: Predecessor
+    uniqueSuccId: '17911'
+metadata:
+  org_id: RXX24
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

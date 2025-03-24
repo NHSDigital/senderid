@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01494 528155
+Date:
+- Start:
+    value: '2021-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-06-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 20 QUEENS SQUARE
+    Country: ENGLAND
+    PostCode: HP11 2DF
+    Town: HIGH WYCOMBE
+    UPRN: '100081168630'
+LastChangeDate:
+  value: '2024-01-09'
+Name: CENTRA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FL027
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '773757'
+  - Date:
+    - Start:
+        value: '2021-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W8E4U
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '449666'
+    id: RE6
+    uniqueRelId: '773756'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '449670'
+Status:
+  value: Active
+metadata:
+  org_id: FL027
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1
