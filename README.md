@@ -23,9 +23,14 @@ TODO: Complete aims
 
 TODO: Complete aims
 
-## RCS RBM
+## RCS
 
 ### RCS Business Messaging
+
+- https://developers.google.com/business-communications/rcs-business-messaging 
+- https://sinch.com/apis/messaging/rcs/
+- https://cpaas.webex.com/business-messaging/rcs-business-messaging
+- https://business.bt.com/insights/what-is-rich-business-messaging/
 
 #### Display Name
 
