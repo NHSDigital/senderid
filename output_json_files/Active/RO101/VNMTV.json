@@ -1,0 +1,130 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CHOICE HEALTH CARE - BIRMINGHAM",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-08-25"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VNMTV"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-10-03"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SUITE S52 FAIRGATE HOUSE",
+            "AddrLn2": "205 KINGS ROAD",
+            "AddrLn3": "TYSELEY",
+            "Town": "BIRMINGHAM",
+            "County": "WEST MIDLANDS",
+            "PostCode": "B11 2AA",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "490655",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-08-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "490656",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-08-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "812864",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-08-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "15E"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "299387"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "812865",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-08-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "C4T3"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "490359"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VNMTV",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

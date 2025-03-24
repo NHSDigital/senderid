@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "RENAL TRANSPLANT",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-03-22"
+        },
+        "End": {
+            "value": "2024-03-23"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A0D3T"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2024-06-20"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "QUEEN ELIZABETH HOSPITAL",
+            "AddrLn2": "EDGBASTON",
+            "Town": "BIRMINGHAM",
+            "PostCode": "B15 2TH",
+            "Country": "ENGLAND",
+            "UPRN": "100071571318"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "522133",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    },
+                    "End": {
+                        "value": "2024-03-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "522132",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    },
+                    "End": {
+                        "value": "2024-03-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "843902",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-03-22"
+                },
+                "End": {
+                    "value": "2024-03-23"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RRK"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "74894"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A0D3T",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PLUMSTEAD CUSTODY CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "WEQ"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "PLUMSTEAD POLICE STATION",
+            "AddrLn2": "200 PLUMSTEAD HIGH STREET",
+            "Town": "LONDON",
+            "PostCode": "SE18 1JY",
+            "Country": "ENGLAND",
+            "UPRN": "100023242419"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO229",
+                "uniqueRoleId": "229589",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO234",
+                "uniqueRoleId": "229590",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "334950",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "VJ5"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO233",
+                    "uniqueRoleId": "229389"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "WEQ",
+        "status": "Active",
+        "role_id": "RO234"
+    }
+}

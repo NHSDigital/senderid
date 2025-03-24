@@ -1,0 +1,85 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "JOHN RADCLIFFE HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RHW12"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HEADLEY WAY",
+            "AddrLn2": "HEADINGTON",
+            "Town": "OXFORD",
+            "County": "OXFORDSHIRE",
+            "PostCode": "OX3 9DU",
+            "Country": "ENGLAND",
+            "UPRN": "100121298340"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "17362",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "97198",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RHW"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "126870"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RHW12",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

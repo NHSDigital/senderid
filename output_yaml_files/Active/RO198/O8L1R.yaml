@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2021-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH MANCHESTER GENERAL HOSPITAL
+    AddrLn2: DELAUNAYS ROAD
+    Country: ENGLAND
+    PostCode: M8 5RB
+    Town: MANCHESTER
+    UPRN: '77009523'
+LastChangeDate:
+  value: '2024-04-02'
+Name: LOWER LIMB INFECTION NMGH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: O8L1R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R0A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '294962'
+    id: RE6
+    uniqueRelId: '800173'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '477758'
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '477759'
+Status:
+  value: Active
+metadata:
+  org_id: O8L1R
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

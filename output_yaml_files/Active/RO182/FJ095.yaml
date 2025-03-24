@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01603 400337
+Date:
+- Start:
+    value: '2023-08-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 94 THE PADDOCKS
+    AddrLn2: OLD CATTON
+    Country: ENGLAND
+    PostCode: NR6 7HS
+    Town: NORWICH
+    UPRN: '100091575120'
+LastChangeDate:
+  value: '2023-07-13'
+Name: OLD CATTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJ095
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE4
+    uniqueRelId: '828586'
+  - Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R3P8Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506802'
+    id: RE6
+    uniqueRelId: '828587'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506829'
+Status:
+  value: Active
+metadata:
+  org_id: FJ095
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01515 142888
+Date:
+  Start:
+    value: '2015-10-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST CATHERINE'S HEALTH
+    AddrLn2: CENTRE DERBY ROAD
+    Country: ENGLAND
+    PostCode: CH42 0LQ
+    Town: BIRKENHEAD
+    UPRN: '42191873'
+LastChangeDate:
+  value: '2022-05-05'
+Name: WCT OPHTHALMOLOGY SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05209
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-10-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '58826'
+    id: RE6
+    uniqueRelId: '462053'
+  - Date:
+      Start:
+        value: '2015-10-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161845'
+    id: RE4
+    uniqueRelId: '445194'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-10-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '275563'
+  - Date:
+      Start:
+        value: '2015-10-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '275564'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281489'
+Status:
+  value: Active
+metadata:
+  org_id: Y05209
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

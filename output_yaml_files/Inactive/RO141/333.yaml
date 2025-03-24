@@ -1,0 +1,151 @@
+Date:
+- End:
+    value: '2019-03-31'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2021-09-30'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEST SUFFOLK HOUSE
+    AddrLn2: WESTERN WAY
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP33 3YU
+    Town: BURY ST. EDMUNDS
+LastChangeDate:
+  value: '2021-10-13'
+Name: ST EDMUNDSBURY BOROUGH COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '333'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q56
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163551'
+    id: RE5
+    uniqueRelId: '235736'
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '364482'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO34
+    uniqueRoleId: '174138'
+  - Date:
+    - End:
+        value: '2019-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-09-30'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '173724'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '741'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '345782'
+    Type: Successor
+    uniqueSuccId: '37805'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V334
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '140195'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '36996'
+metadata:
+  org_id: '333'
+  role_id: RO141
+  status: Inactive
+orgRecordClass: RC1

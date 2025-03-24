@@ -1,0 +1,101 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01223 828500
+Date:
+  Start:
+    value: '2014-04-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WOODLANDS SURG
+    AddrLn2: EDEN HOUSE
+    AddrLn3: 48-49 BATEMAN STREET
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: CB2 1LR
+    Town: CAMBRIDGE
+    UPRN: '200004166836'
+LastChangeDate:
+  value: '2023-08-22'
+Name: DMC - COMMUNITY DERMATOLOGY WOODLANDS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04602
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '285300'
+  - Date:
+      Start:
+        value: '2014-04-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '461477'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-05-07'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '195788'
+  - Date:
+      Start:
+        value: '2014-04-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '195789'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281187'
+Status:
+  value: Active
+metadata:
+  org_id: Y04602
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

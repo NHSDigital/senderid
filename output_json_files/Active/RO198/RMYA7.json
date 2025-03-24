@@ -1,0 +1,102 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "MEMORY CLINIC NORTH (HELLESDON HOSPITAL)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2012-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RMYA7"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "PEDDARS CENTRE, HELLESDON HOSPITAL",
+            "AddrLn2": "DRAYTON HIGH ROAD",
+            "AddrLn3": "HELLESDON",
+            "Town": "NORWICH",
+            "County": "NORFOLK",
+            "PostCode": "NR6 5BE",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "162168",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2012-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "162169",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2012-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "184318",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2012-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RMY"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "76273"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RMYA7",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

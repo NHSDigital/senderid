@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 24 PORTLAND PLACE
+    Country: ENGLAND
+    PostCode: W1B 1LU
+    Town: LONDON
+    UPRN: '100023466325'
+LastChangeDate:
+  value: '2022-11-03'
+Name: CLEVELAND CLINIC LONDON PORTLAND PLACE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F3U2L
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '814771'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DQM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '304875'
+    id: RE6
+    uniqueRelId: '814772'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '492520'
+Status:
+  value: Active
+metadata:
+  org_id: F3U2L
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLOSE STREET
+    Country: ENGLAND
+    PostCode: CA1 2HA
+    Town: CARLISLE
+    UPRN: '10008690799'
+LastChangeDate:
+  value: '2023-10-10'
+Name: ST JOHNS CHURCH - LONDON ROAD - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: X1G2J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FK660
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '504927'
+    id: RE6
+    uniqueRelId: '832969'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '511889'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '511890'
+Status:
+  value: Active
+metadata:
+  org_id: X1G2J
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

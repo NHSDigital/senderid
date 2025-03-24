@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01798 872480
+Date:
+- Start:
+    value: '2021-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-08-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPIRO CLOSE
+    Country: ENGLAND
+    PostCode: RH20 1FG
+    Town: PULBOROUGH
+    UPRN: '10013788087'
+LastChangeDate:
+  value: '2025-01-08'
+Name: KAMSONS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTH80
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-08-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P11F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94322'
+    id: RE6
+    uniqueRelId: '795304'
+  - Date:
+    - Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-08-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE4
+    uniqueRelId: '795305'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-08-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '471104'
+Status:
+  value: Active
+metadata:
+  org_id: FTH80
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

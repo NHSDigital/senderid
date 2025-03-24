@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WORTLEY BECK HEALTH CENTRE
+    AddrLn2: RING ROAD
+    AddrLn3: LOWER WORTLEY
+    Country: ENGLAND
+    PostCode: LS12 5SG
+    Town: LEEDS
+LastChangeDate:
+  value: '2023-06-01'
+Name: WHITEHALL SURGERY - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: B9N0F
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B86071
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '81443'
+    id: RE6
+    uniqueRelId: '826424'
+  - Date:
+      End:
+        value: '2023-05-31'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B86104
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '81462'
+    id: RE6
+    uniqueRelId: '724589'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '408786'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '408787'
+Status:
+  value: Active
+metadata:
+  org_id: B9N0F
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NHS GG&C OOH SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-08-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S85992"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-10-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROYAL ALEXANDRIA HOSPITAL",
+            "AddrLn2": "CORSEBAR ROAD",
+            "Town": "PAISLEY",
+            "County": "RENFREWSHIRE",
+            "PostCode": "PA2 9PN",
+            "Country": "SCOTLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "489462",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "178886",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "811834",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SG9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487558"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S85992",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

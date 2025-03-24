@@ -1,0 +1,109 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CORNERSTONES (TUNNEL ROAD)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RXYC7"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "58 TUNNEL ROAD",
+            "Town": "TUNBRIDGE WELLS",
+            "County": "KENT",
+            "PostCode": "TN1 2BU",
+            "Country": "ENGLAND",
+            "UPRN": "100062543400"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "11734",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "94543",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXY"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "131775"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "26347",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXJJ2"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "9179"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RXYC7",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

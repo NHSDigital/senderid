@@ -1,0 +1,135 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WHITBY GP OOH",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-12-17"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y06333"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-11-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 1",
+            "AddrLn2": "HORIZON COURT",
+            "AddrLn3": "AUDAX CLOSE",
+            "Town": "YORK",
+            "PostCode": "YO30 4RB",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "0300 1231183"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO80",
+                "uniqueRoleId": "342003",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-12-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "342004",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-12-17"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "562735",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-12-17"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "03Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161477"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "562736",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-12-17"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NLO"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "169084"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y06333",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

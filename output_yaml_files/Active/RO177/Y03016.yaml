@@ -1,0 +1,127 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01384 418429
+Date:
+  Start:
+    value: '2010-03-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WITHYMOOR SURGERY
+    AddrLn2: SQUIRES COURT
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: DY5 3RJ
+    Town: BRIERLEY HILL
+    UPRN: '90200045'
+LastChangeDate:
+  value: '2021-04-01'
+Name: COMMUNITY (SLK) DERMATOLOGY SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y03016
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RNA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '79045'
+    id: RE6
+    uniqueRelId: '460139'
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2010-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '87051'
+    id: RE4
+    uniqueRelId: '282201'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161320'
+    id: RE4
+    uniqueRelId: '282202'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE4
+    uniqueRelId: '731286'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '192768'
+  - Date:
+      Start:
+        value: '2010-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '82347'
+Status:
+  value: Active
+metadata:
+  org_id: Y03016
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

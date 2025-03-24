@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01912 674319
+Date:
+- Start:
+    value: '2024-08-12'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-07-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 TYNE VIEW
+    AddrLn2: LEMINGTON
+    Country: ENGLAND
+    PostCode: NE15 8DE
+    Town: NEWCASTLE UPON TYNE
+    UPRN: '4510094396'
+LastChangeDate:
+  value: '2024-08-01'
+Name: LEMINGTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJX31
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-08-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '850212'
+  - Date:
+    - Start:
+        value: '2024-08-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L0X3W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '529260'
+    id: RE6
+    uniqueRelId: '850213'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-08-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '529281'
+Status:
+  value: Active
+metadata:
+  org_id: FJX31
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,144 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01227 368668
+Date:
+- Start:
+    value: '2017-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-01-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BORNO CHEMISTS LTD
+    AddrLn2: 159 STATION ROAD
+    Country: ENGLAND
+    County: KENT
+    PostCode: CT6 5NE
+    Town: HERNE BAY
+LastChangeDate:
+  value: '2023-08-22'
+Name: BORNO ANTICOAGULATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05663
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161483'
+    id: RE4
+    uniqueRelId: '516591'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161483'
+    id: RE6
+    uniqueRelId: '516592'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE6
+    uniqueRelId: '637508'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE4
+    uniqueRelId: '637509'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '288486'
+  - Date:
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '288487'
+Status:
+  value: Active
+metadata:
+  org_id: Y05663
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

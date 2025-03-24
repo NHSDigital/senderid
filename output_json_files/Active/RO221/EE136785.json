@@ -1,0 +1,145 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CHEAM HIGH SCHOOL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2011-06-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "EE136785"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CHATSWORTH ROAD",
+            "AddrLn2": "CHEAM",
+            "Town": "SUTTON",
+            "PostCode": "SM3 8PW",
+            "Country": "ENGLAND",
+            "UPRN": "5870021323"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "02086 445790"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO221",
+                "uniqueRoleId": "444400",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO302",
+                "uniqueRoleId": "444401",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "768462",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "734"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "78199"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "768461",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2020-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2019-10-23"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "36L"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386496"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "EE136785",
+        "status": "Active",
+        "role_id": "RO221"
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "VOYAGE (DCA) GLOUCESTER",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-05-19"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VN2JK"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-06-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "GOODRIDGE COURT",
+            "AddrLn2": "GOODRIDGE AVENUE",
+            "Town": "GLOUCESTER",
+            "County": "GLOUCESTERSHIRE",
+            "PostCode": "GL2 5EN",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "361432",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-05-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "361433",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-05-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "579040",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-05-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "11M"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161521"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "579041",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-05-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AQTN"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "349954"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VN2JK",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

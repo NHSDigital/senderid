@@ -1,0 +1,110 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "GRENOSIDE GRANGE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2003-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "TAHXP"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SALT BOX LANE",
+            "AddrLn2": "GRENOSIDE",
+            "Town": "SHEFFIELD",
+            "County": "SOUTH YORKSHIRE",
+            "PostCode": "S35 8QS",
+            "Country": "ENGLAND",
+            "UPRN": "100051068589"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO108",
+            "uniqueRoleId": "28136",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "14699",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "TAH"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO107",
+                    "uniqueRoleId": "17409"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "9955",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RK7XP"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "72790"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "TAHXP",
+        "status": "Active",
+        "role_id": "RO108"
+    }
+}

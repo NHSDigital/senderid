@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BUXTON COTTAGE HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2013-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RY839"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LONDON ROAD",
+            "Town": "BUXTON",
+            "County": "DERBYSHIRE",
+            "PostCode": "SK17 9NJ",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "171431",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "171432",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "233209",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RY8"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "136478"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RY839",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01932 212045
+Date:
+- Start:
+    value: '2023-07-29'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 8 AVENUE PARADE
+    AddrLn2: THE AVENUE
+    Country: ENGLAND
+    PostCode: TW16 5HS
+    Town: SUNBURY-ON-THAMES
+    UPRN: '33027280'
+LastChangeDate:
+  value: '2023-12-06'
+Name: NEBEL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FN698
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QXU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300809'
+    id: RE4
+    uniqueRelId: '826884'
+  - Date:
+    - Start:
+        value: '2023-07-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K4R9S
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '505251'
+    id: RE6
+    uniqueRelId: '826885'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '505306'
+Status:
+  value: Active
+metadata:
+  org_id: FN698
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

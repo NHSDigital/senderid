@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 73234713
+Date:
+  Start:
+    value: '2004-06-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 173 GREAT PORTLAND STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: W1W 5PH
+    Town: LONDON
+    UPRN: '100023466533'
+LastChangeDate:
+  value: '2024-08-28'
+Name: FITZROVIA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FFH75
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-06-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P017
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '93464'
+    id: RE6
+    uniqueRelId: '310156'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '310157'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE4
+    uniqueRelId: '649734'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2004-06-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '217174'
+Status:
+  value: Active
+metadata:
+  org_id: FFH75
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

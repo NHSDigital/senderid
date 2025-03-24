@@ -1,0 +1,115 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CALNE PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U68450"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-10-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NORTHLANDS SURGERY",
+            "AddrLn2": "NORTH STREET",
+            "Town": "CALNE",
+            "PostCode": "SN11 0HH",
+            "Country": "ENGLAND",
+            "UPRN": "100121325218"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "387979",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609621",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "99N"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161531"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638385",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "92G"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386490"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U68450",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}

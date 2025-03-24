@@ -1,0 +1,108 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ST MICHAEL'S COURT",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2001-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RRE50"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2012-05-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "TRENT VALLEY ROAD",
+            "Town": "LICHFIELD",
+            "County": "STAFFORDSHIRE",
+            "PostCode": "WS13 6EF",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "69269",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "71032",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RRE"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "95630"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "16670",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RNG50"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "3489"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RRE50",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

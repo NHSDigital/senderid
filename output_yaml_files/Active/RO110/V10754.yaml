@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ADDISON HOUSE
+    Country: ENGLAND
+    PostCode: CM20 1DS
+    Town: HARLOW
+    UPRN: '200002579733'
+LastChangeDate:
+  value: '2024-09-02'
+Name: COMMUNITY DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V10754
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-12-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE4
+    uniqueRelId: '719424'
+  - Date:
+      End:
+        value: '2020-12-02'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '713856'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '396549'
+Status:
+  value: Active
+metadata:
+  org_id: V10754
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

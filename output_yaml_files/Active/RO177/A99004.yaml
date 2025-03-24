@@ -1,0 +1,82 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LANCASTER ROAD
+    Country: ENGLAND
+    PostCode: TS24 8LN
+    Town: HARTLEPOOL
+LastChangeDate:
+  value: '2024-10-21'
+Name: SANDWELL PARK HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: A99004
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118662'
+    id: RE6
+    uniqueRelId: '796542'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '796543'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '473056'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '473057'
+Status:
+  value: Active
+metadata:
+  org_id: A99004
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

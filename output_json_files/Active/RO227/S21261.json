@@ -1,0 +1,107 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SCOONIE MEDICAL PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-11-15"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S21261"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-05-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HEALTH CENTRE",
+            "AddrLn2": "VICTORIA ROAD",
+            "Town": "LEVEN",
+            "PostCode": "KY8 4ET",
+            "Country": "SCOTLAND",
+            "UPRN": "320180964"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01333 432588"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO76",
+                "uniqueRoleId": "504553",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-11-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "504552",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-11-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "825999",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-12-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SF9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487557"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S21261",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

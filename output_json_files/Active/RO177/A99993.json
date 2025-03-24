@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "RATHBONE HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A99993"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-10-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MILL LANE",
+            "AddrLn2": "OLD SWAN",
+            "Town": "LIVERPOOL",
+            "PostCode": "L13 4AW",
+            "Country": "ENGLAND",
+            "UPRN": "38103857"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "392257",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "392258",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "620807",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RW4"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "18922"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "620809",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "99A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161479"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "A99993",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

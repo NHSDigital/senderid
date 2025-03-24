@@ -1,0 +1,132 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "GENSMILE, BEACON DENTAL CARE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V82622"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-23"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BEACON DENTAL CARE",
+            "AddrLn2": "5 PICKERSLEIGH ROAD",
+            "Town": "MALVERN",
+            "County": "WORCESTERSHIRE",
+            "PostCode": "WR14 2RP",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO65",
+                "uniqueRoleId": "309522",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO110",
+                "uniqueRoleId": "309523",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "561668",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230515"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "710309",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QGH"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300766"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V82622",
+        "status": "Active",
+        "role_id": "RO110"
+    }
+}

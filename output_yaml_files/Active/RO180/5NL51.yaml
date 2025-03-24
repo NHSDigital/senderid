@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HEDGEFIELD ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L25 2XE
+    Town: LIVERPOOL
+    UPRN: '38074885'
+LastChangeDate:
+  value: '2021-01-28'
+Name: BELLE VALE HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5NL51
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5NL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '118349'
+    id: RE6
+    uniqueRelId: '179572'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '34631'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5HC03
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '57901'
+    Type: Predecessor
+    uniqueSuccId: '34804'
+metadata:
+  org_id: 5NL51
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MEDWAY MARITIME HOSPITAL
+    AddrLn2: WINDMILL ROAD
+    Country: ENGLAND
+    PostCode: ME7 5NY
+    Town: GILLINGHAM
+    UPRN: '100062395424'
+LastChangeDate:
+  value: '2024-04-02'
+Name: DIABETES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RPADT
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '121864'
+    id: RE6
+    uniqueRelId: '821829'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500806'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500807'
+Status:
+  value: Active
+metadata:
+  org_id: RPADT
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

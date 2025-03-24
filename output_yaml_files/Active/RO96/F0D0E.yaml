@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THOMAS WALL CENTRE
+    AddrLn2: 52 BENHILL AVENUE
+    Country: ENGLAND
+    PostCode: SM1 4DP
+    Town: SUTTON
+    UPRN: '5870047224'
+LastChangeDate:
+  value: '2021-11-17'
+Name: ROBIN HOOD LANE SURGERY - SUTTON - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F0D0E
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-11-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H85031
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '77299'
+    id: RE6
+    uniqueRelId: '799278'
+  - Date:
+      End:
+        value: '2021-11-16'
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y05722
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '290934'
+    id: RE6
+    uniqueRelId: '795524'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '471699'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '471700'
+Status:
+  value: Active
+metadata:
+  org_id: F0D0E
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

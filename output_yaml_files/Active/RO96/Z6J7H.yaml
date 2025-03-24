@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TREGONY ROAD
+    AddrLn2: PROBUS
+    Country: ENGLAND
+    PostCode: TR2 4JZ
+    Town: TRURO
+    UPRN: '100041023514'
+LastChangeDate:
+  value: '2024-07-01'
+Name: PROBUS SURGERY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Z6J7H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L82045
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '89119'
+    id: RE6
+    uniqueRelId: '848666'
+  - Date:
+      End:
+        value: '2024-06-30'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L82051
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '89125'
+    id: RE6
+    uniqueRelId: '721350'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '404697'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '404698'
+Status:
+  value: Active
+metadata:
+  org_id: Z6J7H
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

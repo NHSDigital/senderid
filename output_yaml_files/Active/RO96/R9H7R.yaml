@@ -1,0 +1,104 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 60 PATMOS ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW9 6AF
+    Town: LONDON
+LastChangeDate:
+  value: '2024-09-01'
+Name: AKERMAN MEDICAL PRACTICE - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R9H7R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2024-07-31'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G85073
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '80146'
+    id: RE6
+    uniqueRelId: '722355'
+  - Date:
+      Start:
+        value: '2024-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G85695
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '80225'
+    id: RE6
+    uniqueRelId: '851561'
+  - Date:
+      End:
+        value: '2024-08-31'
+      Start:
+        value: '2024-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G85016
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '82520'
+    id: RE6
+    uniqueRelId: '850189'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '405918'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '405919'
+Status:
+  value: Active
+metadata:
+  org_id: R9H7R
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

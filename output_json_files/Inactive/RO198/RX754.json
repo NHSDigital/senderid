@@ -1,0 +1,118 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NETHERLEY AMBULANCE STATION",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-07-01"
+        },
+        "End": {
+            "value": "2020-07-22"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RX754"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2020-07-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MIDDLEMASS HEY",
+            "AddrLn2": "NETHERLEY",
+            "Town": "LIVERPOOL",
+            "County": "MERSEYSIDE",
+            "PostCode": "L27 7AR",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "30579",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-07-01"
+                },
+                "End": {
+                    "value": "2020-07-22"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "86942",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-07-01"
+                },
+                "End": {
+                    "value": "2020-07-22"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RX7"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "109850"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "5479",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2006-07-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RB612"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "29994"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RX754",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01204 462785
+Date:
+  Start:
+    value: '2024-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BREIGTMET HEALTH CENTRE
+    AddrLn2: FOLD LANE
+    AddrLn3: BREIGHTMET
+    Country: ENGLAND
+    PostCode: BL2 6NT
+    Town: BOLTON
+    UPRN: '10070916709'
+LastChangeDate:
+  value: '2024-11-05'
+Name: EATING DISORDER SERVICE BOLTON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08602
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120884'
+    id: RE6
+    uniqueRelId: '854340'
+  - Date:
+      Start:
+        value: '2024-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161401'
+    id: RE4
+    uniqueRelId: '854339'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '533622'
+  - Date:
+      Start:
+        value: '2024-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '533623'
+Status:
+  value: Active
+metadata:
+  org_id: Y08602
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

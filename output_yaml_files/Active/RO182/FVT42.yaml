@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02392 463731
+Date:
+- Start:
+    value: '2023-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-01-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 42 ELM GROVE
+    Country: ENGLAND
+    PostCode: PO11 9EF
+    Town: HAYLING ISLAND
+    UPRN: '100062402140'
+LastChangeDate:
+  value: '2023-01-05'
+Name: HAYLING PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVT42
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1EL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '42286'
+    id: RE6
+    uniqueRelId: '817028'
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '817027'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '494994'
+Status:
+  value: Active
+metadata:
+  org_id: FVT42
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

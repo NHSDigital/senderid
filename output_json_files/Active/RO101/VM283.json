@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CARTREF CELTIADD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-08-24"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VM283"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "106 VARDRE ROAD",
+            "AddrLn2": "CLYDACH",
+            "Town": "SWANSEA",
+            "County": "WEST GLAMORGAN",
+            "PostCode": "SA6 5LU",
+            "Country": "WALES"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "377015",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO269",
+                "uniqueRoleId": "377016",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "597872",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A3"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "40383"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "597873",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AGVT"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "347163"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VM283",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

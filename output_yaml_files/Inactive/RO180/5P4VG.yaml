@@ -1,0 +1,115 @@
+Date:
+- End:
+    value: '2010-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HILLFIELD ROAD
+    Country: ENGLAND
+    County: HERTFORDSHIRE
+    PostCode: HP2 4AD
+    Town: HEMEL HEMPSTEAD
+    UPRN: '100081177143'
+LastChangeDate:
+  value: '2022-12-05'
+Name: HEMEL HEMPSTEAD HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5P4VG
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '119674'
+    id: RE6
+    uniqueRelId: '179921'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2010-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '120146'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5QVF8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '132447'
+    Type: Successor
+    uniqueSuccId: '36649'
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5GV15
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '43966'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '835'
+metadata:
+  org_id: 5P4VG
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

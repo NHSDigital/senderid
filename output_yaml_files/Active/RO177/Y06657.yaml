@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0330 1358030
+Date:
+  Start:
+    value: '2020-03-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TURNER ROAD
+    Country: ENGLAND
+    PostCode: CO4 5JR
+    Town: COLCHESTER
+    UPRN: '10091122130'
+LastChangeDate:
+  value: '2020-03-18'
+Name: CARE UK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06657
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NTP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107199'
+    id: RE6
+    uniqueRelId: '620901'
+  - Date:
+      Start:
+        value: '2020-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161355'
+    id: RE4
+    uniqueRelId: '620902'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '392337'
+  - Date:
+      Start:
+        value: '2020-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '392338'
+Status:
+  value: Active
+metadata:
+  org_id: Y06657
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

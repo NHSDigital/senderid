@@ -1,0 +1,137 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "THERAMEX",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-02-21"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "8KJ33"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SLOANE SQUARE HOUSE",
+            "AddrLn2": "1 HOLBEIN PLACE",
+            "Town": "LONDON",
+            "PostCode": "SW1W 8NS",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.THERAMEX.COM"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO157",
+                "uniqueRoleId": "391389",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO268",
+                "uniqueRoleId": "391390",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "619912",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-02-21"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q71"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "168379"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "698363",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QRV"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300794"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "8KJ33",
+        "status": "Active",
+        "role_id": "RO157"
+    }
+}

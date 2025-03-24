@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEICESTER GENERAL HOSPITAL
+    AddrLn2: GWENDOLEN ROAD
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE5 4PW
+    Town: LEICESTER
+    UPRN: '2465184759'
+LastChangeDate:
+  value: '2021-07-21'
+Name: BRANDON MENTAL HEALTH UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RT5AP
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RT5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '102783'
+    id: RE6
+    uniqueRelId: '84176'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '69018'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RK2AP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '20275'
+    Type: Predecessor
+    uniqueSuccId: '34263'
+metadata:
+  org_id: RT5AP
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

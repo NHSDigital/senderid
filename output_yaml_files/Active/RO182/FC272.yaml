@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 85534622
+Date:
+  Start:
+    value: '2006-09-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 683 ROMFORD ROAD
+    AddrLn2: MANOR PARK
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E12 5AD
+    Town: LONDON
+    UPRN: '46097594'
+LastChangeDate:
+  value: '2021-02-10'
+Name: MANOR PARK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FC272
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2006-09-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0TG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '6687'
+    id: RE6
+    uniqueRelId: '304475'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '304476'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '647652'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-09-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '214332'
+Status:
+  value: Active
+metadata:
+  org_id: FC272
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

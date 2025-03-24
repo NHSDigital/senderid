@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: YATE WEST GATE CENTRE
+    AddrLn2: 21 WEST WALK
+    AddrLn3: YATE
+    Country: ENGLAND
+    County: AVON
+    PostCode: BS37 4AX
+    Town: BRISTOL
+LastChangeDate:
+  value: '2020-04-05'
+Name: WEST WALK SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NFC0F
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NFC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '100457'
+    id: RE6
+    uniqueRelId: '558736'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q86
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299782'
+    id: RE5
+    uniqueRelId: '558737'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300817'
+    id: RE5
+    uniqueRelId: '689069'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '306818'
+Status:
+  value: Active
+metadata:
+  org_id: NFC0F
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,104 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01733 666670
+Date:
+- Start:
+    value: '2015-09-05'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-08-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CITY CARE CENTRE
+    AddrLn2: THORPE ROAD
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: PE3 6DB
+    Town: PETERBOROUGH
+LastChangeDate:
+  value: '2023-08-22'
+Name: PETERBOROUGH GP HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05140
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2015-09-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '386336'
+  - Date:
+      Start:
+        value: '2015-09-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '461989'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2015-09-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '234048'
+  - Date:
+    - Start:
+        value: '2015-09-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '234049'
+Status:
+  value: Active
+metadata:
+  org_id: Y05140
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

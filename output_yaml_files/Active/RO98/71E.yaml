@@ -1,0 +1,141 @@
+Date:
+- Start:
+    value: '2020-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRIDGE HOUSE
+    AddrLn2: THE POINT
+    AddrLn3: LIONS WAY
+    Country: ENGLAND
+    PostCode: NG34 8GG
+    Town: SLEAFORD
+LastChangeDate:
+  value: '2023-03-28'
+Name: NHS LINCOLNSHIRE ICB - 71E
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 71E
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300754'
+    id: RE5
+    uniqueRelId: '619583'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '386502'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486099'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161290'
+    Type: Predecessor
+    uniqueSuccId: '37676'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161298'
+    Type: Predecessor
+    uniqueSuccId: '37677'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161310'
+    Type: Predecessor
+    uniqueSuccId: '37678'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161371'
+    Type: Predecessor
+    uniqueSuccId: '37679'
+metadata:
+  org_id: 71E
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,120 @@
+Date:
+  Start:
+    value: '2012-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 46 RAVENSWOOD ROAD
+    AddrLn2: WALTHAMSTOW
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E17 9LY
+    Town: LONDON
+    UPRN: '100023584983'
+LastChangeDate:
+  value: '2023-09-21'
+Name: COMELY BANK CLINIC (EAST 17)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NIJ07
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '111691'
+    id: RE5
+    uniqueRelId: '223787'
+  - Date:
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NIJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '167597'
+    id: RE6
+    uniqueRelId: '223789'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '228292'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '689958'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '167604'
+Status:
+  value: Active
+metadata:
+  org_id: NIJ07
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

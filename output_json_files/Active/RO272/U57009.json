@@ -1,0 +1,116 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "FILEY AND SCARBOROUGH PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U57009"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-05-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HACKNESS ROAD SURGERY",
+            "AddrLn2": "19 HACKNESS ROAD",
+            "AddrLn3": "NEWBY",
+            "Town": "SCARBOROUGH",
+            "PostCode": "YO12 5SD",
+            "Country": "ENGLAND",
+            "UPRN": "100050475311"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "388289",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609931",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "03M"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161475"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638346",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "42D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386506"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U57009",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}

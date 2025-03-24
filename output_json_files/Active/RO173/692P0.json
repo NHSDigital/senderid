@@ -1,0 +1,97 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "LINCOLN COUNTY HOSPITAL LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "692P0"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LINCOLN COUNTY HOSPITAL",
+            "AddrLn2": "GREETWELL ROAD",
+            "Town": "LINCOLN",
+            "County": "LINCOLNSHIRE",
+            "PostCode": "LN2 5QY",
+            "Country": "ENGLAND",
+            "UPRN": "235033632"
+        }
+    },
+    "Contacts": {
+        "Contact": [
+            {
+                "type": "tel",
+                "value": "01522 573754"
+            },
+            {
+                "type": "fax",
+                "value": "01522 573757"
+            }
+        ]
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO173",
+            "uniqueRoleId": "28095",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "45313",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RWD"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "102784"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "692P0",
+        "status": "Active",
+        "role_id": "RO173"
+    }
+}

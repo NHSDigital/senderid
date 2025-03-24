@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "MERCURY HOUSE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-01-27"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VNL7M"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-02-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SHIPSTONE BUSINESS CENTRE",
+            "AddrLn2": "NORTH GATE",
+            "Town": "NOTTINGHAM",
+            "County": "NOTTINGHAMSHIRE",
+            "PostCode": "NG7 7FN",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "481003",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-01-27"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "481004",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-01-27"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "803040",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-01-27"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "52R"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386500"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "803039",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-01-27"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "C400"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "480921"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VNL7M",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

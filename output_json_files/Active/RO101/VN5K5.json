@@ -1,0 +1,158 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "TRUST CARE AGENCY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-03-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VN5K5"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROUEN HOUSE",
+            "AddrLn2": "ROUEN ROAD",
+            "Town": "NORWICH",
+            "County": "NORFOLK",
+            "PostCode": "NR1 1RB",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "366190",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "366191",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "583795",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-03-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "06W"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161357"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "583796",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AT78"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "351108"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "644660",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "26A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386489"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VN5K5",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

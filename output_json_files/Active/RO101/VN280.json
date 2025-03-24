@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "MANCHESTER SHARED LIVES",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-02-02"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VN280"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ABRAHAM MOSS CENTRE",
+            "AddrLn2": "CRESCENT ROAD",
+            "Town": "CRUMPSALL",
+            "County": "MANCHESTER",
+            "PostCode": "M8 5UP",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "360913",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-02-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "360914",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-02-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "578521",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-02-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "306"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "77587"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "578522",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14L"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "288843"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VN280",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

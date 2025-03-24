@@ -1,0 +1,149 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "WITHAM - NEW IVY CHIMNEYS",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2001-04-01"
+            },
+            "End": {
+                "value": "2017-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2001-04-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RRDAF"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-07-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BRIDGE HOSPITAL",
+            "AddrLn2": "HATFIELD ROAD",
+            "Town": "WITHAM",
+            "County": "ESSEX",
+            "PostCode": "CM8 1EN",
+            "Country": "ENGLAND",
+            "UPRN": "100091221783"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "9238",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    },
+                    "End": {
+                        "value": "2017-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "61859",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    },
+                    "End": {
+                        "value": "2017-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RRD"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "70443"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "33520",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RP3AO"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "25999"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RRDAF",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

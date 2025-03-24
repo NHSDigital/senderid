@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DARLINGTON MEMORIAL HOSPITAL
+    AddrLn2: HOLLYHURST ROAD
+    Country: ENGLAND
+    County: COUNTY DURHAM
+    PostCode: DL3 6HX
+    Town: DARLINGTON
+    UPRN: '200002723662'
+LastChangeDate:
+  value: '2021-02-05'
+Name: DARLINGTON A&E AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX638
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '120902'
+    id: RE6
+    uniqueRelId: '80477'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '109231'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVK38
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '109180'
+    Type: Predecessor
+    uniqueSuccId: '8449'
+metadata:
+  org_id: RX638
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

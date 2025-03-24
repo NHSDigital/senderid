@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE MAIDSTONE HOSPITAL
+    AddrLn2: HERMITAGE LANE
+    Country: ENGLAND
+    PostCode: ME16 9QQ
+    Town: MAIDSTONE
+    UPRN: '200003696803'
+LastChangeDate:
+  value: '2022-12-28'
+Name: INHEALTH - MAIDSTONE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V1M2S
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NV1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137020'
+    id: RE6
+    uniqueRelId: '816956'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE5
+    uniqueRelId: '816957'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '494936'
+Status:
+  value: Active
+metadata:
+  org_id: V1M2S
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

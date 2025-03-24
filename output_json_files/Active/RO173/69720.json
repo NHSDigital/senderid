@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "THE DOCTORS LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2011-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "69720"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "60 WHITFIELD STREET",
+            "Town": "LONDON",
+            "County": "GREATER LONDON",
+            "PostCode": "W1T 4EU",
+            "Country": "ENGLAND",
+            "UPRN": "5110516"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO71",
+                "uniqueRoleId": "151866",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2012-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO173",
+                "uniqueRoleId": "111966",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "6212",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2011-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "8HH48"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO157",
+                    "uniqueRoleId": "51143"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "69720",
+        "status": "Active",
+        "role_id": "RO173"
+    }
+}

@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLAYPIT STREET
+    AddrLn2: DEERMOSS
+    Country: ENGLAND
+    County: SHROPSHIRE
+    PostCode: SY13 1NT
+    Town: WHITCHURCH
+    UPRN: '10013133695'
+LastChangeDate:
+  value: '2021-01-28'
+Name: WHITCHURCH HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5M235
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5M2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '118347'
+    id: RE6
+    uniqueRelId: '175833'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '51609'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTW35
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '7703'
+    Type: Predecessor
+    uniqueSuccId: '29019'
+metadata:
+  org_id: 5M235
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

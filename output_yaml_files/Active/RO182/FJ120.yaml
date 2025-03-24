@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01635 777345
+Date:
+- Start:
+    value: '2023-08-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3-5 CROWN MEAD
+    AddrLn2: BATH ROAD
+    Country: ENGLAND
+    County: BERKSHIRE
+    PostCode: RG18 3JW
+    Town: THATCHAM
+LastChangeDate:
+  value: '2023-11-15'
+Name: HALO PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJ120
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '827795'
+  - Date:
+    - Start:
+        value: '2023-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K2W0Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506272'
+    id: RE6
+    uniqueRelId: '827796'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506320'
+Status:
+  value: Active
+metadata:
+  org_id: FJ120
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

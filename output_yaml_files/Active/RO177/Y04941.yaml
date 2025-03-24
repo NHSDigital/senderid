@@ -1,0 +1,139 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01273 665140
+Date:
+  Start:
+    value: '2015-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DERM DEPT ADMIN OFFICE
+    AddrLn2: A BLOCK BGH
+    AddrLn3: ELM GROVE
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN2 3EW
+    Town: BRIGHTON
+    UPRN: '22088627'
+LastChangeDate:
+  value: '2021-06-29'
+Name: BSUH DERMATOLOGY SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04941
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '62205'
+    id: RE6
+    uniqueRelId: '737062'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '106193'
+    id: RE6
+    uniqueRelId: '461802'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161482'
+    id: RE4
+    uniqueRelId: '637146'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-03-05'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161485'
+    id: RE4
+    uniqueRelId: '337193'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '230807'
+  - Date:
+      Start:
+        value: '2015-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '230808'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281361'
+Status:
+  value: Active
+metadata:
+  org_id: Y04941
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

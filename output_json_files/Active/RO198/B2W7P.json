@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BHFT - BOB - WOKINGHAM HOSPITAL - SAIS COVID VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "B2W7P"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-09-27"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WOKINGHAM HOSPITAL",
+            "AddrLn2": "41 BARKHAM ROAD",
+            "Town": "WOKINGHAM",
+            "PostCode": "RG41 2RE",
+            "Country": "ENGLAND",
+            "UPRN": "14067603"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "474236",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "474237",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "797427",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RWX"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "101218"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "B2W7P",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

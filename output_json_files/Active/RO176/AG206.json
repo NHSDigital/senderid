@@ -1,0 +1,140 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "PHYSIO.CO.UK - QUAYSIDE MEDICAL CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "AG206"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-03"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "76B CLEETHORPE ROAD",
+            "Town": "GRIMSBY",
+            "County": "SOUTH HUMBERSIDE",
+            "PostCode": "DN31 3EF",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "277375",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2015-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "447595",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AG2"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "196107"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "447596",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q72"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202011"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "663084",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QOQ"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300738"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "AG206",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ROCHDALE INFIRMARY OPD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-03-22"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A4C2G"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WHITEHALL STREET",
+            "Town": "ROCHDALE",
+            "PostCode": "OL12 0NB",
+            "Country": "ENGLAND",
+            "UPRN": "23062326"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "523165",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "523164",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "844418",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-03-22"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RM3"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "83044"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A4C2G",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

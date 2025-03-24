@@ -1,0 +1,70 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01369 703279
+Date:
+  Start:
+    value: '1999-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 246 ARGYLL STREET
+    Country: SCOTLAND
+    PostCode: PA23 7HW
+    Town: DUNOON
+    UPRN: '125009231'
+LastChangeDate:
+  value: '2022-12-09'
+Name: COWAL MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S84256
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SH9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487559'
+    id: RE5
+    uniqueRelId: '811800'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1999-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489428'
+  - Date:
+      Start:
+        value: '1999-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178800'
+Status:
+  value: Active
+metadata:
+  org_id: S84256
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

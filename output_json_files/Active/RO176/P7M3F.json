@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ULTRACARDIAC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "P7M3F"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-12-23"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "PLYMOUTH SCIENCE PARK",
+            "AddrLn2": "15 DAVY ROAD",
+            "AddrLn3": "DERRIFORD",
+            "Town": "PLYMOUTH",
+            "County": "DEVON",
+            "PostCode": "PL6 8BY",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "404303",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "721047",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NEF"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "136429"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "721048",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QJK"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300813"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "P7M3F",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

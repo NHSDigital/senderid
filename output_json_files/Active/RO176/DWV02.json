@@ -1,0 +1,142 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "WTS MIDLANDS DC1",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "DWV02"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 14",
+            "AddrLn2": "MERRYHILLS ENTERPRISE PARK",
+            "AddrLn3": "PARK LANE",
+            "Town": "WOLVERHAMPTON",
+            "PostCode": "WV10 9TJ",
+            "Country": "ENGLAND",
+            "UPRN": "100071406178"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "342911",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2018-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "563666",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q77"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202021"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "681963",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300760"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "563667",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "DWV"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "342909"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "DWV02",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01782 847356
+Date:
+- Start:
+    value: '2023-06-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FENTON HEALTH CENTRE
+    AddrLn2: GLEBEDALE ROAD
+    AddrLn3: FENTON
+    Country: ENGLAND
+    PostCode: ST4 3AQ
+    Town: STOKE-ON-TRENT
+    UPRN: '3455130642'
+LastChangeDate:
+  value: '2023-05-25'
+Name: FENTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQV31
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '826309'
+  - Date:
+    - Start:
+        value: '2023-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R3G8L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '407785'
+    id: RE6
+    uniqueRelId: '826310'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504804'
+Status:
+  value: Active
+metadata:
+  org_id: FQV31
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

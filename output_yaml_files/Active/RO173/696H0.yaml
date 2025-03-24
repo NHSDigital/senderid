@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KINGS MILL HOSPITAL
+    AddrLn2: MANSFIELD ROAD
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG17 4JL
+    Town: SUTTON-IN-ASHFIELD
+LastChangeDate:
+  value: '2012-05-15'
+Name: KING'S MILL HOSPITAL LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 696H0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RK5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18921'
+    id: RE3
+    uniqueRelId: '45060'
+  - Date:
+      End:
+        value: '2001-03-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '92466'
+    id: RE3
+    uniqueRelId: '45307'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '111333'
+Status:
+  value: Active
+metadata:
+  org_id: 696H0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "REDCAR COASTAL PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U23714"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-03-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "COATHAM ROAD",
+            "Town": "REDCAR",
+            "PostCode": "TS10 1SR",
+            "Country": "ENGLAND",
+            "UPRN": "10023902902"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "388375",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "610017",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00M"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161396"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638218",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "16C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386505"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U23714",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}

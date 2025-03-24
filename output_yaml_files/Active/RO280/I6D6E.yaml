@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 19 WEST GATE PLAZA
+    AddrLn2: MOOR STREET
+    Country: ENGLAND
+    PostCode: B70 7AD
+    Town: WEST BROMWICH
+    UPRN: '10008755394'
+LastChangeDate:
+  value: '2023-05-02'
+Name: LLOYDSPHARMACY - WEST BROMWICH - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I6D6E
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2022-11-30'
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FED83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '216239'
+    id: RE6
+    uniqueRelId: '794319'
+  - Date:
+      Start:
+        value: '2022-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FQL49
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '492229'
+    id: RE6
+    uniqueRelId: '825237'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '470062'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '470061'
+Status:
+  value: Active
+metadata:
+  org_id: I6D6E
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HANTS LANE
+    Country: ENGLAND
+    PostCode: L39 1PX
+    Town: ORMSKIRK
+    UPRN: '100012653456'
+LastChangeDate:
+  value: '2021-03-02'
+Name: HANTS LANE CLINIC - CONNECT HEALTH PAIN SERVICES LIMITED
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NY61K
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NY6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133330'
+    id: RE6
+    uniqueRelId: '570246'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q84
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278955'
+    id: RE5
+    uniqueRelId: '570247'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE5
+    uniqueRelId: '672542'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '344794'
+Status:
+  value: Active
+metadata:
+  org_id: NY61K
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

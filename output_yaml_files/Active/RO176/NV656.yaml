@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 BELVEDERE ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: WA12 0JJ
+    Town: NEWTON-LE-WILLOWS
+    UPRN: '39003854'
+LastChangeDate:
+  value: '2021-02-11'
+Name: PDS MEDICAL - PALL MALL HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NV656
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NV6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137058'
+    id: RE6
+    uniqueRelId: '383732'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '383733'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '665200'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '231868'
+Status:
+  value: Active
+metadata:
+  org_id: NV656
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

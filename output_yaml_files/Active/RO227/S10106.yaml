@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01382 778881
+Date:
+  Start:
+    value: '1996-07-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 129 DUNDEE ROAD
+    AddrLn2: BROUGHTY FERRY
+    Country: SCOTLAND
+    County: ANGUS
+    PostCode: DD5 1DU
+    Town: DUNDEE
+LastChangeDate:
+  value: '2022-08-18'
+Name: GROVE HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S10106
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ST9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487564'
+    id: RE5
+    uniqueRelId: '810923'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1996-07-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488551'
+  - Date:
+      Start:
+        value: '1996-07-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176490'
+Status:
+  value: Active
+metadata:
+  org_id: S10106
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

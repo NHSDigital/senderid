@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 31 OLD BROAD STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: EC2N 1HT
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-05'
+Name: LONDON BRIDGE HOSPITAL (31 OLD BROAD ST) PART OF HCA HEALTHCARE UK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NW60R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NW6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '119680'
+    id: RE6
+    uniqueRelId: '518727'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '518728'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '690666'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '289986'
+Status:
+  value: Active
+metadata:
+  org_id: NW60R
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

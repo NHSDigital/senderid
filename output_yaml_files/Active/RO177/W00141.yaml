@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01639 500583
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PORT TALBOT RESOURCE CTRE
+    AddrLn2: MOOR ROAD
+    Country: WALES
+    County: WEST GLAMORGAN
+    PostCode: SA12 7BJ
+    Town: PORT TALBOT
+    UPRN: '10023947996'
+LastChangeDate:
+  value: '2023-08-22'
+Name: ROSEDALE MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00141
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE4
+    uniqueRelId: '285055'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE6
+    uniqueRelId: '462352'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2021-11-09'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '189592'
+  - Date:
+      Start:
+        value: '2021-11-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '476173'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '189593'
+Status:
+  value: Active
+metadata:
+  org_id: W00141
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

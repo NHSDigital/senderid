@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCHGATE HOUSE
+    AddrLn2: 56 OXFORD STREET
+    Country: ENGLAND
+    PostCode: M1 6EU
+    Town: MANCHESTER
+    UPRN: '10091978280'
+LastChangeDate:
+  value: '2020-04-03'
+Name: GREATER MANCHESTER COMBINED AUTHORITY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '915'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278954'
+    id: RE5
+    uniqueRelId: '618047'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '666091'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '389728'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO273
+    uniqueRoleId: '389729'
+Status:
+  value: Active
+metadata:
+  org_id: '915'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

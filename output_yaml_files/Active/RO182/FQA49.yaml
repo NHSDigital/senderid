@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01642 356606
+Date:
+- Start:
+    value: '2024-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-05-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 118A VICTORIA ROAD
+    Country: ENGLAND
+    PostCode: TS1 3HY
+    Town: MIDDLESBROUGH
+    UPRN: '100110142217'
+LastChangeDate:
+  value: '2024-05-23'
+Name: VICTORIA CHEMIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQA49
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '847026'
+  - Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G9S0H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '526060'
+    id: RE6
+    uniqueRelId: '847027'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '526079'
+Status:
+  value: Active
+metadata:
+  org_id: FQA49
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

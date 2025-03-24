@@ -1,0 +1,85 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "DORKING HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2005-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RTP25"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "DORKING GENERAL HOSPITAL",
+            "AddrLn2": "HORSHAM ROAD",
+            "Town": "DORKING",
+            "County": "SURREY",
+            "PostCode": "RH4 2AA",
+            "Country": "ENGLAND",
+            "UPRN": "100062678367"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "72682",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "90107",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTP"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "133396"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RTP25",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

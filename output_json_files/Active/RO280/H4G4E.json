@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ALCOMBE PHARMACY - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "H4G4E"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-02-17"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "65 ALCOMBE ROAD",
+            "Town": "MINEHEAD",
+            "PostCode": "TA24 6BD",
+            "Country": "ENGLAND",
+            "UPRN": "200003156495"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "410121",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "410120",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "725278",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "FP116"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO182",
+                    "uniqueRoleId": "223199"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "H4G4E",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

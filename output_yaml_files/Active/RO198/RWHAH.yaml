@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROYSTON & DISTRICT HPL
+    AddrLn2: LONDON ROAD
+    Country: ENGLAND
+    PostCode: SG8 9EN
+    Town: ROYSTON
+    UPRN: '100081260189'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ELDERLY HEALTH CARE/R&D
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWHAH
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133402'
+    id: RE6
+    uniqueRelId: '821741'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500636'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500637'
+Status:
+  value: Active
+metadata:
+  org_id: RWHAH
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

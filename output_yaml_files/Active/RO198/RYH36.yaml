@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2014-03-31'
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CEDAR VIEW
+    AddrLn2: BARONY ROAD
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: CW5 5QU
+    Town: NANTWICH
+LastChangeDate:
+  value: '2014-03-20'
+Name: NHS DIRECT (NANTWICH)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYH36
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137067'
+    id: RE6
+    uniqueRelId: '93186'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '58754'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1387
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '74070'
+    Type: Predecessor
+    uniqueSuccId: '11433'
+metadata:
+  org_id: RYH36
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

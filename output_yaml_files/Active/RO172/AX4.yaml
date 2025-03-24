@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DOLAN PARK HOSPITAL
+    AddrLn2: STONEY LANE
+    AddrLn3: TARDEBIGGE
+    Country: ENGLAND
+    County: WORCESTERSHIRE
+    PostCode: B60 1LY
+    Town: BROMSGROVE
+LastChangeDate:
+  value: '2020-04-05'
+Name: COMBINE OPCO LIMITED
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AX4
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '449384'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE5
+    uniqueRelId: '684235'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '278803'
+Status:
+  value: Active
+metadata:
+  org_id: AX4
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

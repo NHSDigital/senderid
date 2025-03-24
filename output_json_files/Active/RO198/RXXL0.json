@@ -1,0 +1,102 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CONSULTANT L0",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RXXL0"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "INTENSIVE SUPPORT SERVICE",
+            "AddrLn2": "THE DEACON UNIT",
+            "AddrLn3": "ST. EBBAS HOSPITAL",
+            "Town": "EPSOM",
+            "County": "SURREY",
+            "PostCode": "KT19 8QJ",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "288305",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "288306",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "516360",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2016-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXX"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "103932"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RXXL0",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MARKET STREET
+    AddrLn2: CLAY CROSS
+    Country: ENGLAND
+    County: DERBYSHIRE
+    PostCode: S45 9NZ
+    Town: CHESTERFIELD
+    UPRN: '100032185819'
+LastChangeDate:
+  value: '2021-02-05'
+Name: CLAY CROSS COMMUNITY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXM65
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '136477'
+    id: RE6
+    uniqueRelId: '92819'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '97273'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RKXDL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '51959'
+    Type: Predecessor
+    uniqueSuccId: '36075'
+metadata:
+  org_id: RXM65
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

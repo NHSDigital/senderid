@@ -1,0 +1,118 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "GASTROENTEROLOGY CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2011-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "REFC3"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-02"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CAMBORNE/REDRUTH COMMUNITY HOSPITAL",
+            "Town": "REDRUTH",
+            "County": "CORNWALL",
+            "PostCode": "TR15 3ER",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO29",
+                "uniqueRoleId": "155899",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-04-01"
+                    },
+                    "End": {
+                        "value": "2011-04-02"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO31",
+                "uniqueRoleId": "155898",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "125158",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2011-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "52965",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2011-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "REF"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "52056"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "REFC3",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

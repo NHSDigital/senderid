@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEST MIDDLESEX UNIVERSITY HOSPITAL
+    AddrLn2: TWICKENHAM ROAD
+    Country: ENGLAND
+    County: MIDDLESEX
+    PostCode: TW7 6AF
+    Town: ISLEWORTH
+    UPRN: '100023406558'
+LastChangeDate:
+  value: '2021-01-28'
+Name: WEST MIDDLESEX UNIVERSITY LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 695Y0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RQM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '64053'
+    id: RE3
+    uniqueRelId: '445925'
+  - Date:
+      End:
+        value: '2015-08-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118608'
+    id: RE3
+    uniqueRelId: '46193'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '120798'
+Status:
+  value: Active
+metadata:
+  org_id: 695Y0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 62 ACRE STREET
+    Country: ENGLAND
+    PostCode: HD3 3DY
+    Town: HUDDERSFIELD
+    UPRN: '83034970'
+LastChangeDate:
+  value: '2020-04-03'
+Name: DIRECT MEDICARE UK - LINDLEY GROUP PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DGJ1X
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '608580'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DGJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '291372'
+    id: RE6
+    uniqueRelId: '608581'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '663316'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '386845'
+Status:
+  value: Active
+metadata:
+  org_id: DGJ1X
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

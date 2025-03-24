@@ -1,0 +1,140 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "THE JOLLY MEDICAL CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "NHT8A"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "74 CRESCENT ROAD",
+            "Town": "MANCHESTER",
+            "County": "GREATER MANCHESTER",
+            "PostCode": "M8 9NT",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "288452",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2016-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "516543",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NHT"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "162744"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "516544",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q83"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "278954"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "671336",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QOP"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300740"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "NHT8A",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

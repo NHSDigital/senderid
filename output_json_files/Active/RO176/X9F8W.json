@@ -1,0 +1,112 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NUPAS MAIDENHEAD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2025-02-03"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "X9F8W"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-03"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE SYMONS MEDICAL CENTRE",
+            "AddrLn2": "25 ALL SAINTS AVENUE",
+            "Town": "MAIDENHEAD",
+            "PostCode": "SL6 6EL",
+            "Country": "ENGLAND",
+            "UPRN": "100081276136"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "536871",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2025-02-03"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "857629",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-02-03"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NL6"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "107195"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "857630",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-02-03"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QNQ"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300807"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "X9F8W",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

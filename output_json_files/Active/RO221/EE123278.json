@@ -1,0 +1,145 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SIBFORD SCHOOL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1945-01-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "EE123278"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-02-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE HILL",
+            "AddrLn2": "SIBFORD FERRIS",
+            "Town": "BANBURY",
+            "PostCode": "OX15 5QL",
+            "Country": "ENGLAND",
+            "UPRN": "10011891999"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01295 781200"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO221",
+                "uniqueRoleId": "435552",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1945-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO289",
+                "uniqueRoleId": "435553",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1945-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "759592",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1980-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "608"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "78167"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "759591",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2011-12-13"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "10Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161508"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "EE123278",
+        "status": "Active",
+        "role_id": "RO221"
+    }
+}

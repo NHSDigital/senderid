@@ -1,0 +1,144 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BERKHAMSTED SCHOOL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1902-01-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "EE117604"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-31"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "131 HIGH STREET",
+            "Town": "BERKHAMSTED",
+            "PostCode": "HP4 2DJ",
+            "Country": "ENGLAND",
+            "UPRN": "10002011503"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01442 358000"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO221",
+                "uniqueRoleId": "431595",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1902-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO289",
+                "uniqueRoleId": "431596",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1902-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "755601",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1980-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "606"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "78166"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "755600",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2011-12-13"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "06N"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161352"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "EE117604",
+        "status": "Active",
+        "role_id": "RO221"
+    }
+}

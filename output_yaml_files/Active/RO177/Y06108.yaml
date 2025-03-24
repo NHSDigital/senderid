@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01493 452452
+Date:
+  Start:
+    value: '2018-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: JAMES PAGET HOSPITAL
+    AddrLn2: LOWESTOFT ROAD
+    AddrLn3: GORLESTON
+    Country: ENGLAND
+    County: NORFOLK
+    PostCode: NR31 6LA
+    Town: GREAT YARMOUTH
+LastChangeDate:
+  value: '2020-04-01'
+Name: GP SERVICE ACCIDENT AND EMERGENCY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06108
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RGP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '128492'
+    id: RE6
+    uniqueRelId: '555066'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161351'
+    id: RE4
+    uniqueRelId: '555067'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 26A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386489'
+    id: RE4
+    uniqueRelId: '637768'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '303694'
+  - Date:
+      Start:
+        value: '2018-05-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '303695'
+Status:
+  value: Active
+metadata:
+  org_id: Y06108
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

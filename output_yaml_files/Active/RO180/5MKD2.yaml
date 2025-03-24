@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DEERCOTE CENTRE
+    AddrLn2: HOLLINSWOOD
+    Country: ENGLAND
+    County: SHROPSHIRE
+    PostCode: TF3 2ER
+    Town: TELFORD
+LastChangeDate:
+  value: '2013-03-27'
+Name: RISQ CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5MKD2
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5MK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '118348'
+    id: RE6
+    uniqueRelId: '179265'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '77222'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTWD2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '6239'
+    Type: Predecessor
+    uniqueSuccId: '17231'
+metadata:
+  org_id: 5MKD2
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

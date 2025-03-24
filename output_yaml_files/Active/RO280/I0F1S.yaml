@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 94 CALVERLEY ROAD
+    Country: ENGLAND
+    PostCode: TN1 2UN
+    Town: TUNBRIDGE WELLS
+    UPRN: '100062543204'
+LastChangeDate:
+  value: '2022-03-21'
+Name: CARRS PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I0F1S
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FQR12
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '224594'
+    id: RE6
+    uniqueRelId: '725312'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '410189'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '410188'
+Status:
+  value: Active
+metadata:
+  org_id: I0F1S
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

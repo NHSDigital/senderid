@@ -1,0 +1,187 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SOUTH CAMBRIDGESHIRE DISTRICT COUNCIL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2004-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "295"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SOUTH CAMBRIDGESHIRE HALL",
+            "AddrLn2": "6010 CAMBOURNE BUSINESS PARK",
+            "AddrLn3": "CAMBOURNE",
+            "Town": "CAMBRIDGE",
+            "PostCode": "CB23 6EA",
+            "Country": "ENGLAND",
+            "UPRN": "10008083142"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO36",
+                "uniqueRoleId": "174127",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO141",
+                "uniqueRoleId": "173710",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "235722",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2012-10-01"
+                    },
+                    "End": {
+                        "value": "2015-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q56"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "163551"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "364480",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-04-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q79"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202023"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "695739",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUE"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300777"
+                    }
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "36982",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "V027"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO119",
+                    "uniqueRoleId": "104881"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "295",
+        "status": "Active",
+        "role_id": "RO141"
+    }
+}

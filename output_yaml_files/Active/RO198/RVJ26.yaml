@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALMA ROAD
+    AddrLn2: KINGSWOOD
+    Country: ENGLAND
+    County: AVON
+    PostCode: BS15 4EJ
+    Town: BRISTOL
+    UPRN: '528164'
+LastChangeDate:
+  value: '2021-02-05'
+Name: KINGSWOOD HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVJ26
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '114379'
+    id: RE6
+    uniqueRelId: '89201'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '96708'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REB26
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '67607'
+    Type: Predecessor
+    uniqueSuccId: '14974'
+metadata:
+  org_id: RVJ26
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

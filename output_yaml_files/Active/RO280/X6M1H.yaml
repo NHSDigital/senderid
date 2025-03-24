@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 45 COTSWOLD ROAD
+    Country: ENGLAND
+    PostCode: WA2 9SF
+    Town: WARRINGTON
+    UPRN: '100010274581'
+LastChangeDate:
+  value: '2022-11-24'
+Name: ORFORD PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: X6M1H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FW716
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '227430'
+    id: RE6
+    uniqueRelId: '721425'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '404769'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '404770'
+Status:
+  value: Active
+metadata:
+  org_id: X6M1H
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01603 618936
+Date:
+- Start:
+    value: '2022-09-07'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-08-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 55 WESSEX STREET
+    Country: ENGLAND
+    PostCode: NR2 2TJ
+    Town: NORWICH
+    UPRN: '10009435267'
+LastChangeDate:
+  value: '2022-11-23'
+Name: ST STEPHENS GATE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEQ33
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-09-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE4
+    uniqueRelId: '812015'
+  - Date:
+    - Start:
+        value: '2022-09-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K2Q8T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '489690'
+    id: RE6
+    uniqueRelId: '812016'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-09-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-08-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '489697'
+Status:
+  value: Active
+metadata:
+  org_id: FEQ33
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

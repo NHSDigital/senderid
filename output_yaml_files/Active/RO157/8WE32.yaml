@@ -1,0 +1,112 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 029 2048 5345
+  - type: fax
+    value: 029 2045 6169
+Date:
+  Start:
+    value: '1996-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WHITCHURCH HOSPITAL
+    AddrLn2: PARK ROAD
+    AddrLn3: WHITCHURCH
+    Country: WALES
+    PostCode: CF14 7BF
+    Town: CARDIFF
+    UPRN: '10008905576'
+LastChangeDate:
+  value: '2022-09-26'
+Name: CITY HOSPICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 8WE32
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40385'
+    id: RE5
+    uniqueRelId: '16465'
+  - Date:
+      End:
+        value: '2003-03-31'
+      Start:
+        value: '1996-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QW2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '119707'
+    id: RE5
+    uniqueRelId: '134867'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6A8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '126463'
+    id: RE5
+    uniqueRelId: '5024'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1996-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO7
+    uniqueRoleId: '151075'
+  - Date:
+      Start:
+        value: '1996-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO157
+    primaryRole: 'true'
+    uniqueRoleId: '102380'
+Status:
+  value: Active
+metadata:
+  org_id: 8WE32
+  role_id: RO157
+  status: Active
+orgRecordClass: RC1

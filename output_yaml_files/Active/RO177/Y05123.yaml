@@ -1,0 +1,177 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01293 566549
+Date:
+- Start:
+    value: '2015-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-08-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PERIMETER ROAD SOUTH
+    AddrLn2: LONDON GATWICK AIRPORT
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: RH6 0PQ
+    Town: GATWICK
+    UPRN: '10034144388'
+LastChangeDate:
+  value: '2023-08-22'
+Name: BROOK HOUSE IRC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05123
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2015-11-10'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-11-10'
+      Start:
+        value: '2015-08-19'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 09H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161486'
+    id: RE4
+    uniqueRelId: '462440'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-11-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230523'
+    id: RE4
+    uniqueRelId: '462441'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230523'
+    id: RE6
+    uniqueRelId: '462442'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 97T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386574'
+    id: RE6
+    uniqueRelId: '637239'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 97T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386574'
+    id: RE4
+    uniqueRelId: '637240'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-08-19'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO82
+    uniqueRoleId: '233889'
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233890'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO251
+    uniqueRoleId: '281667'
+Status:
+  value: Active
+metadata:
+  org_id: Y05123
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

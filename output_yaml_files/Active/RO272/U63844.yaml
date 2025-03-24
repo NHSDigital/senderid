@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THORNABY HEALTH CENTRE
+    AddrLn2: TRENCHARD AVENUE
+    AddrLn3: THORNABY
+    Country: ENGLAND
+    PostCode: TS17 0EE
+    Town: STOCKTON-ON-TEES
+    UPRN: '10091850509'
+LastChangeDate:
+  value: '2020-08-18'
+Name: BYTES PCN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: U63844
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161394'
+    id: RE4
+    uniqueRelId: '610024'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '638372'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO272
+    primaryRole: 'true'
+    uniqueRoleId: '388382'
+Status:
+  value: Active
+metadata:
+  org_id: U63844
+  role_id: RO272
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01174 526817
+Date:
+- Start:
+    value: '2024-05-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-03-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 126 HIGH STREET
+    AddrLn2: STAPLE HILL
+    Country: ENGLAND
+    PostCode: BS16 5HH
+    Town: BRISTOL
+    UPRN: '520091'
+LastChangeDate:
+  value: '2024-03-28'
+Name: BRIDGE CASTLE HEALTH CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTW71
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300817'
+    id: RE4
+    uniqueRelId: '841685'
+  - Date:
+    - Start:
+        value: '2024-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K0Q1J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '521751'
+    id: RE6
+    uniqueRelId: '841686'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-05-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '521778'
+Status:
+  value: Active
+metadata:
+  org_id: FTW71
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ELEANOR CLOSE
+    AddrLn2: WOBURN
+    Country: ENGLAND
+    County: BUCKINGHAMSHIRE
+    PostCode: MK17 9QU
+    Town: MILTON KEYNES
+    UPRN: '100081203332'
+LastChangeDate:
+  value: '2021-01-28'
+Name: WOBURN SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5P202
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '100752'
+    id: RE6
+    uniqueRelId: '171472'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '46484'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5GE18
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '34758'
+    Type: Predecessor
+    uniqueSuccId: '575'
+metadata:
+  org_id: 5P202
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01388 817777
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST ANDREWS MEDICAL PRACTICE
+    AddrLn2: SENSIER HOUSE
+    AddrLn3: ST ANDREWS LANE
+    Country: ENGLAND
+    County: DURHAM
+    PostCode: DL16 6QA
+    Town: SPENNYMOOR
+LastChangeDate:
+  value: '2023-10-04'
+Name: SN GP ENHANCED ACCESS SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07935
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 84H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386504'
+    id: RE4
+    uniqueRelId: '822261'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 84H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386504'
+    id: RE6
+    uniqueRelId: '822262'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '501425'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '501424'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511813'
+Status:
+  value: Active
+metadata:
+  org_id: Y07935
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

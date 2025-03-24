@@ -1,0 +1,99 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LOUGHBOROUGH UNIVERSITY
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE11 3TU
+    Town: LOUGHBOROUGH
+    UPRN: '100032235021'
+LastChangeDate:
+  value: '2022-12-05'
+Name: THE MEDICAL CENTRE (LOUGHBOROUGH UNIVERSITY)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5PA55
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '58575'
+    id: RE6
+    uniqueRelId: '165974'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '49096'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JC16
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '35132'
+    Type: Predecessor
+    uniqueSuccId: '11644'
+metadata:
+  org_id: 5PA55
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

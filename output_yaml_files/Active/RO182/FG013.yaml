@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01493 850551
+Date:
+- Start:
+    value: '2023-09-30'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-08-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 GREYFRIARS WAY
+    Country: ENGLAND
+    PostCode: NR30 2QE
+    Town: GREAT YARMOUTH
+    UPRN: '10023462892'
+LastChangeDate:
+  value: '2024-01-25'
+Name: GREYFRIARS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FG013
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-09-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE4
+    uniqueRelId: '830891'
+  - Date:
+    - Start:
+        value: '2023-09-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K2Q8T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '489690'
+    id: RE6
+    uniqueRelId: '830892'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-09-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '509194'
+Status:
+  value: Active
+metadata:
+  org_id: FG013
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

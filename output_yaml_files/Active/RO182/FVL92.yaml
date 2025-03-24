@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01332 663046
+Date:
+- Start:
+    value: '2023-07-28'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 22 CHAPEL STREET
+    AddrLn2: SPONDON
+    Country: ENGLAND
+    PostCode: DE21 7JP
+    Town: DERBY
+    UPRN: '100032005659'
+LastChangeDate:
+  value: '2024-10-03'
+Name: CHAPEL STREET PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVL92
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '828080'
+  - Date:
+    - Start:
+        value: '2023-07-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1I8B
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506548'
+    id: RE6
+    uniqueRelId: '828081'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506593'
+Status:
+  value: Active
+metadata:
+  org_id: FVL92
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03307 260077
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 PHORPRES CLOSE
+    AddrLn2: CYGNET PARK
+    AddrLn3: HAMPTON
+    Country: ENGLAND
+    PostCode: PE7 8FZ
+    Town: PETERBOROUGH
+    UPRN: '10008061463'
+LastChangeDate:
+  value: '2023-08-22'
+Name: NMP CPFT - GREATER PETERBOROUGH UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04143
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '283898'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '461043'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194422'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194423'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280856'
+Status:
+  value: Active
+metadata:
+  org_id: Y04143
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

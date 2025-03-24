@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01279 629065
+Date:
+- Start:
+    value: '2023-08-14'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-08-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FLORENCE NIGHTINGALE HC
+    AddrLn2: MINTON LANE
+    AddrLn3: CHURCH LANGLEY
+    Country: ENGLAND
+    PostCode: CM17 9TG
+    Town: HARLOW
+LastChangeDate:
+  value: '2023-08-15'
+Name: CHURCH LANGLEY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FMQ91
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '829798'
+  - Date:
+    - Start:
+        value: '2023-08-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y6A3F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '507972'
+    id: RE6
+    uniqueRelId: '829799'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '508009'
+Status:
+  value: Active
+metadata:
+  org_id: FMQ91
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,93 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02074 055665
+Date:
+- Start:
+    value: '2023-10-27'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-10-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 81 GRAY'S INN ROAD
+    Country: ENGLAND
+    PostCode: WC1X 8TP
+    Town: LONDON
+LastChangeDate:
+  value: '2023-10-12'
+Name: GRAY'S INN PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FN642
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE4
+    uniqueRelId: '832986'
+  - Date:
+    - Start:
+        value: '2023-10-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U6F4D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511894'
+    id: RE6
+    uniqueRelId: '832987'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '511912'
+Status:
+  value: Active
+metadata:
+  org_id: FN642
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

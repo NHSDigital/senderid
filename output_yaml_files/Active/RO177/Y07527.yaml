@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01162 461311
+Date:
+  Start:
+    value: '2022-09-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 184 COLEMAN ROAD
+    Country: ENGLAND
+    PostCode: LE5 4LJ
+    Town: LEICESTER
+    UPRN: '2465118975'
+LastChangeDate:
+  value: '2023-10-04'
+Name: AEGIS HEALTHCARE PCN ENHANCED ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07527
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161297'
+    id: RE4
+    uniqueRelId: '813560'
+  - Date:
+      Start:
+        value: '2022-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161297'
+    id: RE6
+    uniqueRelId: '813561'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491268'
+  - Date:
+      Start:
+        value: '2022-09-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491267'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511587'
+Status:
+  value: Active
+metadata:
+  org_id: Y07527
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

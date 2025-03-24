@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01243 865418
+Date:
+  Start:
+    value: '2020-10-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SHRIPNEY ROAD
+    Country: ENGLAND
+    PostCode: PO22 9PP
+    Town: BOGNOR REGIS
+    UPRN: '200002703167'
+LastChangeDate:
+  value: '2020-10-08'
+Name: BOGNOR HOSPITAL MINOR INJURIES UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06897
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48407'
+    id: RE6
+    uniqueRelId: '717454'
+  - Date:
+      Start:
+        value: '2020-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 70F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386493'
+    id: RE4
+    uniqueRelId: '717455'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '399609'
+  - Date:
+      Start:
+        value: '2020-10-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '399610'
+Status:
+  value: Active
+metadata:
+  org_id: Y06897
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

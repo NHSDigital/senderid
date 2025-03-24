@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2005-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2005-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 TREVELYAN SQUARE
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS1 6AE
+    Town: LEEDS
+    UPRN: '72666252'
+LastChangeDate:
+  value: '2021-02-04'
+Name: THE IC HQ TREVELYAN SQUARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: T1431
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1430
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO189
+        uniqueRoleId: '136318'
+    id: RE6
+    uniqueRelId: '41637'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO191
+    primaryRole: 'true'
+    uniqueRoleId: '30905'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2601
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO90
+        uniqueRoleId: '166244'
+    Type: Successor
+    uniqueSuccId: '36590'
+metadata:
+  org_id: T1431
+  role_id: RO191
+  status: Active
+orgRecordClass: RC2

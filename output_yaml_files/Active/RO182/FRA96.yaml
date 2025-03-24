@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0116 2592221
+Date:
+  Start:
+    value: '1994-11-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COUNTY HOUSE
+    AddrLn2: 14 STRETTON COURT
+    AddrLn3: STRETTON ROAD, GREAT GLEN
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE8 9HB
+    Town: LEICESTER
+    UPRN: '100032072807'
+LastChangeDate:
+  value: '2021-02-11'
+Name: COUNTY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRA96
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P66W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '95468'
+    id: RE6
+    uniqueRelId: '325837'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q59
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163554'
+    id: RE4
+    uniqueRelId: '325838'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE4
+    uniqueRelId: '358335'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '655511'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1994-11-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '225017'
+Status:
+  value: Active
+metadata:
+  org_id: FRA96
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

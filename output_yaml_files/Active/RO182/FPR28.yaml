@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 949966
+Date:
+  Start:
+    value: '2016-11-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 2
+    AddrLn2: LESLIE HITCHCOCK HOUSE
+    AddrLn3: 21 MINTER ROAD
+    Country: ENGLAND
+    PostCode: IG11 0TH
+    Town: BARKING
+    UPRN: '10090633096'
+LastChangeDate:
+  value: '2021-08-26'
+Name: BRITANNIA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FPR28
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-11-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0Q2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '110680'
+    id: RE6
+    uniqueRelId: '515985'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-11-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '515986'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '654641'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-11-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '287995'
+Status:
+  value: Active
+metadata:
+  org_id: FPR28
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

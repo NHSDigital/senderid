@@ -1,0 +1,125 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 33126666
+Date:
+  Start:
+    value: '2016-04-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: IMPERIAL COLL NHS TRUST
+    AddrLn2: PRAED STREET
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: W2 1NY
+    Town: LONDON
+    UPRN: '100023476728'
+LastChangeDate:
+  value: '2024-04-01'
+Name: COMM CARDIOLOGY AND RESP CLINIC (H&F)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05394
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '90656'
+    id: RE6
+    uniqueRelId: '462426'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 08Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161288'
+    id: RE4
+    uniqueRelId: '462427'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    id: RE4
+    uniqueRelId: '731760'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2Z9S
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521956'
+    id: RE11
+    uniqueRelId: '843557'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '281654'
+  - Date:
+      Start:
+        value: '2016-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '281655'
+Status:
+  value: Active
+metadata:
+  org_id: Y05394
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

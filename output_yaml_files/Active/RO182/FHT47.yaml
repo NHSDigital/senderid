@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01905 23822
+Date:
+  Start:
+    value: '1990-09-03'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 40-42 ASTWOOD ROAD
+    AddrLn2: RAINBOW HILL
+    Country: ENGLAND
+    County: WORCESTERSHIRE
+    PostCode: WR3 8EZ
+    Town: WORCESTER
+    UPRN: '10090440927'
+LastChangeDate:
+  value: '2021-02-10'
+Name: SCALES PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHT47
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P832
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94878'
+    id: RE6
+    uniqueRelId: '313852'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q53
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163548'
+    id: RE4
+    uniqueRelId: '313853'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE4
+    uniqueRelId: '356755'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '651086'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1990-09-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '219023'
+Status:
+  value: Active
+metadata:
+  org_id: FHT47
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,153 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "ABC PCN HUB",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-02-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y07858"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-10-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE COLLEGE PRACTICE",
+            "AddrLn2": "50-52 COLLEGE ROAD",
+            "Town": "MAIDSTONE",
+            "PostCode": "ME15 6SB",
+            "Country": "ENGLAND",
+            "UPRN": "200003691120"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01622 752345"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "497958",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-02-01"
+                    },
+                    "End": {
+                        "value": "2023-10-03"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "497957",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-02-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO321",
+                "uniqueRoleId": "511803",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "819842",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-02-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "91Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386491"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "819843",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-02-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "91Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386491"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y07858",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ALTRINCHAM GENERAL HOSPITAL",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "1994-04-01"
+            },
+            "End": {
+                "value": "2012-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "1994-04-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RM403"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-07-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MARKET STREET",
+            "Town": "ALTRINCHAM",
+            "County": "CHESHIRE",
+            "PostCode": "WA14 1PE",
+            "Country": "ENGLAND",
+            "UPRN": "100012798142"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "77028",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1994-04-01"
+                    },
+                    "End": {
+                        "value": "2012-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1994-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "63180",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1994-04-01"
+                    },
+                    "End": {
+                        "value": "2012-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1994-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RM4"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "76155"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "32331",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "1994-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "PU103"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO114",
+                    "uniqueRoleId": "19108"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RM403",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

@@ -1,0 +1,114 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 0208 532 6346
+  - type: fax
+    value: 0208 532 6337
+Date:
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CLOCK HOUSE
+    AddrLn2: EAST STREET
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: IG11 8EY
+    Town: BARKING
+LastChangeDate:
+  value: '2023-09-21'
+Name: BARKING & HAVERING COMMISSIONING HEALTH INFORMATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: YDDAT
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-01-23'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '111691'
+    id: RE5
+    uniqueRelId: '92717'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '227254'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '695863'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO161
+    primaryRole: 'true'
+    uniqueRoleId: '136665'
+Status:
+  value: Active
+metadata:
+  org_id: YDDAT
+  role_id: RO161
+  status: Active
+orgRecordClass: RC1

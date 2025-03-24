@@ -1,0 +1,82 @@
+Date:
+- Start:
+    value: '2020-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-09-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CASTLE LANE EAST
+    Country: ENGLAND
+    PostCode: BH7 7DW
+    Town: BOURNEMOUTH
+    UPRN: '100041110435'
+LastChangeDate:
+  value: '2024-04-02'
+Name: OPHTHALMOLOGY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R0D17
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R0D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '397555'
+    id: RE6
+    uniqueRelId: '716394'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '398500'
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '398501'
+Status:
+  value: Active
+metadata:
+  org_id: R0D17
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

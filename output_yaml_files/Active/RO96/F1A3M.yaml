@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STRAWBERRY HILL HOUSE
+    AddrLn2: OLD BATH ROAD
+    Country: ENGLAND
+    County: BERKSHIRE
+    PostCode: RG14 1JU
+    Town: NEWBURY
+LastChangeDate:
+  value: '2021-12-16'
+Name: STRAWBERRY HILL MEDICAL CENTRE - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: F1A3M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-12-15'
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K81050
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '89286'
+    id: RE6
+    uniqueRelId: '795525'
+  - Date:
+      Start:
+        value: '2021-12-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K81063
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '89298'
+    id: RE6
+    uniqueRelId: '800858'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '471701'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '471702'
+Status:
+  value: Active
+metadata:
+  org_id: F1A3M
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

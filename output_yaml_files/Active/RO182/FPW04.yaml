@@ -1,0 +1,116 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02084 721555
+Date:
+- Start:
+    value: '2021-05-04'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 347 HIGH STREET NORTH
+    AddrLn2: MANOR PARK
+    Country: ENGLAND
+    PostCode: E12 6PQ
+    Town: LONDON
+    UPRN: '46095865'
+LastChangeDate:
+  value: '2024-01-09'
+Name: DUNCANS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FPW04
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-06-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P930
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '93924'
+    id: RE6
+    uniqueRelId: '792933'
+  - Date:
+    - Start:
+        value: '2021-05-04'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '728010'
+  - Date:
+    - End:
+        value: '2021-06-29'
+      Start:
+        value: '2021-05-04'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-06-29'
+      Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4MC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '305332'
+    id: RE6
+    uniqueRelId: '728009'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-05-04'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '412651'
+Status:
+  value: Active
+metadata:
+  org_id: FPW04
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

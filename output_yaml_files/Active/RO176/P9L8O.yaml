@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH STREET
+    AddrLn2: BLACKROD
+    Country: ENGLAND
+    PostCode: BL6 5EQ
+    Town: BOLTON
+    UPRN: '100012561793'
+LastChangeDate:
+  value: '2022-04-07'
+Name: BLACK ROD HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: P9L8O
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '119719'
+    id: RE6
+    uniqueRelId: '805080'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '805081'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '482893'
+Status:
+  value: Active
+metadata:
+  org_id: P9L8O
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

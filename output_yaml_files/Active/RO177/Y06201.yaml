@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01522 813974
+Date:
+  Start:
+    value: '2018-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SOUTH LINCOLN HEALTHCARE
+    AddrLn2: CHURCH WALK SURGERY, DRURY STREET
+    AddrLn3: METHERINGHAM
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN4 3EZ
+    Town: LINCOLN
+LastChangeDate:
+  value: '2023-10-04'
+Name: SLHEEXTENDEDACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06201
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161298'
+    id: RE4
+    uniqueRelId: '558488'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161298'
+    id: RE6
+    uniqueRelId: '558489'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 71E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386502'
+    id: RE6
+    uniqueRelId: '637805'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 71E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386502'
+    id: RE4
+    uniqueRelId: '637806'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2018-09-05'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '306548'
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '306549'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511389'
+Status:
+  value: Active
+metadata:
+  org_id: Y06201
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

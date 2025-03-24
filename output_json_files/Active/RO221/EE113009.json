@@ -1,0 +1,145 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "REPTON SCHOOL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1908-01-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "EE113009"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WILLINGTON ROAD",
+            "AddrLn2": "REPTON",
+            "Town": "DERBY",
+            "PostCode": "DE65 6FH",
+            "Country": "ENGLAND",
+            "UPRN": "200003155634"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01283 559200"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO221",
+                "uniqueRoleId": "427875",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1908-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO289",
+                "uniqueRoleId": "427876",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1908-01-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "752069",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1997-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "506"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "78155"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "752068",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2019-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2018-10-09"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "15M"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "307425"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "EE113009",
+        "status": "Active",
+        "role_id": "RO221"
+    }
+}

@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 023 92316069
+Date:
+- Start:
+    value: '2019-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-05-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BROOK LANE
+    AddrLn2: SARISBURY GREEN
+    Country: ENGLAND
+    PostCode: SO31 7DQ
+    Town: SOUTHAMPTON
+    UPRN: '10012136186'
+LastChangeDate:
+  value: '2023-08-22'
+Name: FAREHAM GP EXTENDED ACCESS HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06456
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2019-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161502'
+    id: RE4
+    uniqueRelId: '571347'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2019-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161502'
+    id: RE6
+    uniqueRelId: '571348'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE6
+    uniqueRelId: '731972'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE4
+    uniqueRelId: '731973'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2019-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '345727'
+  - Date:
+    - Start:
+        value: '2019-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '345728'
+Status:
+  value: Active
+metadata:
+  org_id: Y06456
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

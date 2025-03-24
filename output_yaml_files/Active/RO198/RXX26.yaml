@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2005-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHURCH LANE
+    Country: ENGLAND
+    County: SURREY
+    PostCode: GU27 2BJ
+    Town: HASLEMERE
+LastChangeDate:
+  value: '2012-05-15'
+Name: HASLEMERE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXX26
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '103932'
+    id: RE6
+    uniqueRelId: '84701'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '16552'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTJ07
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '54547'
+    Type: Predecessor
+    uniqueSuccId: '24940'
+metadata:
+  org_id: RXX26
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

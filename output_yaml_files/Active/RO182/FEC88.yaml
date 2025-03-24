@@ -1,0 +1,127 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01234 854023
+Date:
+- Start:
+    value: '2017-09-28'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE SAXON CENTRE
+    AddrLn2: 242 BEDFORD ROAD
+    AddrLn3: KEMPSTON
+    Country: ENGLAND
+    County: BEDFORDSHIRE
+    PostCode: MK42 8PP
+    Town: BEDFORD
+    UPRN: '10033190584'
+LastChangeDate:
+  value: '2024-01-09'
+Name: BRITANNIA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEC88
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0Q2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '110680'
+    id: RE6
+    uniqueRelId: '527190'
+  - Date:
+      End:
+        value: '2019-04-09'
+      Start:
+        value: '2017-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE4
+    uniqueRelId: '527191'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE4
+    uniqueRelId: '569585'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300768'
+    id: RE4
+    uniqueRelId: '649064'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2017-09-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '296102'
+Status:
+  value: Active
+metadata:
+  org_id: FEC88
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

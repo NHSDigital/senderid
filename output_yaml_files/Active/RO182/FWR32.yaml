@@ -1,0 +1,125 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01363 779848
+Date:
+- Start:
+    value: '2018-02-27'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-02-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: REDLANDS PRIMARY CARE
+    AddrLn2: JOSEPH LOCKE WAY
+    Country: ENGLAND
+    PostCode: EX17 3FD
+    Town: CREDITON
+    UPRN: '10095584103'
+LastChangeDate:
+  value: '2024-05-01'
+Name: PHARMACY AT REDLANDS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FWR32
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-02-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1LC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '37236'
+    id: RE6
+    uniqueRelId: '533570'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2018-02-27'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q80
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202024'
+    id: RE4
+    uniqueRelId: '533571'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE4
+    uniqueRelId: '538920'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300813'
+    id: RE4
+    uniqueRelId: '657605'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2018-02-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-02-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '300874'
+Status:
+  value: Active
+metadata:
+  org_id: FWR32
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

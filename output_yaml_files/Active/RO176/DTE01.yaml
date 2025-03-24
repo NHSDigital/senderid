@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE OLD RECTORY
+    AddrLn2: RECTORY LANE
+    AddrLn3: WINWICK
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: WA2 8LE
+    Town: WARRINGTON
+LastChangeDate:
+  value: '2020-04-03'
+Name: SYNEXTRA (OLD RECTORY)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DTE01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '558211'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '663982'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DTE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '306287'
+    id: RE6
+    uniqueRelId: '558212'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '306288'
+Status:
+  value: Active
+metadata:
+  org_id: DTE01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

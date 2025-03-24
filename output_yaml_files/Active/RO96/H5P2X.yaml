@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DRYDEN CLOSE
+    Country: ENGLAND
+    PostCode: PO7 6AJ
+    Town: WATERLOOVILLE
+    UPRN: '100062454538'
+LastChangeDate:
+  value: '2023-09-14'
+Name: WATERLOOVILLE HEALTH CENTRE - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: H5P2X
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-09-24'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J82119
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '19453'
+    id: RE6
+    uniqueRelId: '724741'
+  - Date:
+      Start:
+        value: '2021-09-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J82196
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '88998'
+    id: RE6
+    uniqueRelId: '797654'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '409090'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '409091'
+Status:
+  value: Active
+metadata:
+  org_id: H5P2X
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

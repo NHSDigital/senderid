@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01670 396310
+Date:
+  Start:
+    value: '2006-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 SEXTANT HOUSE
+    AddrLn2: FREEHOLD STREET
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE24 2BA
+    Town: BLYTH
+    UPRN: '100110763270'
+LastChangeDate:
+  value: '2021-06-29'
+Name: COMMUNITY SUBSTANCE MISUSE TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y01310
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '54940'
+    id: RE4
+    uniqueRelId: '279658'
+  - Date:
+      End:
+        value: '2017-04-01'
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '104'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '77558'
+    id: RE6
+    uniqueRelId: '459337'
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '519907'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161395'
+    id: RE4
+    uniqueRelId: '279659'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '191402'
+  - Date:
+      Start:
+        value: '2006-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '61960'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '279913'
+Status:
+  value: Active
+metadata:
+  org_id: Y01310
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

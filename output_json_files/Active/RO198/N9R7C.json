@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ST HELENS CDC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "N9R7C"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-07-17"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WHISTON HOSPITAL",
+            "AddrLn2": "WARRINGTON ROAD",
+            "Town": "PRESCOT",
+            "PostCode": "L35 5DR",
+            "Country": "ENGLAND",
+            "UPRN": "40012845"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "507573",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO317",
+                "uniqueRoleId": "507574",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "829273",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2023-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RBN"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "48408"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "N9R7C",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

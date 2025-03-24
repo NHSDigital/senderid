@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LOUTH COUNTY HOSPITAL
+    AddrLn2: HIGH HOLME ROAD
+    Country: ENGLAND
+    County: LINCOLNSHIRE
+    PostCode: LN11 0EU
+    Town: LOUTH
+LastChangeDate:
+  value: '2020-04-05'
+Name: EAST LINDSEY HUB (LOUTH COUNTY HOSPITAL)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DQ902
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE5
+    uniqueRelId: '556249'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300754'
+    id: RE5
+    uniqueRelId: '681876'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DQ9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '304697'
+    id: RE6
+    uniqueRelId: '556250'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '304700'
+  - Date:
+      Start:
+        value: '2018-07-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO267
+    uniqueRoleId: '305007'
+Status:
+  value: Active
+metadata:
+  org_id: DQ902
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

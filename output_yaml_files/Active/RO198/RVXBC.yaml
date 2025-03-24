@@ -1,0 +1,126 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH ORMESBY CLINIC
+    AddrLn2: 63 KINGS ROAD
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS3 6EP
+    Town: MIDDLESBROUGH
+LastChangeDate:
+  value: '2024-04-02'
+Name: ABS MIDDLESBOROUGH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVXBC
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2010-07-13'
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39270'
+    id: RE6
+    uniqueRelId: '11154'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '158839'
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '11848'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3FR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '120704'
+    Type: Successor
+    uniqueSuccId: '18117'
+  - Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RE4BC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '26297'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '14867'
+metadata:
+  org_id: RVXBC
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE BOATHOUSE SURGERY
+    AddrLn2: WHITCHURCH ROAD
+    AddrLn3: PANGBOURNE
+    Country: ENGLAND
+    PostCode: RG8 7DP
+    Town: READING
+    UPRN: '200004723910'
+LastChangeDate:
+  value: '2020-04-05'
+Name: BOATHOUSE PHYSIOTHERAPY - THE BOATHOUSE SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DXA01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q87
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299783'
+    id: RE5
+    uniqueRelId: '565388'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE5
+    uniqueRelId: '681977'
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DXA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '343909'
+    id: RE6
+    uniqueRelId: '565389'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '343910'
+Status:
+  value: Active
+metadata:
+  org_id: DXA01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

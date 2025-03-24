@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01403 782668
+Date:
+- Start:
+    value: '2023-10-25'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-10-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 56 HIGH STREET
+    Country: ENGLAND
+    PostCode: RH14 9NY
+    Town: BILLINGSHURST
+    UPRN: '10091833901'
+LastChangeDate:
+  value: '2024-03-27'
+Name: BILLINGSHURST PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FMW89
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300805'
+    id: RE4
+    uniqueRelId: '832839'
+  - Date:
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B5T3Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511296'
+    id: RE6
+    uniqueRelId: '832840'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '511321'
+Status:
+  value: Active
+metadata:
+  org_id: FMW89
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

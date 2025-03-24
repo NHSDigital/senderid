@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02073 875826
+Date:
+- Start:
+    value: '2025-02-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 64 EVERSHOLT STREET
+    Country: ENGLAND
+    PostCode: NW1 1DA
+    Town: LONDON
+    UPRN: '5087592'
+LastChangeDate:
+  value: '2025-01-10'
+Name: EVERGREEN PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FG161
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE4
+    uniqueRelId: '856733'
+  - Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G2T9G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536038'
+    id: RE6
+    uniqueRelId: '856734'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536057'
+Status:
+  value: Active
+metadata:
+  org_id: FG161
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

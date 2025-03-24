@@ -1,0 +1,131 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0191 5947821
+Date:
+- Start:
+    value: '2014-11-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2014-10-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 47 JACKSON STREET
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE8 1EE
+    Town: GATESHEAD
+LastChangeDate:
+  value: '2019-07-10'
+Name: GATESHEAD RECOVERY PARTNERSHIP-CGL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04790
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '106'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '77559'
+    id: RE6
+    uniqueRelId: '461653'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161390'
+    id: RE4
+    uniqueRelId: '288971'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '199602'
+    id: RE4
+    uniqueRelId: '383282'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-10-22'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '198917'
+  - Date:
+    - Start:
+        value: '2014-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2014-10-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '198918'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '281272'
+Status:
+  value: Active
+metadata:
+  org_id: Y04790
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

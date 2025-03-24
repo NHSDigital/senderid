@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "EALING CDC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A5P8W"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-10-30"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "EALING HOSPITAL",
+            "AddrLn2": "UXBRIDGE ROAD",
+            "Town": "SOUTHALL",
+            "PostCode": "UB1 3HW",
+            "Country": "ENGLAND",
+            "UPRN": "12001075"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "513951",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO317",
+                "uniqueRoleId": "513952",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "834323",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2023-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "R1K"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "197646"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A5P8W",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

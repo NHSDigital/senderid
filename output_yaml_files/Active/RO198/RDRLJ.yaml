@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEWES VICTORIA HOSPITAL
+    AddrLn2: NEVILL ROAD
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN7 1PE
+    Town: LEWES
+LastChangeDate:
+  value: '2024-04-02'
+Name: LEWES MINOR INJURIES UNIT PRESCRIPTIONS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RDRLJ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48407'
+    id: RE6
+    uniqueRelId: '536245'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '302746'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '302747'
+Status:
+  value: Active
+metadata:
+  org_id: RDRLJ
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

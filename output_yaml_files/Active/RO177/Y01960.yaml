@@ -1,0 +1,118 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01254 735226
+Date:
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ACORN PRIMARY CARE CENTRE
+    AddrLn2: 421 BLACKBURN ROAD
+    Country: ENGLAND
+    PostCode: BB5 1RT
+    Town: ACCRINGTON
+    UPRN: '10010696848'
+LastChangeDate:
+  value: '2025-01-16'
+Name: ACCRINGTON MINOR INJURIES UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y01960
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5NH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '110703'
+    id: RE4
+    uniqueRelId: '280330'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161406'
+    id: RE4
+    uniqueRelId: '280331'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161406'
+    id: RE6
+    uniqueRelId: '459499'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2015-03-11'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '191738'
+  - Date:
+      Start:
+        value: '2015-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO87
+    uniqueRoleId: '230722'
+  - Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '113767'
+Status:
+  value: Active
+metadata:
+  org_id: Y01960
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 77-78 WESTERN ROAD
+    Country: ENGLAND
+    PostCode: BN1 2HA
+    Town: BRIGHTON
+    UPRN: '22191275'
+LastChangeDate:
+  value: '2022-06-14'
+Name: SUPERDRUG PHARMACY BRIGHTON - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: A6T1W
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAR24
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '214099'
+    id: RE6
+    uniqueRelId: '725040'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '409647'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '409646'
+Status:
+  value: Active
+metadata:
+  org_id: A6T1W
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

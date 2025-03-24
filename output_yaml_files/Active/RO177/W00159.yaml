@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01437 764545
+Date:
+  Start:
+    value: '2016-12-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE CONFERENCE CENTRE
+    AddrLn2: WITHYBUSH GENERAL HOSPITAL
+    AddrLn3: FISHGUARD ROAD
+    Country: WALES
+    County: DYFED
+    PostCode: SA61 2PZ
+    Town: HAVERFORDWEST
+LastChangeDate:
+  value: '2023-08-22'
+Name: ACUTE VISITING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00159
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-01-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE4
+    uniqueRelId: '517164'
+  - Date:
+      Start:
+        value: '2016-12-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE6
+    uniqueRelId: '517165'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-01-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '288848'
+  - Date:
+      Start:
+        value: '2016-12-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '288849'
+Status:
+  value: Active
+metadata:
+  org_id: W00159
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

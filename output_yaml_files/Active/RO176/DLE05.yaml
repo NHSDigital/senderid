@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOWBRAY SQUARE MEDICAL CENTRE
+    AddrLn2: MYRTLE SQUARE
+    Country: ENGLAND
+    County: NORTH YORKSHIRE
+    PostCode: HG1 5AR
+    Town: HARROGATE
+LastChangeDate:
+  value: '2020-04-03'
+Name: YHN - GP HUB HARROGATE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DLE05
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '559156'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DLE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '297450'
+    id: RE6
+    uniqueRelId: '559157'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE5
+    uniqueRelId: '663910'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '307200'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO267
+    uniqueRoleId: '307201'
+Status:
+  value: Active
+metadata:
+  org_id: DLE05
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

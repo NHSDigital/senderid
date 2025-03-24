@@ -1,0 +1,112 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NEWHAM PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-10-23"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FKT22"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-11-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "9 HIGH NEWHAM COURT",
+            "AddrLn2": "HARDWICK ESTATE",
+            "Town": "STOCKTON-ON-TEES",
+            "PostCode": "TS19 8PD",
+            "Country": "ENGLAND",
+            "UPRN": "200000430700"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO182",
+            "uniqueRoleId": "533612",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-10-23"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "854322",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-10-23"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P1RP"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "163138"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "854321",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-10-23"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QHM"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "303773"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FKT22",
+        "status": "Active",
+        "role_id": "RO182"
+    }
+}

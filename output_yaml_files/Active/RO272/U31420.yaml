@@ -1,0 +1,78 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WATTON MEDICAL PRACTICE
+    AddrLn2: 24 GREGOR SHANKS WAY
+    AddrLn3: WATTON
+    Country: ENGLAND
+    PostCode: IP25 6FA
+    Town: THETFORD
+    UPRN: '10011974851'
+LastChangeDate:
+  value: '2021-06-10'
+Name: BRECKLAND SURGERIES PCN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: U31420
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161358'
+    id: RE4
+    uniqueRelId: '610320'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 26A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386489'
+    id: RE4
+    uniqueRelId: '638243'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO272
+    primaryRole: 'true'
+    uniqueRoleId: '388669'
+Status:
+  value: Active
+metadata:
+  org_id: U31420
+  role_id: RO272
+  status: Active
+orgRecordClass: RC1

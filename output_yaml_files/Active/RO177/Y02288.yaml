@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 2954488
+Date:
+  Start:
+    value: '2008-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEEDS STUDENT MEDICAL PRACTICE
+    AddrLn2: 4 BLENHEIM COURT
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS2 9AE
+    Town: LEEDS
+    UPRN: '72505134'
+LastChangeDate:
+  value: '2021-02-05'
+Name: GPWSI SEXUAL HEALTH SCREENING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y02288
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2008-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5N1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '54725'
+    id: RE4
+    uniqueRelId: '280888'
+  - Date:
+      Start:
+        value: '2013-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '212'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '77577'
+    id: RE6
+    uniqueRelId: '459660'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161464'
+    id: RE4
+    uniqueRelId: '280889'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540327'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '192060'
+  - Date:
+      Start:
+        value: '2008-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '88685'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '280124'
+Status:
+  value: Active
+metadata:
+  org_id: Y02288
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

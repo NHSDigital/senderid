@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GLOUCESTERSHIRE CROWN COURTHOUSE
+    AddrLn2: LONGSMITH STREET
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL1 2TS
+    Town: GLOUCESTER
+LastChangeDate:
+  value: '2020-04-20'
+Name: GLOUCESTER CROWN COURT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WCW
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE4
+    uniqueRelId: '619757'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230521'
+    id: RE4
+    uniqueRelId: '709862'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '201171'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO235
+    primaryRole: 'true'
+    uniqueRoleId: '201172'
+Status:
+  value: Active
+metadata:
+  org_id: WCW
+  role_id: RO235
+  status: Active
+orgRecordClass: RC1

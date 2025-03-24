@@ -1,0 +1,95 @@
+Date:
+- End:
+    value: '2014-03-31'
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPRINGHILL
+    AddrLn2: BRINDLEY WAY
+    AddrLn3: WAKEFIELD 41 INDUSTRIAL ESTATE
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: WF2 0XQ
+    Town: WAKEFIELD
+    UPRN: '63160339'
+LastChangeDate:
+  value: '2021-07-21'
+Name: NHS DIRECT (WAKEFIELD)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYH10
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137067'
+    id: RE6
+    uniqueRelId: '93219'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '30019'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T137A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '43066'
+    Type: Predecessor
+    uniqueSuccId: '4014'
+metadata:
+  org_id: RYH10
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

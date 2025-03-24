@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "URGENT AND CRISIS SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-03-22"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A5A1N"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-09-19"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LONGLEY CENTRE",
+            "AddrLn2": "NORWOOD GRANGE ROAD",
+            "Town": "SHEFFIELD",
+            "PostCode": "S5 7JT",
+            "Country": "ENGLAND",
+            "UPRN": "200003002851"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "523381",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO108",
+                "uniqueRoleId": "523380",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "844526",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-03-22"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "TAH"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO107",
+                    "uniqueRoleId": "17409"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A5A1N",
+        "status": "Active",
+        "role_id": "RO108"
+    }
+}

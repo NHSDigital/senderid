@@ -1,0 +1,125 @@
+Date:
+  Start:
+    value: '2011-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. PANCRAS HOSPITAL
+    AddrLn2: 4 ST. PANCRAS WAY
+    Country: ENGLAND
+    PostCode: NW1 0PE
+    Town: LONDON
+    UPRN: '5139737'
+LastChangeDate:
+  value: '2023-09-21'
+Name: CAMDEN HEALTH PARTNERS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NEH
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2011-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2013-12-11'
+      Start:
+        value: '2011-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '111691'
+    id: RE5
+    uniqueRelId: '29275'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '227121'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE5
+    uniqueRelId: '694771'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2011-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '122746'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 8J148
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO157
+        uniqueRoleId: '167407'
+    Type: Predecessor
+    uniqueSuccId: '37310'
+metadata:
+  org_id: NEH
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

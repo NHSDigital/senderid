@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SUITE 7B
+    AddrLn2: 50 STRATFORD ROAD
+    Country: ENGLAND
+    PostCode: CV36 4BA
+    Town: SHIPSTON-ON-STOUR
+LastChangeDate:
+  value: '2024-04-02'
+Name: SHIPSTON HOME NURSING
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GDY01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300764'
+    id: RE5
+    uniqueRelId: '711627'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: GDY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '394458'
+    id: RE6
+    uniqueRelId: '711628'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '394459'
+Status:
+  value: Active
+metadata:
+  org_id: GDY01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

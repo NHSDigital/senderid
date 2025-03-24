@@ -1,0 +1,99 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 30 BROOKVALE ROAD
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: SO17 1QR
+    Town: SOUTHAMPTON
+    UPRN: '100062511244'
+LastChangeDate:
+  value: '2021-02-08'
+Name: BROOKVALE ADOLESCENT SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5L106
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5L1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '21552'
+    id: RE6
+    uniqueRelId: '159591'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '23573'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5GY06
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '86056'
+    Type: Predecessor
+    uniqueSuccId: '12830'
+metadata:
+  org_id: 5L106
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

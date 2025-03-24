@@ -1,0 +1,161 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02081 760410
+Date:
+- Start:
+    value: '2017-03-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 21 BOURNE ROAD
+    AddrLn2: BEXLEY VILLAGE
+    Country: ENGLAND
+    PostCode: DA5 1LW
+    Town: BEXLEY
+    UPRN: '100022922013'
+LastChangeDate:
+  value: '2024-04-01'
+Name: BHNC ENHANCED ACCESS SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05675
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-03-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161259'
+    id: RE4
+    uniqueRelId: '517312'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161259'
+    id: RE6
+    uniqueRelId: '517313'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 72Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386495'
+    id: RE6
+    uniqueRelId: '637513'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 72Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386495'
+    id: RE4
+    uniqueRelId: '637514'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q0S2C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521966'
+    id: RE11
+    uniqueRelId: '843579'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '288973'
+  - Date:
+    - Start:
+        value: '2017-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '288974'
+Status:
+  value: Active
+metadata:
+  org_id: Y05675
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

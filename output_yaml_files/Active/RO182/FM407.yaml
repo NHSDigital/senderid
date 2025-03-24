@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02082 075925
+Date:
+- Start:
+    value: '2025-01-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-12-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CORNER SHOP B
+    AddrLn2: HIGH STREET
+    AddrLn3: ELSTREE
+    Country: ENGLAND
+    PostCode: WD6 3BY
+    Town: BOREHAMWOOD
+    UPRN: '10034169504'
+LastChangeDate:
+  value: '2024-12-12'
+Name: ELSTREE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FM407
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-01-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '856300'
+  - Date:
+    - Start:
+        value: '2025-01-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S1T9O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '535646'
+    id: RE6
+    uniqueRelId: '856301'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-01-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '535653'
+Status:
+  value: Active
+metadata:
+  org_id: FM407
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01184 020503
+Date:
+  Start:
+    value: '2022-12-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WOKINGHAM MEDICAL CENTRE
+    AddrLn2: 23 ROSE STREET
+    Country: ENGLAND
+    PostCode: RG40 1XS
+    Town: WOKINGHAM
+    UPRN: '14058397'
+LastChangeDate:
+  value: '2023-10-04'
+Name: MODALITY WOKINGHAM PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07777
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-12-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297746'
+    id: RE4
+    uniqueRelId: '816908'
+  - Date:
+      Start:
+        value: '2022-12-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297746'
+    id: RE6
+    uniqueRelId: '816909'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-12-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '494890'
+  - Date:
+      Start:
+        value: '2022-12-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '494889'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511774'
+Status:
+  value: Active
+metadata:
+  org_id: Y07777
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

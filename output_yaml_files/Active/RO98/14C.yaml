@@ -1,0 +1,143 @@
+Date:
+- End:
+    value: '2020-03-31'
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-03-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: C/O NHS ENGLAND, 1W09, 1ST FLOOR
+    AddrLn2: QUARRY HOUSE
+    AddrLn3: QUARRY HILL
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS2 7UE
+    Town: LEEDS
+LastChangeDate:
+  value: '2025-02-24'
+Name: WEST MIDLANDS COMMISSIONING HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 14C
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2015-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '336886'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '230515'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO218
+    uniqueRoleId: '230516'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230513'
+    Type: Successor
+    uniqueSuccId: '37757'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '163826'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '37288'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '163858'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '37289'
+metadata:
+  org_id: 14C
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTHGATE AVENUE
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: RH10 8BF
+    Town: CRAWLEY
+LastChangeDate:
+  value: '2023-03-28'
+Name: CRAWLEY CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VR2
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199122'
+    id: RE6
+    uniqueRelId: '334956'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '229595'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '229596'
+Status:
+  value: Active
+metadata:
+  org_id: VR2
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

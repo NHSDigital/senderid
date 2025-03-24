@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST ALBANS CITY HOSPITAL
+    AddrLn2: WAVERLEY ROAD
+    Country: ENGLAND
+    PostCode: AL3 5PN
+    Town: ST. ALBANS
+    UPRN: '100081339412'
+LastChangeDate:
+  value: '2024-04-02'
+Name: UROLOGY (ST ALBANS)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWGUS
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133377'
+    id: RE6
+    uniqueRelId: '834015'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '513537'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '513536'
+Status:
+  value: Active
+metadata:
+  org_id: RWGUS
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

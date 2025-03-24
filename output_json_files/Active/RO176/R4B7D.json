@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "MONKFIELD MEDICAL PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "R4B7D"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-01-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SACKVILLE HOUSE",
+            "AddrLn2": "SACKVILLE WAY",
+            "AddrLn3": "GREAT CAMBOURNE",
+            "Town": "CAMBRIDGE",
+            "PostCode": "CB23 6HL",
+            "Country": "ENGLAND",
+            "UPRN": "10033028171"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO176",
+            "uniqueRoleId": "517398",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2023-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "837679",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NMK"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "133341"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "837680",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUE"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300777"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "R4B7D",
+        "status": "Active",
+        "role_id": "RO176"
+    }
+}

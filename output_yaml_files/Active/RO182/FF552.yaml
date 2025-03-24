@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01670 733981
+Date:
+- Start:
+    value: '2023-08-30'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 BROCKWELL CENTRE
+    AddrLn2: NORTHUMBRIAN ROAD
+    Country: ENGLAND
+    PostCode: NE23 1XZ
+    Town: CRAMLINGTON
+    UPRN: '100110808673'
+LastChangeDate:
+  value: '2023-07-06'
+Name: BROCKWELL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FF552
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '828335'
+  - Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D4U4M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506664'
+    id: RE6
+    uniqueRelId: '828336'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506692'
+Status:
+  value: Active
+metadata:
+  org_id: FF552
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

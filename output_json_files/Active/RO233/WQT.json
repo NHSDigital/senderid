@@ -1,0 +1,138 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NOTTINGHAMSHIRE CONSTABULARY POLICE HEADQUARTERS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2003-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "WQT"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2016-07-07"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SHERWOOD LODGE",
+            "AddrLn2": "ARNOLD",
+            "Town": "NOTTINGHAM",
+            "County": "NOTTINGHAMSHIRE",
+            "PostCode": "NG5 8PP",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO233",
+            "uniqueRoleId": "229390",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "334612",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        },
+                        "End": {
+                            "value": "2015-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        },
+                        "End": {
+                            "value": "2016-07-06"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "12V"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "163860"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "377358",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2015-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2016-07-07"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230513"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "WQT",
+        "status": "Active",
+        "role_id": "RO233"
+    }
+}

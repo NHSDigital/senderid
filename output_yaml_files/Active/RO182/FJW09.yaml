@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01162 606734
+Date:
+- Start:
+    value: '2024-09-20'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-09-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9-10 MERCHANT COMMON
+    AddrLn2: EAST GOSCOTE
+    Country: ENGLAND
+    PostCode: LE7 3XR
+    Town: LEICESTER
+    UPRN: '100032069915'
+LastChangeDate:
+  value: '2024-09-05'
+Name: YOUR PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJW09
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '851662'
+  - Date:
+    - Start:
+        value: '2024-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W6A7X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '493976'
+    id: RE6
+    uniqueRelId: '851663'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-09-20'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '530832'
+Status:
+  value: Active
+metadata:
+  org_id: FJW09
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

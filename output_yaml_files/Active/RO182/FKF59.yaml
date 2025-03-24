@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01214 222434
+Date:
+- Start:
+    value: '2023-10-24'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 518 HAGLEY ROAD WEST
+    Country: ENGLAND
+    PostCode: B68 0BZ
+    Town: OLDBURY
+    UPRN: '32100705'
+LastChangeDate:
+  value: '2023-12-06'
+Name: HAGLEY RD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKF59
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '832367'
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Z2Y7T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510771'
+    id: RE6
+    uniqueRelId: '832368'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510835'
+Status:
+  value: Active
+metadata:
+  org_id: FKF59
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01799 540968
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE BROWN HOUSE
+    AddrLn2: HIGH STREET
+    AddrLn3: NEWPORT
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CB11 3QY
+    Town: SAFFRON WALDEN
+    UPRN: '100091281765'
+LastChangeDate:
+  value: '2024-01-09'
+Name: NEWPORT PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAG85
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE4
+    uniqueRelId: '559313'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QM7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300786'
+    id: RE4
+    uniqueRelId: '647319'
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4NC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '307283'
+    id: RE6
+    uniqueRelId: '559314'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '307365'
+Status:
+  value: Active
+metadata:
+  org_id: FAG85
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

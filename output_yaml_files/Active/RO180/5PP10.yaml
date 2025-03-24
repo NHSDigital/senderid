@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 74 HIGH STREET
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: PE16 6NN
+    Town: CHATTERIS
+    UPRN: '100091517381'
+LastChangeDate:
+  value: '2021-01-28'
+Name: GROVE HOUSE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5PP10
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '124256'
+    id: RE6
+    uniqueRelId: '180757'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '42179'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JK19
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '1539'
+    Type: Predecessor
+    uniqueSuccId: '20739'
+metadata:
+  org_id: 5PP10
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

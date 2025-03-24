@@ -1,0 +1,111 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HUTTON CENTRE
+    AddrLn2: ST. LUKES HOSPITAL
+    AddrLn3: MARTON ROAD
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS4 3AF
+    Town: MIDDLESBROUGH
+LastChangeDate:
+  value: '2024-04-02'
+Name: FORENSIC SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVXEA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2010-07-13'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39270'
+    id: RE6
+    uniqueRelId: '11479'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '158872'
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '11943'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3HN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '104747'
+    Type: Successor
+    uniqueSuccId: '26699'
+metadata:
+  org_id: RVXEA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

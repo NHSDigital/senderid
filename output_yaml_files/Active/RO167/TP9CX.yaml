@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FIRST FLOOR
+    AddrLn2: BRITTANY HOUSE
+    AddrLn3: NEW NORTH ROAD
+    Country: ENGLAND
+    PostCode: EX4 4EP
+    Town: EXETER
+LastChangeDate:
+  value: '2020-04-06'
+Name: OPTICAL EXPRESS (EXETER)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: TP9CX
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1AN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO166
+        uniqueRoleId: '133810'
+    id: RE6
+    uniqueRelId: '601026'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE4
+    uniqueRelId: '601028'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300813'
+    id: RE4
+    uniqueRelId: '701688'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO167
+    primaryRole: 'true'
+    uniqueRoleId: '379541'
+Status:
+  value: Active
+metadata:
+  org_id: TP9CX
+  role_id: RO167
+  status: Active
+orgRecordClass: RC1

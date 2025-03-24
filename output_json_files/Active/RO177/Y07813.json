@@ -1,0 +1,135 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SAME DAY EMERGENCY CARE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-12-28"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y07813"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-19"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NORTH DEVON HOSPITAL",
+            "AddrLn2": "RALEIGH PARK",
+            "Town": "BARNSTAPLE",
+            "PostCode": "EX31 4JB",
+            "Country": "ENGLAND",
+            "UPRN": "10012091472"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01271 322577"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO177",
+                "uniqueRoleId": "496292",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-12-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO250",
+                "uniqueRoleId": "496293",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-12-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "818156",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-12-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RH8"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "91541"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "818155",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-12-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "15N"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "341517"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y07813",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

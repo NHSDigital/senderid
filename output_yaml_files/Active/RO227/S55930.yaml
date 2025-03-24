@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01540 661233
+Date:
+  Start:
+    value: '1990-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OLD DISTILLERY SURGERY
+    AddrLn2: GYNACK ROAD
+    AddrLn3: ARDVONIE PARK
+    Country: SCOTLAND
+    PostCode: PH21 1ET
+    Town: KINGUSSIE
+    UPRN: '130149797'
+LastChangeDate:
+  value: '2023-01-10'
+Name: KINGUSSIE MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S55930
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SH9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487559'
+    id: RE5
+    uniqueRelId: '811488'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489116'
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178058'
+Status:
+  value: Active
+metadata:
+  org_id: S55930
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

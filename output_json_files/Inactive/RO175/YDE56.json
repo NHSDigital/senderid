@@ -1,0 +1,124 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HMP MAIDSTONE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2003-04-01"
+        },
+        "End": {
+            "value": "2023-03-31"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "YDE56"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-03-31"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "36 COUNTY ROAD",
+            "Town": "MAIDSTONE",
+            "County": "KENT",
+            "PostCode": "ME14 1UZ",
+            "Country": "ENGLAND",
+            "UPRN": "200003717305"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO175",
+            "uniqueRoleId": "48647",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-04-01"
+                },
+                "End": {
+                    "value": "2023-03-31"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "180254",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2003-04-01"
+                    },
+                    "End": {
+                        "value": "2006-09-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5L2"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO179",
+                        "uniqueRoleId": "110679"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "178581",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5P9"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO179",
+                        "uniqueRoleId": "137181"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "YDE56",
+        "status": "Inactive",
+        "role_id": "RO175"
+    }
+}

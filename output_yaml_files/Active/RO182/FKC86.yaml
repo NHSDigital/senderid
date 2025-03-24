@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01905 20086
+Date:
+- Start:
+    value: '2023-02-24'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPRING GARDENS HEALTH CENTRE
+    AddrLn2: SPRING GARDENS
+    Country: ENGLAND
+    PostCode: WR1 2BS
+    Town: WORCESTER
+    UPRN: '10000496449'
+LastChangeDate:
+  value: '2023-02-02'
+Name: PHARMACY AT SPRING GARDENS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKC86
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-02-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '818402'
+  - Date:
+    - Start:
+        value: '2023-02-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4X8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '392765'
+    id: RE6
+    uniqueRelId: '818403'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-02-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496520'
+Status:
+  value: Active
+metadata:
+  org_id: FKC86
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

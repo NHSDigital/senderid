@@ -1,0 +1,152 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "OLDHAM SOUTH PCN EXTENDED ACCESS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y07589"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-10-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "C/O QUAYSIDE MP",
+            "AddrLn2": "ASHTON ROAD WEST",
+            "Town": "MANCHESTER",
+            "PostCode": "M35 0AD",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01613 572070"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "491493",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    },
+                    "End": {
+                        "value": "2023-10-03"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "491492",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO321",
+                "uniqueRoleId": "511647",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "813795",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00Y"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161405"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "813796",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00Y"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161405"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y07589",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

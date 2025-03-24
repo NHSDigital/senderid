@@ -1,0 +1,133 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "WELFARE PHARMACY - TRUMPINGTON - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-21"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "N3S2U"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-02-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 1",
+            "AddrLn2": "HOBSON SQUARE",
+            "AddrLn3": "HOBSON AVENUE",
+            "Town": "CAMBRIDGE",
+            "PostCode": "CB2 9FN",
+            "Country": "ENGLAND",
+            "UPRN": "10091727232"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "474167",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "474166",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "802939",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-21"
+                    },
+                    "End": {
+                        "value": "2021-05-03"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FV636"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "226574"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "802940",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FXT92"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "413578"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "N3S2U",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

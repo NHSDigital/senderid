@@ -1,0 +1,113 @@
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 419 MAIN ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO12 4EX
+    Town: HARWICH
+    UPRN: '100091461204'
+LastChangeDate:
+  value: '2021-02-09'
+Name: FRYATT HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NGB03
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q57
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163552'
+    id: RE5
+    uniqueRelId: '235369'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NGB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '165962'
+    id: RE6
+    uniqueRelId: '235249'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '365912'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE5
+    uniqueRelId: '689109'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '173298'
+Status:
+  value: Active
+metadata:
+  org_id: NGB03
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

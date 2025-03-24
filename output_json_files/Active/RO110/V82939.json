@@ -1,0 +1,132 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NORTHWAY DENTAL CARE LTD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V82939"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-23"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE NORTHWAY CENTRE",
+            "AddrLn2": "NORTHWAY LANE",
+            "Town": "TEWKESBURY",
+            "PostCode": "GL20 8TW",
+            "Country": "ENGLAND",
+            "UPRN": "200004334228"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO65",
+                "uniqueRoleId": "392087",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO110",
+                "uniqueRoleId": "392088",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "620609",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14F"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230521"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "710910",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QR1"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300826"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V82939",
+        "status": "Active",
+        "role_id": "RO110"
+    }
+}

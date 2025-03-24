@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NUCARE PHARMACY - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "E1M4W"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-06-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "229 VICTORIA ROAD",
+            "AddrLn2": "ASTON",
+            "Town": "BIRMINGHAM",
+            "PostCode": "B6 5HP",
+            "Country": "ENGLAND",
+            "UPRN": "100071470256"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "409881",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "409880",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "725158",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "FHA34"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO182",
+                    "uniqueRoleId": "218617"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "E1M4W",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

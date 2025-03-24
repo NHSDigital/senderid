@@ -1,0 +1,211 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 01473 329532
+  - type: fax
+    value: 01473 329050
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PAPER MILL LANE
+    AddrLn2: BRAMFORD
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP8 4DE
+    Town: IPSWICH
+LastChangeDate:
+  value: '2023-09-21'
+Name: SUFFOLK PCT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5PT
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q35
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '137019'
+    id: RE3
+    uniqueRelId: '37468'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q56
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163551'
+    id: RE5
+    uniqueRelId: '186963'
+  - Date:
+      End:
+        value: '2022-09-30'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '449099'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO22
+    uniqueRoleId: '153812'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO179
+    primaryRole: 'true'
+    uniqueRoleId: '58573'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '42367'
+    Type: Predecessor
+    uniqueSuccId: '1484'
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '42368'
+    Type: Predecessor
+    uniqueSuccId: '810'
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '42369'
+    Type: Predecessor
+    uniqueSuccId: '7165'
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5JW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '42370'
+    Type: Predecessor
+    uniqueSuccId: '7826'
+metadata:
+  org_id: 5PT
+  role_id: RO179
+  status: Inactive
+orgRecordClass: RC1

@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PENN HOSPITAL
+    AddrLn2: PENN ROAD
+    Country: ENGLAND
+    PostCode: WV4 5HN
+    Town: WOLVERHAMPTON
+    UPRN: '100071564912'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ADULT MH CONSULTANT 8
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S6A7H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '49637'
+    id: RE6
+    uniqueRelId: '830044'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '508263'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO108
+    primaryRole: 'true'
+    uniqueRoleId: '508264'
+Status:
+  value: Active
+metadata:
+  org_id: S6A7H
+  role_id: RO108
+  status: Active
+orgRecordClass: RC2

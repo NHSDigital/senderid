@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01844 343321
+Date:
+- Start:
+    value: '2024-03-08'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-02-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 52 HIGH STREET
+    Country: ENGLAND
+    PostCode: HP27 0AX
+    Town: PRINCES RISBOROUGH
+    UPRN: '100081181862'
+LastChangeDate:
+  value: '2024-02-19'
+Name: RISBOROUGH PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FLT31
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '839114'
+  - Date:
+    - Start:
+        value: '2024-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L5T5D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '407290'
+    id: RE6
+    uniqueRelId: '839115'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-02-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '518973'
+Status:
+  value: Active
+metadata:
+  org_id: FLT31
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

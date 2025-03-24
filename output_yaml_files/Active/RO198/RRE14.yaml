@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2001-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRUNSWICK ROAD
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: WS11 5XY
+    Town: CANNOCK
+    UPRN: '100032222611'
+LastChangeDate:
+  value: '2021-02-05'
+Name: CANNOCK CHASE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RRE14
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '95630'
+    id: RE6
+    uniqueRelId: '71077'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '99987'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RBH14
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '70487'
+    Type: Predecessor
+    uniqueSuccId: '29833'
+metadata:
+  org_id: RRE14
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

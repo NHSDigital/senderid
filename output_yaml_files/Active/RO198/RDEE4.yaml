@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '1992-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TURNER ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO4 5JL
+    Town: COLCHESTER
+    UPRN: '100091645367'
+LastChangeDate:
+  value: '2021-02-05'
+Name: COLCHESTER GENERAL HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RDEE4
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118212'
+    id: RE6
+    uniqueRelId: '75299'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '96901'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAHE4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '3014'
+    Type: Predecessor
+    uniqueSuccId: '11118'
+  - Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FAGE4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '32130'
+    Type: Predecessor
+    uniqueSuccId: '5288'
+metadata:
+  org_id: RDEE4
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

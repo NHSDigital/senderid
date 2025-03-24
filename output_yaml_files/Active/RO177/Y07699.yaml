@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01228 514830
+Date:
+  Start:
+    value: '2022-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HILLTOP HEIGHTS
+    AddrLn2: LONDON ROAD
+    Country: ENGLAND
+    County: CUMBRIA
+    PostCode: CA1 2NS
+    Town: CARLISLE
+LastChangeDate:
+  value: '2023-08-22'
+Name: CUMBRIA HEALTH ON CALL EXTENDED ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07699
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE4
+    uniqueRelId: '814895'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE6
+    uniqueRelId: '814896'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '492629'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '492628'
+Status:
+  value: Active
+metadata:
+  org_id: Y07699
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

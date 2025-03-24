@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01213 275304
+Date:
+  Start:
+    value: '2020-09-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 168 TRINITY ROAD
+    AddrLn2: ASTON
+    Country: ENGLAND
+    PostCode: B6 6HZ
+    Town: BIRMINGHAM
+    UPRN: '10092020146'
+LastChangeDate:
+  value: '2022-12-15'
+Name: ROOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FWX61
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2RT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '122697'
+    id: RE6
+    uniqueRelId: '717442'
+  - Date:
+      End:
+        value: '2022-06-30'
+      Start:
+        value: '2020-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '717443'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE4
+    uniqueRelId: '808798'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '399598'
+Status:
+  value: Active
+metadata:
+  org_id: FWX61
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01217 792540
+Date:
+- Start:
+    value: '2023-04-25'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-04-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3 BELL LANE
+    AddrLn2: KITTS GREEN
+    Country: ENGLAND
+    PostCode: B33 0HS
+    Town: BIRMINGHAM
+    UPRN: '100071382125'
+LastChangeDate:
+  value: '2023-04-20'
+Name: BROWNS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FXP84
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-04-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P62P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94992'
+    id: RE6
+    uniqueRelId: '822254'
+  - Date:
+    - Start:
+        value: '2023-04-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE4
+    uniqueRelId: '822253'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-04-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '501417'
+Status:
+  value: Active
+metadata:
+  org_id: FXP84
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

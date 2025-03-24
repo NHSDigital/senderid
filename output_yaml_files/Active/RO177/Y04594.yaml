@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01206 879720
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BLUEBELL SURG 1ST FLOOR
+    AddrLn2: JACK ANDREWS DRIVE
+    Country: ENGLAND
+    PostCode: CO4 9YN
+    Town: COLCHESTER
+    UPRN: '303004078'
+LastChangeDate:
+  value: '2019-06-26'
+Name: NORTH EAST ESSEX DIABETES SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04594
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NDL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '78731'
+    id: RE6
+    uniqueRelId: '461469'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161355'
+    id: RE4
+    uniqueRelId: '284944'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '195501'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '195502'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281182'
+Status:
+  value: Active
+metadata:
+  org_id: Y04594
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

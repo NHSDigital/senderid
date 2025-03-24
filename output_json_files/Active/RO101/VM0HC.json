@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "KINGTON HOUSE (CARE HOME)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-08-02"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VM0HC"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-07-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "KINGTON HOUSE",
+            "AddrLn2": "OLD VILLAGE ROAD",
+            "Town": "BARRY",
+            "County": "SOUTH GLAMORGAN",
+            "PostCode": "CF62 6RA",
+            "Country": "WALES"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "376505",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO269",
+                "uniqueRoleId": "376506",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "597274",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A4"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "40385"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "597275",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AGG3"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "346968"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VM0HC",
+        "status": "Active",
+        "role_id": "RO101"
+    }
+}

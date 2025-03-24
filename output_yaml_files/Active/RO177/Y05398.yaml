@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 256600
+Date:
+  Start:
+    value: '2016-04-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1-3 LEGRAMS TERRACE
+    AddrLn2: FIELDHEAD BUSINESS CENTRE
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD7 1LN
+    Town: BRADFORD
+    UPRN: '10090400702'
+LastChangeDate:
+  value: '2024-01-08'
+Name: BCDAT-SP PRESCRIBER
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05398
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '38972'
+    id: RE6
+    uniqueRelId: '464949'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161460'
+    id: RE4
+    uniqueRelId: '464950'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 36J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386509'
+    id: RE4
+    uniqueRelId: '637359'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '282448'
+  - Date:
+      Start:
+        value: '2016-04-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '282449'
+Status:
+  value: Active
+metadata:
+  org_id: Y05398
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

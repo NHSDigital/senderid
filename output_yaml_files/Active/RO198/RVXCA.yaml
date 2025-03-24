@@ -1,0 +1,111 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2004-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2004-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EAST CLEVELAND HOSPITAL
+    AddrLn2: ALFORD ROAD
+    AddrLn3: BROTTON
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS12 2FF
+    Town: SALTBURN-BY-THE-SEA
+LastChangeDate:
+  value: '2024-04-02'
+Name: WHITECLIFFE CMHT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVXCA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2010-07-13'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39270'
+    id: RE6
+    uniqueRelId: '11071'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '158840'
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2004-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2004-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '11850'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3MY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '62725'
+    Type: Successor
+    uniqueSuccId: '31352'
+metadata:
+  org_id: RVXCA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

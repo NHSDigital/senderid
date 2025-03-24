@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HAWKEYS LANE
+    Country: ENGLAND
+    PostCode: NE29 0SF
+    Town: NORTH SHIELDS
+    UPRN: '47044827'
+LastChangeDate:
+  value: '2022-08-04'
+Name: SHIELDS HEALTH HUB - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: M5Q2X
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-02-28'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A87004
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '135258'
+    id: RE6
+    uniqueRelId: '723341'
+  - Date:
+      Start:
+        value: '2021-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A87009
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '135263'
+    id: RE6
+    uniqueRelId: '724477'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '403442'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '403443'
+Status:
+  value: Active
+metadata:
+  org_id: M5Q2X
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

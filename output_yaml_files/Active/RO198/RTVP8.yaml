@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2012-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2012-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEGH STREET
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: WA1 1UG
+    Town: WARRINGTON
+    UPRN: '200000980212'
+LastChangeDate:
+  value: '2021-07-21'
+Name: BATH STREET HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTVP8
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61637'
+    id: RE6
+    uniqueRelId: '188624'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '165685'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U3C2B
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '445705'
+    Type: Successor
+    uniqueSuccId: '38061'
+metadata:
+  org_id: RTVP8
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

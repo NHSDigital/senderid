@@ -1,0 +1,85 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "PRIVATE HOSPITAL (NHS PROVIDED BEDS)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2012-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RCB62"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-07-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SCARBOROUGH HOSPITAL",
+            "AddrLn2": "WOODLANDS DRIVE",
+            "Town": "SCARBOROUGH",
+            "County": "NORTH YORKSHIRE",
+            "PostCode": "YO12 6QL",
+            "Country": "ENGLAND",
+            "UPRN": "100052211189"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "161686",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2012-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "183946",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2012-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RCB"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "48495"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RCB62",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

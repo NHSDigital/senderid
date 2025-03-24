@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01806 503277
+Date:
+  Start:
+    value: '1990-10-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WEST AYRE
+    Country: SCOTLAND
+    County: SHETLAND
+    PostCode: ZE2 9RW
+    Town: HILLSWICK
+    UPRN: '30100004380'
+LastChangeDate:
+  value: '2023-01-13'
+Name: HILLSWICK HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S39034
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SZ9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487568'
+    id: RE5
+    uniqueRelId: '811243'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1990-10-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488871'
+  - Date:
+      Start:
+        value: '1990-10-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '177420'
+Status:
+  value: Active
+metadata:
+  org_id: S39034
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

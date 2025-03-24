@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 495500
+Date:
+- Start:
+    value: '2021-11-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-07-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEYLANDS MEDICAL CENTRE
+    AddrLn2: 81 LEYLANDS LANE
+    Country: ENGLAND
+    PostCode: BD9 5PZ
+    Town: BRADFORD
+    UPRN: '10024067857'
+LastChangeDate:
+  value: '2024-01-09'
+Name: LEYLANDS LANE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTA80
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '793320'
+  - Date:
+    - Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I7W8X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '469200'
+    id: RE6
+    uniqueRelId: '793319'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '469215'
+Status:
+  value: Active
+metadata:
+  org_id: FTA80
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

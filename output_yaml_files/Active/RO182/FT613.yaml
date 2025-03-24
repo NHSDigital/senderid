@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01895 232841
+Date:
+  Start:
+    value: '2007-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 SUTTON COURT ROAD
+    AddrLn2: HILLINGDON
+    Country: ENGLAND
+    County: MIDDLESEX
+    PostCode: UB10 9HP
+    Town: UXBRIDGE
+    UPRN: '100023414174'
+LastChangeDate:
+  value: '2021-02-11'
+Name: HILLINGDON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FT613
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2007-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1F6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '30919'
+    id: RE6
+    uniqueRelId: '327265'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '327266'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE4
+    uniqueRelId: '655995'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2007-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '225731'
+Status:
+  value: Active
+metadata:
+  org_id: FT613
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

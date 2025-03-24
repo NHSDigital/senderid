@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01792 601874
+Date:
+  Start:
+    value: '2022-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BLOCK A
+    AddrLn2: NEATH PORT TALBOT HOSPITAL
+    AddrLn3: BAGLAN WAY
+    Country: WALES
+    PostCode: SA12 7BX
+    Town: PORT TALBOT
+    UPRN: '10009181863'
+LastChangeDate:
+  value: '2023-08-22'
+Name: VIRTUAL WARD CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00196
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE4
+    uniqueRelId: '814709'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE6
+    uniqueRelId: '814710'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '492466'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '492465'
+Status:
+  value: Active
+metadata:
+  org_id: W00196
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

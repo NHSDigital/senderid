@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01772 701924
+Date:
+- Start:
+    value: '2023-12-24'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-12-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 200 MILLER ROAD
+    AddrLn2: RIBBLETON
+    Country: ENGLAND
+    PostCode: PR2 6NH
+    Town: PRESTON
+    UPRN: '100012750130'
+LastChangeDate:
+  value: '2023-12-07'
+Name: MILLER ROAD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAL82
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-12-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-12-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '836139'
+  - Date:
+    - Start:
+        value: '2023-12-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-12-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H3Y8K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '515629'
+    id: RE6
+    uniqueRelId: '836140'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-12-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-12-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '515664'
+Status:
+  value: Active
+metadata:
+  org_id: FAL82
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

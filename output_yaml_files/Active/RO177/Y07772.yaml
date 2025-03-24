@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01323 407900
+Date:
+  Start:
+    value: '2022-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VICTORIA MEDICAL PRACTICE
+    AddrLn2: 153A VICTORIA DRIVE
+    Country: ENGLAND
+    PostCode: BN20 8NH
+    Town: EASTBOURNE
+    UPRN: '10093962198'
+LastChangeDate:
+  value: '2023-10-04'
+Name: VICTORIA EASTBOURNE PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07772
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 97R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386494'
+    id: RE4
+    uniqueRelId: '816898'
+  - Date:
+      Start:
+        value: '2022-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 97R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386494'
+    id: RE6
+    uniqueRelId: '816899'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '494880'
+  - Date:
+      Start:
+        value: '2022-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '494879'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511770'
+Status:
+  value: Active
+metadata:
+  org_id: Y07772
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

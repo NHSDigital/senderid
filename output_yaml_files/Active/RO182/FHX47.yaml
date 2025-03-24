@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01638 712540
+Date:
+- Start:
+    value: '2023-06-16'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 MANOR COURT
+    AddrLn2: HIGH STREET
+    AddrLn3: MILDENHALL
+    Country: ENGLAND
+    PostCode: IP28 7EH
+    Town: BURY ST. EDMUNDS
+    UPRN: '100091500383'
+LastChangeDate:
+  value: '2023-05-25'
+Name: MANOR COURT PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FHX47
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-06-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P66C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94029'
+    id: RE6
+    uniqueRelId: '826270'
+  - Date:
+    - Start:
+        value: '2023-06-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE4
+    uniqueRelId: '826269'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-06-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504784'
+Status:
+  value: Active
+metadata:
+  org_id: FHX47
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

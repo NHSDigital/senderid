@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02084 492463
+Date:
+- Start:
+    value: '2015-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-06-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 STATION PARADE
+    AddrLn2: COCKFOSTERS ROAD
+    Country: ENGLAND
+    County: HERTFORDSHIRE
+    PostCode: EN4 0DL
+    Town: BARNET
+    UPRN: '207195768'
+LastChangeDate:
+  value: '2024-01-09'
+Name: GREENACRE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FXE62
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '384950'
+  - Date:
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: PEYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '232880'
+    id: RE6
+    uniqueRelId: '384951'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE4
+    uniqueRelId: '657940'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2015-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-06-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '232937'
+Status:
+  value: Active
+metadata:
+  org_id: FXE62
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "RENAL OUTPATIENTS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-03-22"
+        },
+        "End": {
+            "value": "2024-03-23"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A1H4Q"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2024-04-08"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROYAL DERBY HOSPITAL",
+            "AddrLn2": "UTTOXETER ROAD",
+            "Town": "DERBY",
+            "County": "DERBYSHIRE",
+            "PostCode": "DE22 3NE",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "522439",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    },
+                    "End": {
+                        "value": "2024-03-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "522438",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-22"
+                    },
+                    "End": {
+                        "value": "2024-03-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "844055",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-03-22"
+                },
+                "End": {
+                    "value": "2024-03-23"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTG"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "73483"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A1H4Q",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

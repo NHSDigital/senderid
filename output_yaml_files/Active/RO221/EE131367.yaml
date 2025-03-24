@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01242 532363
+Date:
+  Start:
+    value: '2006-03-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. GEORGES ROAD
+    Country: ENGLAND
+    PostCode: GL50 3EW
+    Town: CHELTENHAM
+    UPRN: '100121229737'
+LastChangeDate:
+  value: '2023-02-07'
+Name: GLOUCESTERSHIRE HOSPITAL EDUCATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE131367
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2006-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '904'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '23486'
+    id: RE5
+    uniqueRelId: '763725'
+  - Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE5
+    uniqueRelId: '763724'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2006-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '439671'
+  - Date:
+      Start:
+        value: '2006-03-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO291
+    uniqueRoleId: '439672'
+Status:
+  value: Active
+metadata:
+  org_id: EE131367
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

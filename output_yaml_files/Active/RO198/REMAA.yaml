@@ -1,0 +1,87 @@
+Date:
+- Start:
+    value: '2019-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-09-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 83-93 STONEBRIDGE LANE
+    AddrLn2: CROXTETH
+    Country: ENGLAND
+    PostCode: L11 4SJ
+    Town: LIVERPOOL
+    UPRN: '38290187'
+LastChangeDate:
+  value: '2024-03-06'
+Name: ADDACTION RECOVERY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: REMAA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2019-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: REM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '79043'
+    id: RE6
+    uniqueRelId: '607045'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2019-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '385297'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RQ651
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '297275'
+    Type: Predecessor
+    uniqueSuccId: '37630'
+metadata:
+  org_id: REMAA
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

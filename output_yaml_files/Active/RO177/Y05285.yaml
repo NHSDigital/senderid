@@ -1,0 +1,103 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0151 2904641
+Date:
+- Start:
+    value: '2016-01-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-01-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRADLEGH ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: WA12 8RB
+    Town: NEWTON-LE-WILLOWS
+LastChangeDate:
+  value: '2023-08-22'
+Name: COMMUNITY GYNAECOLOGY CLINIC NH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05285
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2016-01-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE4
+    uniqueRelId: '447259'
+  - Date:
+      Start:
+        value: '2016-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE6
+    uniqueRelId: '462128'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-01-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '277089'
+  - Date:
+    - Start:
+        value: '2016-01-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '277090'
+Status:
+  value: Active
+metadata:
+  org_id: Y05285
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

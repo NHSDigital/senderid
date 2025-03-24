@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 72 ASHOVER ROAD
+    Country: ENGLAND
+    PostCode: NE3 3GH
+    Town: NEWCASTLE UPON TYNE
+    UPRN: '4510725132'
+LastChangeDate:
+  value: '2020-07-16'
+Name: SEVEN HILLS HEALTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GER01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '714482'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: GER
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '396305'
+    id: RE6
+    uniqueRelId: '713548'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '396306'
+Status:
+  value: Active
+metadata:
+  org_id: GER01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

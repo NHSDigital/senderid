@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "LANSBURY PHARMACY - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "E2I7V"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-06-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "85 CHRISP STREET",
+            "AddrLn2": "POPLAR",
+            "Town": "LONDON",
+            "PostCode": "E14 6GG",
+            "Country": "ENGLAND",
+            "UPRN": "6183825"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "409891",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "409890",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "725163",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "FHH61"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO182",
+                    "uniqueRoleId": "218800"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "E2I7V",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

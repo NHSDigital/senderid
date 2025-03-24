@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WAVERTREE ROAD CUSTODY SUITE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VF1"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-06-25"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WAVERTREE POLICE STATION",
+            "AddrLn2": "WAVERTREE ROAD",
+            "Town": "LIVERPOOL",
+            "PostCode": "L7 1RJ",
+            "Country": "ENGLAND",
+            "UPRN": "38160943"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO229",
+                "uniqueRoleId": "398075",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO234",
+                "uniqueRoleId": "398076",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "715849",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "VAM"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO233",
+                    "uniqueRoleId": "199111"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "VF1",
+        "status": "Active",
+        "role_id": "RO234"
+    }
+}

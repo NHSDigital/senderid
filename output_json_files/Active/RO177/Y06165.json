@@ -1,0 +1,163 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HEREFORD ISH",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-07-25"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y06165"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "29-30 COMMERCIAL ROAD",
+            "Town": "HEREFORD",
+            "County": "HEREFORDSHIRE",
+            "PostCode": "HR1 2BG",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01432 266908"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO177",
+                "uniqueRoleId": "305559",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-07-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO250",
+                "uniqueRoleId": "305560",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "557418",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-07-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "R1A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "131576"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "557419",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-07-25"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "05F"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161251"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "637788",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "18C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386498"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y06165",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

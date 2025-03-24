@@ -1,0 +1,82 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0114 271 4716
+Date:
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTHERN GENERAL HOSPITAL
+    AddrLn2: HERRIES ROAD
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S5 7AU
+    Town: SHEFFIELD
+    UPRN: '100050995915'
+LastChangeDate:
+  value: '2021-01-28'
+Name: NORTHERN GENERAL HOSPITAL LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 693E0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2001-03-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RAF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '1414'
+    id: RE3
+    uniqueRelId: '45052'
+  - Date:
+      Start:
+        value: '2001-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RHQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '126907'
+    id: RE3
+    uniqueRelId: '46222'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '28101'
+Status:
+  value: Active
+metadata:
+  org_id: 693E0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

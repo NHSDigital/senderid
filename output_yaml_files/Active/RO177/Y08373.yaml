@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01213 228825
+Date:
+  Start:
+    value: '2024-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WASHWOOD HEALTH HC
+    AddrLn2: 4 CLODESHALL ROAD
+    AddrLn3: SALTLEY
+    Country: ENGLAND
+    PostCode: B8 3SW
+    Town: BIRMINGHAM
+    UPRN: '10090256865'
+LastChangeDate:
+  value: '2024-03-28'
+Name: NHS BSOL EAST LOCALITY HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08373
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE4
+    uniqueRelId: '841699'
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE6
+    uniqueRelId: '841700'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '521788'
+  - Date:
+      Start:
+        value: '2024-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '521787'
+Status:
+  value: Active
+metadata:
+  org_id: Y08373
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

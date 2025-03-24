@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2011-11-07'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 22-27 LONG STREET
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE18 2BP
+    Town: WIGSTON
+    UPRN: '10009231112'
+LastChangeDate:
+  value: '2021-02-11'
+Name: CEDAR COURT RESIDENTIAL AND NURSING HOME
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VM08H
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161292'
+    id: RE5
+    uniqueRelId: '394536'
+  - Date:
+      End:
+        value: '2018-01-31'
+      Start:
+        value: '2011-11-07'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ADXX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '244833'
+    id: RE6
+    uniqueRelId: '394537'
+  - Date:
+      Start:
+        value: '2018-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ANL6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '344372'
+    id: RE6
+    uniqueRelId: '597195'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2011-11-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO101
+    primaryRole: 'true'
+    uniqueRoleId: '249985'
+  - Date:
+      Start:
+        value: '2011-11-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO269
+    uniqueRoleId: '322357'
+Status:
+  value: Active
+metadata:
+  org_id: VM08H
+  role_id: RO101
+  status: Active
+orgRecordClass: RC1

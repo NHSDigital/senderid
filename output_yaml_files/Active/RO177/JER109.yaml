@@ -1,0 +1,72 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01534 833833
+Date:
+  Start:
+    value: '2013-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LE CAPELAINE HOUSE
+    AddrLn2: CASTLE QUAY, LA RUE DE L'ETAU
+    AddrLn3: ST. HELIER
+    Country: CHANNEL ISLANDS
+    County: CHANNEL ISLANDS
+    PostCode: JE2 3EH
+    Town: JERSEY
+LastChangeDate:
+  value: '2019-04-02'
+Name: CASTLE QUAY MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: JER109
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2013-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: YAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO126
+        uniqueRoleId: '109488'
+    id: RE5
+    uniqueRelId: '565985'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2015-02-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '229272'
+  - Date:
+      Start:
+        value: '2013-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '229273'
+Status:
+  value: Active
+metadata:
+  org_id: JER109
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

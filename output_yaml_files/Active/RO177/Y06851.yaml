@@ -1,0 +1,128 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02072 515860
+Date:
+- Start:
+    value: '2020-08-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-07-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 26 CONISCLIFFE ROAD
+    Country: ENGLAND
+    PostCode: DL3 7JX
+    Town: DARLINGTON
+    UPRN: '10003081280'
+LastChangeDate:
+  value: '2021-04-21'
+Name: WE ARE WITH YOU - DARLINGTON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06851
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '117'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '77569'
+    id: RE6
+    uniqueRelId: '737964'
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-08-17'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NI3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '166377'
+    id: RE6
+    uniqueRelId: '715159'
+  - Date:
+    - Start:
+        value: '2020-08-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '715160'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-08-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '397373'
+  - Date:
+    - Start:
+        value: '2020-08-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-07-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '397372'
+Status:
+  value: Active
+metadata:
+  org_id: Y06851
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

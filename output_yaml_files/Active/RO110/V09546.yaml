@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: AMESBURY HEALTH CENTRE
+    AddrLn2: SMITHFIELD STREET
+    Country: ENGLAND
+    County: WILTSHIRE
+    PostCode: SP4 7AL
+    Town: SALISBURY
+LastChangeDate:
+  value: '2024-05-09'
+Name: COMMUNITY DENTAL DEPARTMENT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V09546
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230525'
+    id: RE4
+    uniqueRelId: '571734'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '714020'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '346153'
+Status:
+  value: Active
+metadata:
+  org_id: V09546
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

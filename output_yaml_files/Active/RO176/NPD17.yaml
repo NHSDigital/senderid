@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: QUEENS HOSPITAL
+    AddrLn2: BELVEDERE ROAD
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: DE13 0RB
+    Town: BURTON-ON-TRENT
+LastChangeDate:
+  value: '2020-04-05'
+Name: BUR - BURTON FERTILITY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NPD17
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NPD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107207'
+    id: RE6
+    uniqueRelId: '385553'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '385554'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE5
+    uniqueRelId: '682029'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '233410'
+Status:
+  value: Active
+metadata:
+  org_id: NPD17
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

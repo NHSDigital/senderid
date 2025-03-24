@@ -1,0 +1,176 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0333 2004042
+Date:
+- Start:
+    value: '2016-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-02-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SANDBROOK HOUSE
+    AddrLn2: SANDBROOK WAY
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: OL11 1RY
+    Town: ROCHDALE
+LastChangeDate:
+  value: '2018-01-18'
+Name: INHEALTH NWCATS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05300
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2016-12-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NTP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107199'
+    id: RE6
+    uniqueRelId: '462143'
+  - Date:
+      Start:
+        value: '2017-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NV1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137020'
+    id: RE6
+    uniqueRelId: '516702'
+  - Date:
+      Start:
+        value: '2018-01-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161408'
+    id: RE4
+    uniqueRelId: '532540'
+  - Date:
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2016-02-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161437'
+    id: RE4
+    uniqueRelId: '522668'
+  - Date:
+      End:
+        value: '2018-01-16'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '288843'
+    id: RE4
+    uniqueRelId: '522669'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2016-02-24'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '278360'
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-02-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '278361'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281541'
+Status:
+  value: Active
+metadata:
+  org_id: Y05300
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

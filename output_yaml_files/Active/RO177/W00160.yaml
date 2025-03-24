@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01978 661679
+Date:
+  Start:
+    value: '2017-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HEALTH & WELLBEING CENTRE
+    AddrLn2: 139 BRIDGE ROAD
+    AddrLn3: WREXHAM INDUSTRIAL ESTATE
+    Country: WALES
+    County: CLWYD
+    PostCode: LL13 9QE
+    Town: WREXHAM
+LastChangeDate:
+  value: '2023-08-22'
+Name: HMP BERWYN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00160
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '516589'
+  - Date:
+      Start:
+        value: '2017-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '516590'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2017-07-11'
+      Start:
+        value: '2017-01-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '288484'
+  - Date:
+      Start:
+        value: '2017-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO82
+    uniqueRoleId: '294018'
+  - Date:
+      Start:
+        value: '2017-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '288485'
+Status:
+  value: Active
+metadata:
+  org_id: W00160
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

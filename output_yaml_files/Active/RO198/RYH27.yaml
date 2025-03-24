@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2014-03-31'
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PO BOX 521
+    AddrLn2: NORTH TEES GENERAL HOSPITAL
+    AddrLn3: HARDWICK ROAD
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS19 8XZ
+    Town: STOCKTON-ON-TEES
+LastChangeDate:
+  value: '2014-03-20'
+Name: NHS DIRECT (STOCKTON)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYH27
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137067'
+    id: RE6
+    uniqueRelId: '93209'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '6735'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T137W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '74061'
+    Type: Predecessor
+    uniqueSuccId: '9265'
+metadata:
+  org_id: RYH27
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

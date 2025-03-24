@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE HAYWOOD HOSPITAL
+    AddrLn2: HIGH LANE
+    Country: ENGLAND
+    PostCode: ST6 7AG
+    Town: STOKE-ON-TRENT
+    UPRN: '3455122588'
+LastChangeDate:
+  value: '2024-04-02'
+Name: PRESCRIBER 660
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I4U0Q
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '95630'
+    id: RE6
+    uniqueRelId: '837022'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '516725'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '516726'
+Status:
+  value: Active
+metadata:
+  org_id: I4U0Q
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

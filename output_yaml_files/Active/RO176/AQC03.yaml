@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 370 DUDLEY HILL ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD2 3AA
+    Town: BRADFORD
+    UPRN: '10090676788'
+LastChangeDate:
+  value: '2021-02-11'
+Name: MOORSIDE SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AQC03
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '384742'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AQC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '232774'
+    id: RE6
+    uniqueRelId: '384743'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '663494'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '232778'
+Status:
+  value: Active
+metadata:
+  org_id: AQC03
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

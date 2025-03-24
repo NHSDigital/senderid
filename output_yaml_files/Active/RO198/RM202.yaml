@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2017-09-30'
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1994-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SOUTHMOOR ROAD
+    AddrLn2: WYTHENSHAWE
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M23 9LT
+    Town: MANCHESTER
+    UPRN: '77239155'
+LastChangeDate:
+  value: '2021-02-04'
+Name: WYTHENSHAWE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RM202
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2017-09-30'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RM2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39260'
+    id: RE6
+    uniqueRelId: '38726'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2017-09-30'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '35509'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: PM202
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '67857'
+    Type: Predecessor
+    uniqueSuccId: '17435'
+metadata:
+  org_id: RM202
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

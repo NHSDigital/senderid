@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01162 606734
+Date:
+  Start:
+    value: '2016-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9-10 MERCHANT COMMON
+    AddrLn2: EAST GOSCOTE
+    Country: ENGLAND
+    PostCode: LE7 3XR
+    Town: LEICESTER
+    UPRN: '100032069915'
+LastChangeDate:
+  value: '2025-02-05'
+Name: PICKFORDS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FMA39
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3M1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '111102'
+    id: RE6
+    uniqueRelId: '511156'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE4
+    uniqueRelId: '511157'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE4
+    uniqueRelId: '653188'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '284564'
+Status:
+  value: Active
+metadata:
+  org_id: FMA39
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

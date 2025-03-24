@@ -1,0 +1,158 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01743 444062
+Date:
+- Start:
+    value: '2015-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-08-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SHROPSHIRE REHAB CENTRE
+    AddrLn2: LANCASTER ROAD
+    Country: ENGLAND
+    County: SHROPSHIRE
+    PostCode: SY1 3NJ
+    Town: SHREWSBURY
+    UPRN: '100071531679'
+LastChangeDate:
+  value: '2023-08-22'
+Name: CONTINENCE NURSING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05116
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161340'
+    id: RE4
+    uniqueRelId: '386014'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161340'
+    id: RE6
+    uniqueRelId: '461969'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M2L0M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400450'
+    id: RE6
+    uniqueRelId: '731706'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M2L0M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400450'
+    id: RE4
+    uniqueRelId: '731707'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '233781'
+  - Date:
+    - Start:
+        value: '2015-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-08-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233782'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281455'
+Status:
+  value: Active
+metadata:
+  org_id: Y05116
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

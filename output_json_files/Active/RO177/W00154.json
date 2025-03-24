@@ -1,0 +1,135 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CHRONIC CONDITIONS PRACTI",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-07-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "W00154"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CONFERENCE CENTRE",
+            "AddrLn2": "FISHGUARD ROAD",
+            "Town": "HAVERFORDWEST",
+            "County": "DYFED",
+            "PostCode": "SA61 2PZ",
+            "Country": "WALES"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01437 834434"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "284608",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-07-20"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "284609",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-07-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "511191",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-07-20"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A2"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "40384"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "511192",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-07-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A2"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "40384"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "W00154",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROUND FLOOR
+    AddrLn2: 3 PICCADILLY PLACE
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M1 3BN
+    Town: MANCHESTER
+LastChangeDate:
+  value: '2023-07-07'
+Name: TAC HEALTHCARE GROUP LTD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DDK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278954'
+    id: RE5
+    uniqueRelId: '514699'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '668046'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '287007'
+Status:
+  value: Active
+metadata:
+  org_id: DDK
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

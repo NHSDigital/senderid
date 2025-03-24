@@ -1,0 +1,119 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01384 816892
+Date:
+  Start:
+    value: '2013-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OFFICE OF PUBLIC HEALTH
+    AddrLn2: 8TH FLOOR, FALCON HOUSE
+    AddrLn3: THE MINORIES
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: DY2 8PG
+    Town: DUDLEY
+LastChangeDate:
+  value: '2021-04-01'
+Name: DUDLEY STOP SMOKING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04159
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-07-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '408'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78148'
+    id: RE6
+    uniqueRelId: '601276'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161320'
+    id: RE4
+    uniqueRelId: '283913'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE4
+    uniqueRelId: '731484'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2019-07-02'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194452'
+  - Date:
+      Start:
+        value: '2013-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194453'
+  - Date:
+      Start:
+        value: '2019-07-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '379694'
+Status:
+  value: Active
+metadata:
+  org_id: Y04159
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

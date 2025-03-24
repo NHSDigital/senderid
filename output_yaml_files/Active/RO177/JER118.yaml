@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01534 500090
+Date:
+- Start:
+    value: '2021-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-05-19'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 5
+    AddrLn2: LA VIELLE ECOLE
+    AddrLn3: LA RUE DE LA CROIX AU MAITRE
+    Country: CHANNEL ISLANDS
+    County: CHANNEL ISLANDS
+    PostCode: JE3 6HW
+    Town: JERSEY
+LastChangeDate:
+  value: '2023-07-20'
+Name: ST MARTIN SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: JER118
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: YAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO126
+        uniqueRoleId: '109488'
+    id: RE5
+    uniqueRelId: '752397'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '428392'
+  - Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-19'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '428391'
+Status:
+  value: Active
+metadata:
+  org_id: JER118
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

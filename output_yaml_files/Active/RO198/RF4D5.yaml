@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRENTWOOD COMM HOSPITAL
+    AddrLn2: CRESCENT DRIVE
+    Country: ENGLAND
+    PostCode: CM15 8DR
+    Town: BRENTWOOD
+LastChangeDate:
+  value: '2024-04-02'
+Name: DERMATOLOGY BCH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RF4D5
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RF4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118655'
+    id: RE6
+    uniqueRelId: '821488'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500245'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500246'
+Status:
+  value: Active
+metadata:
+  org_id: RF4D5
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

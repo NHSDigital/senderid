@@ -1,0 +1,110 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "LANCASTER CENTRE (NHS BLOOD & TRANSPLANT)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2005-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "T146T"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ROYAL LANCASTER INFIRMARY",
+            "AddrLn2": "ASHTON ROAD",
+            "Town": "LANCASTER",
+            "County": "LANCASHIRE",
+            "PostCode": "LA1 4RP",
+            "Country": "ENGLAND",
+            "UPRN": "100012622534"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO191",
+            "uniqueRoleId": "109554",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "41586",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1460"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "99818"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "466",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T129T"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO191",
+                    "uniqueRoleId": "27633"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "T146T",
+        "status": "Active",
+        "role_id": "RO191"
+    }
+}

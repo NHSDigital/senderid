@@ -1,0 +1,115 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WOLVERHAMPTON TOTAL HEALTH PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U27607"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE NEWBRIDGE SURGERY",
+            "AddrLn2": "255 TETTENHALL ROAD",
+            "Town": "WOLVERHAMPTON",
+            "PostCode": "WV6 0DE",
+            "Country": "ENGLAND",
+            "UPRN": "100071374476"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "387917",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609555",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2021-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "06A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161342"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "732204",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D2P2L"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "400451"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U27607",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}

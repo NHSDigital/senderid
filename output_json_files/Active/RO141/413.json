@@ -1,0 +1,210 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "STAFFORDSHIRE COUNTY COUNCIL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1997-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "413"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1 STAFFORDSHIRE PLACE",
+            "Town": "STAFFORD",
+            "PostCode": "ST16 2DH",
+            "Country": "ENGLAND",
+            "UPRN": "100032201637"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO33",
+                "uniqueRoleId": "172482",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO141",
+                "uniqueRoleId": "77606",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1997-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "235266",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    },
+                    "End": {
+                        "value": "2015-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q60"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "163555"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "353036",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-04-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q76"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202018"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "681738",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QNC"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300746"
+                    }
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "32097",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1997-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "403"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "51009"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "36808",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "V319"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO119",
+                        "uniqueRoleId": "121049"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "413",
+        "status": "Active",
+        "role_id": "RO141"
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "SOUTHLANDS HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RYR14"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UPPER SHOREHAM ROAD",
+            "Town": "SHOREHAM-BY-SEA",
+            "County": "WEST SUSSEX",
+            "PostCode": "BN43 6TQ",
+            "Country": "ENGLAND",
+            "UPRN": "60017878"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "106553",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "58582",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYR"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "62205"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "3407",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2009-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RPR09"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "106334"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "2723",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2009-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RPL03"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "106389"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37965",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RXH48"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "121702"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "RYR14",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

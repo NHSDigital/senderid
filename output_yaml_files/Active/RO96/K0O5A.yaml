@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 60 PRIORY ROAD
+    Country: ENGLAND
+    PostCode: CV8 1LQ
+    Town: KENILWORTH
+    UPRN: '100071520874'
+LastChangeDate:
+  value: '2023-09-06'
+Name: KENILWORTH METHODIST CHURCH- COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: K0O5A
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M84028
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '112606'
+    id: RE6
+    uniqueRelId: '806984'
+  - Date:
+      End:
+        value: '2022-05-31'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M84036
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '112614'
+    id: RE6
+    uniqueRelId: '724811'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '409230'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '409231'
+Status:
+  value: Active
+metadata:
+  org_id: K0O5A
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

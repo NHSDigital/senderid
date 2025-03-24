@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 MOUNT PLEASANT
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: ST5 1DA
+    Town: NEWCASTLE
+    UPRN: '200004617350'
+LastChangeDate:
+  value: '2021-02-12'
+Name: NEWCASTLE UNDER LYME DENTAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V80240
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230513'
+    id: RE4
+    uniqueRelId: '445897'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE4
+    uniqueRelId: '710515'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '276064'
+  - Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '276065'
+Status:
+  value: Active
+metadata:
+  org_id: V80240
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

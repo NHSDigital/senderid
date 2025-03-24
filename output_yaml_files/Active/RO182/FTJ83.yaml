@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01332 343370
+Date:
+- Start:
+    value: '2023-10-24'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 VERNON STREET
+    Country: ENGLAND
+    PostCode: DE1 1FR
+    Town: DERBY
+    UPRN: '100031997606'
+LastChangeDate:
+  value: '2023-09-28'
+Name: VERNON STREET PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTJ83
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '832653'
+  - Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A9F3D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511065'
+    id: RE6
+    uniqueRelId: '832654'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-24'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '511118'
+Status:
+  value: Active
+metadata:
+  org_id: FTJ83
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

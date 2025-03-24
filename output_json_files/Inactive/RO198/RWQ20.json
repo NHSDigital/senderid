@@ -1,0 +1,184 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "KEITH WINTER CLOSE MENTAL HEALTH UNIT",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2000-04-01"
+            },
+            "End": {
+                "value": "2011-06-30"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2000-04-01"
+            },
+            "End": {
+                "value": "2022-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RWQ20"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BARNSLEY HALL DRIVE",
+            "AddrLn2": "STOURBRIDGE ROAD",
+            "Town": "BROMSGROVE",
+            "County": "WORCESTERSHIRE",
+            "PostCode": "B61 0EX",
+            "Country": "ENGLAND",
+            "UPRN": "100120587545"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "75197",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2011-06-30"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "88821",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2011-06-30"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RWQ"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "114378"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "13044",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2011-07-01"
+                    }
+                },
+                "Type": "Successor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "R1A22"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "111525"
+                    }
+                }
+            },
+            {
+                "forwardSuccession": "true",
+                "uniqueSuccId": "29171",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RRZ20"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "98683"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "RWQ20",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

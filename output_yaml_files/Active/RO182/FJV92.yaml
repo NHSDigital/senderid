@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01843 580351
+Date:
+- Start:
+    value: '2023-05-05'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-04-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 3-5 KING STREET
+    Country: ENGLAND
+    PostCode: CT11 8NN
+    Town: RAMSGATE
+    UPRN: '100061138566'
+LastChangeDate:
+  value: '2023-04-27'
+Name: RAMSGATE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJV92
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-05-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE4
+    uniqueRelId: '823710'
+  - Date:
+    - Start:
+        value: '2023-05-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: E0W2H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '502749'
+    id: RE6
+    uniqueRelId: '823711'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-05-05'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-04-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '502805'
+Status:
+  value: Active
+metadata:
+  org_id: FJV92
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

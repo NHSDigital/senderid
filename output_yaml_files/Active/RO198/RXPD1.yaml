@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DARLINGTON MEMORIAL HOSPITAL
+    AddrLn2: HOLLYHURST ROAD
+    Country: ENGLAND
+    PostCode: DL3 6HX
+    Town: DARLINGTON
+    UPRN: '200002723662'
+LastChangeDate:
+  value: '2024-04-02'
+Name: EMERGENCY DEP. DMH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXPD1
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '125071'
+    id: RE6
+    uniqueRelId: '821990'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '501076'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '501077'
+Status:
+  value: Active
+metadata:
+  org_id: RXPD1
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

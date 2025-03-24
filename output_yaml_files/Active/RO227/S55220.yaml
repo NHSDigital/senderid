@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01408 633221
+Date:
+  Start:
+    value: '1990-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GOLSPIE HEALTH CENTRE
+    AddrLn2: FOUNTAIN ROAD
+    Country: SCOTLAND
+    County: SUTHERLAND
+    PostCode: KW10 6TH
+    Town: GOLSPIE
+LastChangeDate:
+  value: '2022-08-18'
+Name: GOLSPIE MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S55220
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SH9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487559'
+    id: RE5
+    uniqueRelId: '811440'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489068'
+  - Date:
+      Start:
+        value: '1990-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '177927'
+Status:
+  value: Active
+metadata:
+  org_id: S55220
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

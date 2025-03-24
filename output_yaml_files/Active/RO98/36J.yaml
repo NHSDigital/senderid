@@ -1,0 +1,126 @@
+Date:
+- Start:
+    value: '2020-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-10-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SCOREX HOUSE WEST
+    AddrLn2: 1 BOLTON ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD1 4AS
+    Town: BRADFORD
+LastChangeDate:
+  value: '2023-03-28'
+Name: NHS WEST YORKSHIRE ICB - 36J
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 36J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '619578'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '386509'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486094'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161455'
+    Type: Predecessor
+    uniqueSuccId: '37714'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161458'
+    Type: Predecessor
+    uniqueSuccId: '37715'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161460'
+    Type: Predecessor
+    uniqueSuccId: '37716'
+metadata:
+  org_id: 36J
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

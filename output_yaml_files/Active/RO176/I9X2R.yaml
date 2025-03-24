@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GLEBE STREET
+    Country: ENGLAND
+    PostCode: OL6 6HD
+    Town: ASHTON-UNDER-LYNE
+    UPRN: '200002853555'
+LastChangeDate:
+  value: '2024-02-13'
+Name: INHEALTH - ASHTON MEDICAL GROUP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I9X2R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NV1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137020'
+    id: RE6
+    uniqueRelId: '839099'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '839100'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '518954'
+Status:
+  value: Active
+metadata:
+  org_id: I9X2R
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

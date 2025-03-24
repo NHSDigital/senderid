@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02089 488811
+Date:
+  Start:
+    value: '2004-09-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 213 LOWER MORTLAKE ROAD
+    AddrLn2: RICHMOND UPON THAMES
+    Country: ENGLAND
+    County: SURREY
+    PostCode: TW9 2LN
+    Town: RICHMOND
+    UPRN: '100023410364'
+LastChangeDate:
+  value: '2021-02-10'
+Name: RICHMOND PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJ123
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-09-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P9C3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '96135'
+    id: RE6
+    uniqueRelId: '314146'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '314147'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '651195'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2004-09-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '219170'
+Status:
+  value: Active
+metadata:
+  org_id: FJ123
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

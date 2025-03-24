@@ -1,0 +1,184 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "FRANKLEY HEALTH CENTRE",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2013-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2020-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "5PL16"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-04-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "125 NEW STREET",
+            "AddrLn2": "RUBERY",
+            "AddrLn3": "REDNAL",
+            "Town": "BIRMINGHAM",
+            "County": "WEST MIDLANDS",
+            "PostCode": "B45 0EU",
+            "Country": "ENGLAND",
+            "UPRN": "100071465518"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO180",
+            "uniqueRoleId": "1900",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2020-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "169619",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2020-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5PL"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO179",
+                    "uniqueRoleId": "87050"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "5081",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5DR25"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "33761"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "3968",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5MR05"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "33777"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "5PL16",
+        "status": "Inactive",
+        "role_id": "RO180"
+    }
+}

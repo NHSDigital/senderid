@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07761 585207
+Date:
+- Start:
+    value: '2018-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CROMWELL PLACE SURGERY
+    AddrLn2: CROMWELL PLACE
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: PE27 5JD
+    Town: ST. IVES
+LastChangeDate:
+  value: '2023-08-22'
+Name: WEST CAMBS FED IMPROVING ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06170
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '557428'
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '557429'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2018-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '305569'
+  - Date:
+    - Start:
+        value: '2018-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '305570'
+Status:
+  value: Active
+metadata:
+  org_id: Y06170
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

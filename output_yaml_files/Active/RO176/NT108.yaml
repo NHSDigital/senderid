@@ -1,0 +1,193 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01244 350948
+Date:
+  Start:
+    value: '2003-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CONCERT HOUSE
+    AddrLn2: 2 CANAL STREET
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: CH1 4EJ
+    Town: CHESTER
+LastChangeDate:
+  value: '2020-04-03'
+Name: CHESTER DCU
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NT108
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q15
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21646'
+    id: RE5
+    uniqueRelId: '73080'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133371'
+    id: RE6
+    uniqueRelId: '40728'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-03-17'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE5
+    uniqueRelId: '85177'
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q44
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163539'
+    id: RE5
+    uniqueRelId: '194778'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '349558'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '664799'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '152008'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '131570'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 8GJ39
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO157
+        uniqueRoleId: '29285'
+    Type: Predecessor
+    uniqueSuccId: '17'
+metadata:
+  org_id: NT108
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01768 351584
+Date:
+  Start:
+    value: '2023-01-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: APPLEBY MEDICAL PRACTICE
+    AddrLn2: THE RIVERSIDE BUILDING
+    AddrLn3: CHAPEL STREET
+    Country: ENGLAND
+    PostCode: CA16 6QR
+    Town: APPLEBY-IN-WESTMORLAND
+    UPRN: '10070522330'
+LastChangeDate:
+  value: '2023-10-04'
+Name: EDEN PRIMARY CARE NETWORK HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07838
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-01-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE4
+    uniqueRelId: '818535'
+  - Date:
+      Start:
+        value: '2023-01-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE6
+    uniqueRelId: '818536'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2023-01-13'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '496634'
+  - Date:
+      Start:
+        value: '2023-01-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '496633'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511795'
+Status:
+  value: Active
+metadata:
+  org_id: Y07838
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

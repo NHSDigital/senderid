@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2016-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 53 PARKSIDE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW19 5NX
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-05'
+Name: INHEALTH - PARKSIDE HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NV10J
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NV1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '137020'
+    id: RE6
+    uniqueRelId: '514313'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '514314'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE5
+    uniqueRelId: '690872'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '286771'
+Status:
+  value: Active
+metadata:
+  org_id: NV10J
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

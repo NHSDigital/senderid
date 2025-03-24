@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PORTMAN HEALTHCARE LTD - YEOVIL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V83456"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-10-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "17 CHURCH STREET",
+            "AddrLn2": "ILCHESTER",
+            "Town": "YEOVIL",
+            "PostCode": "BA22 8LN",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO65",
+                "uniqueRoleId": "399554",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO110",
+                "uniqueRoleId": "399555",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "717395",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QSL"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "300815"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "V83456",
+        "status": "Active",
+        "role_id": "RO110"
+    }
+}

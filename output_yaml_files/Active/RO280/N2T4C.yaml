@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 GUILDHALL WALK
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: PO1 2RY
+    Town: PORTSMOUTH
+LastChangeDate:
+  value: '2021-01-20'
+Name: LALYS PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: N2T4C
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FVV20
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '227126'
+    id: RE6
+    uniqueRelId: '722289'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '405847'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '405848'
+Status:
+  value: Active
+metadata:
+  org_id: N2T4C
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

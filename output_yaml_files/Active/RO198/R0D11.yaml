@@ -1,0 +1,86 @@
+Date:
+- Start:
+    value: '2020-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-09-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FAIRMILE ROAD
+    Country: ENGLAND
+    PostCode: BH23 2JX
+    Town: CHRISTCHURCH
+    UPRN: '100041046837'
+LastChangeDate:
+  value: '2020-10-01'
+Name: MACMILLAN UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R0D11
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R0D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '397555'
+    id: RE6
+    uniqueRelId: '716383'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '398488'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDZ01
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '55350'
+    Type: Predecessor
+    uniqueSuccId: '37832'
+metadata:
+  org_id: R0D11
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

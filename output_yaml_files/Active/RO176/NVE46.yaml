@@ -1,0 +1,113 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ISEBROOK HOSPITAL
+    AddrLn2: IRTHLINGBOROUGH ROAD
+    Country: ENGLAND
+    County: NORTHAMPTONSHIRE
+    PostCode: NN8 1LP
+    Town: WELLINGBOROUGH
+LastChangeDate:
+  value: '2020-04-04'
+Name: WELLINGBOROUGH OOH BASE (WEEKEND ONLY)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NVE46
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NVE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '111695'
+    id: RE6
+    uniqueRelId: '289385'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q58
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163553'
+    id: RE5
+    uniqueRelId: '289386'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE5
+    uniqueRelId: '359787'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QPM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300775'
+    id: RE5
+    uniqueRelId: '675469'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '199360'
+Status:
+  value: Active
+metadata:
+  org_id: NVE46
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

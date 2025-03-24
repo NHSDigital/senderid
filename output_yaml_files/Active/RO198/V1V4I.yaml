@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HAHNEMANN ROAD
+    Country: ENGLAND
+    PostCode: BH2 5JW
+    Town: BOURNEMOUTH
+    UPRN: '100041097273'
+LastChangeDate:
+  value: '2024-04-02'
+Name: HOMELESS HEALTH SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V1V4I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '71567'
+    id: RE6
+    uniqueRelId: '830002'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '508190'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '508191'
+Status:
+  value: Active
+metadata:
+  org_id: V1V4I
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

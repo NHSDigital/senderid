@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CHAPEL STREET
+    Country: ENGLAND
+    County: DERBYSHIRE
+    PostCode: SK13 8AT
+    Town: GLOSSOP
+    UPRN: '10010740955'
+LastChangeDate:
+  value: '2021-07-21'
+Name: GLOSSOP AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX736
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109850'
+    id: RE6
+    uniqueRelId: '86872'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '59555'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMA36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '25307'
+    Type: Predecessor
+    uniqueSuccId: '14845'
+metadata:
+  org_id: RX736
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,101 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01354 740311
+Date:
+- Start:
+    value: '2019-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2019-03-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DODDINGTON SURGERY
+    AddrLn2: 11D BENWICK ROAD
+    AddrLn3: DODDINGTON
+    Country: ENGLAND
+    PostCode: PE15 0TG
+    Town: MARCH
+    UPRN: '100091609577'
+LastChangeDate:
+  value: '2023-08-22'
+Name: DODDINGTON LUCS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06407
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE4
+    uniqueRelId: '565460'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161345'
+    id: RE6
+    uniqueRelId: '565461'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '343966'
+  - Date:
+    - Start:
+        value: '2019-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '343967'
+Status:
+  value: Active
+metadata:
+  org_id: Y06407
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

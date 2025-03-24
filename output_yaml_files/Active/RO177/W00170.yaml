@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07976 050238
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. DAVIDS HOSPITAL
+    AddrLn2: COWBRIDGE ROAD EAST
+    Country: WALES
+    PostCode: CF11 9XB
+    Town: CARDIFF
+    UPRN: '200001485183'
+LastChangeDate:
+  value: '2023-08-22'
+Name: COMMUNITY WOUND TEAM CNS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00170
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40385'
+    id: RE4
+    uniqueRelId: '610643'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40385'
+    id: RE6
+    uniqueRelId: '610644'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-11-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '388980'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '388981'
+Status:
+  value: Active
+metadata:
+  org_id: W00170
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

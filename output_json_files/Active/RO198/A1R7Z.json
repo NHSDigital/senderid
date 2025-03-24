@@ -1,0 +1,138 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "SUSSEX NUFFIELD HOSPITAL",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2021-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2021-02-24"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A1R7Z"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WARREN ROAD",
+            "Town": "BRIGHTON",
+            "PostCode": "BN2 6DX",
+            "Country": "ENGLAND",
+            "UPRN": "22105053"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "408593",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-02-24"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "724416",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-02-24"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYR"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "62205"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37941",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXH19"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "118281"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A1R7Z",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

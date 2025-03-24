@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 562 SCOTT HALL ROAD
+    Country: ENGLAND
+    PostCode: LS7 3RD
+    Town: LEEDS
+    UPRN: '72180510'
+LastChangeDate:
+  value: '2020-04-27'
+Name: NORTH LEEDS DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V83107
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '711488'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '394246'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '394247'
+Status:
+  value: Active
+metadata:
+  org_id: V83107
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01535 292787
+Date:
+  Start:
+    value: '2022-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DIGITAL CARE HUB
+    AddrLn2: AIREDALE GENERAL HOSPITAL
+    AddrLn3: SKIPTON ROAD, STEETON
+    Country: ENGLAND
+    PostCode: BD20 6TD
+    Town: KEIGHLEY
+    UPRN: '100051940908'
+LastChangeDate:
+  value: '2023-08-22'
+Name: TELEMEDICINE HUB YORK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07671
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161477'
+    id: RE4
+    uniqueRelId: '814711'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161477'
+    id: RE6
+    uniqueRelId: '814712'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '492468'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '492467'
+Status:
+  value: Active
+metadata:
+  org_id: Y07671
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

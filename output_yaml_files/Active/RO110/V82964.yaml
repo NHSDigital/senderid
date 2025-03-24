@@ -1,0 +1,87 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 20
+    AddrLn2: MINERS WAY BUSINESS PARK
+    AddrLn3: MINERS WAY
+    Country: ENGLAND
+    PostCode: CT3 3AW
+    Town: CANTERBURY
+    UPRN: '10034882248'
+LastChangeDate:
+  value: '2020-04-23'
+Name: ADVANCE HEALTHCARE LOGISTICS LTD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V82964
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230523'
+    id: RE4
+    uniqueRelId: '620981'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE4
+    uniqueRelId: '710929'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '392464'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '392465'
+Status:
+  value: Active
+metadata:
+  org_id: V82964
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

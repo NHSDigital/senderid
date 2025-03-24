@@ -1,0 +1,153 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "LEATHERHEAD PCN (SDH&C)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-19"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y06922"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-10-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LEATHERHEAD HOSPITAL",
+            "AddrLn2": "POPLAR ROAD",
+            "Town": "LEATHERHEAD",
+            "County": "SURREY",
+            "PostCode": "KT22 8SD",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01372 735754"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO177",
+                "uniqueRoleId": "400631",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO247",
+                "uniqueRoleId": "400632",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-19"
+                    },
+                    "End": {
+                        "value": "2023-10-03"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO321",
+                "uniqueRoleId": "511439",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-10-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "718497",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RVR"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO197",
+                        "uniqueRoleId": "137970"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "718498",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "92A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386492"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y06922",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

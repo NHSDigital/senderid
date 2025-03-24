@@ -1,0 +1,135 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SEAFORD PCN HUB",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-06-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y07992"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SEAFORD HEALTH CENTRE",
+            "AddrLn2": "DANE RD",
+            "Town": "SEAFORD",
+            "PostCode": "BN25 1DH",
+            "Country": "ENGLAND",
+            "UPRN": "100062256323"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01323 490022"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO177",
+                "uniqueRoleId": "507691",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO321",
+                "uniqueRoleId": "507692",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "829451",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "97R"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386494"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "829452",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-06-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "97R"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386494"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y07992",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

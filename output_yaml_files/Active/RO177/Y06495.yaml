@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01455 894451
+Date:
+  Start:
+    value: '2019-05-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TILTON ROAD
+    AddrLn2: BURBAGE
+    Country: ENGLAND
+    PostCode: LE10 2SE
+    Town: HINCKLEY
+    UPRN: '10033829333'
+LastChangeDate:
+  value: '2019-07-10'
+Name: BS CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06495
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-05-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161315'
+    id: RE4
+    uniqueRelId: '603281'
+  - Date:
+      Start:
+        value: '2019-05-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DAY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '284774'
+    id: RE6
+    uniqueRelId: '603282'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-05-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '381959'
+  - Date:
+      Start:
+        value: '2019-07-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '381960'
+Status:
+  value: Active
+metadata:
+  org_id: Y06495
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01926 832484
+Date:
+- Start:
+    value: '2023-07-31'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 3
+    AddrLn2: LOWER HEATHCOTE SQUARE
+    AddrLn3: VICKERS WAY
+    Country: ENGLAND
+    PostCode: CV34 7BR
+    Town: WARWICK
+    UPRN: '10094932886'
+LastChangeDate:
+  value: '2023-11-30'
+Name: HEATHCOTE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA679
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300764'
+    id: RE4
+    uniqueRelId: '828552'
+  - Date:
+    - Start:
+        value: '2023-07-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: N3D5W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506790'
+    id: RE6
+    uniqueRelId: '828553'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-31'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506812'
+Status:
+  value: Active
+metadata:
+  org_id: FA679
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

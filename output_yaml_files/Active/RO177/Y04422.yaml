@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01900 233170
+Date:
+  Start:
+    value: '2013-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COCKERMOUTH COMMUNITY HOSPITAL
+    AddrLn2: ISEL ROAD
+    Country: ENGLAND
+    PostCode: CA13 9HT
+    Town: COCKERMOUTH
+    UPRN: '10023918141'
+LastChangeDate:
+  value: '2023-08-22'
+Name: CUMBRIA MEDICAL SERVICES LTD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04422
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE4
+    uniqueRelId: '284180'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161412'
+    id: RE6
+    uniqueRelId: '461307'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '194976'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194977'
+Status:
+  value: Active
+metadata:
+  org_id: Y04422
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

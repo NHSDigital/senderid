@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01173 427638
+Date:
+  Start:
+    value: '2023-08-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STOMA DEPT QUEENS BUILDNG
+    AddrLn2: BRISTOL ROYAL INFIRMARY
+    AddrLn3: MARLBOROUGH STREET
+    Country: ENGLAND
+    PostCode: BS2 8HW
+    Town: BRISTOL
+    UPRN: '248944'
+LastChangeDate:
+  value: '2024-06-12'
+Name: UHBW STOMA PRESCRIBING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08044
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-08-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297755'
+    id: RE4
+    uniqueRelId: '831088'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297755'
+    id: RE6
+    uniqueRelId: '847649'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-08-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '509360'
+  - Date:
+      Start:
+        value: '2023-08-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '509361'
+Status:
+  value: Active
+metadata:
+  org_id: Y08044
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

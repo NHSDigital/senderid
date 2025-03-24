@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01279 827666
+Date:
+  Start:
+    value: '2016-07-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. MARGARETS HOSPITAL
+    AddrLn2: THE PLAIN
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CM16 6TN
+    Town: EPPING
+LastChangeDate:
+  value: '2022-06-20'
+Name: BEECH WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05465
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2017-03-31'
+      Start:
+        value: '2016-07-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '136474'
+    id: RE6
+    uniqueRelId: '510948'
+  - Date:
+      Start:
+        value: '2016-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161360'
+    id: RE4
+    uniqueRelId: '510949'
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '288798'
+    id: RE6
+    uniqueRelId: '519255'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-07-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '284392'
+  - Date:
+      Start:
+        value: '2016-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '284393'
+Status:
+  value: Active
+metadata:
+  org_id: Y05465
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

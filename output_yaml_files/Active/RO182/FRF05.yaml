@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 585330
+Date:
+- Start:
+    value: '2023-11-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-10-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WINDHILL GREEN MED CENTRE
+    AddrLn2: 2 THACKLEY OLD ROAD
+    Country: ENGLAND
+    PostCode: BD18 1QB
+    Town: SHIPLEY
+    UPRN: '100051936826'
+LastChangeDate:
+  value: '2023-10-30'
+Name: SHIPLEY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRF05
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '834218'
+  - Date:
+    - Start:
+        value: '2023-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P6T6M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '513831'
+    id: RE6
+    uniqueRelId: '834219'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-11-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-10-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '513837'
+Status:
+  value: Active
+metadata:
+  org_id: FRF05
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

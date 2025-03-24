@@ -1,0 +1,125 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01606 832994
+Date:
+- Start:
+    value: '2015-07-27'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-07-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 70 WARMINGHAM LANE
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: CW10 0DJ
+    Town: MIDDLEWICH
+    UPRN: '100010052749'
+LastChangeDate:
+  value: '2022-04-13'
+Name: CLEDFORD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTT71
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2022-04-12'
+      Start:
+        value: '2015-07-27'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1Q8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '161834'
+    id: RE6
+    uniqueRelId: '385329'
+  - Date:
+      Start:
+        value: '2022-04-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2KG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '175607'
+    id: RE6
+    uniqueRelId: '805217'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-07-27'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE4
+    uniqueRelId: '385330'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE4
+    uniqueRelId: '656383'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2015-07-27'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-07-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '233250'
+Status:
+  value: Active
+metadata:
+  org_id: FTT71
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

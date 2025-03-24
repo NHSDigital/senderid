@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01484 440840
+Date:
+  Start:
+    value: '2021-12-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CROFT MEDICAL CENTRE
+    AddrLn2: COBCROFT ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: HD2 2RU
+    Town: HUDDERSFIELD
+LastChangeDate:
+  value: '2023-10-04'
+Name: GREENWOOD PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07207
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-12-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2C4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '401261'
+    id: RE6
+    uniqueRelId: '801121'
+  - Date:
+      Start:
+        value: '2021-12-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: X2C4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '401261'
+    id: RE4
+    uniqueRelId: '801122'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2021-12-17'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '478846'
+  - Date:
+      Start:
+        value: '2021-12-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '478845'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511477'
+Status:
+  value: Active
+metadata:
+  org_id: Y07207
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

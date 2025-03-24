@@ -1,0 +1,102 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 384 WOODBOROUGH ROAD
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG3 4JF
+    Town: NOTTINGHAM
+LastChangeDate:
+  value: '2020-04-05'
+Name: NOTTINGHAMSHIRE HOSPICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DTY01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '558967'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE5
+    uniqueRelId: '681927'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DTY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '307010'
+    id: RE6
+    uniqueRelId: '558968'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '307011'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '307012'
+Status:
+  value: Active
+metadata:
+  org_id: DTY01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

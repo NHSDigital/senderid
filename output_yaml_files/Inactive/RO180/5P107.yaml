@@ -1,0 +1,100 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CAMPFIELD ROAD
+    AddrLn2: SHOEBURYNESS
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: SS3 9BX
+    Town: SOUTHEND-ON-SEA
+    UPRN: '10012151112'
+LastChangeDate:
+  value: '2023-04-28'
+Name: SHOEBURY HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5P107
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5P1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '119655'
+    id: RE6
+    uniqueRelId: '179790'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '35784'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5AK07
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '2047'
+    Type: Predecessor
+    uniqueSuccId: '11087'
+metadata:
+  org_id: 5P107
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

@@ -1,0 +1,101 @@
+Date:
+- Start:
+    value: '2020-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-08-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: QUEENS ROAD
+    Country: ENGLAND
+    PostCode: BH19 2ES
+    Town: SWANAGE
+    UPRN: '100041048752'
+LastChangeDate:
+  value: '2020-10-01'
+Name: SWANAGE COMMUNITY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: R0D0I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-08-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R0D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '397555'
+    id: RE6
+    uniqueRelId: '716086'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-08-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '398282'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDZ17
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '71048'
+    Type: Predecessor
+    uniqueSuccId: '37840'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RD324
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '233008'
+    Type: Predecessor
+    uniqueSuccId: '37861'
+metadata:
+  org_id: R0D0I
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

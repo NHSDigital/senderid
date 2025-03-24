@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 020 3315 6111
+  - type: fax
+    value: 020 8746 5823
+Date:
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 69 WARWICK ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW5 9HB
+    Town: LONDON
+    UPRN: '217090192'
+LastChangeDate:
+  value: '2021-02-05'
+Name: WARWICK ROAD (COMMUNITY ASSESSMENT & PRIMARY SERVICES)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RV328
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137975'
+    id: RE6
+    uniqueRelId: '93763'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '101532'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RFY18
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '4579'
+    Type: Predecessor
+    uniqueSuccId: '13169'
+metadata:
+  org_id: RV328
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

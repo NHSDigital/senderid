@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01844 267930
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE RYCOTE PRACTICE
+    AddrLn2: EAST STREET
+    Country: ENGLAND
+    County: OXFORDSHIRE
+    PostCode: OX9 3JZ
+    Town: THAME
+LastChangeDate:
+  value: '2023-10-04'
+Name: THAME PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07688
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE4
+    uniqueRelId: '814743'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 10Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161508'
+    id: RE6
+    uniqueRelId: '814744'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '492500'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '492499'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511718'
+Status:
+  value: Active
+metadata:
+  org_id: Y07688
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

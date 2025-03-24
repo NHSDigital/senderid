@@ -1,0 +1,136 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WINTER PRESSURES",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2015-12-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y05250"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE KINGSWAY PRACTICE",
+            "AddrLn2": "285A KINGSWAY",
+            "Town": "ROCHDALE",
+            "County": "LANCASHIRE",
+            "PostCode": "OL16 4AT",
+            "Country": "ENGLAND",
+            "UPRN": "10023362095"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01706 261866"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO76",
+                "uniqueRoleId": "276543",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-12-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "276544",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-12-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "446526",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-12-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "01D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161408"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "462093",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2015-12-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "01D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161408"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y05250",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SCARBOROUGH GP (NIMBUSCARE) OOH",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-03-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y08379"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-03-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NIMBUSCARE LTD",
+            "AddrLn2": "ACOMB GARTH",
+            "AddrLn3": "2 OAK RISE",
+            "Town": "YORK",
+            "PostCode": "YO24 4LJ",
+            "Country": "ENGLAND",
+            "UPRN": "100052163926"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01904 943690"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO80",
+                "uniqueRoleId": "521800",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "521799",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "841711",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "42D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386506"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "841712",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-03-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "42D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386506"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y08379",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

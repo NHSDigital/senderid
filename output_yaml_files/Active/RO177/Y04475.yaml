@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0151 6047296
+Date:
+  Start:
+    value: '2013-11-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VICTORIA CENTRE WIC
+    AddrLn2: MILL LANE, WALLASEY
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: CH44 5UF
+    Town: WALLASEY
+LastChangeDate:
+  value: '2016-04-20'
+Name: MINOR INJURIES UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04475
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-11-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '58826'
+    id: RE6
+    uniqueRelId: '461358'
+  - Date:
+      Start:
+        value: '2013-11-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161845'
+    id: RE4
+    uniqueRelId: '284233'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '195080'
+  - Date:
+      Start:
+        value: '2013-11-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '195081'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO259
+    uniqueRoleId: '281101'
+Status:
+  value: Active
+metadata:
+  org_id: Y04475
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

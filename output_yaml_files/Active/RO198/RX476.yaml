@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THOROTON STREET
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE24 1DX
+    Town: BLYTH
+    UPRN: '10035315795'
+LastChangeDate:
+  value: '2021-02-04'
+Name: BLYTH HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX476
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '90410'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13776'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RM608
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '13033'
+    Type: Predecessor
+    uniqueSuccId: '34143'
+metadata:
+  org_id: RX476
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

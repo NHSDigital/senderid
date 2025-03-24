@@ -1,0 +1,109 @@
+Date:
+- End:
+    value: '2021-03-31'
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: INFECTIOUS DISEASES
+    AddrLn2: ROYAL SUSSEX COUNTY HOSPITAL
+    AddrLn3: EASTERN ROAD
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN2 5BE
+    Town: BRIGHTON
+LastChangeDate:
+  value: '2024-04-02'
+Name: BSUH CLINICAL TRIALS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXH64
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '106193'
+    id: RE6
+    uniqueRelId: '226715'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '169587'
+  - Date:
+    - End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '169588'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q7W7W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '408488'
+    Type: Successor
+    uniqueSuccId: '37975'
+metadata:
+  org_id: RXH64
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

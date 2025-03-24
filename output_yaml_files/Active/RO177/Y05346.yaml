@@ -1,0 +1,122 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01909 509010
+Date:
+- Start:
+    value: '2016-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2016-03-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PELHAM STREET
+    AddrLn2: MANTON
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: S80 2TR
+    Town: WORKSOP
+    UPRN: '100032187135'
+LastChangeDate:
+  value: '2023-08-22'
+Name: WESTWOOD PRIMARY CARE CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05346
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE4
+    uniqueRelId: '449248'
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161457'
+    id: RE6
+    uniqueRelId: '462189'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U05001
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '387709'
+    id: RE8
+    uniqueRelId: '611850'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '278525'
+  - Date:
+    - Start:
+        value: '2016-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '278526'
+Status:
+  value: Active
+metadata:
+  org_id: Y05346
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

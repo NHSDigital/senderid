@@ -1,0 +1,100 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2018-03-31'
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NEWHAM TOWN HALL
+    AddrLn2: BARKING ROAD
+    AddrLn3: EAST HAM
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E6 2RP
+    Town: LONDON
+LastChangeDate:
+  value: '2023-04-28'
+Name: NEWHAM SOCIAL SERVICES DIRECTORATE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V151AA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2018-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V151
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '114240'
+    id: RE6
+    uniqueRelId: '272'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2018-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO122
+    primaryRole: 'true'
+    uniqueRoleId: '22756'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 731AA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO222
+        uniqueRoleId: '176298'
+    Type: Successor
+    uniqueSuccId: '37127'
+metadata:
+  org_id: V151AA
+  role_id: RO122
+  status: Inactive
+orgRecordClass: RC2

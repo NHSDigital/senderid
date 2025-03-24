@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BENTLEY ROAD
+    AddrLn2: EDGEHILL
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L8 0SY
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2013-03-27'
+Name: PRINCES PARK HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5NL25
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5NL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '118349'
+    id: RE6
+    uniqueRelId: '179591'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '34549'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5HA24
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '20576'
+    Type: Predecessor
+    uniqueSuccId: '22246'
+metadata:
+  org_id: 5NL25
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01594 832151
+Date:
+- Start:
+    value: '2023-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-03-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9-10 PYART COURT
+    AddrLn2: RAILWAY DRIVE
+    Country: ENGLAND
+    PostCode: GL16 8RG
+    Town: COLEFORD
+    UPRN: '10090653203'
+LastChangeDate:
+  value: '2023-03-09'
+Name: COLEFORD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTR27
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P620
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '93787'
+    id: RE6
+    uniqueRelId: '819829'
+  - Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QR1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300826'
+    id: RE4
+    uniqueRelId: '819828'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '497947'
+Status:
+  value: Active
+metadata:
+  org_id: FTR27
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

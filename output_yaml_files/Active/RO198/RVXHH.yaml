@@ -1,0 +1,109 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2005-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2005-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 41 KIRKLEATHAM STREET
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS10 1QH
+    Town: REDCAR
+LastChangeDate:
+  value: '2024-04-02'
+Name: SUPPLEMENTARY PRESCRIBER NEWLANDS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVXHH
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2010-07-13'
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '39270'
+    id: RE6
+    uniqueRelId: '11499'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '158880'
+  - Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '12139'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX3JX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '17673'
+    Type: Successor
+    uniqueSuccId: '19110'
+metadata:
+  org_id: RVXHH
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

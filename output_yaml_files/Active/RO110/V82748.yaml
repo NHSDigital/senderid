@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NEW STREET HOUSE
+    AddrLn2: 130 NEW STREET
+    Country: ENGLAND
+    PostCode: SP10 1DR
+    Town: ANDOVER
+    UPRN: '100062539135'
+LastChangeDate:
+  value: '2020-04-23'
+Name: NEW STREET DENTAL CARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V82748
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230523'
+    id: RE4
+    uniqueRelId: '604846'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '710760'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-07-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '382441'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '382419'
+Status:
+  value: Active
+metadata:
+  org_id: V82748
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

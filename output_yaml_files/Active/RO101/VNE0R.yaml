@@ -1,0 +1,102 @@
+Date:
+  Start:
+    value: '2019-07-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 10 ACTON CLOSE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: N9 7DZ
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-02'
+Name: EDMONTON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VNE0R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 07X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161266'
+    id: RE5
+    uniqueRelId: '605551'
+  - Date:
+      Start:
+        value: '2019-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: C0MX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '383289'
+    id: RE6
+    uniqueRelId: '605552'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 93C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386497'
+    id: RE5
+    uniqueRelId: '646590'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO101
+    primaryRole: 'true'
+    uniqueRoleId: '383735'
+  - Date:
+      Start:
+        value: '2019-07-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO270
+    uniqueRoleId: '383736'
+Status:
+  value: Active
+metadata:
+  org_id: VNE0R
+  role_id: RO101
+  status: Active
+orgRecordClass: RC1

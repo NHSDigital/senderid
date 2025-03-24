@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01388 602069
+Date:
+- Start:
+    value: '2023-12-16'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-11-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 203 NEWGATE STREET
+    Country: ENGLAND
+    PostCode: DL14 7EL
+    Town: BISHOP AUCKLAND
+    UPRN: '100110747647'
+LastChangeDate:
+  value: '2024-10-17'
+Name: BISHOP AUCKLAND PHARMACY, NEWGATE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGG63
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-12-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '835766'
+  - Date:
+    - Start:
+        value: '2023-12-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Z3N3K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '515195'
+    id: RE6
+    uniqueRelId: '835767'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-12-16'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '515208'
+Status:
+  value: Active
+metadata:
+  org_id: FGG63
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

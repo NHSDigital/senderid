@@ -1,0 +1,102 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BOLTON CDC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "B2T1M"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-11-29"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE ROYAL BOLTON HOSPITAL",
+            "AddrLn2": "MINERVA ROAD",
+            "AddrLn3": "FARNWORTH",
+            "Town": "BOLTON",
+            "PostCode": "BL4 0JR",
+            "Country": "ENGLAND",
+            "UPRN": "200002563317"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "477273",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO317",
+                "uniqueRoleId": "477274",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "799755",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RMC"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "118214"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "B2T1M",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

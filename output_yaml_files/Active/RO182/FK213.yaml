@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01482 324360
+Date:
+- Start:
+    value: '2023-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-01-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 26 MORRILL STREET
+    Country: ENGLAND
+    PostCode: HU9 2LJ
+    Town: HULL
+    UPRN: '10091481192'
+LastChangeDate:
+  value: '2024-05-01'
+Name: MORRILL STREET - THE PHARMACIST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FK213
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE4
+    uniqueRelId: '818123'
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y5J0K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '495126'
+    id: RE6
+    uniqueRelId: '818124'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-01-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496267'
+Status:
+  value: Active
+metadata:
+  org_id: FK213
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

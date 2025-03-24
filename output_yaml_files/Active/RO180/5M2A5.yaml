@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DITTON PRIORS
+    Country: ENGLAND
+    County: SHROPSHIRE
+    PostCode: WV16 6SQ
+    Town: BRIDGNORTH
+    UPRN: '10003419918'
+LastChangeDate:
+  value: '2021-01-28'
+Name: OLDFIELD RESIDENTIAL HOME
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5M2A5
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5M2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '118347'
+    id: RE6
+    uniqueRelId: '175729'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '46738'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTWA5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '30362'
+    Type: Predecessor
+    uniqueSuccId: '945'
+metadata:
+  org_id: 5M2A5
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

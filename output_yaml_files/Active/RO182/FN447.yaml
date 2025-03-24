@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01914 837445
+Date:
+- Start:
+    value: '2025-02-28'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-02-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GLEN PRIMARY CARE CENTRE
+    AddrLn2: 12-28 GLEN STREET
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE31 1NU
+    Town: HEBBURN
+LastChangeDate:
+  value: '2025-02-06'
+Name: KAILA PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FN447
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1RP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '163138'
+    id: RE6
+    uniqueRelId: '857675'
+  - Date:
+    - Start:
+        value: '2025-02-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '857674'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-02-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536908'
+Status:
+  value: Active
+metadata:
+  org_id: FN447
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

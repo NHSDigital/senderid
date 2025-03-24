@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01452 863019
+Date:
+- Start:
+    value: '2023-08-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1-2 ABBOTSWOOD CENTRE
+    AddrLn2: ABBOTSWOOD ROAD
+    AddrLn3: BROCKWORTH
+    Country: ENGLAND
+    PostCode: GL3 4NY
+    Town: GLOUCESTER
+    UPRN: '10090021521'
+LastChangeDate:
+  value: '2024-03-27'
+Name: JHOOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FXG00
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QR1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300826'
+    id: RE4
+    uniqueRelId: '828644'
+  - Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V0I0W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506805'
+    id: RE6
+    uniqueRelId: '828645'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506858'
+Status:
+  value: Active
+metadata:
+  org_id: FXG00
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

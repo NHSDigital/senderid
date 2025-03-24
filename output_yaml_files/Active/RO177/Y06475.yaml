@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01572 722552
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RUTLAND MEMORIAL HOSPITAL
+    AddrLn2: COLD OVERTON ROAD
+    AddrLn3: OAKHAM
+    Country: ENGLAND
+    PostCode: LE15 6NT
+    Town: OAKHAM
+    UPRN: '100032045473'
+LastChangeDate:
+  value: '2023-08-22'
+Name: RUTLAND URGENT CARE CENTRE (DHU) OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06475
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161292'
+    id: RE4
+    uniqueRelId: '576248'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161292'
+    id: RE6
+    uniqueRelId: '576249'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '358635'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '358636'
+Status:
+  value: Active
+metadata:
+  org_id: Y06475
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

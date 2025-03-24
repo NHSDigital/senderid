@@ -1,0 +1,183 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2009-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2017-06-14'
+  Start:
+    value: '2009-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NICHOLAS STREET
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: CH1 2NP
+    Town: CHESTER
+LastChangeDate:
+  value: '2017-06-14'
+Name: CHESHIRE WEST AND CHESTER COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V399
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-01-08'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE5
+    uniqueRelId: '101558'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q44
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163539'
+    id: RE5
+    uniqueRelId: '334326'
+  - Date:
+      End:
+        value: '2017-06-14'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '449056'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2017-06-14'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO33
+    uniqueRoleId: '161090'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2017-06-14'
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO119
+    primaryRole: 'true'
+    uniqueRoleId: '140031'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V032
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '113477'
+    Type: Predecessor
+    uniqueSuccId: '37203'
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V029
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '124303'
+    Type: Predecessor
+    uniqueSuccId: '37204'
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V035
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '124306'
+    Type: Predecessor
+    uniqueSuccId: '37205'
+metadata:
+  org_id: V399
+  role_id: RO119
+  status: Inactive
+orgRecordClass: RC1

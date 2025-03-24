@@ -1,0 +1,113 @@
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FRYATT HOSPITAL
+    AddrLn2: 419 MAIN ROAD
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CO12 4EX
+    Town: HARWICH
+LastChangeDate:
+  value: '2020-04-05'
+Name: HARWICK COMMUNITY NHS DIAGNOSTIC DXA SERVICE CARE UK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NTPAR
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NTP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '107199'
+    id: RE6
+    uniqueRelId: '285133'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q57
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163552'
+    id: RE5
+    uniqueRelId: '285134'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '365972'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE5
+    uniqueRelId: '690159'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '195637'
+Status:
+  value: Active
+metadata:
+  org_id: NTPAR
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

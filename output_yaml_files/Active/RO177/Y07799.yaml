@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02392 263089
+Date:
+  Start:
+    value: '2022-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: VINE MEDICAL GROUP
+    AddrLn2: FOREST END SITE
+    Country: ENGLAND
+    PostCode: PO7 7AH
+    Town: WATERLOOVILLE
+    UPRN: '100062455020'
+LastChangeDate:
+  value: '2023-10-04'
+Name: STRAWBERRY HEALTH PCN ENHANCED ACCESS HB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07799
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE4
+    uniqueRelId: '817055'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE6
+    uniqueRelId: '817056'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '495022'
+  - Date:
+      Start:
+        value: '2022-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '495021'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511781'
+Status:
+  value: Active
+metadata:
+  org_id: Y07799
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

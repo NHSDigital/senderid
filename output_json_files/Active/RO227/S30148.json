@@ -1,0 +1,102 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "FORENSIC MEDICAL SERVICES",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-07-17"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S30148"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-17"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "VIRTUAL PRACTICE ONLY",
+            "AddrLn2": "FORENSIC MEDICAL SERVICES",
+            "AddrLn3": "POLICE SCOTLAND,GREAT NORTHERN ROAD",
+            "Town": "ABERDEEN",
+            "PostCode": "AB24 3PT",
+            "Country": "SCOTLAND",
+            "UPRN": "9051142572"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO76",
+                "uniqueRoleId": "488450",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-07-17"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "488449",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-07-17"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "810852",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-07-17"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SN9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487561"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S30148",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0151 4301553
+Date:
+  Start:
+    value: '2014-06-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2ND FLR, WHISTON HOSPITAL
+    AddrLn2: WARRINGTON ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L35 5DR
+    Town: PRESCOT
+    UPRN: '40012845'
+LastChangeDate:
+  value: '2023-08-22'
+Name: ST HELENS COMMUNITY COPD SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04635
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-06-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE4
+    uniqueRelId: '337746'
+  - Date:
+      Start:
+        value: '2014-06-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE6
+    uniqueRelId: '461506'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-06-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '196418'
+  - Date:
+      Start:
+        value: '2014-06-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '196419'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '281210'
+Status:
+  value: Active
+metadata:
+  org_id: Y04635
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

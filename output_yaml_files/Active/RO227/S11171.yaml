@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01382 668189
+Date:
+  Start:
+    value: '2006-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTGATE HEALTH CENTRE
+    AddrLn2: CHARLESTON DRIVE
+    Country: SCOTLAND
+    PostCode: DD2 4AD
+    Town: DUNDEE
+    UPRN: '9059078469'
+LastChangeDate:
+  value: '2022-10-10'
+Name: WESTGATE MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S11171
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ST9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487564'
+    id: RE5
+    uniqueRelId: '810942'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2006-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488570'
+  - Date:
+      Start:
+        value: '2006-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176539'
+Status:
+  value: Active
+metadata:
+  org_id: S11171
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

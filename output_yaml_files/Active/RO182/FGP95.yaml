@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01329 843259
+Date:
+- Start:
+    value: '2023-04-28'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-03-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 135 HIGHLANDS ROAD
+    Country: ENGLAND
+    PostCode: PO15 6HZ
+    Town: FAREHAM
+    UPRN: '100062407260'
+LastChangeDate:
+  value: '2023-03-30'
+Name: FAREHAM COMMUNITY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGP95
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-04-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '821038'
+  - Date:
+    - Start:
+        value: '2023-04-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1T3O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '399571'
+    id: RE6
+    uniqueRelId: '821039'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-04-28'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-03-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '499513'
+Status:
+  value: Active
+metadata:
+  org_id: FGP95
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,79 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.CLINICALEXERCISE.CO.UK
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 35 RIVERMEAD
+    Country: ENGLAND
+    PostCode: KT8 9AZ
+    Town: EAST MOLESEY
+LastChangeDate:
+  value: '2020-04-05'
+Name: CLINICAL EXERCISE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: GAV
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q88
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299784'
+    id: RE5
+    uniqueRelId: '609265'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QXU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300809'
+    id: RE5
+    uniqueRelId: '680786'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '387627'
+Status:
+  value: Active
+metadata:
+  org_id: GAV
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

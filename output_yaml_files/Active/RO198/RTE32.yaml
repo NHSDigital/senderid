@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROVE ROAD
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL15 5JE
+    Town: LYDNEY
+    UPRN: '10008090058'
+LastChangeDate:
+  value: '2021-07-21'
+Name: LYDNEY & DISTRICT HOSPITAL SITE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTE32
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '37524'
+    id: RE6
+    uniqueRelId: '38144'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '101512'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RA505
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '8994'
+    Type: Predecessor
+    uniqueSuccId: '19442'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RH643
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '19522'
+    Type: Predecessor
+    uniqueSuccId: '21763'
+metadata:
+  org_id: RTE32
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

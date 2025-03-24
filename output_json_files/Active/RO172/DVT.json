@@ -1,0 +1,121 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "EAST DEVON HEALTH FEDERATION",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "DVT"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "EXMOUTH HEALTH CENTRE",
+            "AddrLn2": "CLAREMONT GROVE",
+            "Town": "EXMOUTH",
+            "County": "DEVON",
+            "PostCode": "EX8 2JF",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTPS://WWW.EASTDEVONHEALTH.CO.UK/"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO172",
+            "uniqueRoleId": "341312",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2018-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "561713",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q85"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "299781"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "694623",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QJK"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300813"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "DVT",
+        "status": "Active",
+        "role_id": "RO172"
+    }
+}

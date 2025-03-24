@@ -1,0 +1,65 @@
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PARK ROAD
+    Country: ENGLAND
+    PostCode: WS11 1JN
+    Town: CANNOCK
+LastChangeDate:
+  value: '2024-04-02'
+Name: PRESCRIBER 555
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V0B6M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '95630'
+    id: RE6
+    uniqueRelId: '815089'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '492805'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '492806'
+Status:
+  value: Active
+metadata:
+  org_id: V0B6M
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,102 @@
+Date:
+  Start:
+    value: '2020-03-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 47 WAKEFORDS WAY
+    Country: ENGLAND
+    PostCode: PO9 5JL
+    Town: HAVANT
+    UPRN: '100060441496'
+LastChangeDate:
+  value: '2023-05-15'
+Name: FLOW HEALTHCARE WINCHESTER
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VNFJA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-03-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AVQD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '352401'
+    id: RE6
+    uniqueRelId: '711346'
+  - Date:
+      End:
+        value: '2023-04-19'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 36L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386496'
+    id: RE5
+    uniqueRelId: '711347'
+  - Date:
+      Start:
+        value: '2023-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE5
+    uniqueRelId: '823158'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-03-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO101
+    primaryRole: 'true'
+    uniqueRoleId: '394107'
+  - Date:
+      Start:
+        value: '2020-03-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO270
+    uniqueRoleId: '394108'
+Status:
+  value: Active
+metadata:
+  org_id: VNFJA
+  role_id: RO101
+  status: Active
+orgRecordClass: RC1

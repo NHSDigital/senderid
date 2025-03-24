@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2023-02-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 LOCKE ROAD
+    AddrLn2: DURRANHILL INDUSTRIAL ESTATE
+    Country: ENGLAND
+    PostCode: CA1 3UB
+    Town: CARLISLE
+    UPRN: '10008716562'
+LastChangeDate:
+  value: '2023-02-08'
+Name: CARLISLE HEALTHCARE SOUTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: O4A6S
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ACA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '172531'
+    id: RE6
+    uniqueRelId: '818556'
+  - Date:
+      Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '818557'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2023-02-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '496652'
+Status:
+  value: Active
+metadata:
+  org_id: O4A6S
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

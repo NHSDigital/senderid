@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0845 1553111
+Date:
+  Start:
+    value: '2009-06-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BTUH NETHERMAYNE
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: SS16 5NL
+    Town: BASILDON
+    UPRN: '100091590497'
+LastChangeDate:
+  value: '2023-08-22'
+Name: PAEDIATRIC GROWTH CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y02774
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2009-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '87043'
+    id: RE4
+    uniqueRelId: '281764'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161373'
+    id: RE4
+    uniqueRelId: '281765'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161373'
+    id: RE6
+    uniqueRelId: '459982'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '192532'
+  - Date:
+      Start:
+        value: '2009-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '118975'
+Status:
+  value: Active
+metadata:
+  org_id: Y02774
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 020 7221 4656
+  - type: fax
+    value: 020 7243 0276
+Date:
+  Start:
+    value: '1999-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 63-65 LANCASTER ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: W11 1QG
+    Town: LONDON
+    UPRN: '217050293'
+LastChangeDate:
+  value: '2021-07-21'
+Name: PARKSIDE CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RV321
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137975'
+    id: RE6
+    uniqueRelId: '93811'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '86985'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1999-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RJ399
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '66309'
+    Type: Predecessor
+    uniqueSuccId: '34915'
+metadata:
+  org_id: RV321
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

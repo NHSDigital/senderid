@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01709 361398
+Date:
+- Start:
+    value: '2025-02-10'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 70A BROOM LANE
+    Country: ENGLAND
+    PostCode: S60 3EW
+    Town: ROTHERHAM
+    UPRN: '100052102523'
+LastChangeDate:
+  value: '2025-01-23'
+Name: BROOMLANE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGT61
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '857441'
+  - Date:
+    - Start:
+        value: '2025-02-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: L0Q8O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536709'
+    id: RE6
+    uniqueRelId: '857442'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-10'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536722'
+Status:
+  value: Active
+metadata:
+  org_id: FGT61
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

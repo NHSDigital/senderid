@@ -1,0 +1,157 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "MIRFIELD HEALTH CENTRE",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2013-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2025-01-31"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "5N230"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "DOCTOR LANE",
+            "Town": "MIRFIELD",
+            "County": "WEST YORKSHIRE",
+            "PostCode": "WF14 8DU",
+            "Country": "ENGLAND",
+            "UPRN": "83112070"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO180",
+            "uniqueRoleId": "35998",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2025-01-31"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "180467",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2013-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2025-01-31"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5N2"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO179",
+                    "uniqueRoleId": "121831"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "11145",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2006-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5J711"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO180",
+                    "uniqueRoleId": "108580"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "5N230",
+        "status": "Inactive",
+        "role_id": "RO180"
+    }
+}

@@ -1,0 +1,176 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 020 7780 2400
+  - type: fax
+    value: 020 7780 2401
+Date:
+  Start:
+    value: '2003-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 BEAUMONT SQUARE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E1 4NL
+    Town: LONDON
+    UPRN: '6032961'
+LastChangeDate:
+  value: '2023-09-21'
+Name: LONDON INDEPENDENT HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NT422
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q06
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21637'
+    id: RE5
+    uniqueRelId: '72444'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NT4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '100453'
+    id: RE6
+    uniqueRelId: '25695'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-03-17'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q36
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '111691'
+    id: RE5
+    uniqueRelId: '31953'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-03-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '227147'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '693918'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '152295'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '61537'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 8A876
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO157
+        uniqueRoleId: '53927'
+    Type: Predecessor
+    uniqueSuccId: '18998'
+metadata:
+  org_id: NT422
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

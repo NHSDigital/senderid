@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HOPE FARM ROAD
+    AddrLn2: GREAT SUTTON
+    Country: ENGLAND
+    PostCode: CH66 2WW
+    Town: ELLESMERE PORT
+    UPRN: '100012594963'
+LastChangeDate:
+  value: '2022-12-15'
+Name: HOPE FARM MEDICAL CENTRE - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: E4J3I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: N81092
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '112909'
+    id: RE6
+    uniqueRelId: '803605'
+  - Date:
+      End:
+        value: '2022-02-28'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: N81093
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '112910'
+    id: RE6
+    uniqueRelId: '722479'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '406154'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '406155'
+Status:
+  value: Active
+metadata:
+  org_id: E4J3I
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

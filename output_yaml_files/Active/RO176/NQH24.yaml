@@ -1,0 +1,113 @@
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 69 PURLWELL LANE
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: WF17 7PF
+    Town: BATLEY
+    UPRN: '83168065'
+LastChangeDate:
+  value: '2021-02-09'
+Name: NOVUS HEALTH (MOUNT PLEASANT MEDICAL CENTRE)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NQH24
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NQH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '119712'
+    id: RE6
+    uniqueRelId: '288010'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q52
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163547'
+    id: RE5
+    uniqueRelId: '288011'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '348395'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '664122'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '197941'
+Status:
+  value: Active
+metadata:
+  org_id: NQH24
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

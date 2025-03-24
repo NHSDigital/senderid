@@ -1,0 +1,137 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 7907000
+Date:
+  Start:
+    value: '2015-12-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST GEORGE'S HOSPITAL
+    AddrLn2: CORPORATION STREET
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: ST16 3SR
+    Town: STAFFORD
+LastChangeDate:
+  value: '2018-07-11'
+Name: RESPIRATORY SERVICE STOKE AND NORTH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05288
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '95630'
+    id: RE6
+    uniqueRelId: '556523'
+  - Date:
+      End:
+        value: '2018-05-31'
+      Start:
+        value: '2015-12-22'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131573'
+    id: RE6
+    uniqueRelId: '462131'
+  - Date:
+      End:
+        value: '2018-07-10'
+      Start:
+        value: '2016-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161253'
+    id: RE4
+    uniqueRelId: '447275'
+  - Date:
+      Start:
+        value: '2018-07-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161338'
+    id: RE4
+    uniqueRelId: '556745'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2016-01-06'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '277100'
+  - Date:
+      Start:
+        value: '2015-12-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '277101'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281531'
+Status:
+  value: Active
+metadata:
+  org_id: Y05288
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

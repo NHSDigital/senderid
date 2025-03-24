@@ -1,0 +1,121 @@
+Date:
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KILN ROAD
+    Country: ENGLAND
+    PostCode: SS7 1TF
+    Town: BENFLEET
+    UPRN: '100091599552'
+LastChangeDate:
+  value: '2020-04-06'
+Name: CASTLE POINT BOROUGH COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '148'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q57
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163552'
+    id: RE5
+    uniqueRelId: '235548'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '365920'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300792'
+    id: RE5
+    uniqueRelId: '695704'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO34
+    uniqueRoleId: '173950'
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '173548'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V107
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '110988'
+    Type: Predecessor
+    uniqueSuccId: '36867'
+metadata:
+  org_id: '148'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

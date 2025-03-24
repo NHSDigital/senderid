@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01978 726666
+Date:
+  Start:
+    value: '2020-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: URGENT PRIMARY CARE CENTR
+    AddrLn2: WREXHAM MAELOR HOSPITAL
+    Country: WALES
+    PostCode: LL13 7TD
+    Town: WREXHAM
+LastChangeDate:
+  value: '2023-08-22'
+Name: WREXHAM UPCC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00182
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '721188'
+  - Date:
+      Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '721189'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '404488'
+  - Date:
+      Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '404487'
+Status:
+  value: Active
+metadata:
+  org_id: W00182
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

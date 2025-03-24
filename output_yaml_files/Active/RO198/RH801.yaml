@@ -1,0 +1,78 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01392 411611
+Date:
+  Start:
+    value: '1993-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BARRACK ROAD
+    Country: ENGLAND
+    County: DEVON
+    PostCode: EX2 5DW
+    Town: EXETER
+LastChangeDate:
+  value: '2012-05-15'
+Name: ROYAL DEVON & EXETER HOSPITAL (WONFORD)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RH801
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RH8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91541'
+    id: RE6
+    uniqueRelId: '69598'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '62669'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '1993-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: LE101
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '2769'
+    Type: Predecessor
+    uniqueSuccId: '10164'
+metadata:
+  org_id: RH801
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01214 532717
+Date:
+- Start:
+    value: '2023-05-26'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 196 NEW ROAD
+    AddrLn2: RUBERY
+    AddrLn3: REDNAL
+    Country: ENGLAND
+    PostCode: B45 9JA
+    Town: BIRMINGHAM
+    UPRN: '100121262074'
+LastChangeDate:
+  value: '2024-10-24'
+Name: REDNAL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FFP70
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-05-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P1L9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '42251'
+    id: RE6
+    uniqueRelId: '826102'
+  - Date:
+    - Start:
+        value: '2023-05-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '826101'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-05-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504663'
+Status:
+  value: Active
+metadata:
+  org_id: FFP70
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

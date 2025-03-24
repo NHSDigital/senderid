@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STATION ROAD
+    Country: WALES
+    County: WEST GLAMORGAN
+    PostCode: SA13 1JB
+    Town: PORT TALBOT
+LastChangeDate:
+  value: '2020-03-27'
+Name: PORT TALBOT CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WL7
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VX2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '229410'
+    id: RE6
+    uniqueRelId: '334658'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '202563'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '202564'
+Status:
+  value: Active
+metadata:
+  org_id: WL7
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

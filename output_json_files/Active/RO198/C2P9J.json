@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ALEXANDRA HOSPITAL ELECTIVE SURGICAL HUB",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "C2P9J"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-19"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WOODROW DRIVE",
+            "Town": "REDDITCH",
+            "PostCode": "B98 7UB",
+            "Country": "ENGLAND",
+            "UPRN": "100121270565"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "493917",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO320",
+                "uniqueRoleId": "494808",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "816059",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2022-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RWP"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "116732"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "C2P9J",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

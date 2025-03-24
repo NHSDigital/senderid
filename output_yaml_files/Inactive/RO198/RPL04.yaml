@@ -1,0 +1,131 @@
+Date:
+- End:
+    value: '2009-03-31'
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '1994-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LYNDHURST ROAD
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: BN11 2DH
+    Town: WORTHING
+    UPRN: '100062227731'
+LastChangeDate:
+  value: '2023-04-28'
+Name: WORTHING HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RPL04
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2009-03-31'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '62203'
+    id: RE6
+    uniqueRelId: '58496'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2009-03-31'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '106390'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYR18
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106557'
+    Type: Successor
+    uniqueSuccId: '8630'
+  - Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: HWS04
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '7072'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '12612'
+  - Date:
+      Start:
+        value: '1994-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: HWS69
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '41947'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '10592'
+metadata:
+  org_id: RPL04
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

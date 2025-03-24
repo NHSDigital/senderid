@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02082 233000
+Date:
+  Start:
+    value: '1900-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 - 6 UNIVERSTIY WAY
+    Country: ENGLAND
+    PostCode: E16 2RD
+    Town: LONDON
+    UPRN: '10091776573'
+LastChangeDate:
+  value: '2023-02-06'
+Name: UNIVERSITY OF EAST LONDON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE133814
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '1980-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '731'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78196'
+    id: RE5
+    uniqueRelId: '765291'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE5
+    uniqueRelId: '765290'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1900-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '441237'
+  - Date:
+      Start:
+        value: '1900-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO298
+    uniqueRoleId: '441238'
+Status:
+  value: Active
+metadata:
+  org_id: EE133814
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

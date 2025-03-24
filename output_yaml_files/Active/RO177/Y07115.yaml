@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01925 417247
+Date:
+  Start:
+    value: '2021-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FOLLY LANE MEDICAL CENTRE
+    AddrLn2: BEWSEY
+    Country: ENGLAND
+    PostCode: WA5 0LU
+    Town: WARRINGTON
+    UPRN: '200000980457'
+LastChangeDate:
+  value: '2023-10-04'
+Name: CWW PCN EXTENDED ACCESS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07115
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2021-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161447'
+    id: RE6
+    uniqueRelId: '794166'
+  - Date:
+      Start:
+        value: '2021-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161447'
+    id: RE4
+    uniqueRelId: '794167'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2021-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '469879'
+  - Date:
+      Start:
+        value: '2021-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '469878'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511459'
+Status:
+  value: Active
+metadata:
+  org_id: Y07115
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,77 @@
+Date:
+  Start:
+    value: '2012-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTHWICK PARK & ST MARKS HOSPITAL
+    AddrLn2: WATFORD ROAD
+    Country: ENGLAND
+    County: MIDDLESEX
+    PostCode: HA1 3UJ
+    Town: HARROW
+LastChangeDate:
+  value: '2014-10-03'
+Name: NORTHWICK PARK & ST MARKS HOSPITAL MICROBIOLOGY LABORATORY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 697Q0
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2014-09-30'
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RV8
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137991'
+    id: RE3
+    uniqueRelId: '183498'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R1K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '197646'
+    id: RE3
+    uniqueRelId: '288568'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO173
+    primaryRole: 'true'
+    uniqueRoleId: '161276'
+Status:
+  value: Active
+metadata:
+  org_id: 697Q0
+  role_id: RO173
+  status: Active
+orgRecordClass: RC1

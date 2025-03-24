@@ -1,0 +1,98 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01554 779890
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LLWYNHENDY ROAD
+    Country: WALES
+    PostCode: SA14 9BN
+    Town: LLANELLI
+    UPRN: '200002956267'
+LastChangeDate:
+  value: '2023-08-22'
+Name: LLWYNHENDY HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00134
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE4
+    uniqueRelId: '285051'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE6
+    uniqueRelId: '458286'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2021-11-09'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '189578'
+  - Date:
+      Start:
+        value: '2021-11-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '476172'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '189579'
+Status:
+  value: Active
+metadata:
+  org_id: W00134
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

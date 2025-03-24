@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CAMP HILL LOCAL CENTRE
+    AddrLn2: HUNSBURY HILL ROAD
+    Country: ENGLAND
+    PostCode: NN4 9UW
+    Town: NORTHAMPTON
+    UPRN: '15081911'
+LastChangeDate:
+  value: '2022-03-18'
+Name: UNIDRUGS PHARMACY - NORTHAMPTON - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: N3U2W
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FK601
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '220104'
+    id: RE6
+    uniqueRelId: '795235'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '471010'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '471009'
+Status:
+  value: Active
+metadata:
+  org_id: N3U2W
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

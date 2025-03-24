@@ -1,0 +1,105 @@
+Date:
+  Start:
+    value: '2009-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HURST ROAD
+    Country: ENGLAND
+    County: WEST SUSSEX
+    PostCode: RH12 2DR
+    Town: HORSHAM
+    UPRN: '100061813679'
+LastChangeDate:
+  value: '2021-02-05'
+Name: HORSHAM HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYR08
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '62205'
+    id: RE6
+    uniqueRelId: '58576'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '106509'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPR45
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106382'
+    Type: Predecessor
+    uniqueSuccId: '11598'
+  - Date:
+      Start:
+        value: '2009-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPL12
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '106398'
+    Type: Predecessor
+    uniqueSuccId: '4743'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXH30
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '115202'
+    Type: Predecessor
+    uniqueSuccId: '37949'
+metadata:
+  org_id: RYR08
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

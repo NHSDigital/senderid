@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01912 629407
+Date:
+- Start:
+    value: '2023-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-12-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BATTLE HILL WALK IN CENTRE
+    AddrLn2: BELMONT CLOSE
+    Country: ENGLAND
+    PostCode: NE28 9DX
+    Town: WALLSEND
+    UPRN: '47234179'
+LastChangeDate:
+  value: '2022-12-22'
+Name: BATTLE HILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FWJ19
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE4
+    uniqueRelId: '816890'
+  - Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: R5W5L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '494864'
+    id: RE6
+    uniqueRelId: '816891'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-12-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '494872'
+Status:
+  value: Active
+metadata:
+  org_id: FWJ19
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

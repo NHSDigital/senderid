@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RAMSAY HOUSE
+    AddrLn2: 18 VERA AVENUE
+    AddrLn3: GRANGE PARK
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: N21 1RA
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-05'
+Name: EALING GP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: ALG01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '290114'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ALG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '199945'
+    id: RE6
+    uniqueRelId: '290115'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300796'
+    id: RE5
+    uniqueRelId: '688860'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '199946'
+Status:
+  value: Active
+metadata:
+  org_id: ALG01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

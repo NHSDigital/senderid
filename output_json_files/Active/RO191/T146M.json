@@ -1,0 +1,109 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BRISTOL CENTRE (NHS BLOOD & TRANSPLANT)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2005-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "T146M"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2013-06-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "FOX DEN ROAD",
+            "AddrLn2": "STOKE GIFFORD",
+            "Town": "BRISTOL",
+            "County": "AVON",
+            "PostCode": "BS34 8RR",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO191",
+            "uniqueRoleId": "27645",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "41578",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1460"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "99818"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "235",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2005-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T129M"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO191",
+                    "uniqueRoleId": "27628"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "T146M",
+        "status": "Active",
+        "role_id": "RO191"
+    }
+}

@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01212 033300
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH AVENUE
+    AddrLn2: MARSDEN GREEN
+    Country: ENGLAND
+    PostCode: B40 1NT
+    Town: BIRMINGHAM
+LastChangeDate:
+  value: '2023-08-22'
+Name: BSOL NEC PRIMARY CARE CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06723
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE6
+    uniqueRelId: '702476'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE4
+    uniqueRelId: '702477'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '393035'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '393034'
+Status:
+  value: Active
+metadata:
+  org_id: Y06723
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

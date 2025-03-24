@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02476 232940
+Date:
+  Start:
+    value: '2020-05-05'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TILE HILL PRIMARY CARE CENTRE
+    AddrLn2: JARDINE CRESCENT
+    AddrLn3: THE HILL
+    Country: ENGLAND
+    PostCode: CV4 9PN
+    Town: COVENTRY
+    UPRN: '200001569962'
+LastChangeDate:
+  value: '2023-11-16'
+Name: COVENTRY EATING DISORDERS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06773
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-05-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61736'
+    id: RE6
+    uniqueRelId: '711899'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2020-05-05'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161319'
+    id: RE4
+    uniqueRelId: '711900'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B2M3M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400452'
+    id: RE4
+    uniqueRelId: '732051'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-05-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '394864'
+  - Date:
+      Start:
+        value: '2020-05-05'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '394863'
+Status:
+  value: Active
+metadata:
+  org_id: Y06773
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

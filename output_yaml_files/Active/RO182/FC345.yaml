@@ -1,0 +1,96 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02034 118995
+Date:
+- Start:
+    value: '2021-06-29'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-06-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GROUND FLOOR UNIT 5
+    AddrLn2: WINSOR & NEWTON BUILDING
+    AddrLn3: WHITEFRIARS AVENUE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: HA3 5RN
+    Town: HARROW
+LastChangeDate:
+  value: '2023-11-16'
+Name: KURAMED PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FC345
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-06-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE4
+    uniqueRelId: '792104'
+  - Date:
+    - Start:
+        value: '2021-06-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2Q6T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '468009'
+    id: RE6
+    uniqueRelId: '792103'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-06-29'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-06-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '468017'
+Status:
+  value: Active
+metadata:
+  org_id: FC345
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

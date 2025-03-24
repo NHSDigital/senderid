@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0870 8509508
+Date:
+  Start:
+    value: '2004-08-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CARADOC ROAD
+    Country: WALES
+    County: DYFED
+    PostCode: SY23 1ER
+    Town: ABERYSTWYTH
+    UPRN: '49024127'
+LastChangeDate:
+  value: '2023-08-22'
+Name: BRONGLAIS GENERAL HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00029
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE4
+    uniqueRelId: '275073'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40384'
+    id: RE6
+    uniqueRelId: '458198'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2004-08-20'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6A4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '126457'
+    id: RE4
+    uniqueRelId: '275074'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '189474'
+  - Date:
+      Start:
+        value: '2004-08-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '73912'
+Status:
+  value: Active
+metadata:
+  org_id: W00029
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

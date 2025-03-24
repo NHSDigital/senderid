@@ -1,0 +1,177 @@
+Date:
+- End:
+    value: '2023-03-31'
+  Start:
+    value: '1980-01-01'
+  Type:
+    value: Legal
+- Start:
+    value: '1980-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CUMBRIA HOUSE
+    AddrLn2: 117 BOTCHERGATE
+    Country: ENGLAND
+    PostCode: CA1 1RD
+    Town: CARLISLE
+    UPRN: '10008710524'
+LastChangeDate:
+  value: '2023-03-31'
+Name: CUMBRIA COUNTY COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '102'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q49
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163544'
+    id: RE5
+    uniqueRelId: '235211'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q74
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202016'
+    id: RE5
+    uniqueRelId: '339580'
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '666015'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO33
+    uniqueRoleId: '172363'
+  - Date:
+    - End:
+        value: '2023-03-31'
+      Start:
+        value: '1980-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '1980-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '77557'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H6X4G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '496370'
+    Type: Successor
+    uniqueSuccId: '38119'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W8X1Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '496371'
+    Type: Successor
+    uniqueSuccId: '38123'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V045
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '105244'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '36706'
+metadata:
+  org_id: '102'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

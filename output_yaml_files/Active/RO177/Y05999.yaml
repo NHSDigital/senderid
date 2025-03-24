@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 8434344
+Date:
+  Start:
+    value: '2018-02-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BEESTON HILL HC
+    AddrLn2: 123 CEMETERY ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS11 8LH
+    Town: LEEDS
+LastChangeDate:
+  value: '2018-04-18'
+Name: LEEDS COMMUNITY TB SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05999
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RY6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '91540'
+    id: RE6
+    uniqueRelId: '533550'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2018-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161470'
+    id: RE4
+    uniqueRelId: '533551'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299415'
+    id: RE4
+    uniqueRelId: '540762'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '300860'
+  - Date:
+      Start:
+        value: '2018-02-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '300861'
+Status:
+  value: Active
+metadata:
+  org_id: Y05999
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

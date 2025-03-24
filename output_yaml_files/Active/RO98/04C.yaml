@@ -1,0 +1,139 @@
+Date:
+- Start:
+    value: '2013-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2011-12-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROOM 30 PEN LLOYD BUILDING
+    AddrLn2: LEICESTER ROAD
+    AddrLn3: GLENFIELD
+    Country: ENGLAND
+    County: LEICESTERSHIRE
+    PostCode: LE3 8TB
+    Town: LEICESTER
+LastChangeDate:
+  value: '2023-09-21'
+Name: NHS LEICESTER, LEICESTERSHIRE AND RUTLAND ICB - 04C
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 04C
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q59
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163554'
+    id: RE5
+    uniqueRelId: '186370'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q78
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202022'
+    id: RE5
+    uniqueRelId: '357761'
+  - Date:
+      End:
+        value: '2019-03-28'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '69860'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO173
+        uniqueRoleId: '231251'
+    id: RE5
+    uniqueRelId: '526386'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QK1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300758'
+    id: RE5
+    uniqueRelId: '679101'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO98
+    primaryRole: 'true'
+    uniqueRoleId: '161297'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO319
+    uniqueRoleId: '486056'
+Status:
+  value: Active
+metadata:
+  org_id: 04C
+  role_id: RO98
+  status: Active
+orgRecordClass: RC1

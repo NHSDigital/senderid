@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01750 21674
+Date:
+  Start:
+    value: '1980-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE HEALTH CENTRE
+    AddrLn2: VIEWFIELD LANE
+    Country: SCOTLAND
+    County: SELKIRKSHIRE
+    PostCode: TD7 4LJ
+    Town: SELKIRK
+LastChangeDate:
+  value: '2022-08-18'
+Name: SELKIRK MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S16085
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SB9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487556'
+    id: RE5
+    uniqueRelId: '810996'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1980-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488624'
+  - Date:
+      Start:
+        value: '1980-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '176754'
+Status:
+  value: Active
+metadata:
+  org_id: S16085
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

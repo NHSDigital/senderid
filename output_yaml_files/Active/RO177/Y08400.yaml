@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01142 727676
+Date:
+- Start:
+    value: '2024-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-03-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 55 WICKER
+    Country: ENGLAND
+    PostCode: S3 8HT
+    Town: SHEFFIELD
+    UPRN: '100052092971'
+LastChangeDate:
+  value: '2024-03-28'
+Name: WICKER PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08400
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 03N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161476'
+    id: RE4
+    uniqueRelId: '842040'
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE6
+    uniqueRelId: '842041'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '522079'
+  - Date:
+    - Start:
+        value: '2024-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-03-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO323
+    uniqueRoleId: '522080'
+Status:
+  value: Active
+metadata:
+  org_id: Y08400
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

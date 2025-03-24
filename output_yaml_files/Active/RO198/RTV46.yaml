@@ -1,0 +1,109 @@
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRADLEGH ROAD
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: WA12 8RB
+    Town: NEWTON-LE-WILLOWS
+    UPRN: '39086465'
+LastChangeDate:
+  value: '2021-06-16'
+Name: NEWTON COMMUNITY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTV46
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61637'
+    id: RE6
+    uniqueRelId: '56722'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '55146'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: J4O8Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '442784'
+    Type: Successor
+    uniqueSuccId: '38012'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RER11
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '69459'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '20909'
+metadata:
+  org_id: RTV46
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

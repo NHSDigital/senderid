@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2024-05-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WAVERLEY ROAD
+    Country: ENGLAND
+    PostCode: AL3 5PN
+    Town: ST. ALBANS
+    UPRN: '100081339412'
+LastChangeDate:
+  value: '2024-11-22'
+Name: HERTFORDSHIRE AND WEST ESSEX ELECTIVE SURGICAL HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y2Y1N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-11-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133377'
+    id: RE6
+    uniqueRelId: '855591'
+  - Date:
+      End:
+        value: '2024-11-21'
+      Start:
+        value: '2024-05-29'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133402'
+    id: RE6
+    uniqueRelId: '847222'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-05-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '526249'
+  - Date:
+      Start:
+        value: '2024-05-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO320
+    uniqueRoleId: '526250'
+Status:
+  value: Active
+metadata:
+  org_id: Y2Y1N
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

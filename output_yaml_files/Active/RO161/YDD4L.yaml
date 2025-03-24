@@ -1,0 +1,87 @@
+Date:
+  Start:
+    value: '2017-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PARKWAY THREE
+    AddrLn2: PARKWAY BUSINESS CENTRE
+    AddrLn3: PRINCESS ROAD
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M14 7LU
+    Town: MANCHESTER
+LastChangeDate:
+  value: '2020-04-03'
+Name: MANCHESTER HEALTH AND CARE COMMISSIONING
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: YDD4L
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q83
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '278954'
+    id: RE5
+    uniqueRelId: '523262'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300740'
+    id: RE5
+    uniqueRelId: '666103'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO67
+    uniqueRoleId: '293311'
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO161
+    primaryRole: 'true'
+    uniqueRoleId: '293312'
+Status:
+  value: Active
+metadata:
+  org_id: YDD4L
+  role_id: RO161
+  status: Active
+orgRecordClass: RC1

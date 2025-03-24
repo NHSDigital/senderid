@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DUDLEY ROAD
+    Country: ENGLAND
+    PostCode: B18 7QH
+    Town: BIRMINGHAM
+    UPRN: '10091893949'
+LastChangeDate:
+  value: '2023-03-10'
+Name: MALLING HEALTH CITY HOSPITAL URGENT CARE CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: ANH28
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: ANH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '203447'
+    id: RE6
+    uniqueRelId: '713801'
+  - Date:
+      End:
+        value: '2022-06-30'
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE5
+    uniqueRelId: '713802'
+  - Date:
+      Start:
+        value: '2022-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE5
+    uniqueRelId: '808794'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '396520'
+Status:
+  value: Active
+metadata:
+  org_id: ANH28
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

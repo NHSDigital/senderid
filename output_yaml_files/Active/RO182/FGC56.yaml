@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01865 557219
+Date:
+- Start:
+    value: '2023-03-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-02-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 116 WALTON STREET
+    Country: ENGLAND
+    PostCode: OX2 6AJ
+    Town: OXFORD
+    UPRN: '100121296033'
+LastChangeDate:
+  value: '2023-02-20'
+Name: JERICHO PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FGC56
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '818688'
+  - Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K3O0Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '496743'
+    id: RE6
+    uniqueRelId: '818689'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-03-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-02-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '496749'
+Status:
+  value: Active
+metadata:
+  org_id: FGC56
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

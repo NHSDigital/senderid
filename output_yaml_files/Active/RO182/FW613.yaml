@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02072 541730
+Date:
+- Start:
+    value: '2025-02-03'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-15'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 68 BROADWAY MARKET
+    Country: ENGLAND
+    PostCode: E8 4QJ
+    Town: LONDON
+    UPRN: '100023018367'
+LastChangeDate:
+  value: '2025-01-29'
+Name: UNIPHARM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FW613
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2WC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '110708'
+    id: RE6
+    uniqueRelId: '856928'
+  - Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '856927'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-03'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536189'
+Status:
+  value: Active
+metadata:
+  org_id: FW613
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

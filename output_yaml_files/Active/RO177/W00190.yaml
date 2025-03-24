@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 03000 850001
+Date:
+  Start:
+    value: '2022-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TY NANT
+    AddrLn2: NANT HALL ROAD
+    Country: WALES
+    PostCode: LL19 9LG
+    Town: PRESTATYN
+    UPRN: '100100948963'
+LastChangeDate:
+  value: '2023-08-22'
+Name: UPCC AT HEALTHY PRESTATYN
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W00190
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE6
+    uniqueRelId: '805820'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40382'
+    id: RE4
+    uniqueRelId: '805821'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '483649'
+  - Date:
+      Start:
+        value: '2022-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '483648'
+Status:
+  value: Active
+metadata:
+  org_id: W00190
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,150 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WIGAN AVS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2017-05-15"
+        },
+        "End": {
+            "value": "2020-06-30"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y05767"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ST HELENS ROTA",
+            "AddrLn2": "ALBION STREET CLINIC",
+            "Town": "ST. HELENS",
+            "County": "MERSEYSIDE",
+            "PostCode": "WA10 2HU",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01744 673800"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "292856",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-05-19"
+                    },
+                    "End": {
+                        "value": "2020-06-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "292857",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-05-15"
+                    },
+                    "End": {
+                        "value": "2020-06-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "522671",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-05-17"
+                    },
+                    "End": {
+                        "value": "2020-06-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "02H"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161452"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "522672",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-05-15"
+                    },
+                    "End": {
+                        "value": "2020-06-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "02H"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161452"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y05767",
+        "status": "Inactive",
+        "role_id": "RO177"
+    }
+}

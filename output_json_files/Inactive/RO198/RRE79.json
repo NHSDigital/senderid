@@ -1,0 +1,119 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ALBERT ROAD CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2001-04-01"
+        },
+        "End": {
+            "value": "2023-03-31"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RRE79"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-04-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LAUREL HOUSE",
+            "AddrLn2": "12 ALBERT ROAD",
+            "Town": "TAMWORTH",
+            "County": "STAFFORDSHIRE",
+            "PostCode": "B79 7JN",
+            "Country": "ENGLAND",
+            "UPRN": "394030783"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "55497",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                },
+                "End": {
+                    "value": "2023-03-31"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "71316",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                },
+                "End": {
+                    "value": "2023-03-31"
+                }
+            },
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RRE"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "95630"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "3598",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RNG79"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "81598"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RRE79",
+        "status": "Inactive",
+        "role_id": "RO198"
+    }
+}

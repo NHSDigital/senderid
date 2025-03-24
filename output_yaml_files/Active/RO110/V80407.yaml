@@ -1,0 +1,104 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 8 ALDRENS LANE
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: LA1 2DU
+    Town: LANCASTER
+LastChangeDate:
+  value: '2020-04-23'
+Name: LANCASTER DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V80407
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2018-07-09'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161417'
+    id: RE4
+    uniqueRelId: '556148'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-07-10'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '278958'
+    id: RE4
+    uniqueRelId: '556681'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '710258'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '304620'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '304621'
+Status:
+  value: Active
+metadata:
+  org_id: V80407
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

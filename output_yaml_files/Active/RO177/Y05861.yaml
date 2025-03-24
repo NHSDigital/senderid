@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07384 253080
+Date:
+- Start:
+    value: '2017-10-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-09-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ESP HUB
+    AddrLn2: HEDGE END MEDICAL CENTRE
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: SO30 4FQ
+    Town: SOUTHAMPTON
+LastChangeDate:
+  value: '2023-08-22'
+Name: ESP HUB OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05861
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2017-10-02'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161515'
+    id: RE4
+    uniqueRelId: '526979'
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2017-10-02'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161515'
+    id: RE6
+    uniqueRelId: '526980'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE6
+    uniqueRelId: '731848'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE4
+    uniqueRelId: '731849'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-10-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '295879'
+  - Date:
+    - Start:
+        value: '2017-10-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-09-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '295880'
+Status:
+  value: Active
+metadata:
+  org_id: Y05861
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

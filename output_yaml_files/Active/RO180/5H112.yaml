@@ -1,0 +1,92 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. DUNSTANS ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: W6 8RB
+    Town: LONDON
+LastChangeDate:
+  value: '2013-03-28'
+Name: ST DUNSTANS HEALTH CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5H112
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5H1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '111927'
+    id: RE6
+    uniqueRelId: '174279'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '49942'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RPV97
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '8033'
+    Type: Predecessor
+    uniqueSuccId: '33676'
+metadata:
+  org_id: 5H112
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

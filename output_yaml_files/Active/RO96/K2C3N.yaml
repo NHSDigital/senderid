@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 162 NESS ROAD
+    AddrLn2: SHOEBURYNESS
+    Country: ENGLAND
+    PostCode: SS3 9DL
+    Town: SOUTHEND-ON-SEA
+    UPRN: '10090456202'
+LastChangeDate:
+  value: '2025-02-01'
+Name: NORTON PLACE - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: K2C3N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2025-01-31'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: F81684
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '79910'
+    id: RE6
+    uniqueRelId: '722615'
+  - Date:
+      Start:
+        value: '2025-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: F81121
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '121488'
+    id: RE6
+    uniqueRelId: '857622'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '406423'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '406424'
+Status:
+  value: Active
+metadata:
+  org_id: K2C3N
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

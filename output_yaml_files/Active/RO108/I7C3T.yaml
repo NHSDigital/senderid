@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BUSHEY FIELDS HOSPITAL
+    AddrLn2: BUSHEY FIELDS ROAD
+    Country: ENGLAND
+    PostCode: DY1 2LZ
+    Town: DUDLEY
+    UPRN: '90155719'
+LastChangeDate:
+  value: '2024-04-02'
+Name: BUSHEY FIELDS CRHT 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: I7C3T
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '49637'
+    id: RE6
+    uniqueRelId: '831489'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '509802'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO108
+    primaryRole: 'true'
+    uniqueRoleId: '509803'
+Status:
+  value: Active
+metadata:
+  org_id: I7C3T
+  role_id: RO108
+  status: Active
+orgRecordClass: RC2

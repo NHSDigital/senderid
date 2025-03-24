@@ -1,0 +1,93 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01619 211810
+Date:
+  Start:
+    value: '2000-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LEWIS STREET
+    AddrLn2: PATRICROFT
+    AddrLn3: ECCLES
+    Country: ENGLAND
+    PostCode: M30 0PU
+    Town: MANCHESTER
+    UPRN: '10004677780'
+LastChangeDate:
+  value: '2023-12-08'
+Name: LEWIS STREET PRIMARY SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE105903
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2000-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '309'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '77590'
+    id: RE5
+    uniqueRelId: '745297'
+  - Date:
+    - Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2011-12-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161411'
+    id: RE5
+    uniqueRelId: '745296'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2000-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '421111'
+  - Date:
+      Start:
+        value: '2000-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO281
+    uniqueRoleId: '421112'
+Status:
+  value: Active
+metadata:
+  org_id: EE105903
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

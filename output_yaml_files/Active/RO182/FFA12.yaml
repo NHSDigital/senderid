@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02088 580059
+Date:
+- Start:
+    value: '2023-07-15'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 22 OLD DOVER ROAD
+    AddrLn2: BLACKHEATH
+    Country: ENGLAND
+    PostCode: SE3 7BT
+    Town: LONDON
+    UPRN: '100023268279'
+LastChangeDate:
+  value: '2023-06-16'
+Name: PYRAMID PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FFA12
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '826840'
+  - Date:
+    - Start:
+        value: '2023-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: G7U6F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '505235'
+    id: RE6
+    uniqueRelId: '826841'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-07-15'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '505284'
+Status:
+  value: Active
+metadata:
+  org_id: FFA12
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

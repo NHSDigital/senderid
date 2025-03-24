@@ -1,0 +1,128 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0115 9455946
+Date:
+  Start:
+    value: '2014-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GAMSTON MEDICAL CENTRE
+    AddrLn2: GAMSTON DISTRICT CENTRE
+    AddrLn3: GAMSTON
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG2 6PS
+    Town: NOTTINGHAM
+    UPRN: '3040062855'
+LastChangeDate:
+  value: '2023-08-22'
+Name: RUSHCLIFFE URGENT CARE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04812
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161309'
+    id: RE4
+    uniqueRelId: '289320'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161309'
+    id: RE6
+    uniqueRelId: '461675'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 52R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386500'
+    id: RE6
+    uniqueRelId: '637100'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 52R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386500'
+    id: RE4
+    uniqueRelId: '637101'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-11-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '199301'
+  - Date:
+      Start:
+        value: '2014-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '199302'
+Status:
+  value: Active
+metadata:
+  org_id: Y04812
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

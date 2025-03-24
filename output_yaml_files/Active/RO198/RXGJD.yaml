@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2A WESTFIELD ROAD
+    AddrLn2: HORBURY
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: WF4 6LL
+    Town: WAKEFIELD
+    UPRN: '63140606'
+LastChangeDate:
+  value: '2021-07-21'
+Name: HORBURY HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXGJD
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '71593'
+    id: RE6
+    uniqueRelId: '62570'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '22107'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RGFJD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '5102'
+    Type: Predecessor
+    uniqueSuccId: '31719'
+metadata:
+  org_id: RXGJD
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

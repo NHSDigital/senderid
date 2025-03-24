@@ -1,0 +1,182 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 01202 688897
+  - type: fax
+    value: 01202 668131
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CANFORD HOUSE
+    AddrLn2: DISCOVERY COURT BUSINESS CENTRE
+    AddrLn3: 551-553 WALLISDOWN ROAD
+    Country: ENGLAND
+    County: DORSET
+    PostCode: BH12 5AG
+    Town: POOLE
+LastChangeDate:
+  value: '2023-09-21'
+Name: BOURNEMOUTH AND POOLE TEACHING PCT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5QN
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q39
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '107231'
+    id: RE3
+    uniqueRelId: '76256'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2018-04-17'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q70
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163565'
+    id: RE5
+    uniqueRelId: '186923'
+  - Date:
+      End:
+        value: '2020-09-30'
+      Start:
+        value: '2018-04-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE5
+    uniqueRelId: '540949'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO22
+    uniqueRoleId: '153828'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO179
+    primaryRole: 'true'
+    uniqueRoleId: '137156'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5CE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '47517'
+    Type: Predecessor
+    uniqueSuccId: '435'
+  - Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5KV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '70806'
+    Type: Predecessor
+    uniqueSuccId: '6760'
+metadata:
+  org_id: 5QN
+  role_id: RO179
+  status: Inactive
+orgRecordClass: RC1

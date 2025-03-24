@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.HIGHFIELDDENTAL.CO.UK
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 HIGHFIELD ROAD
+    AddrLn2: EDGBASTON
+    Country: ENGLAND
+    PostCode: B15 3ED
+    Town: BIRMINGHAM
+    UPRN: '100071430568'
+LastChangeDate:
+  value: '2020-05-04'
+Name: HIGHFIELD DENTAL CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V83225
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE4
+    uniqueRelId: '711699'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '394585'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '394586'
+Status:
+  value: Active
+metadata:
+  org_id: V83225
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

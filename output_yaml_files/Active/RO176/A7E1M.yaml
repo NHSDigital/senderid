@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2023-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTGATE PARK
+    AddrLn2: CHARLTON STREET
+    Country: ENGLAND
+    PostCode: DN31 1SQ
+    Town: GRIMSBY
+    UPRN: '11098203'
+LastChangeDate:
+  value: '2024-01-26'
+Name: CLINICAL ASSESSMENT SERVICE (NEL)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: A7E1M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NL3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132221'
+    id: RE6
+    uniqueRelId: '838553'
+  - Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE5
+    uniqueRelId: '838554'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2023-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '518384'
+Status:
+  value: Active
+metadata:
+  org_id: A7E1M
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

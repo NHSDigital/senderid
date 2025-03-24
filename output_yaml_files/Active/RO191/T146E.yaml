@@ -1,0 +1,74 @@
+Date:
+  Start:
+    value: '2005-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LONG ROAD
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: CB2 0PT
+    Town: CAMBRIDGE
+LastChangeDate:
+  value: '2014-10-09'
+Name: CAMBRIDGE CENTRE (NHS BLOOD & TRANSPLANT)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: T146E
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T1460
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO189
+        uniqueRoleId: '99818'
+    id: RE6
+    uniqueRelId: '41584'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO191
+    primaryRole: 'true'
+    uniqueRoleId: '27639'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2005-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T129E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '27621'
+    Type: Predecessor
+    uniqueSuccId: '911'
+metadata:
+  org_id: T146E
+  role_id: RO191
+  status: Active
+orgRecordClass: RC2

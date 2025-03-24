@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01942 822260
+Date:
+  Start:
+    value: '2018-07-04'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRONCHOSCOPY DEPT
+    AddrLn2: ROYAL ALBERT EDWARD INFIRMARY
+    AddrLn3: WIGAN LANE
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: WN1 2NN
+    Town: WIGAN
+LastChangeDate:
+  value: '2018-07-11'
+Name: LUNG CANCER SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06138
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-07-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61853'
+    id: RE6
+    uniqueRelId: '556753'
+  - Date:
+      Start:
+        value: '2018-07-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02H
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161452'
+    id: RE4
+    uniqueRelId: '556754'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2018-07-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '305029'
+  - Date:
+      Start:
+        value: '2018-07-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '305030'
+Status:
+  value: Active
+metadata:
+  org_id: Y06138
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

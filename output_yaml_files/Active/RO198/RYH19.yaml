@@ -1,0 +1,95 @@
+Date:
+- End:
+    value: '2014-03-31'
+  Start:
+    value: '2007-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2007-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STERLING HOUSE
+    AddrLn2: BALLIOL BUSINESS PARK
+    AddrLn3: BENTON LANE
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE12 8EW
+    Town: NEWCASTLE UPON TYNE
+    UPRN: '47009607'
+LastChangeDate:
+  value: '2021-02-04'
+Name: NHS DIRECT (NEWCASTLE)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYH19
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '137067'
+    id: RE6
+    uniqueRelId: '93183'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2014-03-31'
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2007-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '6728'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2007-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: T137L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO191
+        uniqueRoleId: '74053'
+    Type: Predecessor
+    uniqueSuccId: '29875'
+metadata:
+  org_id: RYH19
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

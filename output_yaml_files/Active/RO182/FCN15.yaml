@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01793 522708
+Date:
+- Start:
+    value: '2024-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-05-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 PARK LANE
+    Country: ENGLAND
+    PostCode: SN1 5HG
+    Town: SWINDON
+    UPRN: '10004844230'
+LastChangeDate:
+  value: '2024-05-23'
+Name: PARK LANE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FCN15
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P66M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94670'
+    id: RE6
+    uniqueRelId: '847007'
+  - Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '847006'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '526069'
+Status:
+  value: Active
+metadata:
+  org_id: FCN15
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

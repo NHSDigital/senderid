@@ -1,0 +1,109 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01925 575780
+Date:
+- Start:
+    value: '2023-07-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-06-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST ROCCO'S HOSPICE
+    AddrLn2: LOCKTON LANE
+    AddrLn3: BEWSEY
+    Country: ENGLAND
+    PostCode: WA5 0BW
+    Town: WARRINGTON
+    UPRN: '200000972800'
+LastChangeDate:
+  value: '2023-06-29'
+Name: PALLIATIVE CARE VIRTUAL WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07979
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '88065'
+    id: RE6
+    uniqueRelId: '828095'
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161447'
+    id: RE4
+    uniqueRelId: '828094'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '506604'
+  - Date:
+    - Start:
+        value: '2023-07-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-06-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO249
+    uniqueRoleId: '506605'
+Status:
+  value: Active
+metadata:
+  org_id: Y07979
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

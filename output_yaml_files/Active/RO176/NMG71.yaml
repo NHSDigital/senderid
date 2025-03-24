@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 220 KINGSTON ROAD
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SW20 8DA
+    Town: LONDON
+    UPRN: '48119465'
+LastChangeDate:
+  value: '2021-02-12'
+Name: MERTON MUSCULOSKELETAL OUTPATIENT PHYSIOTHERAPY SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NMG71
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NMG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133364'
+    id: RE6
+    uniqueRelId: '448956'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '448957'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE5
+    uniqueRelId: '691050'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '278604'
+Status:
+  value: Active
+metadata:
+  org_id: NMG71
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

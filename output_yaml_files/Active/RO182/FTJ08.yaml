@@ -1,0 +1,105 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01274 543115
+Date:
+- Start:
+    value: '2017-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-01-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 278 KEIGHLEY ROAD
+    Country: ENGLAND
+    PostCode: BD9 4LH
+    Town: BRADFORD
+    UPRN: '100052191776'
+LastChangeDate:
+  value: '2020-04-23'
+Name: FRIZINGHALL MED CENTRE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTJ08
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '517156'
+  - Date:
+      Start:
+        value: '2017-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4G1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '288313'
+    id: RE6
+    uniqueRelId: '517157'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '656194'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2017-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-01-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '288844'
+Status:
+  value: Active
+metadata:
+  org_id: FTJ08
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CALLINGTON ROAD HOSPITAL
+    AddrLn2: MARMALADE LANE
+    AddrLn3: BRISLINGTON
+    Country: ENGLAND
+    PostCode: BS4 5BJ
+    Town: BRISTOL
+LastChangeDate:
+  value: '2024-04-02'
+Name: BRISTOL ADULT ADHD SERV
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RVNP3
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131791'
+    id: RE6
+    uniqueRelId: '821561'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500379'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500380'
+Status:
+  value: Active
+metadata:
+  org_id: RVNP3
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

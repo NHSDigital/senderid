@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SHEILDGATE HOUSE
+    AddrLn2: SHADON WAY
+    AddrLn3: PORTOBELLO ROAD
+    Country: ENGLAND
+    County: COUNTY DURHAM
+    PostCode: DH3 2SW
+    Town: CHESTER LE STREET
+LastChangeDate:
+  value: '2020-04-03'
+Name: BOC - NORTH CLINICAL SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NAD14
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NAD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133349'
+    id: RE6
+    uniqueRelId: '383845'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q74
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202016'
+    id: RE5
+    uniqueRelId: '383846'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '664327'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '231960'
+Status:
+  value: Active
+metadata:
+  org_id: NAD14
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,100 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- End:
+    value: '2020-09-30'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 9 ORMESBY DRIVE
+    AddrLn2: CHANDLER'S FORD
+    Country: ENGLAND
+    County: HAMPSHIRE
+    PostCode: SO53 1SH
+    Town: EASTLEIGH
+    UPRN: '100062538016'
+LastChangeDate:
+  value: '2023-04-28'
+Name: MILLERS DALE SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5QCR4
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5QC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '137676'
+    id: RE6
+    uniqueRelId: '177787'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-09-30'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '46085'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5LY09
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '44866'
+    Type: Predecessor
+    uniqueSuccId: '4504'
+metadata:
+  org_id: 5QCR4
+  role_id: RO180
+  status: Inactive
+orgRecordClass: RC2

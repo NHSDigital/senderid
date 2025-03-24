@@ -1,0 +1,120 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "MIND IN BARNET",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "GDA"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "55 CHRISTCHURCH AVENUE",
+            "Town": "LONDON",
+            "PostCode": "N12 0DG",
+            "Country": "ENGLAND",
+            "UPRN": "200022161"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.MINDINBARNET.ORG.UK"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO172",
+            "uniqueRoleId": "392097",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "620620",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q71"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "168379"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "694020",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QMJ"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300796"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "GDA",
+        "status": "Active",
+        "role_id": "RO172"
+    }
+}

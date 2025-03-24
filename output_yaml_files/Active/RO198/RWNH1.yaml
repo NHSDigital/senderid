@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2017-03-31'
+  Start:
+    value: '2000-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2000-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 MOLLANDS COURT
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: RM15 6DP
+    Town: SOUTH OCKENDON
+    UPRN: '100090747081'
+LastChangeDate:
+  value: '2021-02-04'
+Name: 4 MOLLANDS COURT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWNH1
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWN
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '136474'
+    id: RE6
+    uniqueRelId: '92504'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2017-03-31'
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2000-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '26890'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2000-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RG8HU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '98313'
+    Type: Predecessor
+    uniqueSuccId: '20122'
+metadata:
+  org_id: RWNH1
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

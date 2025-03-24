@@ -1,0 +1,140 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "RIDLEY HOUSE",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2014-12-11"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2014-11-26"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "13TAC"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HENRY STREET",
+            "AddrLn2": "GOSFORTH",
+            "Town": "NEWCASTLE UPON TYNE",
+            "County": "TYNE AND WEAR",
+            "PostCode": "NE3 1DQ",
+            "Country": "ENGLAND",
+            "UPRN": "4510117332"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO99",
+            "uniqueRoleId": "199886",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-12-11"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-11-26"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "290055",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2014-12-11"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-11-26"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "13T"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "199602"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37235",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2015-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "00GAC"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO99",
+                    "uniqueRoleId": "196984"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "13TAC",
+        "status": "Active",
+        "role_id": "RO99"
+    }
+}

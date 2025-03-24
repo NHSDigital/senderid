@@ -1,0 +1,68 @@
+Date:
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MORPETH / WANSBECK
+    AddrLn2: ST. GEORGES PARK HOSPITAL
+    AddrLn3: EAST COTTINGWOOD
+    Country: ENGLAND
+    County: NORTHUMBERLAND
+    PostCode: NE61 2NU
+    Town: MORPETH
+LastChangeDate:
+  value: '2024-04-02'
+Name: ACUTE PSYCH TEAM G
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX43M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133397'
+    id: RE6
+    uniqueRelId: '90732'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '160030'
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '131204'
+Status:
+  value: Active
+metadata:
+  org_id: RX43M
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

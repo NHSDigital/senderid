@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MARLBOROUGH STREET
+    Country: ENGLAND
+    County: CITY OF BRISTOL
+    PostCode: BS1 3NU
+    Town: BRISTOL
+LastChangeDate:
+  value: '2020-04-20'
+Name: BRISTOL MAGISTRATES' COURT AND TRIBUNALS HEARING CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VNC
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230521'
+    id: RE4
+    uniqueRelId: '709850'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '619741'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '389647'
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO235
+    primaryRole: 'true'
+    uniqueRoleId: '389648'
+Status:
+  value: Active
+metadata:
+  org_id: VNC
+  role_id: RO235
+  status: Active
+orgRecordClass: RC1

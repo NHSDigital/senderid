@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01159 266209
+Date:
+- Start:
+    value: '2024-06-17'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-05-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 234 BECKHAMPTON ROAD
+    AddrLn2: BESTWOOD PARK ESTATE
+    Country: ENGLAND
+    PostCode: NG5 5PA
+    Town: NOTTINGHAM
+    UPRN: '100032125355'
+LastChangeDate:
+  value: '2024-05-23'
+Name: BESTWOOD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FEN95
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE4
+    uniqueRelId: '847008'
+  - Date:
+    - Start:
+        value: '2024-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H4P5D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511892'
+    id: RE6
+    uniqueRelId: '847009'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-06-17'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-05-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '526070'
+Status:
+  value: Active
+metadata:
+  org_id: FEN95
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

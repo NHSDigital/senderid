@@ -1,0 +1,122 @@
+Date:
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: URBAN ROAD
+    AddrLn2: KIRKBY-IN-ASHFIELD
+    Country: ENGLAND
+    PostCode: NG17 8DA
+    Town: NOTTINGHAM
+    UPRN: '100032105121'
+LastChangeDate:
+  value: '2020-04-05'
+Name: ASHFIELD DISTRICT COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '120'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q55
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163550'
+    id: RE5
+    uniqueRelId: '235521'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '352296'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300756'
+    id: RE5
+    uniqueRelId: '681624'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO36
+    uniqueRoleId: '173923'
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '173519'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V285
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '116669'
+    Type: Predecessor
+    uniqueSuccId: '36843'
+metadata:
+  org_id: '120'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

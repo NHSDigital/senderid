@@ -1,0 +1,225 @@
+Contacts:
+  Contact:
+  - type: tel
+    value: 01494 890890
+  - type: fax
+    value: 01494 890250
+Date:
+  Start:
+    value: '2003-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LONDON ROAD
+    Country: ENGLAND
+    County: BUCKINGHAMSHIRE
+    PostCode: HP16 0EN
+    Town: GREAT MISSENDEN
+LastChangeDate:
+  value: '2022-02-03'
+Name: CHILTERN HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NT410
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NT4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '100453'
+    id: RE6
+    uniqueRelId: '24690'
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q16
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '100472'
+    id: RE5
+    uniqueRelId: '79014'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-03-17'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q38
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '119678'
+    id: RE5
+    uniqueRelId: '39654'
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q69
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163564'
+    id: RE5
+    uniqueRelId: '192029'
+  - Date:
+    - End:
+        value: '2018-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2018-04-17'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q82
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202026'
+    id: RE5
+    uniqueRelId: '371529'
+  - Date:
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q87
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299783'
+    id: RE5
+    uniqueRelId: '549302'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE5
+    uniqueRelId: '683035'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '152272'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '52083'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 8CW14
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO157
+        uniqueRoleId: '53916'
+    Type: Predecessor
+    uniqueSuccId: '27436'
+metadata:
+  org_id: NT410
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

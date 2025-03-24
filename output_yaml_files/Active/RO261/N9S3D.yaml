@@ -1,0 +1,83 @@
+Date:
+- Start:
+    value: '2021-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-12-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST. MARYS HOSPITAL
+    AddrLn2: 77 LONDON ROAD
+    Country: ENGLAND
+    PostCode: NN15 7PW
+    Town: KETTERING
+    UPRN: '100032143826'
+LastChangeDate:
+  value: '2020-12-11'
+Name: EAST MIDLANDS SMHPC (CYPMHS TIER 4)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: N9S3D
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Y60
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO209
+        uniqueRoleId: '309120'
+    id: RE4
+    uniqueRelId: '720032'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO261
+    primaryRole: 'true'
+    uniqueRoleId: '402453'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-12-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO275
+    uniqueRoleId: '402454'
+Status:
+  value: Active
+metadata:
+  org_id: N9S3D
+  role_id: RO261
+  status: Active
+orgRecordClass: RC1

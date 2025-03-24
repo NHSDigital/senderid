@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "OLDHAM CUSTODY CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VKR"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-01-13"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "PO BOX 5",
+            "AddrLn2": "BARN STREET",
+            "Town": "OLDHAM",
+            "PostCode": "OL1 1LR",
+            "Country": "ENGLAND",
+            "UPRN": "10092861055"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO229",
+                "uniqueRoleId": "201538",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO234",
+                "uniqueRoleId": "201539",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "290938",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "VAD"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO233",
+                    "uniqueRoleId": "199101"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "VKR",
+        "status": "Active",
+        "role_id": "RO234"
+    }
+}

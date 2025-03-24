@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 87769818
+Date:
+  Start:
+    value: '1996-04-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 73-77 SYDENHAM ROAD
+    AddrLn2: SYDENHAM
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SE26 5UA
+    Town: LONDON
+    UPRN: '100023570405'
+LastChangeDate:
+  value: '2022-03-16'
+Name: SUPERDRUG PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVM72
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P31F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94427'
+    id: RE6
+    uniqueRelId: '329691'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '329692'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '656878'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1996-04-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '226956'
+Status:
+  value: Active
+metadata:
+  org_id: FVM72
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

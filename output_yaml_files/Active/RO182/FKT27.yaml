@@ -1,0 +1,115 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02089 799022
+Date:
+- Start:
+    value: '2021-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-07-21'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 10 HIGH STREET
+    Country: ENGLAND
+    PostCode: KT8 2NA
+    Town: WEST MOLESEY
+    UPRN: '100062372909'
+LastChangeDate:
+  value: '2023-03-08'
+Name: LALYS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FKT27
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P523
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '93660'
+    id: RE6
+    uniqueRelId: '819856'
+  - Date:
+    - Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QXU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300809'
+    id: RE4
+    uniqueRelId: '793791'
+  - Date:
+    - End:
+        value: '2023-03-07'
+      Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-03-07'
+      Start:
+        value: '2021-07-21'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S0I1Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '469547'
+    id: RE6
+    uniqueRelId: '793790'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-21'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '469551'
+Status:
+  value: Active
+metadata:
+  org_id: FKT27
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

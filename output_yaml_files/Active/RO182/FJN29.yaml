@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01423 322448
+Date:
+  Start:
+    value: '2016-03-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE PHARMACY
+    AddrLn2: 26 HIGH STREET
+    AddrLn3: BOROUGHBRIDGE
+    Country: ENGLAND
+    County: NORTH YORKSHIRE
+    PostCode: YO51 9AW
+    Town: YORK
+    UPRN: '100050432530'
+LastChangeDate:
+  value: '2021-02-12'
+Name: BOROUGHBRIDGE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJN29
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3F1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '13202'
+    id: RE6
+    uniqueRelId: '449024'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '449025'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE4
+    uniqueRelId: '712080'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '278639'
+Status:
+  value: Active
+metadata:
+  org_id: FJN29
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

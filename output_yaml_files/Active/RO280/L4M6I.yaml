@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2021-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 99 TANKERTON ROAD
+    Country: ENGLAND
+    PostCode: CT5 2AJ
+    Town: WHITSTABLE
+    UPRN: '100062300712'
+LastChangeDate:
+  value: '2022-03-16'
+Name: TANKERTON PHARMACY - WHITSTABLE - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: L4M6I
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-04-29'
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FT367
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '225663'
+    id: RE6
+    uniqueRelId: '803897'
+  - Date:
+      Start:
+        value: '2021-04-30'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FC029
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '412644'
+    id: RE6
+    uniqueRelId: '803898'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '471978'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '471977'
+Status:
+  value: Active
+metadata:
+  org_id: L4M6I
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

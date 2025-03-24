@@ -1,0 +1,129 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "SOUTHERN GROUP PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-05-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "G7822531"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-03-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CASTLETOWN ROAD",
+            "Town": "PORT ERIN",
+            "County": "ISLE OF MAN",
+            "PostCode": "IM9 6BD",
+            "Country": "ISLE OF MAN",
+            "UPRN": "115040524"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO59",
+                "uniqueRoleId": "468981",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO88",
+                "uniqueRoleId": "468982",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "793042",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Y00004"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "85359"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "793338",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "YAC"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO126",
+                        "uniqueRoleId": "100803"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "G7822531",
+        "status": "Active",
+        "role_id": "RO88"
+    }
+}

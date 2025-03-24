@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2005-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MINERVA ROAD
+    AddrLn2: FARNWORTH
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: BL4 0JR
+    Town: BOLTON
+    UPRN: '200002563317'
+LastChangeDate:
+  value: '2021-02-08'
+Name: ROYAL BOLTON HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RMC01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118214'
+    id: RE6
+    uniqueRelId: '75352'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '135093'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMC00
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '6607'
+    Type: Predecessor
+    uniqueSuccId: '30102'
+metadata:
+  org_id: RMC01
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

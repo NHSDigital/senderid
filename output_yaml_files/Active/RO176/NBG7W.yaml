@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2019-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 43 THORNS ROAD
+    Country: ENGLAND
+    PostCode: DY5 2JS
+    Town: BRIERLEY HILL
+    UPRN: '90115317'
+LastChangeDate:
+  value: '2020-04-05'
+Name: THORNS ROAD SURGERY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NBG7W
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NBG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '164822'
+    id: RE6
+    uniqueRelId: '608667'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '608668'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE5
+    uniqueRelId: '687088'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '386915'
+Status:
+  value: Active
+metadata:
+  org_id: NBG7W
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

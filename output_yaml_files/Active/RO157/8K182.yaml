@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.MOSAIC2.ORG.UK
+Date:
+  Start:
+    value: '2018-06-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 15 HOLROYD BUSINESS CENTRE
+    AddrLn2: CARR BOTTOM ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: BD5 9BP
+    Town: BRADFORD
+LastChangeDate:
+  value: '2020-04-04'
+Name: MOSAIC II
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 8K182
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-06-11'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '555607'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '671850'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-06-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO157
+    primaryRole: 'true'
+    uniqueRoleId: '304192'
+Status:
+  value: Active
+metadata:
+  org_id: 8K182
+  role_id: RO157
+  status: Active
+orgRecordClass: RC1

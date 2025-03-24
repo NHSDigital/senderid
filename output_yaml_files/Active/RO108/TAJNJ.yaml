@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DELTA POINT
+    AddrLn2: GREETS GREEN ROAD
+    Country: ENGLAND
+    PostCode: B70 9PL
+    Town: WEST BROMWICH
+    UPRN: '10008757942'
+LastChangeDate:
+  value: '2024-04-02'
+Name: ADHD CLINIC NMP1
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: TAJNJ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '49637'
+    id: RE6
+    uniqueRelId: '604721'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '382762'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO108
+    primaryRole: 'true'
+    uniqueRoleId: '382763'
+Status:
+  value: Active
+metadata:
+  org_id: TAJNJ
+  role_id: RO108
+  status: Active
+orgRecordClass: RC2

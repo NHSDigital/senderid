@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0161 2060425
+Date:
+  Start:
+    value: '2003-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: URGENT TREATMENT CENTRE
+    AddrLn2: STOTT LANE
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M6 8HD
+    Town: SALFORD
+LastChangeDate:
+  value: '2024-12-11'
+Name: SALFORD PRIMARY CARE TOGETHER EPIC OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y00203
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5F5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '122708'
+    id: RE4
+    uniqueRelId: '277226'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161411'
+    id: RE4
+    uniqueRelId: '277227'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161411'
+    id: RE6
+    uniqueRelId: '458842'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO80
+    uniqueRoleId: '190318'
+  - Date:
+      Start:
+        value: '2003-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '84512'
+Status:
+  value: Active
+metadata:
+  org_id: Y00203
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

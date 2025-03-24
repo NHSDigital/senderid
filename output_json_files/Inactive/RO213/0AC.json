@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NHS SOUTH WEST COMMISSIONING SUPPORT UNIT",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2012-10-01"
+            },
+            "End": {
+                "value": "2015-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2012-10-01"
+            },
+            "End": {
+                "value": "2020-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "0AC"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2022-09-29"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SOUTH PLAZA",
+            "AddrLn2": "MARLBOROUGH STREET",
+            "Town": "BRISTOL",
+            "County": "AVON",
+            "PostCode": "BS1 3NX",
+            "Country": "ENGLAND",
+            "UPRN": "300299"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO213",
+            "uniqueRoleId": "163936",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2012-10-01"
+                    },
+                    "End": {
+                        "value": "2015-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2012-10-01"
+                    },
+                    "End": {
+                        "value": "2020-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37226",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2015-04-01"
+                }
+            },
+            "Type": "Successor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "0DF"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO213",
+                    "uniqueRoleId": "230917"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "0AC",
+        "status": "Inactive",
+        "role_id": "RO213"
+    }
+}

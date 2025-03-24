@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST THOMAS'S ROAD
+    Country: ENGLAND
+    PostCode: PR7 1DR
+    Town: CHORLEY
+    UPRN: '200004064658'
+LastChangeDate:
+  value: '2025-01-13'
+Name: CHORLEY CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VLG
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199106'
+    id: RE6
+    uniqueRelId: '291083'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '201683'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '201684'
+Status:
+  value: Active
+metadata:
+  org_id: VLG
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

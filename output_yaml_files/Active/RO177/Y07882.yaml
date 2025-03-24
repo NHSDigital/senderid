@@ -1,0 +1,87 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01795 501724
+Date:
+  Start:
+    value: '2023-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FAVERSHAM HEALTH CENTRE
+    AddrLn2: BANK STREET
+    Country: ENGLAND
+    PostCode: ME13 8QR
+    Town: FAVERSHAM
+LastChangeDate:
+  value: '2023-03-30'
+Name: FAVERSHAM MEDICAL PRACTICE EYE CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07882
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AQM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '233138'
+    id: RE6
+    uniqueRelId: '821061'
+  - Date:
+      Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 91Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386491'
+    id: RE4
+    uniqueRelId: '821060'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '499526'
+  - Date:
+      Start:
+        value: '2023-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '499525'
+Status:
+  value: Active
+metadata:
+  org_id: Y07882
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,100 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07887 498154
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BUCKSHAW VILLAGE SURGERY
+    AddrLn2: UNITY PLACE
+    AddrLn3: BUCKSHAW VILLAGE
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: PR7 7HZ
+    Town: CHORLEY
+LastChangeDate:
+  value: '2023-10-04'
+Name: CHORLEY AND SOUTH RIBBLE PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07639
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161404'
+    id: RE4
+    uniqueRelId: '814052'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161404'
+    id: RE6
+    uniqueRelId: '814053'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491741'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491740'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511686'
+Status:
+  value: Active
+metadata:
+  org_id: Y07639
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

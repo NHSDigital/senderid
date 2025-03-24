@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PORTERS AVENUE HEALTH CENTRE
+    AddrLn2: 234 PORTERS AVENUE
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: RM8 2EQ
+    Town: DAGENHAM
+LastChangeDate:
+  value: '2024-04-02'
+Name: RESPIRATORY SERVICES [LTC] (EPACT)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RATCG
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RAT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '126693'
+    id: RE6
+    uniqueRelId: '102656'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '155529'
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '64568'
+Status:
+  value: Active
+metadata:
+  org_id: RATCG
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,87 @@
+Date:
+- Start:
+    value: '2021-06-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-05-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 15 BENSON ROAD
+    AddrLn2: BIRCHWOOD
+    Country: ENGLAND
+    PostCode: WA3 7PJ
+    Town: WARRINGTON
+    UPRN: '100012804988'
+LastChangeDate:
+  value: '2021-05-28'
+Name: BIRCHWOOD MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: C2K7R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18922'
+    id: RE6
+    uniqueRelId: '768285'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-05-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '444226'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2021-06-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTVA3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '60908'
+    Type: Predecessor
+    uniqueSuccId: '38044'
+metadata:
+  org_id: C2K7R
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,70 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01854 612015
+Date:
+  Start:
+    value: '1977-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NORTH ROAD
+    Country: SCOTLAND
+    County: ROSS-SHIRE
+    PostCode: IV26 2XL
+    Town: ULLAPOOL
+LastChangeDate:
+  value: '2022-08-18'
+Name: ULLAPOOL HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S55451
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2001-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SH9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487559'
+    id: RE5
+    uniqueRelId: '811459'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1977-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '489087'
+  - Date:
+      Start:
+        value: '1977-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '177969'
+Status:
+  value: Active
+metadata:
+  org_id: S55451
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

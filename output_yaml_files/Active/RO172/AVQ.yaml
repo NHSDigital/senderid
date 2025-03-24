@@ -1,0 +1,81 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.ONEHEALTHCARE.CO.UK
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 7TH FLOOR
+    AddrLn2: 33 HOLBORN
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: EC1N 2HT
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-05'
+Name: ONE HEALTHCARE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AVQ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '447254'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '684222'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '277085'
+Status:
+  value: Active
+metadata:
+  org_id: AVQ
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

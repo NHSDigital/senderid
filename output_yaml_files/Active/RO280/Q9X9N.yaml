@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2021-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 59 MAY LANE
+    AddrLn2: HOLLYWOOD
+    Country: ENGLAND
+    PostCode: B47 5PA
+    Town: BIRMINGHAM
+    UPRN: '100121262386'
+LastChangeDate:
+  value: '2022-02-24'
+Name: HOLLYWOOD PHARMACY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Q9X9N
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: FTA06
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO182
+        uniqueRoleId: '225814'
+    id: RE6
+    uniqueRelId: '803577'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '481462'
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO280
+    primaryRole: 'true'
+    uniqueRoleId: '481463'
+Status:
+  value: Active
+metadata:
+  org_id: Q9X9N
+  role_id: RO280
+  status: Active
+orgRecordClass: RC2

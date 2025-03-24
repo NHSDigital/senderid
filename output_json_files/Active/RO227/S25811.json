@@ -1,0 +1,108 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "GP OUT OF HOURS SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2004-09-28"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "S25811"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-08-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MENTAL HEALTH UNIT",
+            "AddrLn2": "FORTH VALLEY ROYAL HOSPITAL",
+            "AddrLn3": "STIRLING ROAD",
+            "Town": "LARBERT",
+            "County": "STIRLINGSHIRE",
+            "PostCode": "FK5 4WR",
+            "Country": "SCOTLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "0845 4242424"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO76",
+                "uniqueRoleId": "488784",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-09-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO227",
+                "uniqueRoleId": "177137",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-09-28"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "811156",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2004-09-28"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "SV9"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO190",
+                    "uniqueRoleId": "487565"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "S25811",
+        "status": "Active",
+        "role_id": "RO227"
+    }
+}

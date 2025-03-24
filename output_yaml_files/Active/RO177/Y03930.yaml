@@ -1,0 +1,120 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01429 522500
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HART BUILDING
+    AddrLn2: UNIVERSITY HOSPITAL OF HARTLEPOOL
+    AddrLn3: HOLDFORTH ROAD
+    Country: ENGLAND
+    County: CLEVELAND
+    PostCode: TS24 9AH
+    Town: HARTLEPOOL
+    UPRN: '10009713784'
+LastChangeDate:
+  value: '2021-06-29'
+Name: NT&H COMM RESP N
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y03930
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RVW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118663'
+    id: RE6
+    uniqueRelId: '460856'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161394'
+    id: RE4
+    uniqueRelId: '283687'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 16C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386505'
+    id: RE4
+    uniqueRelId: '636701'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '194000'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '194001'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '280696'
+Status:
+  value: Active
+metadata:
+  org_id: Y03930
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

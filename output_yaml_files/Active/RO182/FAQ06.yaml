@@ -1,0 +1,117 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0113 2771746
+Date:
+  Start:
+    value: '2013-05-13'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 134 BEESTON ROAD
+    Country: ENGLAND
+    County: WEST YORKSHIRE
+    PostCode: LS11 8BB
+    Town: LEEDS
+    UPRN: '72018345'
+LastChangeDate:
+  value: '2024-01-09'
+Name: BEESTON HILL PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FAQ06
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-05-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P2MR
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '108020'
+    id: RE6
+    uniqueRelId: '303944'
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-05-13'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q52
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163547'
+    id: RE4
+    uniqueRelId: '303945'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '348481'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE4
+    uniqueRelId: '647466'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2013-05-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '214065'
+Status:
+  value: Active
+metadata:
+  org_id: FAQ06
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

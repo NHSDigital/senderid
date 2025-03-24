@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2013-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 37 RUTLAND ROAD
+    Country: ENGLAND
+    County: BEDFORDSHIRE
+    PostCode: MK40 1DG
+    Town: BEDFORD
+    UPRN: '100080035524'
+LastChangeDate:
+  value: '2021-04-01'
+Name: RUTLAND ROAD (CARE HOME)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VM3FK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2021-03-31'
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161344'
+    id: RE5
+    uniqueRelId: '444094'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AEAP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '245136'
+    id: RE6
+    uniqueRelId: '444095'
+  - Date:
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M1J4Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400441'
+    id: RE5
+    uniqueRelId: '734045'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO101
+    primaryRole: 'true'
+    uniqueRoleId: '274838'
+  - Date:
+      Start:
+        value: '2013-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO269
+    uniqueRoleId: '334446'
+Status:
+  value: Active
+metadata:
+  org_id: VM3FK
+  role_id: RO101
+  status: Active
+orgRecordClass: RC1

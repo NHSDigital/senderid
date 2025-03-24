@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CORPORATE SERVICES
+    AddrLn2: EAST CLIFF PRACTICE
+    AddrLn3: DUMPTON PARK DRIVE
+    Country: ENGLAND
+    PostCode: CT11 8AD
+    Town: RAMSGATE
+    UPRN: '10012957205'
+LastChangeDate:
+  value: '2024-03-14'
+Name: INVICTA HEALTH PRIMARY CARE MENTAL HEALTH SERVICES
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NYF04
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NYF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '133344'
+    id: RE6
+    uniqueRelId: '558024'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q88
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299784'
+    id: RE5
+    uniqueRelId: '558025'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKS
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300803'
+    id: RE5
+    uniqueRelId: '682894'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '306128'
+Status:
+  value: Active
+metadata:
+  org_id: NYF04
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

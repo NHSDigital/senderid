@@ -1,0 +1,144 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SRP HEALTHCARE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-01-13"
+        },
+        "End": {
+            "value": "2023-11-23"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VNF47"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2023-12-08"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SRP HOUSE",
+            "AddrLn2": "1A GRANGE FARM ROAD",
+            "Town": "COLCHESTER",
+            "County": "ESSEX",
+            "PostCode": "CO2 8JW",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO101",
+                "uniqueRoleId": "391646",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-01-13"
+                    },
+                    "End": {
+                        "value": "2023-11-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO270",
+                "uniqueRoleId": "391647",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-01-13"
+                    },
+                    "End": {
+                        "value": "2023-11-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "620110",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-01-13"
+                    },
+                    "End": {
+                        "value": "2023-11-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "06T"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161355"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "620111",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-01-13"
+                    },
+                    "End": {
+                        "value": "2023-11-23"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "AVKT"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO104",
+                        "uniqueRoleId": "352270"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VNF47",
+        "status": "Inactive",
+        "role_id": "RO101"
+    }
+}

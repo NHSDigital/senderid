@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01257 256372
+Date:
+  Start:
+    value: '2019-12-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WRIGHTINGTON HOSPITAL
+    AddrLn2: HALL LANE, APPLEY BRIDGE
+    AddrLn3: WRIGHTINGTON
+    Country: ENGLAND
+    PostCode: WN6 9EP
+    Town: WIGAN
+    UPRN: '100012895313'
+LastChangeDate:
+  value: '2020-01-08'
+Name: ARTHROPLASTY PRACTITIONER SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06590
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2019-12-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RRF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61853'
+    id: RE6
+    uniqueRelId: '618246'
+  - Date:
+      Start:
+        value: '2019-12-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02G
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161450'
+    id: RE4
+    uniqueRelId: '618247'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2019-12-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '389932'
+  - Date:
+      Start:
+        value: '2020-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '389933'
+Status:
+  value: Active
+metadata:
+  org_id: Y06590
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

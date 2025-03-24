@@ -1,0 +1,172 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "HEARTLANDS HOSPITAL",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "1996-04-01"
+            },
+            "End": {
+                "value": "2018-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "1996-04-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RR101"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2018-06-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BORDESLEY GREEN EAST",
+            "Town": "BIRMINGHAM",
+            "County": "WEST MIDLANDS",
+            "PostCode": "B9 5SS",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO198",
+            "uniqueRoleId": "40264",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    },
+                    "End": {
+                        "value": "2018-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "97805",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    },
+                    "End": {
+                        "value": "2018-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RR1"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "126917"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "4843",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RL701"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "32785"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "8088",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2007-04-08"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "RJH04"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO198",
+                        "uniqueRoleId": "40262"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "RR101",
+        "status": "Active",
+        "role_id": "RO198"
+    }
+}

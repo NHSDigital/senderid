@@ -1,0 +1,114 @@
+Date:
+  Start:
+    value: '2013-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BROOKFIELD ROAD
+    AddrLn2: CODSALL
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: WV8 1DX
+    Town: WOLVERHAMPTON
+    UPRN: '100032230981'
+LastChangeDate:
+  value: '2021-02-09'
+Name: BILBROOK MEDICAL CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NIB06
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q60
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163555'
+    id: RE5
+    uniqueRelId: '233919'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NIB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '166977'
+    id: RE6
+    uniqueRelId: '233920'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '353505'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300746'
+    id: RE5
+    uniqueRelId: '680196'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '172069'
+Status:
+  value: Active
+metadata:
+  org_id: NIB06
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

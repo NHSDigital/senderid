@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2017-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LINK 1A CIVIC CENTRE
+    AddrLn2: HIGH STREET
+    Country: ENGLAND
+    PostCode: UB8 1UW
+    Town: UXBRIDGE
+LastChangeDate:
+  value: '2022-08-11'
+Name: HILLINGDON PRIMARY CARE CONFEDERATION - CIVIC CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DLV01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '531637'
+  - Date:
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DLV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '299394'
+    id: RE6
+    uniqueRelId: '531638'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300794'
+    id: RE5
+    uniqueRelId: '689264'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2017-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '299395'
+Status:
+  value: Active
+metadata:
+  org_id: DLV01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

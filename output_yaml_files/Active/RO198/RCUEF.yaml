@@ -1,0 +1,90 @@
+Date:
+  Start:
+    value: '1992-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTERN BANK
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S10 2TH
+    Town: SHEFFIELD
+    UPRN: '100052218098'
+LastChangeDate:
+  value: '2021-07-21'
+Name: SHEFFIELD CHILDREN'S HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RCUEF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109867'
+    id: RE6
+    uniqueRelId: '87523'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '123627'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '1992-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: CMFEF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO114
+        uniqueRoleId: '2731'
+    Type: Predecessor
+    uniqueSuccId: '12202'
+  - Date:
+      Start:
+        value: '1999-11-23'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCUJD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '97004'
+    Type: Predecessor
+    uniqueSuccId: '21788'
+metadata:
+  org_id: RCUEF
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

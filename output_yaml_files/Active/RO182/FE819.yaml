@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01733 205777
+Date:
+- Start:
+    value: '2021-03-08'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-02-10'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 4 MARKET STREET
+    AddrLn2: WHITTLESEY
+    Country: ENGLAND
+    PostCode: PE7 1BD
+    Town: PETERBOROUGH
+    UPRN: '100091535342'
+LastChangeDate:
+  value: '2021-10-05'
+Name: WHITTLESEY PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FE819
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300777'
+    id: RE4
+    uniqueRelId: '723740'
+  - Date:
+    - Start:
+        value: '2021-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: S3M9R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '407784'
+    id: RE6
+    uniqueRelId: '723739'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-03-08'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-02-10'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '407799'
+Status:
+  value: Active
+metadata:
+  org_id: FE819
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

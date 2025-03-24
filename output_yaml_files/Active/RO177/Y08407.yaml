@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01513 518839
+Date:
+  Start:
+    value: '2024-03-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: FAMILY HEALTH CLINIC
+    AddrLn2: PRINCE STREET
+    Country: ENGLAND
+    PostCode: L22 5PB
+    Town: LIVERPOOL
+    UPRN: '41075038'
+LastChangeDate:
+  value: '2024-04-09'
+Name: ADHD SEFTON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y08407
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2024-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '18922'
+    id: RE6
+    uniqueRelId: '844806'
+  - Date:
+      Start:
+        value: '2024-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161440'
+    id: RE4
+    uniqueRelId: '844805'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2024-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '523834'
+  - Date:
+      Start:
+        value: '2024-03-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '523833'
+Status:
+  value: Active
+metadata:
+  org_id: Y08407
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

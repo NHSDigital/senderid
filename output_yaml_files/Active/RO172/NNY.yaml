@@ -1,0 +1,87 @@
+Date:
+  Start:
+    value: '2010-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PRINCESS OF WALES HOSPITAL
+    AddrLn2: COITY ROAD
+    Country: WALES
+    County: MID GLAMORGAN
+    PostCode: CF31 1RQ
+    Town: BRIDGEND
+    UPRN: '200002656504'
+LastChangeDate:
+  value: '2023-07-06'
+Name: BRIDGEND CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NNY
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-07-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A5
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '21752'
+    id: RE5
+    uniqueRelId: '828480'
+  - Date:
+      End:
+        value: '2023-07-05'
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE5
+    uniqueRelId: '13861'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '151771'
+  - Date:
+      Start:
+        value: '2010-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO172
+    primaryRole: 'true'
+    uniqueRoleId: '100480'
+Status:
+  value: Active
+metadata:
+  org_id: NNY
+  role_id: RO172
+  status: Active
+orgRecordClass: RC1

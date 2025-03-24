@@ -1,0 +1,164 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BRECON CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2004-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "W00046"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "9 CASTLE STREET",
+            "Town": "BRECON",
+            "County": "POWYS",
+            "PostCode": "LD3 9DD",
+            "Country": "WALES",
+            "UPRN": "100100936910"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "07966 769281"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO72",
+                "uniqueRoleId": "195417",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-04-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO177",
+                "uniqueRoleId": "73929",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "284702",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A7"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "38494"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "458210",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "7A7"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO142",
+                        "uniqueRoleId": "38494"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "284703",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-10-01"
+                    },
+                    "End": {
+                        "value": "2009-09-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "6C4"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO144",
+                        "uniqueRoleId": "126461"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "W00046",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

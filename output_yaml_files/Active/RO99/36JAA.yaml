@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HUDDERSFIELD ROYAL INFIRMARY
+    AddrLn2: ACRE STREET
+    Country: ENGLAND
+    PostCode: HD3 3EA
+    Town: HUDDERSFIELD
+    UPRN: '83034315'
+LastChangeDate:
+  value: '2022-07-01'
+Name: BRADFORD DIST COLO DC1
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 36JAA
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 36J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386509'
+    id: RE6
+    uniqueRelId: '712987'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO99
+    primaryRole: 'true'
+    uniqueRoleId: '395763'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02RDF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO99
+        uniqueRoleId: '304623'
+    Type: Predecessor
+    uniqueSuccId: '37789'
+metadata:
+  org_id: 36JAA
+  role_id: RO99
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "GLOUCESTER CITY CUSTODY CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "WDK"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BEARLAND",
+            "Town": "GLOUCESTER",
+            "PostCode": "GL1 2JP",
+            "Country": "ENGLAND",
+            "UPRN": "200004486758"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO229",
+                "uniqueRoleId": "229523",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO234",
+                "uniqueRoleId": "229524",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "334907",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "VAC"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO233",
+                    "uniqueRoleId": "199100"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "WDK",
+        "status": "Active",
+        "role_id": "RO234"
+    }
+}

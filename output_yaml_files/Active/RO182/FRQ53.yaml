@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 992495
+Date:
+- Start:
+    value: '2023-08-25'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 2 BROOKS PARADE
+    AddrLn2: GREEN LANE
+    Country: ENGLAND
+    PostCode: IG3 9RT
+    Town: ILFORD
+    UPRN: '100023050755'
+LastChangeDate:
+  value: '2023-07-27'
+Name: GOODMAYES PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRQ53
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '829602'
+  - Date:
+    - Start:
+        value: '2023-08-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I1I4D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '507802'
+    id: RE6
+    uniqueRelId: '829603'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-25'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '507836'
+Status:
+  value: Active
+metadata:
+  org_id: FRQ53
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

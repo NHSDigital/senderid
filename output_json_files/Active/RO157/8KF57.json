@@ -1,0 +1,122 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "DEXCOM (UK) LIMITED",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-17"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "8KF57"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HIGHLANDS HOUSE",
+            "AddrLn2": "BASINGSTOKE ROAD",
+            "AddrLn3": "SPENCERS WOOD",
+            "Town": "READING",
+            "PostCode": "RG7 1NT",
+            "Country": "ENGLAND",
+            "UPRN": "10000089207"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTPS://WWW.DEXCOM.COM/EN-GB"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO157",
+            "uniqueRoleId": "385809",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-17"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "607600",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-17"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q87"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "299783"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "686589",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QU9"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300828"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "8KF57",
+        "status": "Active",
+        "role_id": "RO157"
+    }
+}

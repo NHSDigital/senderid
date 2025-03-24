@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: NEW STREET
+    AddrLn2: SLAITHWAITE
+    Country: ENGLAND
+    PostCode: HD7 5AB
+    Town: HUDDERSFIELD
+    UPRN: '83004735'
+LastChangeDate:
+  value: '2020-09-28'
+Name: SLAITHEWAITE HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DKE1A
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DKE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '295669'
+    id: RE6
+    uniqueRelId: '717188'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '717189'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '399344'
+Status:
+  value: Active
+metadata:
+  org_id: DKE1A
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

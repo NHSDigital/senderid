@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01616 213416
+Date:
+  Start:
+    value: '2020-04-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: INTEGRATED CARE CENTRE
+    AddrLn2: NEW RADCLIFFE STREET
+    Country: ENGLAND
+    PostCode: OL1 1NL
+    Town: OLDHAM
+    UPRN: '422000119591'
+LastChangeDate:
+  value: '2023-08-22'
+Name: OLDHAM UNSCHEDULED CARE SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06738
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161405'
+    id: RE6
+    uniqueRelId: '709991'
+  - Date:
+      Start:
+        value: '2020-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 00Y
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161405'
+    id: RE4
+    uniqueRelId: '709992'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '393518'
+  - Date:
+      Start:
+        value: '2020-04-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '393517'
+Status:
+  value: Active
+metadata:
+  org_id: Y06738
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

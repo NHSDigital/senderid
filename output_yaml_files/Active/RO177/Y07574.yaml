@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02085 964400
+Date:
+- Start:
+    value: '2022-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-09-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BROAD STREET HUBS
+    AddrLn2: MORLAND ROAD
+    Country: ENGLAND
+    PostCode: RM10 9HU
+    Town: DAGENHAM
+    UPRN: '10023594183'
+LastChangeDate:
+  value: '2024-04-01'
+Name: BARKING&DAGENHAM NORTH PCN EAS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07574
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE4
+    uniqueRelId: '813654'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE6
+    uniqueRelId: '813655'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W5Y6K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '522001'
+    id: RE11
+    uniqueRelId: '843805'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491362'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491361'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511633'
+Status:
+  value: Active
+metadata:
+  org_id: Y07574
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01242 215005
+Date:
+  Start:
+    value: '2017-11-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ST CATHERINES SURGERY
+    AddrLn2: ST PAUL'S MEDICAL CENTRE
+    Country: ENGLAND
+    County: GLOUCESTERSHIRE
+    PostCode: GL50 4DP
+    Town: CHELTENHAM
+LastChangeDate:
+  value: '2023-10-04'
+Name: EXTENDED ACCESS ST PAULS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05933
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE4
+    uniqueRelId: '529416'
+  - Date:
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161521'
+    id: RE6
+    uniqueRelId: '529417'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2017-11-08'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '297673'
+  - Date:
+      Start:
+        value: '2017-11-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '297674'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511372'
+Status:
+  value: Active
+metadata:
+  org_id: Y05933
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

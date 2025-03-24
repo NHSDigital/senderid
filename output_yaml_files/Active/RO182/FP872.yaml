@@ -1,0 +1,108 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01214 712460
+Date:
+- Start:
+    value: '2018-06-07'
+  Type:
+    value: Legal
+- Start:
+    value: '2018-06-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT 11 THE OLD BUS GARAGE
+    AddrLn2: HARBORNE LANE
+    AddrLn3: SELLY OAK
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: B29 6SN
+    Town: BIRMINGHAM
+    UPRN: '10095952573'
+LastChangeDate:
+  value: '2024-01-09'
+Name: MAVERICK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FP872
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE4
+    uniqueRelId: '555510'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300762'
+    id: RE4
+    uniqueRelId: '654299'
+  - Date:
+      Start:
+        value: '2018-06-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4M3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '304056'
+    id: RE6
+    uniqueRelId: '555511'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2018-06-07'
+      Type:
+        value: Legal
+    - Start:
+        value: '2018-06-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '304130'
+Status:
+  value: Active
+metadata:
+  org_id: FP872
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

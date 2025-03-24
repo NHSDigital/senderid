@@ -1,0 +1,126 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02081 023456
+Date:
+- Start:
+    value: '2021-08-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-07-14'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SUDBURY PRIMARY CARE CENTRE
+    AddrLn2: VALE FARM
+    AddrLn3: WATFORD ROAD
+    Country: ENGLAND
+    PostCode: HA0 3HG
+    Town: WEMBLEY
+    UPRN: '202195657'
+LastChangeDate:
+  value: '2024-04-01'
+Name: INTERGRATED COMPLEX PATIENT MANAGEMENT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07099
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118594'
+    id: RE6
+    uniqueRelId: '793325'
+  - Date:
+    - Start:
+        value: '2021-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: W2U3Z
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400449'
+    id: RE4
+    uniqueRelId: '793326'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O4I9P
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521954'
+    id: RE11
+    uniqueRelId: '843723'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2021-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '469220'
+  - Date:
+    - Start:
+        value: '2021-08-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-07-14'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '469221'
+Status:
+  value: Active
+metadata:
+  org_id: Y07099
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

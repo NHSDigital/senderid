@@ -1,0 +1,101 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BRIDGE PHARMACY - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "C8E7T"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-06-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "696-702 CHIGWELL ROAD",
+            "AddrLn2": "WOODFORD WELLS",
+            "Town": "WOODFORD GREEN",
+            "PostCode": "IG8 8AL",
+            "Country": "ENGLAND",
+            "UPRN": "10034918947"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "409782",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "409781",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "725108",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "FEP64"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO182",
+                    "uniqueRoleId": "216513"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "C8E7T",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

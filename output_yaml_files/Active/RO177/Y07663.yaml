@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01618 814293
+Date:
+  Start:
+    value: '2022-09-24'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ASHVILLE SURGERY
+    AddrLn2: 171 UPPER CHORLTON ROAD
+    Country: ENGLAND
+    PostCode: M16 9RT
+    Town: MANCHESTER
+    UPRN: '77071195'
+LastChangeDate:
+  value: '2023-08-22'
+Name: WEST CENTRAL MANCHESTER ENH SVC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07663
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-09-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '288843'
+    id: RE4
+    uniqueRelId: '814601'
+  - Date:
+      Start:
+        value: '2022-09-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '288843'
+    id: RE6
+    uniqueRelId: '814602'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2022-09-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '492358'
+  - Date:
+      Start:
+        value: '2022-09-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '492357'
+Status:
+  value: Active
+metadata:
+  org_id: Y07663
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,127 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01792 651501
+Date:
+  Start:
+    value: '2003-02-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CENTRAL CLINIC
+    AddrLn2: 21 ORCHARD STREET
+    Country: WALES
+    County: WEST GLAMORGAN
+    PostCode: SA1 5AT
+    Town: SWANSEA
+    UPRN: '10010025415'
+LastChangeDate:
+  value: '2023-08-22'
+Name: SWANSEA ASYLUM SEEKERS HE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: W98790
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2003-03-31'
+      Start:
+        value: '2003-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 4WG93
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO171
+        uniqueRoleId: '38221'
+    id: RE4
+    uniqueRelId: '276828'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE4
+    uniqueRelId: '276829'
+  - Date:
+      Start:
+        value: '2009-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 7A3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO142
+        uniqueRoleId: '40383'
+    id: RE6
+    uniqueRelId: '458763'
+  - Date:
+      End:
+        value: '2009-09-30'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 6A6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO144
+        uniqueRoleId: '111183'
+    id: RE4
+    uniqueRelId: '276830'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '190123'
+  - Date:
+      Start:
+        value: '2003-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '85355'
+Status:
+  value: Active
+metadata:
+  org_id: W98790
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

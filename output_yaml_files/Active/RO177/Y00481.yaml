@@ -1,0 +1,128 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0115 9480560
+Date:
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE HEALTH SHOP
+    AddrLn2: 12 BROAD STREET
+    AddrLn3: HOCKLEY
+    Country: ENGLAND
+    County: NOTTINGHAMSHIRE
+    PostCode: NG1 3AL
+    Town: NOTTINGHAM
+    UPRN: '100032093693'
+LastChangeDate:
+  value: '2021-02-05'
+Name: NOTTINGHAM HOMELESS TEAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y00481
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5EM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '100751'
+    id: RE4
+    uniqueRelId: '277829'
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NR3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '119704'
+    id: RE6
+    uniqueRelId: '458961'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04K
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161306'
+    id: RE4
+    uniqueRelId: '277830'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 52R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386500'
+    id: RE4
+    uniqueRelId: '635810'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '190592'
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '83123'
+Status:
+  value: Active
+metadata:
+  org_id: Y00481
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

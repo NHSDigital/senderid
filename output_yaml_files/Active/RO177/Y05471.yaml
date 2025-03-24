@@ -1,0 +1,89 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01245 234042
+Date:
+  Start:
+    value: '2016-06-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SPRINGFIELD HOSPITAL
+    AddrLn2: LAWN LANE
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CM1 7GU
+    Town: CHELMSFORD
+    UPRN: '200004714255'
+LastChangeDate:
+  value: '2021-06-29'
+Name: RAMSAY HEALTHCARE SPRINGFIELD HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05471
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NVC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132258'
+    id: RE6
+    uniqueRelId: '510936'
+  - Date:
+      Start:
+        value: '2016-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161354'
+    id: RE4
+    uniqueRelId: '510937'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-06-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '284380'
+  - Date:
+      Start:
+        value: '2016-07-13'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '284381'
+Status:
+  value: Active
+metadata:
+  org_id: Y05471
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

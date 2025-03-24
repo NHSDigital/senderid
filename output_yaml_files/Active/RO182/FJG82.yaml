@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01922 631478
+Date:
+- Start:
+    value: '2023-09-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-08-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 11 LISKEARD ROAD
+    AddrLn2: PARK HALL
+    Country: ENGLAND
+    PostCode: WS5 3EY
+    Town: WALSALL
+    UPRN: '100071371003'
+LastChangeDate:
+  value: '2023-08-18'
+Name: B.D.S. PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJG82
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE4
+    uniqueRelId: '830096'
+  - Date:
+    - Start:
+        value: '2023-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V6Q1R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '508292'
+    id: RE6
+    uniqueRelId: '830097'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-09-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-08-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '508305'
+Status:
+  value: Active
+metadata:
+  org_id: FJG82
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

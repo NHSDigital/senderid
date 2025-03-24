@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02086 691007
+Date:
+- Start:
+    value: '2025-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-08'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 75 MANOR ROAD
+    Country: ENGLAND
+    PostCode: SM6 0DE
+    Town: WALLINGTON
+    UPRN: '10091912096'
+LastChangeDate:
+  value: '2025-01-10'
+Name: MANOR PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FR540
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '856779'
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: K6E1O
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536039'
+    id: RE6
+    uniqueRelId: '856780'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-08'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536080'
+Status:
+  value: Active
+metadata:
+  org_id: FR540
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

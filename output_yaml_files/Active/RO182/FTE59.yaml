@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01225 421644
+Date:
+- Start:
+    value: '2022-12-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-11-16'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 125 HIGH STREET
+    AddrLn2: WESTON
+    Country: ENGLAND
+    PostCode: BA1 4DF
+    Town: BATH
+    UPRN: '10001142784'
+LastChangeDate:
+  value: '2022-11-17'
+Name: JHOOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FTE59
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-12-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '815015'
+  - Date:
+    - Start:
+        value: '2022-12-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I1A3C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '485960'
+    id: RE6
+    uniqueRelId: '815016'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2022-12-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-11-16'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '492745'
+Status:
+  value: Active
+metadata:
+  org_id: FTE59
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

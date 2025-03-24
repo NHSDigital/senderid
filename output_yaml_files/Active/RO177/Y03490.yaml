@@ -1,0 +1,165 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01803 313881
+Date:
+- Start:
+    value: '2012-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2012-01-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOUNT STUART HOSPITAL
+    AddrLn2: ST. VINCENTS ROAD
+    Country: ENGLAND
+    County: DEVON
+    PostCode: TQ1 4UP
+    Town: TORQUAY
+    UPRN: '100041054408'
+LastChangeDate:
+  value: '2023-08-22'
+Name: MOUNT STUART HOSPITAL NHS OUTPATIENTS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y03490
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2013-03-31'
+      Start:
+        value: '2012-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: TAL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO107
+        uniqueRoleId: '86764'
+    id: RE4
+    uniqueRelId: '283091'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161533'
+    id: RE4
+    uniqueRelId: '283092'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 99Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161533'
+    id: RE6
+    uniqueRelId: '460490'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE6
+    uniqueRelId: '566914'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15N
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '341517'
+    id: RE4
+    uniqueRelId: '566915'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2014-04-15'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '193237'
+  - Date:
+    - Start:
+        value: '2012-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2012-01-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '136033'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '280435'
+Status:
+  value: Active
+metadata:
+  org_id: Y03490
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

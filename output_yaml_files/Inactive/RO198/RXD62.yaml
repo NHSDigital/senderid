@@ -1,0 +1,116 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: AMBERSTONE HOSPITAL
+    AddrLn2: CARTERS CORNER
+    Country: ENGLAND
+    County: EAST SUSSEX
+    PostCode: BN27 4HU
+    Town: HAILSHAM
+    UPRN: '10033414810'
+LastChangeDate:
+  value: '2022-12-05'
+Name: HORTICULTURE REHABILITATION UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXD62
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RXD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '12294'
+    id: RE6
+    uniqueRelId: '48575'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '108873'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX2H6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '43103'
+    Type: Successor
+    uniqueSuccId: '5951'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RGX62
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '3655'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '28067'
+metadata:
+  org_id: RXD62
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

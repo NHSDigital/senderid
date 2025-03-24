@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2014-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SWANAGE COMMUNITY HOSPITAL
+    AddrLn2: QUEENS ROAD
+    Country: ENGLAND
+    County: DORSET
+    PostCode: BH19 2ES
+    Town: SWANAGE
+LastChangeDate:
+  value: '2024-11-22'
+Name: DCH COMMUNITY OUTPATIENTS SWANAGE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RBD07
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RBD
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '131779'
+    id: RE6
+    uniqueRelId: '287468'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '197431'
+  - Date:
+      Start:
+        value: '2014-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '197432'
+Status:
+  value: Active
+metadata:
+  org_id: RBD07
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

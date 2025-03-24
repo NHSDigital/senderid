@@ -1,0 +1,136 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BIRKENHEAD PCN EXTENDED ACCESS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-05-15"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Y07970"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-08-22"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ST CATHERINE'S SURGERY",
+            "AddrLn2": "ST CATHERINES HEALTH CENTRE",
+            "AddrLn3": "CHURCH ROAD",
+            "Town": "BIRKENHEAD",
+            "PostCode": "CH42 0LQ",
+            "Country": "ENGLAND",
+            "UPRN": "42191873"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01515 142888"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO177",
+                "uniqueRoleId": "506347",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO321",
+                "uniqueRoleId": "506348",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "827847",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "12F"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161845"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "827848",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-15"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "12F"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161845"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Y07970",
+        "status": "Active",
+        "role_id": "RO177"
+    }
+}

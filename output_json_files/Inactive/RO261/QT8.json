@@ -1,0 +1,134 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WEST, NORTH AND EAST CUMBRIA HEALTH & CARE PARTNERSHIP (STP)",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2017-04-01"
+            },
+            "End": {
+                "value": "2018-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2017-04-01"
+            },
+            "End": {
+                "value": "2020-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "QT8"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2020-11-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WEST CUMBERLAND HOSPITAL",
+            "AddrLn2": "HOMEWOOD",
+            "AddrLn3": "HENSINGHAM",
+            "Town": "WHITEHAVEN",
+            "County": "CUMBRIA",
+            "PostCode": "CA28 8JG",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO261",
+                "uniqueRoleId": "300730",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2017-04-01"
+                        },
+                        "End": {
+                            "value": "2018-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2017-04-01"
+                        },
+                        "End": {
+                            "value": "2020-09-30"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                }
+            },
+            {
+                "id": "RO262",
+                "uniqueRoleId": "300731",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2017-04-01"
+                    },
+                    "End": {
+                        "value": "2020-09-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37478",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2018-04-01"
+                }
+            },
+            "Type": "Successor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QHM"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "303773"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "QT8",
+        "status": "Inactive",
+        "role_id": "RO261"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "SOUTH SHORE PCC - COVID LOCAL VACCINATION SERVICE 2",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "L4I9N"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-02-07"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SOUTH SHORE PRIMARY CARE CENTRE",
+            "AddrLn2": "LYTHAM ROAD",
+            "Town": "BLACKPOOL",
+            "PostCode": "FY4 1TJ",
+            "Country": "ENGLAND",
+            "UPRN": "10070848680"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO96",
+                "uniqueRoleId": "407191",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "407192",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "723018",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    },
+                    "End": {
+                        "value": "2021-11-08"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P81074"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "116063"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "799147",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-11-09"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P81159"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "116284"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "L4I9N",
+        "status": "Active",
+        "role_id": "RO96"
+    }
+}

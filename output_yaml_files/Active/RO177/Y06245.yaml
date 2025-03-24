@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07551 456003
+Date:
+  Start:
+    value: '2018-09-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RAGSDALE HOUSE
+    AddrLn2: 138 BURTON ROAD
+    AddrLn3: WOODVILLE
+    Country: ENGLAND
+    PostCode: DE11 7JG
+    Town: SWADLINCOTE
+    UPRN: '100032000623'
+LastChangeDate:
+  value: '2025-01-15'
+Name: SWADLINCOTE PRIMARY CARE NETWORK
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06245
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161311'
+    id: RE4
+    uniqueRelId: '559106'
+  - Date:
+      End:
+        value: '2019-03-31'
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 04R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161311'
+    id: RE6
+    uniqueRelId: '559107'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE6
+    uniqueRelId: '567033'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '307425'
+    id: RE4
+    uniqueRelId: '567034'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2018-09-26'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '307144'
+  - Date:
+      Start:
+        value: '2018-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '307145'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511393'
+Status:
+  value: Active
+metadata:
+  org_id: Y06245
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

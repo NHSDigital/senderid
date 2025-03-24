@@ -1,0 +1,116 @@
+Date:
+- End:
+    value: '2006-03-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- End:
+    value: '2022-09-30'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MONKWEARMOUTH HOSPITAL
+    AddrLn2: NEWCASTLE ROAD
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: SR5 1NB
+    Town: SUNDERLAND
+    UPRN: '45081560'
+LastChangeDate:
+  value: '2022-12-05'
+Name: GRANGE PARK CLINIC DAY HOSPITAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RW9SQ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '12299'
+    id: RE6
+    uniqueRelId: '49701'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2006-03-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2022-09-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '13414'
+Status:
+  value: Inactive
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2006-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX4K6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '16530'
+    Type: Successor
+    uniqueSuccId: '20143'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RLHSQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '23895'
+    Type: Predecessor
+    forwardSuccession: 'true'
+    uniqueSuccId: '25697'
+metadata:
+  org_id: RW9SQ
+  role_id: RO198
+  status: Inactive
+orgRecordClass: RC2

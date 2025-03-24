@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01395 513478
+Date:
+- Start:
+    value: '2023-08-30'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-07-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BEACON MEDICAL CENTRE
+    AddrLn2: SEDEMUDA ROAD
+    Country: ENGLAND
+    PostCode: EX10 9YA
+    Town: SIDMOUTH
+    UPRN: '10093124213'
+LastChangeDate:
+  value: '2024-03-27'
+Name: JHOOTS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FA304
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300813'
+    id: RE4
+    uniqueRelId: '828548'
+  - Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I0H1X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '506788'
+    id: RE6
+    uniqueRelId: '828549'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-08-30'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-07-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '506810'
+Status:
+  value: Active
+metadata:
+  org_id: FA304
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

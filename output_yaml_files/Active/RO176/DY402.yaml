@@ -1,0 +1,95 @@
+Date:
+  Start:
+    value: '2019-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PENINSULA HOUSE
+    AddrLn2: RIVER COURT
+    AddrLn3: KINGSMILL ROAD
+    Country: ENGLAND
+    PostCode: PL12 6LE
+    Town: SALTASH
+    UPRN: '10003917563'
+LastChangeDate:
+  value: '2020-04-05'
+Name: KERNOW HEALTH EAST (PENISULAR HOUSE)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DY402
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q85
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '299781'
+    id: RE5
+    uniqueRelId: '601254'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QT6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300811'
+    id: RE5
+    uniqueRelId: '689604'
+  - Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DY4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '379667'
+    id: RE6
+    uniqueRelId: '601255'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2019-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '379672'
+Status:
+  value: Active
+metadata:
+  org_id: DY402
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,85 @@
+Date:
+  Start:
+    value: '2021-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OLD HALL STREET
+    Country: ENGLAND
+    PostCode: SY14 8PS
+    Town: MALPAS
+    UPRN: '100012792369'
+LastChangeDate:
+  value: '2023-07-03'
+Name: LAUREL BANK SURGERY - COVID LOCAL VACCINATION SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: B7I5R
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2023-06-30'
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: N81006
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '112183'
+    id: RE6
+    uniqueRelId: '800800'
+  - Date:
+      Start:
+        value: '2023-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B86011
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '134979'
+    id: RE6
+    uniqueRelId: '828116'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '478509'
+  - Date:
+      Start:
+        value: '2021-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '478510'
+Status:
+  value: Active
+metadata:
+  org_id: B7I5R
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

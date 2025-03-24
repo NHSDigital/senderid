@@ -1,0 +1,201 @@
+Contacts:
+  Contact:
+  - type: http
+    value: HTTPS://WWW.MIDYORKS.NHS.UK/
+  - type: tel
+    value: 01924 541000
+Date:
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PINDERFIELDS HOSPITAL
+    AddrLn2: ABERFORD ROAD
+    Country: ENGLAND
+    PostCode: WF1 4DG
+    Town: WAKEFIELD
+    UPRN: '63163184'
+LastChangeDate:
+  value: '2023-11-14'
+Name: MID YORKSHIRE TEACHING NHS TRUST
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RXF
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2006-06-30'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q12
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '21643'
+    id: RE5
+    uniqueRelId: '71974'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-08-31'
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q32
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '100458'
+    id: RE5
+    uniqueRelId: '51770'
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-09-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q52
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163547'
+    id: RE5
+    uniqueRelId: '193100'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '347773'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE5
+    uniqueRelId: '666656'
+  - Date:
+      Start:
+        value: '2023-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWO
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300736'
+    id: RE8
+    uniqueRelId: '834813'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO197
+    primaryRole: 'true'
+    uniqueRoleId: '120039'
+Status:
+  value: Active
+Succs:
+  Succ:
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RMW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '1410'
+    Type: Predecessor
+    uniqueSuccId: '19837'
+  - Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RR4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '86647'
+    Type: Predecessor
+    uniqueSuccId: '27889'
+metadata:
+  org_id: RXF
+  role_id: RO197
+  status: Active
+orgRecordClass: RC1

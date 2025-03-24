@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01256 479338
+Date:
+- Start:
+    value: '2023-10-26'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 34 GUINEA COURT
+    AddrLn2: CHINEHAM
+    Country: ENGLAND
+    PostCode: RG24 8XJ
+    Town: BASINGSTOKE
+    UPRN: '100062461789'
+LastChangeDate:
+  value: '2024-01-24'
+Name: CHINEHAM PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJR71
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QRL
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300824'
+    id: RE4
+    uniqueRelId: '832611'
+  - Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: I6O6C
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511047'
+    id: RE6
+    uniqueRelId: '832612'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '511097'
+Status:
+  value: Active
+metadata:
+  org_id: FJR71
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

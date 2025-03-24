@@ -1,0 +1,117 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 1230872
+Date:
+- Start:
+    value: '2015-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-03-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SANDERSON HOUSE
+    AddrLn2: 17-19 MUSEUM STREET
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP1 1HE
+    Town: IPSWICH
+LastChangeDate:
+  value: '2016-11-09'
+Name: SUFFOLK RECOVERY SERVICE - IPSWICH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y04960
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161347'
+    id: RE4
+    uniqueRelId: '337827'
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NKI
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '168807'
+    id: RE6
+    uniqueRelId: '461821'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '230879'
+  - Date:
+    - Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '230880'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO255
+    uniqueRoleId: '281367'
+Status:
+  value: Active
+metadata:
+  org_id: Y04960
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

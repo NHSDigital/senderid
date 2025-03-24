@@ -1,0 +1,96 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RECTORY ROAD
+    AddrLn2: HOLLESLEY
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP12 3JW
+    Town: WOODBRIDGE
+LastChangeDate:
+  value: '2018-12-06'
+Name: HMP/ YOI HOLLESLEY BAY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WJL
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2016-07-14'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 12W
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '163828'
+    id: RE4
+    uniqueRelId: '292094'
+  - Date:
+    - Start:
+        value: '2015-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2016-07-15'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 14E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '230519'
+    id: RE4
+    uniqueRelId: '379696'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO83
+    uniqueRoleId: '202706'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO228
+    primaryRole: 'true'
+    uniqueRoleId: '202707'
+Status:
+  value: Active
+metadata:
+  org_id: WJL
+  role_id: RO228
+  status: Active
+orgRecordClass: RC1

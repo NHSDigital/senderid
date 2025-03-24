@@ -1,0 +1,86 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WYMONDHAM MEDICAL CENTRE
+    AddrLn2: POSTMILL CLOSE
+    Country: ENGLAND
+    PostCode: NR18 0RF
+    Town: WYMONDHAM
+    UPRN: '2630155130'
+LastChangeDate:
+  value: '2023-03-01'
+Name: WYMONDHAM MEDICAL PARTNERSHIP - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: E0R9K
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-03-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D82045
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '92924'
+    id: RE6
+    uniqueRelId: '819643'
+  - Date:
+      End:
+        value: '2023-02-28'
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D82064
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '92942'
+    id: RE6
+    uniqueRelId: '724643'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '408894'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '408895'
+Status:
+  value: Active
+metadata:
+  org_id: E0R9K
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

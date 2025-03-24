@@ -1,0 +1,105 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01246 450425
+Date:
+- Start:
+    value: '2020-03-02'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-02-26'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 8 LITTLEMOOR CENTRE
+    Country: ENGLAND
+    PostCode: S41 8QW
+    Town: CHESTERFIELD
+    UPRN: '74059383'
+LastChangeDate:
+  value: '2025-01-22'
+Name: PEAK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FLK93
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2020-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P15J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '38549'
+    id: RE6
+    uniqueRelId: '620348'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2020-03-02'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE4
+    uniqueRelId: '620349'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '652780'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2020-03-02'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-02-26'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '391860'
+Status:
+  value: Active
+metadata:
+  org_id: FLK93
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,66 @@
+Date:
+  Start:
+    value: '2020-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 35 HIGH STREET
+    Country: ENGLAND
+    PostCode: WR10 1AA
+    Town: PERSHORE
+    UPRN: '100121277122'
+LastChangeDate:
+  value: '2020-04-21'
+Name: LINCOLN HOUSE DENTAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V83011
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '709938'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO65
+    uniqueRoleId: '393143'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '393144'
+Status:
+  value: Active
+metadata:
+  org_id: V83011
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

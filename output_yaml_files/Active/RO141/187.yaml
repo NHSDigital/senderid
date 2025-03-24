@@ -1,0 +1,122 @@
+Date:
+  Start:
+    value: '2004-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TOWN HALL
+    AddrLn2: WHARNCLIFFE ROAD
+    Country: ENGLAND
+    PostCode: DE7 5RP
+    Town: ILKESTON
+    UPRN: '100032241193'
+LastChangeDate:
+  value: '2020-04-05'
+Name: EREWASH BOROUGH COUNCIL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: '187'
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2015-03-31'
+      Start:
+        value: '2012-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q55
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163550'
+    id: RE5
+    uniqueRelId: '235598'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE5
+    uniqueRelId: '352301'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE5
+    uniqueRelId: '681655'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO34
+    uniqueRoleId: '173990'
+  - Date:
+      Start:
+        value: '2004-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO141
+    primaryRole: 'true'
+    uniqueRoleId: '173601'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: V058
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO119
+        uniqueRoleId: '115925'
+    Type: Predecessor
+    uniqueSuccId: '36903'
+metadata:
+  org_id: '187'
+  role_id: RO141
+  status: Active
+orgRecordClass: RC1

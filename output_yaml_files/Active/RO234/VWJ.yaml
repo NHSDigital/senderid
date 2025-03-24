@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: STAINES POLICE STATION
+    AddrLn2: 22 KINGSTON ROAD
+    Country: ENGLAND
+    PostCode: TW18 4LQ
+    Town: STAINES-UPON-THAMES
+    UPRN: '33040161'
+LastChangeDate:
+  value: '2025-02-05'
+Name: STAINES CUSTODY SUITE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VWJ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VAW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '199121'
+    id: RE6
+    uniqueRelId: '337062'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO229
+    uniqueRoleId: '230693'
+  - Date:
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '230694'
+Status:
+  value: Active
+metadata:
+  org_id: VWJ
+  role_id: RO234
+  status: Active
+orgRecordClass: RC1

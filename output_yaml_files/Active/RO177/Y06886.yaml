@@ -1,0 +1,109 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01214 223111
+Date:
+- Start:
+    value: '2020-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2020-09-23'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROYAL ORTHOPAEDIC HOSP
+    AddrLn2: BRISTOL ROAD SOUTH
+    AddrLn3: NORTHFIELD
+    Country: ENGLAND
+    PostCode: B31 2AP
+    Town: BIRMINGHAM
+    UPRN: '10024329781'
+LastChangeDate:
+  value: '2023-08-22'
+Name: OHP ROH EXTENDED ACCESS HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06886
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE6
+    uniqueRelId: '716937'
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '299387'
+    id: RE4
+    uniqueRelId: '716938'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '399120'
+  - Date:
+    - Start:
+        value: '2020-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-09-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '399119'
+Status:
+  value: Active
+metadata:
+  org_id: Y06886
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

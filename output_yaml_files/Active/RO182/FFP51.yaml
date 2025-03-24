@@ -1,0 +1,97 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01332 200317
+Date:
+  Start:
+    value: '2020-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1-3 LOWER DALE ROAD
+    Country: ENGLAND
+    PostCode: DE23 6WY
+    Town: DERBY
+    UPRN: '100030333606'
+LastChangeDate:
+  value: '2024-01-25'
+Name: NORMANTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FFP51
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2020-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q76
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202018'
+    id: RE4
+    uniqueRelId: '618218'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJ2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300752'
+    id: RE4
+    uniqueRelId: '649817'
+  - Date:
+      Start:
+        value: '2020-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P4VW
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '389889'
+    id: RE6
+    uniqueRelId: '618217'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2020-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '389911'
+Status:
+  value: Active
+metadata:
+  org_id: FFP51
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

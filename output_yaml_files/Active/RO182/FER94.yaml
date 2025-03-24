@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01205 361644
+Date:
+- Start:
+    value: '2023-10-26'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-27'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SOUTH SQUARE
+    Country: ENGLAND
+    PostCode: PE21 6JU
+    Town: BOSTON
+    UPRN: '10002214668'
+LastChangeDate:
+  value: '2024-01-17'
+Name: BOSTON PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FER94
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300754'
+    id: RE4
+    uniqueRelId: '832603'
+  - Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: B1C5Q
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '511043'
+    id: RE6
+    uniqueRelId: '832604'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-27'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '511093'
+Status:
+  value: Active
+metadata:
+  org_id: FER94
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

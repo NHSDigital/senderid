@@ -1,0 +1,131 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BINGHAM HALL TRUST (CAINSCROSS PHARMACY) - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-11-25"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A6K9L"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-04-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BINGHAM HALL",
+            "AddrLn2": "KING STREET",
+            "Town": "CIRENCESTER",
+            "PostCode": "GL7 1JT",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "410705",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-11-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "410704",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-11-25"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "805175",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-11-25"
+                    },
+                    "End": {
+                        "value": "2020-11-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FCA33"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "214552"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "805176",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-12-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FTH50"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "401433"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "A6K9L",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

@@ -1,0 +1,92 @@
+Date:
+- End:
+    value: '2021-05-31'
+  Start:
+    value: '2002-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2002-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: TWIG LANE
+    Country: ENGLAND
+    County: MERSEYSIDE
+    PostCode: L36 2LE
+    Town: LIVERPOOL
+LastChangeDate:
+  value: '2021-06-02'
+Name: TWIGG LANE CLINIC
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RTV61
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RTV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '61637'
+    id: RE6
+    uniqueRelId: '56788'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2021-05-31'
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2002-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '117794'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2002-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RER37
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '36935'
+    Type: Predecessor
+    uniqueSuccId: '9820'
+metadata:
+  org_id: RTV61
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,103 @@
+Date:
+  Start:
+    value: '2008-11-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTON ROAD
+    Country: ENGLAND
+    County: STAFFORDSHIRE
+    PostCode: ST16 3TF
+    Town: STAFFORD
+    UPRN: '100031787016'
+LastChangeDate:
+  value: '2021-11-01'
+Name: WESTON HOUSE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: VLMNT
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 05V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161338'
+    id: RE5
+    uniqueRelId: '434482'
+  - Date:
+      End:
+        value: '2018-01-31'
+      Start:
+        value: '2008-11-25'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A6F3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '240090'
+    id: RE6
+    uniqueRelId: '434483'
+  - Date:
+      Start:
+        value: '2018-02-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AMX2
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO104
+        uniqueRoleId: '347407'
+    id: RE6
+    uniqueRelId: '593911'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2008-11-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO101
+    primaryRole: 'true'
+    uniqueRoleId: '270024'
+  - Date:
+      Start:
+        value: '2008-11-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO269
+    uniqueRoleId: '320178'
+Status:
+  value: Active
+metadata:
+  org_id: VLMNT
+  role_id: RO101
+  status: Active
+orgRecordClass: RC1

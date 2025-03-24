@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01793 539701
+Date:
+- Start:
+    value: '2024-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-09-18'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: DUNWICH DRIVE
+    AddrLn2: TOOTHILL
+    Country: ENGLAND
+    PostCode: SN5 8SX
+    Town: SWINDON
+    UPRN: '10022785769'
+LastChangeDate:
+  value: '2024-09-20'
+Name: WELLHUB PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FVP31
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300820'
+    id: RE4
+    uniqueRelId: '851914'
+  - Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: C1R7I
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '531043'
+    id: RE6
+    uniqueRelId: '851915'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-09-18'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '531048'
+Status:
+  value: Active
+metadata:
+  org_id: FVP31
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01142 398370
+Date:
+- Start:
+    value: '2023-06-26'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-05-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 555 EAST BANK ROAD
+    Country: ENGLAND
+    County: SOUTH YORKSHIRE
+    PostCode: S2 2AG
+    Town: SHEFFIELD
+LastChangeDate:
+  value: '2023-05-31'
+Name: EAST BANK PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FP092
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-06-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P296
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '93753'
+    id: RE6
+    uniqueRelId: '826472'
+  - Date:
+    - Start:
+        value: '2023-06-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QF7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300744'
+    id: RE4
+    uniqueRelId: '826471'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-06-26'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-05-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '504936'
+Status:
+  value: Active
+metadata:
+  org_id: FP092
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

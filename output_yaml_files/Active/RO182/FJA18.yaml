@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01252 626580
+Date:
+- Start:
+    value: '2023-10-14'
+  Type:
+    value: Legal
+- Start:
+    value: '2023-09-20'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: BRANKSOMEWOOD HEALTHCARE
+    AddrLn2: BRANKSOMEWOOD ROAD
+    Country: ENGLAND
+    PostCode: GU51 4JX
+    Town: FLEET
+    UPRN: '100062325035'
+LastChangeDate:
+  value: '2024-02-28'
+Name: BRANKSOMEWOOD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FJA18
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2023-10-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QNQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300807'
+    id: RE4
+    uniqueRelId: '832357'
+  - Date:
+    - Start:
+        value: '2023-10-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: M7S2I
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '510764'
+    id: RE6
+    uniqueRelId: '832358'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2023-10-14'
+      Type:
+        value: Legal
+    - Start:
+        value: '2023-09-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '510830'
+Status:
+  value: Active
+metadata:
+  org_id: FJA18
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

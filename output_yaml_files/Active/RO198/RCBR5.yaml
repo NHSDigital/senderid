@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2012-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ALFRED BEAN HOSPITAL
+    AddrLn2: BRIDLINGTON ROAD
+    Country: ENGLAND
+    County: NORTH HUMBERSIDE
+    PostCode: YO25 5JR
+    Town: DRIFFIELD
+LastChangeDate:
+  value: '2024-04-02'
+Name: COLORECTAL CLINIC (ABH)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RCBR5
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RCB
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '48495'
+    id: RE6
+    uniqueRelId: '185019'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '162824'
+  - Date:
+      Start:
+        value: '2012-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '162825'
+Status:
+  value: Active
+metadata:
+  org_id: RCBR5
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

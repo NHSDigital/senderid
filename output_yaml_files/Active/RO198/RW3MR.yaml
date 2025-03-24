@@ -1,0 +1,93 @@
+Date:
+- End:
+    value: '2017-09-30'
+  Start:
+    value: '2003-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2003-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: OXFORD ROAD
+    Country: ENGLAND
+    County: GREATER MANCHESTER
+    PostCode: M13 9WL
+    Town: MANCHESTER
+    UPRN: '77118466'
+LastChangeDate:
+  value: '2021-02-04'
+Name: MANCHESTER ROYAL INFIRMARY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RW3MR
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2017-09-30'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW3
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133849'
+    id: RE6
+    uniqueRelId: '91884'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2017-09-30'
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2003-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '55852'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2003-04-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RW301
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '97253'
+    Type: Predecessor
+    uniqueSuccId: '16045'
+metadata:
+  org_id: RW3MR
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 07355 021474
+Date:
+  Start:
+    value: '2023-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COLCHESTER HOSPITAL
+    AddrLn2: TURNER ROAD
+    Country: ENGLAND
+    PostCode: CO4 5JL
+    Town: COLCHESTER
+    UPRN: '100091645367'
+LastChangeDate:
+  value: '2023-06-23'
+Name: NORTH EAST ESSEX VIRTUAL WARD
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07969
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2023-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RDE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '118212'
+    id: RE6
+    uniqueRelId: '827846'
+  - Date:
+      Start:
+        value: '2023-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 06T
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161355'
+    id: RE4
+    uniqueRelId: '827845'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '506345'
+  - Date:
+      Start:
+        value: '2023-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO250
+    uniqueRoleId: '506346'
+Status:
+  value: Active
+metadata:
+  org_id: Y07969
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

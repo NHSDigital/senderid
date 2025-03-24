@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 75196187
+Date:
+  Start:
+    value: '2009-08-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 45 BANK STREET
+    AddrLn2: CANARY WHARF
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E14 5NY
+    Town: LONDON
+    UPRN: '6145771'
+LastChangeDate:
+  value: '2024-01-09'
+Name: BOOTS
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FQV39
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2009-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P08F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '115504'
+    id: RE6
+    uniqueRelId: '325163'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '325164'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE4
+    uniqueRelId: '655270'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2009-08-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '224680'
+Status:
+  value: Active
+metadata:
+  org_id: FQV39
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

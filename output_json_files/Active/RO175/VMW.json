@@ -1,0 +1,171 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HMP STOCKEN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VMW"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "STOCKEN HALL ROAD",
+            "AddrLn2": "STRETTON",
+            "Town": "OAKHAM",
+            "County": "RUTLAND",
+            "PostCode": "LE15 7RD",
+            "Country": "ENGLAND",
+            "UPRN": "10008626900"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO175",
+            "uniqueRoleId": "202679",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "292097",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2014-10-01"
+                        },
+                        "End": {
+                            "value": "2015-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2014-10-01"
+                        },
+                        "End": {
+                            "value": "2016-07-13"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "13A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "163864"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "662461",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230513"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "378581",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2015-04-01"
+                        },
+                        "End": {
+                            "value": "2020-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2016-07-14"
+                        },
+                        "End": {
+                            "value": "2020-03-31"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230517"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "VMW",
+        "status": "Active",
+        "role_id": "RO175"
+    }
+}

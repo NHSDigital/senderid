@@ -1,0 +1,106 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02083 351830
+Date:
+- Start:
+    value: '2021-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-17'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 38 STATION ROAD
+    Country: ENGLAND
+    PostCode: RG40 2AE
+    Town: WOKINGHAM
+LastChangeDate:
+  value: '2021-03-18'
+Name: CRANSTOUN WOKINGHAM
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07006
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DLA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '297257'
+    id: RE6
+    uniqueRelId: '726697'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297746'
+    id: RE4
+    uniqueRelId: '726698'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '412326'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-17'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '412327'
+Status:
+  value: Active
+metadata:
+  org_id: Y07006
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,107 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01765 689252
+Date:
+- Start:
+    value: '2015-10-12'
+  Type:
+    value: Legal
+- Start:
+    value: '2015-10-07'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 11 MARKET PLACE
+    AddrLn2: MASHAM
+    Country: ENGLAND
+    County: NORTH YORKSHIRE
+    PostCode: HG4 4DZ
+    Town: RIPON
+    UPRN: '100052010417'
+LastChangeDate:
+  value: '2022-11-16'
+Name: DAY LEWIS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FPT42
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P05F
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '94690'
+    id: RE6
+    uniqueRelId: '444788'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE4
+    uniqueRelId: '444789'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE4
+    uniqueRelId: '712099'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2015-10-12'
+      Type:
+        value: Legal
+    - Start:
+        value: '2015-10-07'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '275240'
+Status:
+  value: Active
+metadata:
+  org_id: FPT42
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,94 @@
+Date:
+- End:
+    value: '2013-03-31'
+  Start:
+    value: '2006-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2006-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: REFERENCE CENTRE
+    AddrLn2: COMPASS HOUSE
+    AddrLn3: CHIVERS WAY, HISTON
+    Country: ENGLAND
+    County: CAMBRIDGESHIRE
+    PostCode: CB4 9AD
+    Town: CAMBRIDGE
+LastChangeDate:
+  value: '2013-03-28'
+Name: EAST OF ENGLAND BREAST AND CERVICAL SCREENING
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 5PP89
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5PP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO179
+        uniqueRoleId: '124256'
+    id: RE6
+    uniqueRelId: '180772'
+Roles:
+  Role:
+    Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2006-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO180
+    primaryRole: 'true'
+    uniqueRoleId: '43369'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-10-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 5GF08
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO180
+        uniqueRoleId: '57053'
+    Type: Predecessor
+    uniqueSuccId: '34797'
+metadata:
+  org_id: 5PP89
+  role_id: RO180
+  status: Active
+orgRecordClass: RC2

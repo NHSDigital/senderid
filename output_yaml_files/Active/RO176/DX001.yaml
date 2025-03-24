@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2018-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: UNIT A 56 POSTBRIDGE ROAD
+    Country: ENGLAND
+    PostCode: CV3 5AF
+    Town: COVENTRY
+    UPRN: '100070689540'
+LastChangeDate:
+  value: '2020-04-05'
+Name: COVENTRY HEALTH & TRAVEL CLINIC (STIVICHALL)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DX001
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '564186'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWU
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300764'
+    id: RE5
+    uniqueRelId: '681964'
+  - Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DX0
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '343236'
+    id: RE6
+    uniqueRelId: '564187'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '343237'
+Status:
+  value: Active
+metadata:
+  org_id: DX001
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

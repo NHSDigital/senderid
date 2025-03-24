@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01563 545545
+Date:
+  Start:
+    value: '2021-11-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: AYR HOSPITAL
+    AddrLn2: DALMELLINGTON ROAD
+    Country: SCOTLAND
+    PostCode: KA6 6DX
+    Town: AYR
+    UPRN: '141040974'
+LastChangeDate:
+  value: '2023-05-16'
+Name: AUCS AYR
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S81051
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2021-11-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SA9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487555'
+    id: RE5
+    uniqueRelId: '826014'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2021-11-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '504583'
+  - Date:
+      Start:
+        value: '2021-11-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '504582'
+Status:
+  value: Active
+metadata:
+  org_id: S81051
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

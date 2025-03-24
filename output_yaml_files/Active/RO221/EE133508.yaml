@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01603 250725
+Date:
+  Start:
+    value: '2001-11-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: GREENWOOD CENTRE
+    AddrLn2: ALLANDALE ROAD
+    Country: ENGLAND
+    PostCode: NR4 6BP
+    Town: NORWICH
+LastChangeDate:
+  value: '2023-02-22'
+Name: VISITING TEACHER SERVICE CENTRAL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE133508
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2001-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '607'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78164'
+    id: RE5
+    uniqueRelId: '765021'
+  - Date:
+    - Start:
+        value: '2020-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2019-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 26A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '386489'
+    id: RE5
+    uniqueRelId: '765020'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2001-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '440967'
+  - Date:
+      Start:
+        value: '2001-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO296
+    uniqueRoleId: '440968'
+Status:
+  value: Active
+metadata:
+  org_id: EE133508
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

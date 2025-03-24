@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HIGH STREET
+    AddrLn2: PELSALL
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: WS3 4LX
+    Town: WALSALL
+LastChangeDate:
+  value: '2020-04-04'
+Name: PELSALL VILLAGE HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AVA02
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q77
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202021'
+    id: RE5
+    uniqueRelId: '446492'
+  - Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AVA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '276507'
+    id: RE6
+    uniqueRelId: '446493'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QUA
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300760'
+    id: RE5
+    uniqueRelId: '680015'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '276509'
+Status:
+  value: Active
+metadata:
+  org_id: AVA02
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

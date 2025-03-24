@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01236 441085
+Date:
+  Start:
+    value: '2006-11-06'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: COATHILL HOSPITAL
+    AddrLn2: HOSPITAL STREET
+    Country: SCOTLAND
+    County: LANARKSHIRE
+    PostCode: ML5 4DN
+    Town: COATBRIDGE
+LastChangeDate:
+  value: '2022-08-24'
+Name: COMMUNITY PRESCRIBING SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S65908
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SL9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487560'
+    id: RE5
+    uniqueRelId: '811606'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2006-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '489234'
+  - Date:
+      Start:
+        value: '2006-11-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '178320'
+Status:
+  value: Active
+metadata:
+  org_id: S65908
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

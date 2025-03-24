@@ -1,0 +1,110 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CRI YOUNG PERSONS CLINIC (FAMILY PLANNING CLINIC)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "7A454"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "CARDIFF ROYAL INFIRMARY",
+            "AddrLn2": "NEWPORT ROAD",
+            "Town": "CARDIFF",
+            "County": "SOUTH GLAMORGAN",
+            "PostCode": "CF24 0SZ",
+            "Country": "WALES",
+            "UPRN": "100100895783"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO148",
+            "uniqueRoleId": "84129",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "20213",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "7A4"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO142",
+                    "uniqueRoleId": "40385"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "21569",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RWM54"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "122550"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "7A454",
+        "status": "Active",
+        "role_id": "RO148"
+    }
+}

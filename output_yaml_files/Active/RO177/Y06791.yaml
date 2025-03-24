@@ -1,0 +1,70 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01624 811800
+Date:
+  Start:
+    value: '2020-05-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: RDCH
+    Country: ISLE OF MAN
+    County: ISLE OF MAN
+    PostCode: IM8 3RH
+    Town: CUMBERLAND ROAD
+LastChangeDate:
+  value: '2020-06-04'
+Name: MINOR INJURIES UNIT RDCH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y06791
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: YAC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO126
+        uniqueRoleId: '100803'
+    id: RE5
+    uniqueRelId: '712958'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '395731'
+  - Date:
+      Start:
+        value: '2020-05-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '395730'
+Status:
+  value: Active
+metadata:
+  org_id: Y06791
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

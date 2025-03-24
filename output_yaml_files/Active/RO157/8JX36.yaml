@@ -1,0 +1,80 @@
+Contacts:
+  Contact:
+    type: http
+    value: HTTP://WWW.AGEUK.ORG.UK/EASTLONDON/
+Date:
+  Start:
+    value: '2018-03-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 82 RUSSIA LANE
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: E2 9LU
+    Town: LONDON
+LastChangeDate:
+  value: '2020-04-06'
+Name: AGE UK EAST LONDON
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: 8JX36
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE5
+    uniqueRelId: '534043'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMF
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300832'
+    id: RE5
+    uniqueRelId: '697965'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-03-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO157
+    primaryRole: 'true'
+    uniqueRoleId: '301235'
+Status:
+  value: Active
+metadata:
+  org_id: 8JX36
+  role_id: RO157
+  status: Active
+orgRecordClass: RC1

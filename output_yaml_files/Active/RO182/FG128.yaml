@@ -1,0 +1,92 @@
+Date:
+- Start:
+    value: '2021-10-11'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-09-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: THE PHARMACY UNIT
+    AddrLn2: STATION MEDICAL CENTRE
+    AddrLn3: STATION APPROACH
+    Country: ENGLAND
+    PostCode: HR1 1BB
+    Town: HEREFORD
+    UPRN: '10094977690'
+LastChangeDate:
+  value: '2021-09-30'
+Name: HEREFORD PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FG128
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2021-10-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QGH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300766'
+    id: RE4
+    uniqueRelId: '797727'
+  - Date:
+    - Start:
+        value: '2021-10-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: H5P3J
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '474686'
+    id: RE6
+    uniqueRelId: '797726'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2021-10-11'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-09-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '474690'
+Status:
+  value: Active
+metadata:
+  org_id: FG128
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,157 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 0300 3651234
+Date:
+  Start:
+    value: '2015-06-25'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WESTCALL
+    AddrLn2: 45-47 PEACH STREET
+    Country: ENGLAND
+    County: BERKSHIRE
+    PostCode: RG40 1XJ
+    Town: WOKINGHAM
+    UPRN: '10032928616'
+LastChangeDate:
+  value: '2023-08-22'
+Name: HOSPITAL AT HOME
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05084
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2018-05-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWX
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '101218'
+    id: RE6
+    uniqueRelId: '554404'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161517'
+    id: RE4
+    uniqueRelId: '385071'
+  - Date:
+      End:
+        value: '2018-03-31'
+      Start:
+        value: '2015-06-25'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 11D
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161517'
+    id: RE6
+    uniqueRelId: '461942'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297746'
+    id: RE4
+    uniqueRelId: '540712'
+  - Date:
+      End:
+        value: '2018-05-01'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 15A
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '297746'
+    id: RE6
+    uniqueRelId: '540713'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2016-04-19'
+      Start:
+        value: '2015-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '233040'
+  - Date:
+      Start:
+        value: '2015-06-25'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '233041'
+  - Date:
+      Start:
+        value: '2016-04-20'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '281443'
+Status:
+  value: Active
+metadata:
+  org_id: Y05084
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

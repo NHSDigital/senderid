@@ -1,0 +1,75 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 WYCH ELM
+    Country: ENGLAND
+    County: ESSEX
+    PostCode: CM20 1QP
+    Town: HARLOW
+    UPRN: '10003708239'
+LastChangeDate:
+  value: '2021-02-05'
+Name: HARLOW AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RYC73
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RYC
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109851'
+    id: RE6
+    uniqueRelId: '87226'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '98071'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RB424
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '58911'
+    Type: Predecessor
+    uniqueSuccId: '17335'
+metadata:
+  org_id: RYC73
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

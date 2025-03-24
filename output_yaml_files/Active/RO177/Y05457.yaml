@@ -1,0 +1,88 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01253 951400
+Date:
+  Start:
+    value: '2016-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LYTHAM PRIMARY CARE CTR
+    AddrLn2: VICTORIA STREET
+    Country: ENGLAND
+    County: LANCASHIRE
+    PostCode: FY8 5DZ
+    Town: LYTHAM ST. ANNES
+LastChangeDate:
+  value: '2023-08-22'
+Name: EXTENSIVE CARE SERVICE FYLDE AND WYRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05457
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-07-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161454'
+    id: RE4
+    uniqueRelId: '510743'
+  - Date:
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 02M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161454'
+    id: RE6
+    uniqueRelId: '510744'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2016-07-06'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '284248'
+  - Date:
+      Start:
+        value: '2016-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '284249'
+Status:
+  value: Active
+metadata:
+  org_id: Y05457
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

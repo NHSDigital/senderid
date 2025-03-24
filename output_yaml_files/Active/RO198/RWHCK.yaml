@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2023-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HERTFORD COUNTY HOSPITAL
+    AddrLn2: NORTH ROAD
+    Country: ENGLAND
+    PostCode: SG14 1LP
+    Town: HERTFORD
+    UPRN: '200001053208'
+LastChangeDate:
+  value: '2024-04-02'
+Name: OPHTHALMOLOGY/H
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RWHCK
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RWH
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '133402'
+    id: RE6
+    uniqueRelId: '821781'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO31
+    uniqueRoleId: '500716'
+  - Date:
+      Start:
+        value: '2023-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '500717'
+Status:
+  value: Active
+metadata:
+  org_id: RWHCK
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

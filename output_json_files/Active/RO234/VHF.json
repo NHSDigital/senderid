@@ -1,0 +1,100 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SKEGNESS CUSTODY CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2014-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "VHF"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2025-01-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "PARK AVENUE",
+            "Town": "SKEGNESS",
+            "PostCode": "PE25 1BL",
+            "Country": "ENGLAND",
+            "UPRN": "10095415724"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO229",
+                "uniqueRoleId": "229431",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO234",
+                "uniqueRoleId": "229432",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2014-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "334848",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2014-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "VAL"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO233",
+                    "uniqueRoleId": "199108"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "VHF",
+        "status": "Active",
+        "role_id": "RO234"
+    }
+}

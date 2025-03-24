@@ -1,0 +1,123 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PEMBROKESHIRE UA",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1996-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "028"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-09-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "COUNTY HALL",
+            "AddrLn2": "FREEMENS WAY",
+            "Town": "HAVERFORDWEST",
+            "PostCode": "SA61 1TP",
+            "Country": "WALES",
+            "UPRN": "200002959854"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO40",
+                "uniqueRoleId": "174373",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO141",
+                "uniqueRoleId": "23502",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "31849",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "002"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "57127"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37109",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "V415"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO119",
+                        "uniqueRoleId": "113187"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "028",
+        "status": "Active",
+        "role_id": "RO141"
+    }
+}

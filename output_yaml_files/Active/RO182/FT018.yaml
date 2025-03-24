@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 020 82991103
+Date:
+  Start:
+    value: '2006-04-02'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 104 GROVE VALE
+    AddrLn2: EAST DULWICH
+    Country: ENGLAND
+    County: GREATER LONDON
+    PostCode: SE22 8DR
+    Town: LONDON
+    UPRN: '200003440987'
+LastChangeDate:
+  value: '2021-02-11'
+Name: VALE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FT018
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2006-04-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P0MY
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '21158'
+    id: RE6
+    uniqueRelId: '326941'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q71
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '168379'
+    id: RE4
+    uniqueRelId: '326942'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QKK
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300799'
+    id: RE4
+    uniqueRelId: '655882'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-04-02'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '225569'
+Status:
+  value: Active
+metadata:
+  org_id: FT018
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

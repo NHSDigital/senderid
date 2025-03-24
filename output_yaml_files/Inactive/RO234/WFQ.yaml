@@ -1,0 +1,74 @@
+Date:
+  End:
+    value: '2024-12-31'
+  Start:
+    value: '2014-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: JOHN STREET
+    Country: ENGLAND
+    County: WEST MIDLANDS
+    PostCode: WV13 1PJ
+    Town: WILLENHALL
+LastChangeDate:
+  value: '2025-02-13'
+Name: WILLENHALL CUSTODY CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: WFQ
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      End:
+        value: '2024-12-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: VPT
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO233
+        uniqueRoleId: '229398'
+    id: RE6
+    uniqueRelId: '334831'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2024-12-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO229
+    uniqueRoleId: '202677'
+  - Date:
+      End:
+        value: '2024-12-31'
+      Start:
+        value: '2014-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO234
+    primaryRole: 'true'
+    uniqueRoleId: '202678'
+Status:
+  value: Inactive
+metadata:
+  org_id: WFQ
+  role_id: RO234
+  status: Inactive
+orgRecordClass: RC1

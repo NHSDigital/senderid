@@ -1,0 +1,153 @@
+Date:
+  Start:
+    value: '2008-06-12'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HALTON GENERAL HOSPITAL
+    AddrLn2: HOSPITAL WAY
+    Country: ENGLAND
+    County: CHESHIRE
+    PostCode: WA7 2DA
+    Town: RUNCORN
+LastChangeDate:
+  value: '2020-04-03'
+Name: HALTON DIALYSIS UNIT
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NTM13
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2008-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NTM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '132239'
+    id: RE6
+    uniqueRelId: '37172'
+  - Date:
+    - End:
+        value: '2013-03-31'
+      Start:
+        value: '2008-06-12'
+      Type:
+        value: Legal
+    - End:
+        value: '2014-03-17'
+      Start:
+        value: '2008-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q31
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO132
+        uniqueRoleId: '136455'
+    id: RE5
+    uniqueRelId: '85229'
+  - Date:
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2013-04-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2015-03-31'
+      Start:
+        value: '2014-03-18'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q48
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '163543'
+    id: RE5
+    uniqueRelId: '194827'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q75
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202017'
+    id: RE5
+    uniqueRelId: '350369'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QYG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300742'
+    id: RE5
+    uniqueRelId: '664487'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2008-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO15
+    uniqueRoleId: '152802'
+  - Date:
+      Start:
+        value: '2008-06-12'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '103937'
+Status:
+  value: Active
+metadata:
+  org_id: NTM13
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

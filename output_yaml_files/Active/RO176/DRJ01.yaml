@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2018-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ORCHARD MEDICAL PRACTICE
+    AddrLn2: ORCHARD STREET
+    Country: ENGLAND
+    County: SUFFOLK
+    PostCode: IP4 2PZ
+    Town: IPSWICH
+LastChangeDate:
+  value: '2020-04-05'
+Name: IPSWICH PRIMARY CARE (IPC)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: DRJ01
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '557212'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QJG
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300784'
+    id: RE5
+    uniqueRelId: '689350'
+  - Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: DRJ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '305391'
+    id: RE6
+    uniqueRelId: '557213'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2018-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '305392'
+Status:
+  value: Active
+metadata:
+  org_id: DRJ01
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

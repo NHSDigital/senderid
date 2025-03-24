@@ -1,0 +1,91 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01384 818275
+Date:
+  Start:
+    value: '1900-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: ROBERT STREET
+    Country: ENGLAND
+    PostCode: DY3 2AZ
+    Town: DUDLEY
+    UPRN: '90155937'
+LastChangeDate:
+  value: '2022-12-21'
+Name: ROBERTS PRIMARY SCHOOL
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: EE103821
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '1980-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: '408'
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO141
+        uniqueRoleId: '78148'
+    id: RE5
+    uniqueRelId: '743206'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2020-10-23'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE5
+    uniqueRelId: '743205'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1900-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO221
+    primaryRole: 'true'
+    uniqueRoleId: '419029'
+  - Date:
+      Start:
+        value: '1900-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO281
+    uniqueRoleId: '419030'
+Status:
+  value: Active
+metadata:
+  org_id: EE103821
+  role_id: RO221
+  status: Active
+orgRecordClass: RC1

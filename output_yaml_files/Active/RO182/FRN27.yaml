@@ -1,0 +1,94 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01202 554923
+Date:
+- Start:
+    value: '2025-01-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-12-11'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 5 HOLDENHURST ROAD
+    Country: ENGLAND
+    PostCode: BH8 8EH
+    Town: BOURNEMOUTH
+    UPRN: '10013447459'
+LastChangeDate:
+  value: '2024-12-12'
+Name: LANSDOWNE PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FRN27
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QVV
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300822'
+    id: RE4
+    uniqueRelId: '856306'
+  - Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: P3G6M
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '535649'
+    id: RE6
+    uniqueRelId: '856307'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-01-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-12-11'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '535656'
+Status:
+  value: Active
+metadata:
+  org_id: FRN27
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

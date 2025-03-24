@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2006-07-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HELBECK ROAD
+    AddrLn2: BROUGH
+    Country: ENGLAND
+    County: CUMBRIA
+    PostCode: CA17 4BQ
+    Town: KIRKBY STEPHEN
+    UPRN: '10070531291'
+LastChangeDate:
+  value: '2021-07-21'
+Name: BROUGH AMBULANCE STATION
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: RX784
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RX7
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO197
+        uniqueRoleId: '109850'
+    id: RE6
+    uniqueRelId: '86855'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO198
+    primaryRole: 'true'
+    uniqueRoleId: '30813'
+Status:
+  value: Active
+Succs:
+  Succ:
+    Date:
+      Start:
+        value: '2006-07-01'
+      Type:
+        value: Legal
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: RE6L6
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO198
+        uniqueRoleId: '29247'
+    Type: Predecessor
+    uniqueSuccId: '3655'
+metadata:
+  org_id: RX784
+  role_id: RO198
+  status: Active
+orgRecordClass: RC2

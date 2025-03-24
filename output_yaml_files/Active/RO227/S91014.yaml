@@ -1,0 +1,70 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01289 333240
+Date:
+  Start:
+    value: '1901-01-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: WELL CLOSE SQUARE
+    Country: SCOTLAND
+    PostCode: TD15 1LL
+    Town: BERWICK-UPON-TWEED
+    UPRN: '10034173015'
+LastChangeDate:
+  value: '2023-05-16'
+Name: WELL CLOSE MEDICAL GROUP
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S91014
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2023-03-24'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SB9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487556'
+    id: RE5
+    uniqueRelId: '826052'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1974-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO72
+    uniqueRoleId: '504614'
+  - Date:
+      Start:
+        value: '1901-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '504613'
+Status:
+  value: Active
+metadata:
+  org_id: S91014
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,138 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 02077 297236
+Date:
+- Start:
+    value: '2022-10-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2022-09-28'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CH CONFEDERATION NHS NEL
+    AddrLn2: 85 NUTTALL STREET
+    Country: ENGLAND
+    PostCode: N1 5HZ
+    Town: LONDON
+    UPRN: '100023135461'
+LastChangeDate:
+  value: '2024-04-01'
+Name: HACKNEY MARSHES PCN CH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07569
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE4
+    uniqueRelId: '813644'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A3A8R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400447'
+    id: RE6
+    uniqueRelId: '813645'
+  - Date:
+      Start:
+        value: '2024-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: A7V7E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '521950'
+    id: RE11
+    uniqueRelId: '843800'
+Roles:
+  Role:
+  - Date:
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '491352'
+  - Date:
+    - Start:
+        value: '2022-10-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2022-09-28'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '491351'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511628'
+Status:
+  value: Active
+metadata:
+  org_id: Y07569
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,99 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01902 761629
+Date:
+  Start:
+    value: '2022-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CASTLECROFT MEDICAL CENTRE
+    AddrLn2: CASTLECROFT AVENUE
+    Country: ENGLAND
+    PostCode: WV3 8JN
+    Town: WOLVERHAMPTON
+    UPRN: '10033913985'
+LastChangeDate:
+  value: '2023-10-04'
+Name: WOLVERHAMPTON UNITY WEST PCN HUB
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07763
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE4
+    uniqueRelId: '816165'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D2P2L
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400451'
+    id: RE6
+    uniqueRelId: '816166'
+Roles:
+  Role:
+  - Date:
+      End:
+        value: '2023-10-03'
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    id: RO72
+    uniqueRoleId: '494019'
+  - Date:
+      Start:
+        value: '2022-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '494018'
+  - Date:
+      Start:
+        value: '2023-10-04'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO321
+    uniqueRoleId: '511765'
+Status:
+  value: Active
+metadata:
+  org_id: Y07763
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

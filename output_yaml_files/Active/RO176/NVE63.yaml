@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2015-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: PARK LANE
+    Country: ENGLAND
+    County: NORFOLK
+    PostCode: NR28 0BQ
+    Town: NORTH WALSHAM
+LastChangeDate:
+  value: '2020-04-05'
+Name: BIRCHWOOD MEDICAL PRACTICE OOH
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NVE63
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NVE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '111695'
+    id: RE6
+    uniqueRelId: '385958'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q79
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202023'
+    id: RE5
+    uniqueRelId: '385959'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QMM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300781'
+    id: RE5
+    uniqueRelId: '691801'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '233730'
+Status:
+  value: Active
+metadata:
+  org_id: NVE63
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

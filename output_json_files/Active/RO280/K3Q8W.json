@@ -1,0 +1,132 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "OAKHAM ENTERPRISE PARK (MR PICKFORD'S PHARMACY) - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "K3Q8W"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-03-11"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "18A OAKHAM ENTERPRISE PARK",
+            "AddrLn2": "ASHWELL ROAD",
+            "Town": "OAKHAM",
+            "PostCode": "LE15 7TU",
+            "Country": "ENGLAND",
+            "UPRN": "10023898476"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO279",
+                "uniqueRoleId": "472382",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO280",
+                "uniqueRoleId": "472381",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "803785",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    },
+                    "End": {
+                        "value": "2021-05-03"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FLE60"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "221142"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "803786",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-05-04"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "FD852"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO182",
+                        "uniqueRoleId": "412646"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "K3Q8W",
+        "status": "Active",
+        "role_id": "RO280"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "MERRIDALE MEDICAL CENTRE - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "K2R8G"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "5 FULLHURST AVENUE",
+            "Town": "LEICESTER",
+            "County": "LEICESTERSHIRE",
+            "PostCode": "LE3 1BL",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO96",
+                "uniqueRoleId": "404416",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "404417",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "794020",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-08-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "C82073"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "126941"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "721120",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    },
+                    "End": {
+                        "value": "2021-07-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "C82114"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "126976"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "K2R8G",
+        "status": "Active",
+        "role_id": "RO96"
+    }
+}

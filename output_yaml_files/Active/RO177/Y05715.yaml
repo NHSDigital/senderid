@@ -1,0 +1,105 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01744 819101
+Date:
+- Start:
+    value: '2017-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2017-03-22'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: HORTON LODGE
+    AddrLn2: ST HELENS HOSPITAL
+    AddrLn3: MARSHALLS CROSS ROAD
+    Country: ENGLAND
+    PostCode: WA9 3DA
+    Town: ST. HELENS
+    UPRN: '39089379'
+LastChangeDate:
+  value: '2023-08-22'
+Name: ST HELENS OUT OF HOSPITAL SERVICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y05715
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE4
+    uniqueRelId: '519351'
+  - Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 01X
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '161443'
+    id: RE6
+    uniqueRelId: '519352'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '290589'
+  - Date:
+    - Start:
+        value: '2017-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2017-03-22'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO247
+    uniqueRoleId: '290590'
+Status:
+  value: Active
+metadata:
+  org_id: Y05715
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

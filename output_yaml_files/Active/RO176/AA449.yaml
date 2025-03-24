@@ -1,0 +1,94 @@
+Date:
+  Start:
+    value: '2015-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: CONCORD
+    AddrLn2: VICTORIA ROAD
+    Country: ENGLAND
+    County: TYNE AND WEAR
+    PostCode: NE37 2PU
+    Town: WASHINGTON
+LastChangeDate:
+  value: '2020-04-03'
+Name: VICTORIA ROAD HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: AA449
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: AA4
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '170694'
+    id: RE6
+    uniqueRelId: '446802'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q74
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202016'
+    id: RE5
+    uniqueRelId: '446803'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QHM
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '303773'
+    id: RE5
+    uniqueRelId: '662715'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2015-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '276739'
+Status:
+  value: Active
+metadata:
+  org_id: AA449
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

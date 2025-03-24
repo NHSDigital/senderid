@@ -1,0 +1,183 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ROEBUCK SURGERY",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2010-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2006-10-01"
+            },
+            "End": {
+                "value": "2022-09-30"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "5P3H5"
+    },
+    "Status": {
+        "value": "Inactive"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "114 BROADWATER CRESCENT",
+            "Town": "STEVENAGE",
+            "County": "HERTFORDSHIRE",
+            "PostCode": "SG2 8HW",
+            "Country": "ENGLAND",
+            "UPRN": "100081254354"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO180",
+            "uniqueRoleId": "117579",
+            "primaryRole": "true",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2010-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "179961",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2010-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    },
+                    "End": {
+                        "value": "2022-09-30"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Inactive"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "5P3"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO179",
+                    "uniqueRoleId": "119675"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "36604",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2010-04-01"
+                    }
+                },
+                "Type": "Successor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5QV98"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "132156"
+                    }
+                }
+            },
+            {
+                "forwardSuccession": "true",
+                "uniqueSuccId": "3769",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2006-10-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "5GH05"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO180",
+                        "uniqueRoleId": "43454"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "5P3H5",
+        "status": "Inactive",
+        "role_id": "RO180"
+    }
+}

@@ -1,0 +1,93 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01772 256757
+Date:
+- Start:
+    value: '2025-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2025-01-29'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: MOOR PARK AVENUE
+    Country: ENGLAND
+    PostCode: PR1 6AS
+    Town: PRESTON
+LastChangeDate:
+  value: '2025-02-05'
+Name: HBS PHARMACY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FT751
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QE1
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300734'
+    id: RE4
+    uniqueRelId: '857584'
+  - Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: O7J9R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '536813'
+    id: RE6
+    uniqueRelId: '857585'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2025-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2025-01-29'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '536836'
+Status:
+  value: Active
+metadata:
+  org_id: FT751
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

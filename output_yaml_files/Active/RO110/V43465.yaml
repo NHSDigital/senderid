@@ -1,0 +1,76 @@
+Date:
+  Start:
+    value: '2017-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: EWELL ROAD
+    Country: ENGLAND
+    PostCode: KT6 6EZ
+    Town: SURBITON
+    UPRN: '128042268'
+LastChangeDate:
+  value: '2020-07-09'
+Name: SURBITON HEALTH CENTRE (OAKFIELD)
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: V43465
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: 13R
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '168380'
+    id: RE4
+    uniqueRelId: '572146'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QWE
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300801'
+    id: RE4
+    uniqueRelId: '714320'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2017-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO110
+    primaryRole: 'true'
+    uniqueRoleId: '346565'
+Status:
+  value: Active
+metadata:
+  org_id: V43465
+  role_id: RO110
+  status: Active
+orgRecordClass: RC1

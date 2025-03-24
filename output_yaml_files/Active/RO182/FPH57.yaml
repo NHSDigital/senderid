@@ -1,0 +1,95 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01491 652392
+Date:
+- Start:
+    value: '2024-02-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2024-01-03'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: 1 THE POUND
+    AddrLn2: CHOLSEY
+    Country: ENGLAND
+    PostCode: OX10 9NS
+    Town: WALLINGFORD
+    UPRN: '100121302533'
+LastChangeDate:
+  value: '2024-01-04'
+Name: ALLIED PHARMACY CHOLSEY
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: FPH57
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+    - Start:
+        value: '2024-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QU9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300828'
+    id: RE4
+    uniqueRelId: '837185'
+  - Date:
+    - Start:
+        value: '2024-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: F9E9E
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO181
+        uniqueRoleId: '516937'
+    id: RE6
+    uniqueRelId: '837186'
+Roles:
+  Role:
+    Date:
+    - Start:
+        value: '2024-02-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2024-01-03'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO182
+    primaryRole: 'true'
+    uniqueRoleId: '516950'
+Status:
+  value: Active
+metadata:
+  org_id: FPH57
+  role_id: RO182
+  status: Active
+orgRecordClass: RC1

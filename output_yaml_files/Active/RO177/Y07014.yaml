@@ -1,0 +1,161 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01256 489271
+Date:
+- Start:
+    value: '2021-04-01'
+  Type:
+    value: Legal
+- Start:
+    value: '2021-03-31'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SHAKESPEARE HOUSE HEALTH CENTRE
+    AddrLn2: SHAKESPEARE ROAD
+    AddrLn3: POPLEY
+    Country: ENGLAND
+    PostCode: RG24 9DT
+    Town: BASINGSTOKE
+LastChangeDate:
+  value: '2023-08-22'
+Name: SHAKESPEARE ROAD MEDICAL PRACTICE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: Y07014
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      End:
+        value: '2022-09-30'
+      Start:
+        value: '2021-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U64232
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '388613'
+    id: RE8
+    uniqueRelId: '812238'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE6
+    uniqueRelId: '728025'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: D9Y0V
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO98
+        uniqueRoleId: '400444'
+    id: RE4
+    uniqueRelId: '728026'
+  - Date:
+      Start:
+        value: '2023-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U15814
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '495187'
+    id: RE8
+    uniqueRelId: '817237'
+  - Date:
+      Start:
+        value: '2023-01-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: U15814
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO272
+        uniqueRoleId: '495187'
+    id: RE9
+    uniqueRelId: '817238'
+Roles:
+  Role:
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '412661'
+  - Date:
+    - Start:
+        value: '2021-04-01'
+      Type:
+        value: Legal
+    - Start:
+        value: '2021-03-31'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO177
+    primaryRole: 'true'
+    uniqueRoleId: '412660'
+Status:
+  value: Active
+metadata:
+  org_id: Y07014
+  role_id: RO177
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,71 @@
+Contacts:
+  Contact:
+    type: tel
+    value: 01806 566219
+Date:
+  Start:
+    value: '1971-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: SYMBISTER
+    Country: SCOTLAND
+    County: SHETLAND
+    PostCode: ZE2 9AE
+    Town: WHALSAY
+    UPRN: '30100008713'
+LastChangeDate:
+  value: '2023-01-13'
+Name: WHALSAY HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: S39020
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2005-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: SZ9
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO190
+        uniqueRoleId: '487568'
+    id: RE5
+    uniqueRelId: '811242'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '1974-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO76
+    uniqueRoleId: '488870'
+  - Date:
+      Start:
+        value: '1971-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO227
+    primaryRole: 'true'
+    uniqueRoleId: '177418'
+Status:
+  value: Active
+metadata:
+  org_id: S39020
+  role_id: RO227
+  status: Active
+orgRecordClass: RC1

@@ -1,0 +1,93 @@
+Date:
+  Start:
+    value: '2016-04-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: LADYSMITH ROAD
+    Country: ENGLAND
+    County: SOUTH HUMBERSIDE
+    PostCode: DN32 9EF
+    Town: GRIMSBY
+LastChangeDate:
+  value: '2020-04-03'
+Name: WEELSBY VIEW HEALTH CENTRE
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: NEPD8
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+  - Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: NEP
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO172
+        uniqueRoleId: '136430'
+    id: RE6
+    uniqueRelId: '510454'
+  - Date:
+      End:
+        value: '2020-03-31'
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Inactive
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: Q72
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO210
+        uniqueRoleId: '202011'
+    id: RE5
+    uniqueRelId: '510983'
+  - Date:
+      Start:
+        value: '2020-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: QOQ
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO261
+        uniqueRoleId: '300738'
+    id: RE5
+    uniqueRelId: '663758'
+Roles:
+  Role:
+    Date:
+      Start:
+        value: '2016-04-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO176
+    primaryRole: 'true'
+    uniqueRoleId: '284063'
+Status:
+  value: Active
+metadata:
+  org_id: NEPD8
+  role_id: RO176
+  status: Active
+orgRecordClass: RC2

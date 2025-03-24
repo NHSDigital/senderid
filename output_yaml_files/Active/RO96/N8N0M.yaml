@@ -1,0 +1,67 @@
+Date:
+  Start:
+    value: '2020-10-01'
+  Type:
+    value: Operational
+GeoLoc:
+  Location:
+    AddrLn1: KINGSWAY PRIMARY CARE CENTRE
+    AddrLn2: 385 DUNSTABLE ROAD
+    Country: ENGLAND
+    PostCode: LU4 8BY
+    Town: LUTON
+    UPRN: '10070556910'
+LastChangeDate:
+  value: '2022-02-08'
+Name: KINGSWAY HEALTH CENTRE - COVID LOCAL VACCINATION SERVICE 2
+OrgId:
+  assigningAuthorityName: HSCIC
+  extension: N8N0M
+  root: 2.16.840.1.113883.2.1.3.2.4.18.48
+Rels:
+  Rel:
+    Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    Target:
+      OrgId:
+        assigningAuthorityName: HSCIC
+        extension: E81028
+        root: 2.16.840.1.113883.2.1.3.2.4.18.48
+      PrimaryRoleId:
+        id: RO177
+        uniqueRoleId: '81138'
+    id: RE6
+    uniqueRelId: '724928'
+Roles:
+  Role:
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO96
+    primaryRole: 'true'
+    uniqueRoleId: '409464'
+  - Date:
+      Start:
+        value: '2020-10-01'
+      Type:
+        value: Operational
+    Status:
+      value: Active
+    id: RO279
+    uniqueRoleId: '409465'
+Status:
+  value: Active
+metadata:
+  org_id: N8N0M
+  role_id: RO96
+  status: Active
+orgRecordClass: RC2

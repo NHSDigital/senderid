@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CENTRAL SLOUGH NETWORK PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U14694"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-05-06"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "22 WHITBY ROAD",
+            "Town": "SLOUGH",
+            "PostCode": "SL1 3DQ",
+            "Country": "ENGLAND",
+            "UPRN": "100081263090"
+        }
+    },
+    "Roles": {
+        "Role": {
+            "id": "RO272",
+            "uniqueRoleId": "387817",
+            "primaryRole": "true",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            }
+        }
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609450",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2021-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "15D"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "297761"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "732166",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D4U1Y"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "400446"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U14694",
+        "status": "Active",
+        "role_id": "RO272"
+    }
+}
