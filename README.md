@@ -21,6 +21,10 @@ TODO: Complete aims
 
 ## Contributors
 
+## Name Analysis
+
+![alt text](image.png)
+
 TODO: Complete aims
 
 ## RCS
