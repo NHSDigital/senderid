@@ -42,32 +42,34 @@
         }
     },
     "Roles": {
-        "Role": {
-            "id": "RO103",
-            "uniqueRoleId": "394635",
-            "primaryRole": "true",
-            "Date": [
-                {
-                    "Type": {
-                        "value": "Legal"
+        "Role": [
+            {
+                "id": "RO103",
+                "uniqueRoleId": "394635",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2020-05-06"
+                        }
                     },
-                    "Start": {
-                        "value": "2020-05-06"
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2020-04-01"
+                        }
                     }
-                },
-                {
-                    "Type": {
-                        "value": "Operational"
-                    },
-                    "Start": {
-                        "value": "2020-04-01"
-                    }
+                ],
+                "Status": {
+                    "value": "Active"
                 }
-            ],
-            "Status": {
-                "value": "Active"
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "N76",

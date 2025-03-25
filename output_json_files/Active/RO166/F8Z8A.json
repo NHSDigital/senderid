@@ -40,32 +40,34 @@
         }
     },
     "Roles": {
-        "Role": {
-            "id": "RO166",
-            "uniqueRoleId": "482709",
-            "primaryRole": "true",
-            "Date": [
-                {
-                    "Type": {
-                        "value": "Legal"
+        "Role": [
+            {
+                "id": "RO166",
+                "uniqueRoleId": "482709",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2022-04-01"
+                        }
                     },
-                    "Start": {
-                        "value": "2022-04-01"
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2022-03-30"
+                        }
                     }
-                },
-                {
-                    "Type": {
-                        "value": "Operational"
-                    },
-                    "Start": {
-                        "value": "2022-03-30"
-                    }
+                ],
+                "Status": {
+                    "value": "Active"
                 }
-            ],
-            "Status": {
-                "value": "Active"
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "F8Z8A",

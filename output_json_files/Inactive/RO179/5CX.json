@@ -49,38 +49,40 @@
         }
     },
     "Roles": {
-        "Role": {
-            "id": "RO179",
-            "uniqueRoleId": "43041",
-            "primaryRole": "true",
-            "Date": [
-                {
-                    "Type": {
-                        "value": "Legal"
+        "Role": [
+            {
+                "id": "RO179",
+                "uniqueRoleId": "43041",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2000-10-01"
+                        },
+                        "End": {
+                            "value": "2006-09-30"
+                        }
                     },
-                    "Start": {
-                        "value": "2000-10-01"
-                    },
-                    "End": {
-                        "value": "2006-09-30"
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2000-10-01"
+                        },
+                        "End": {
+                            "value": "2009-03-31"
+                        }
                     }
-                },
-                {
-                    "Type": {
-                        "value": "Operational"
-                    },
-                    "Start": {
-                        "value": "2000-10-01"
-                    },
-                    "End": {
-                        "value": "2009-03-31"
-                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
                 }
-            ],
-            "Status": {
-                "value": "Inactive"
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "5CX",
