@@ -15,7 +15,6 @@ Initial Draft.
 - provide a standard to aid uk mobile network operators complete RBM agent identity verification
 - provide guidance for when to apply the NHS rule checks
 - provide a standardised algorithm for generating sender ids for each NHS organisation
-- 
 
 TODO: Complete aims
 
@@ -23,7 +22,9 @@ TODO: Complete aims
 
 ## Name Analysis
 
-![alt text](image.png)
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 TODO: Complete aims
 
