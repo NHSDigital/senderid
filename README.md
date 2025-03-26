@@ -22,11 +22,17 @@ TODO: Complete aims
 
 ## Name Analysis
 
+### GPS
+
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
 
-TODO: Complete aims
+### Trusts
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
 
 ## RCS
 
