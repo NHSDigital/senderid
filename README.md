@@ -22,11 +22,17 @@ TODO: Complete aims
 
 ## Name Analysis
 
+### GPS
+
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
 
-TODO: Complete aims
+### Trusts
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
 
 ## RCS
 
@@ -37,6 +43,22 @@ TODO: Complete aims
 NHSNoReply is required prefix for all agents that will not be monitoring the reply from participants.
 
 If the agent is designed to be 2 way, NHS may be substituted instead of NHSNoReply.
+
+##### Rule Flow
+
+```mermaid
+
+flowchart TD;
+  questionOne[Request for RBM]
+  decisonOne{Do you have a valid ODS code?}
+  questionOne-->decisonOne
+  ruleOne[Allowed NHSNoReply **#91;OSDCode#93;**]
+  decisonOne--yes-->ruleOne
+  questionTwo{Is primary role R0177 with additional role of R076?}
+  ruleOne--Want a more specific sender id-->questionTwo
+  ruleTwo[Allowed NHSNoReply GP **#91;OSDCode#93;**]
+  questionTwo--yes-->ruleTwo
+```
 
 ##### Rule 1
 
@@ -50,15 +72,12 @@ THEN
 IF
   RULE 1 == TRUE
 AND
-  [ODS: PRIMARY ROLE ID] == R01777
+  [ODS: PRIMARY ROLE ID] == R0177
 AND
   [ODS: ROLE IDS] CONTAINS R076
 THEN
   ALLOW NHSNoReply GP [ODSCode]
-- https://developers.google.com/business-communications/rcs-business-messaging 
-- https://sinch.com/apis/messaging/rcs/
-- https://cpaas.webex.com/business-messaging/rcs-business-messaging
-- https://business.bt.com/insights/what-is-rich-business-messaging/
+
 
 #### Display Name
 
@@ -175,7 +194,10 @@ Terms
 ## Resources
 
 [developers.google.com - RCS Business Messaging - Edit agent information](https://developers.google.com/business-communications/rcs-business-messaging/guides/build/agents/edit-agent-information)
-
+- https://developers.google.com/business-communications/rcs-business-messaging 
+- https://sinch.com/apis/messaging/rcs/
+- https://cpaas.webex.com/business-messaging/rcs-business-messaging
+- https://business.bt.com/insights/what-is-rich-business-messaging/
 ## Review
 
 Proposal to review 6 months after version 1 released.
