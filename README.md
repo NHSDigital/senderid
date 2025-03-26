@@ -34,6 +34,17 @@ TODO: Complete aims
 
 #### Rule Set
 
+```mermaid
+
+flowchart TD
+    rule1{This is the text in the box}
+    output1[Something here]
+    output2[Something here]
+    rule1-->output1
+    rule1-->output2
+
+```
+
 NHSNoReply is required prefix for all agents that will not be monitoring the reply from participants.
 
 If the agent is designed to be 2 way, NHS may be substituted instead of NHSNoReply.
