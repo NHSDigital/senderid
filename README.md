@@ -48,6 +48,10 @@ flowchart TD;
   questionOne-->decisonOne
   ruleOne[Allowed NHSNoReply **#91;OSDCode#93;**]
   decisonOne--yes-->ruleOne
+  questionTwo{Is primary role R0177 with additional role of R076?}
+  ruleOne--Want a more specific sender id-->questionTwo
+  ruleTwo[Allowed NHSNoReply GP **#91;OSDCode#93;**]
+  questionTwo--yes-->ruleTwo
 ```
 
 ##### Rule 1
@@ -62,7 +66,7 @@ THEN
 IF
   RULE 1 == TRUE
 AND
-  [ODS: PRIMARY ROLE ID] == R01777
+  [ODS: PRIMARY ROLE ID] == R0177
 AND
   [ODS: ROLE IDS] CONTAINS R076
 THEN
