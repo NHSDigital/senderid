@@ -49,38 +49,40 @@
         }
     },
     "Roles": {
-        "Role": {
-            "id": "RO210",
-            "uniqueRoleId": "202015",
-            "primaryRole": "true",
-            "Date": [
-                {
-                    "Type": {
-                        "value": "Legal"
+        "Role": [
+            {
+                "id": "RO210",
+                "uniqueRoleId": "202015",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2015-04-01"
+                        },
+                        "End": {
+                            "value": "2016-03-31"
+                        }
                     },
-                    "Start": {
-                        "value": "2015-04-01"
-                    },
-                    "End": {
-                        "value": "2016-03-31"
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2015-01-16"
+                        },
+                        "End": {
+                            "value": "2016-05-20"
+                        }
                     }
-                },
-                {
-                    "Type": {
-                        "value": "Operational"
-                    },
-                    "Start": {
-                        "value": "2015-01-16"
-                    },
-                    "End": {
-                        "value": "2016-05-20"
-                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
                 }
-            ],
-            "Status": {
-                "value": "Inactive"
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "Q73",

@@ -15,11 +15,16 @@ Initial Draft.
 - provide a standard to aid uk mobile network operators complete RBM agent identity verification
 - provide guidance for when to apply the NHS rule checks
 - provide a standardised algorithm for generating sender ids for each NHS organisation
-- 
 
 TODO: Complete aims
 
 ## Contributors
+
+## Name Analysis
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 TODO: Complete aims
 
@@ -27,6 +32,29 @@ TODO: Complete aims
 
 ### RCS Business Messaging
 
+#### Rule Set
+
+NHSNoReply is required prefix for all agents that will not be monitoring the reply from participants.
+
+If the agent is designed to be 2 way, NHS may be substituted instead of NHSNoReply.
+
+##### Rule 1
+
+IF
+  [ODS: ORG ID] IS VALID AND [NAME] == [Supplied Organisation Name]
+THEN
+  ALLOW NHSNoReply [ODSCode]
+
+##### Rule 2
+
+IF
+  RULE 1 == TRUE
+AND
+  [ODS: PRIMARY ROLE ID] == R01777
+AND
+  [ODS: ROLE IDS] CONTAINS R076
+THEN
+  ALLOW NHSNoReply GP [ODSCode]
 - https://developers.google.com/business-communications/rcs-business-messaging 
 - https://sinch.com/apis/messaging/rcs/
 - https://cpaas.webex.com/business-messaging/rcs-business-messaging

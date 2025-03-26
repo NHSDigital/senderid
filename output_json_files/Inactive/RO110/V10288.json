@@ -46,38 +46,40 @@
         }
     },
     "Roles": {
-        "Role": {
-            "id": "RO110",
-            "uniqueRoleId": "346255",
-            "primaryRole": "true",
-            "Date": [
-                {
-                    "Type": {
-                        "value": "Legal"
+        "Role": [
+            {
+                "id": "RO110",
+                "uniqueRoleId": "346255",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2006-10-01"
+                        },
+                        "End": {
+                            "value": "2019-06-24"
+                        }
                     },
-                    "Start": {
-                        "value": "2006-10-01"
-                    },
-                    "End": {
-                        "value": "2019-06-24"
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2006-10-01"
+                        },
+                        "End": {
+                            "value": "2019-06-26"
+                        }
                     }
-                },
-                {
-                    "Type": {
-                        "value": "Operational"
-                    },
-                    "Start": {
-                        "value": "2006-10-01"
-                    },
-                    "End": {
-                        "value": "2019-06-26"
-                    }
+                ],
+                "Status": {
+                    "value": "Inactive"
                 }
-            ],
-            "Status": {
-                "value": "Inactive"
             }
-        }
+        ]
     },
     "Rels": {
         "Rel": {
