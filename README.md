@@ -58,7 +58,37 @@ AND
   [ODS: ROLE IDS] CONTAINS R076
 THEN
   ALLOW NHSNoReply GP [ODSCode]
+#### Alternative
+Prefix: 
+“NHSNoReply “
+	11 Characters
 
+Suffix: 
+“ [ODSCode]”
+	4-7 Characters
+
+Naming:
+7-10 Characters remaining
+General Practice:
+7 Characters remaining
+* Opt 1: “GP”
+		2 Characters
+* Opt 2: [Custom name set by Org]
+		7 Characters
+
+Trusts excl. Ambulance:
+10 Characters remaining
+* Opt 1: [Abbreviation of initials]
+		2-10 Characters
+* Opt 2: [Custom name set by Org]
+		0-10 Characters
+
+Ambulance Services:
+10 Characters remaining
+* Opt 1: [Abbreviation of initials]
+		3-7 Characters
+* Opt 2: [Custom name set by Org]
+		0-10 Characters
 
 - https://developers.google.com/business-communications/rcs-business-messaging 
 - https://sinch.com/apis/messaging/rcs/
@@ -104,20 +134,40 @@ Must provide 'the' general enquiries phone number for the organisation
 Must provide website link to the organisation's web homepage
 
 
-#### Logos and Hero Images
+## Logos and Hero Images
 
-- hero image - contains NHS logo (top right) and complies with NHS identity guidelines
-- logo - organisational logo (224 x 224)
+- hero image - contains NHS logo (top right) and complies with NHS identity guidelines (1440 x 448 px; 45:14 aspect ratio; <200KB)
+- logo - organisational logo (224 x 224 px; <50 KB)
 
-Sizes - resolutions?
+#### Logo
+#### General Practice
+Use the org logo, if none is available, use the standard NHS logo 
 
-TODO: Define logo and image requirements
+#### Trusts excl. Ambulance:
+Use the org logo, if none is available, use the standard NHS logo 
 
-#### NHS NO Reply
+#### Ambulance Services:
+Use the org logo, if none is available, use the standard NHS logo 
+
+#### Hero image
+#### General Practice
+Use the primary care logo (https://www.england.nhs.uk/nhsidentity/identity-guidelines/primary-care-logo/)
+
+#### Trusts excl. Ambulance:
+Full organisational Logo, name and descriptor (following NHS identity guidelines)
+
+#### Ambulance Services:
+Full organisational Logo, name and descriptor (following NHS identity guidelines)
+
+
+## NHS NO Reply
+
+Whilst no reply functionality is developed to disable user ability to respond to a message, the adoption of RCS will require 'reply handling'.
 
 - Requirement for NHSNoReply as the prefix - as RCS is only 2 way, and won't show "Not deleivered". It will show delivered, even if an auto reply from the agent comes back saying "This isn't monitored, phone agent on, phone 111, or phone our or 999 etc".
 - Suggestion from some clinicians: "**Auto Reply**: Apologies, but we cannot see your reply. If needed, please contact us using your usual method."
-- 
+- Must include reference to No Reply within Agent description.
+
 
 ## Short Org Name
 
@@ -170,11 +220,12 @@ Always require if display name or description containing:
 ### Secondary triggers
 
 - Hospital
-- General Practise
+- General Practice
 - Pharmacy
 - Doctor
 - Ambulance
 
+  
 Exclude if:
 
 - If a registered hospital / doctor / medical org, that is private, ie not NHS.
@@ -189,6 +240,8 @@ Terms
 ## Resources
 
 [developers.google.com - RCS Business Messaging - Edit agent information](https://developers.google.com/business-communications/rcs-business-messaging/guides/build/agents/edit-agent-information)
+https://www.england.nhs.uk/nhsidentity/identity-guidelines/organisational-logos/
+https://www.england.nhs.uk/nhsidentity/identity-guidelines/primary-care-logo/
 
 ## Review
 
