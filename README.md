@@ -61,34 +61,34 @@ THEN
 #### Alternative
 Prefix: 
 “NHSNoReply “
-	11 Characters
+	{11 Characters}
 
-Suffix: 
-“ [ODSCode]”
-	4-7 Characters
+Suffix:
+“ [ODSCode]” 
+	{4-7 Characters}
 
 Naming:
 7-10 Characters remaining
 General Practice:
-7 Characters remaining
-* Opt 1: “GP”
-		2 Characters
+	{7 Characters remaining}
+** Opt 1: “GP”
+		{2 Characters}
 * Opt 2: [Custom name set by Org]
-		7 Characters
+		{0-7 Characters}
 
 Trusts excl. Ambulance:
 10 Characters remaining
 * Opt 1: [Abbreviation of initials]
-		2-10 Characters
+		{2-10 Characters}
 * Opt 2: [Custom name set by Org]
-		0-10 Characters
+		{0-10 Characters}
 
 Ambulance Services:
 10 Characters remaining
 * Opt 1: [Abbreviation of initials]
-		3-7 Characters
+		{3-7 Characters}
 * Opt 2: [Custom name set by Org]
-		0-10 Characters
+		{0-10 Characters}
 
 - https://developers.google.com/business-communications/rcs-business-messaging 
 - https://sinch.com/apis/messaging/rcs/
@@ -135,11 +135,8 @@ Must provide website link to the organisation's web homepage
 
 
 ## Logos and Hero Images
-
-- hero image - contains NHS logo (top right) and complies with NHS identity guidelines (1440 x 448 px; 45:14 aspect ratio; <200KB)
-- logo - organisational logo (224 x 224 px; <50 KB)
-
 #### Logo
+Organisational logo (224 x 224 px; <50 KB)
 #### General Practice
 Use the org logo, if none is available, use the standard NHS logo 
 
@@ -150,6 +147,7 @@ Use the org logo, if none is available, use the standard NHS logo
 Use the org logo, if none is available, use the standard NHS logo 
 
 #### Hero image
+Contains NHS logo (top right) and complies with NHS identity guidelines (1440 x 448 px; 45:14 aspect ratio; <200KB)
 #### General Practice
 Use the primary care logo (https://www.england.nhs.uk/nhsidentity/identity-guidelines/primary-care-logo/)
 
