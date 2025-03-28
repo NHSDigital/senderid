@@ -14,7 +14,7 @@ import threading
 print("Script started.")
 
 # Define the XML file path
-xml_file_path = "data.xml"  # Input file name
+xml_file_path = "HSCOrgRefData_Full_20250324.xml"  # Input file name
 
 # Define the base output directory for YAML files
 base_output_directory = "output_yaml_files"
