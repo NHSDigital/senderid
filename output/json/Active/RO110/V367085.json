@@ -1,0 +1,87 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "ROYAL LANCASTER INFIRMARY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V367085"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-06-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ASHTON ROAD",
+            "Town": "LANCASTER",
+            "PostCode": "LA1 4RP",
+            "Country": "ENGLAND",
+            "UPRN": "100012622534"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO110",
+                "uniqueRoleId": "526358",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "847350",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2022-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QE1"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "300734"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "V367085",
+        "status": "Active",
+        "role_id": "RO110",
+        "post_code": "LA1 4RP",
+        "uprn": "100012622534"
+    }
+}

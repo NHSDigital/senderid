@@ -1,0 +1,153 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NHS DIRECT (SOUTHAMPTON)",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2007-04-01"
+            },
+            "End": {
+                "value": "2014-03-31"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2007-04-01"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RYH12"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2014-03-20"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "STRAWBERRY FIELDS",
+            "AddrLn2": "BERRYWOOD BUSINESS VILLAGE",
+            "AddrLn3": "TOLLBAR WAY, HEDGE END",
+            "Town": "SOUTHAMPTON",
+            "County": "HAMPSHIRE",
+            "PostCode": "SO30 2UN",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "30021",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2007-04-01"
+                        },
+                        "End": {
+                            "value": "2014-03-31"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2007-04-01"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "93201",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2007-04-01"
+                    },
+                    "End": {
+                        "value": "2014-03-31"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2007-04-01"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYH"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "137067"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "3765",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2007-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T137D"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO191",
+                    "uniqueRoleId": "43068"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RYH12",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "SO30 2UN",
+        "uprn": "Unknown"
+    }
+}

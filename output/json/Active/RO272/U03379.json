@@ -1,0 +1,112 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "RANWORTH PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U03379"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-03-26"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "103 PIER AVENUE",
+            "Town": "CLACTON-ON-SEA",
+            "PostCode": "CO15 1NJ",
+            "Country": "ENGLAND",
+            "UPRN": "100091463726"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "396598",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "714421",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "06T"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "161355"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37795",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "U76226"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO272",
+                    "uniqueRoleId": "388761"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "U03379",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "CO15 1NJ",
+        "uprn": "100091463726"
+    }
+}

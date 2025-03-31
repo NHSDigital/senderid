@@ -1,0 +1,87 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "GMSC COCHRANE HOUSE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "XDM04"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-07-20"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WHITTINGTON",
+            "Town": "LICHFIELD",
+            "PostCode": "WS14 9PY",
+            "Country": "ENGLAND",
+            "UPRN": "10002771016"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO131",
+                "uniqueRoleId": "397150",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "714928",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "XDM"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO126",
+                    "uniqueRoleId": "31559"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "XDM04",
+        "status": "Active",
+        "role_id": "RO131",
+        "post_code": "WS14 9PY",
+        "uprn": "10002771016"
+    }
+}

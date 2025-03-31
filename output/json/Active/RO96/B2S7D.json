@@ -1,0 +1,133 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BOGNOR MEDICAL CENTRE - COVID LOCAL VACCINATION SERVICE 2",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "B2S7D"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-04-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WEST STREET",
+            "Town": "BOGNOR REGIS",
+            "PostCode": "PO21 1UT",
+            "Country": "ENGLAND",
+            "UPRN": "100062416510"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO96",
+                "uniqueRoleId": "406027",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "406028",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "821283",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "H82020"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "89763"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "722416",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    },
+                    "End": {
+                        "value": "2023-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "H82058"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "89905"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "B2S7D",
+        "status": "Active",
+        "role_id": "RO96",
+        "post_code": "PO21 1UT",
+        "uprn": "100062416510"
+    }
+}

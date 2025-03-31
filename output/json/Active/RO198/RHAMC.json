@@ -1,0 +1,89 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ST ANNS HEALTH CENTRE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2001-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RHAMC"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-08"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "2 LIVINGSTONE ROAD",
+            "AddrLn2": "ST. ANNS",
+            "Town": "NOTTINGHAM",
+            "County": "NOTTINGHAMSHIRE",
+            "PostCode": "NG3 3GG",
+            "Country": "ENGLAND",
+            "UPRN": "10090473971"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "116977",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2001-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "76595",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2001-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RHA"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "118523"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RHAMC",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "NG3 3GG",
+        "uprn": "10090473971"
+    }
+}

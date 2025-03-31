@@ -1,0 +1,93 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CLINICA LONDON",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-07-16"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "F7D7O"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-07-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "140 HARLEY STREET",
+            "Town": "LONDON",
+            "PostCode": "W1G 7LB",
+            "Country": "ENGLAND",
+            "UPRN": "10033536024"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.CLINICALONDON.CO.UK"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO172",
+                "uniqueRoleId": "528064",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-07-16"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "849048",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-07-16"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QRV"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "300794"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "F7D7O",
+        "status": "Active",
+        "role_id": "RO172",
+        "post_code": "W1G 7LB",
+        "uprn": "10033536024"
+    }
+}

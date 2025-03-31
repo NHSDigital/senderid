@@ -1,0 +1,152 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SPRINGFIELD PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-09-02"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FH505"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-07-07"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1 CLEMATIS TYE",
+            "AddrLn2": "CROCUS WAY",
+            "AddrLn3": "NORTH SPRINGFIELD",
+            "Town": "CHELMSFORD",
+            "PostCode": "CM1 6GL",
+            "Country": "ENGLAND",
+            "UPRN": "100091431539"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01245 469591"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO182",
+                "uniqueRoleId": "384180",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-09-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "606042",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-09-02"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "Q79"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO210",
+                        "uniqueRoleId": "202023"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "650696",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QH8"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300792"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "606041",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-09-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P4T1"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "384171"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FH505",
+        "status": "Active",
+        "role_id": "RO182",
+        "post_code": "CM1 6GL",
+        "uprn": "100091431539"
+    }
+}

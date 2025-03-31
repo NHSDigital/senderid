@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NHS PRESCRIPTION SERVICES (MIDDLEBROOK)",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2006-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "T1452"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2012-05-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NORTHWEST PROCESSING CENTRE",
+            "AddrLn2": "RIDGWAY HOUSE, NORTHGATE CLOSE",
+            "AddrLn3": "HORWICH",
+            "Town": "BOLTON",
+            "County": "LANCASHIRE",
+            "PostCode": "BL6 6PQ",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO191",
+                "uniqueRoleId": "132193",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2006-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "41661",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1450"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "136882"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "18133",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2006-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1270"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "12671"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "T1452",
+        "status": "Active",
+        "role_id": "RO191",
+        "post_code": "BL6 6PQ",
+        "uprn": "Unknown"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "EASTLEIGH HEALTH PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U40164"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BOYATT WOOD SURGERY",
+            "AddrLn2": "BOYATT WOOD SHOPPING CENTRE",
+            "AddrLn3": "SHAKESPEARE ROAD",
+            "Town": "EASTLEIGH",
+            "PostCode": "SO50 4QP",
+            "Country": "ENGLAND",
+            "UPRN": "10009591516"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "388238",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609880",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2021-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "11A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161515"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "732230",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D9Y0V"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "400444"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U40164",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "SO50 4QP",
+        "uprn": "10009591516"
+    }
+}

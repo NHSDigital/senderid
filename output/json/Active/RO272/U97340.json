@@ -1,0 +1,120 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SOUTHAMPTON BITTERNE PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U97340"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BITTERNE SURGERY",
+            "AddrLn2": "62 WEST END ROAD",
+            "AddrLn3": "BITTERNE",
+            "Town": "SOUTHAMPTON",
+            "PostCode": "SO18 6TG",
+            "Country": "ENGLAND",
+            "UPRN": "100062515677"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "387755",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609388",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2021-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "10X"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161513"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "732363",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D9Y0V"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "400444"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U97340",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "SO18 6TG",
+        "uprn": "100062515677"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "NORTH STOCKTON PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U07032"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-26"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "TENNANT STREET MEDICAL PRACTICE",
+            "AddrLn2": "TENNANT STREET",
+            "Town": "STOCKTON-ON-TEES",
+            "PostCode": "TS18 2AT",
+            "Country": "ENGLAND",
+            "UPRN": "200000429909"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "388383",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "610025",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00K"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161394"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638157",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "16C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386505"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U07032",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "TS18 2AT",
+        "uprn": "200000429909"
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "YORK EAST PCN - COVID LOCAL VACCINATION SERVICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "E8W3Z"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-05-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "THE BECKSIDE CENTRE",
+            "AddrLn2": "1 AMOS DRIVE",
+            "AddrLn3": "POCKLINGTON",
+            "Town": "YORK",
+            "PostCode": "YO42 2BS",
+            "Country": "ENGLAND",
+            "UPRN": "10091013713"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO96",
+                "uniqueRoleId": "500874",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO279",
+                "uniqueRoleId": "500875",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "846079",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-05-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "B81036"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "93295"
+                    }
+                }
+            },
+            {
+                "id": "RE6",
+                "uniqueRelId": "821865",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-04-01"
+                    },
+                    "End": {
+                        "value": "2024-04-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "B82080"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "94211"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "E8W3Z",
+        "status": "Active",
+        "role_id": "RO96",
+        "post_code": "YO42 2BS",
+        "uprn": "10091013713"
+    }
+}

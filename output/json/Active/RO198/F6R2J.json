@@ -1,0 +1,103 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CRISIS RESPONSE UNIT",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-07-19"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "F6R2J"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-07-19"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HIGHFIELD CLINICAL CARE CENTRE",
+            "AddrLn2": "CLIFTONVILLE ROAD",
+            "Town": "NORTHAMPTON",
+            "PostCode": "NN1 5BU",
+            "Country": "ENGLAND",
+            "UPRN": "15037614"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "528973",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-07-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "528974",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-07-19"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "849816",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-07-19"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RP1"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "102781"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "F6R2J",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "NN1 5BU",
+        "uprn": "15037614"
+    }
+}

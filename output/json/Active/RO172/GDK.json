@@ -1,0 +1,95 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PRIORITY ONE MEDICAL SERVICES",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "GDK"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-02-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 32G",
+            "AddrLn2": "NELSON INDUSTRIAL ESTATE",
+            "AddrLn3": "LONG LANE",
+            "Town": "LIVERPOOL",
+            "PostCode": "L9 7BN",
+            "Country": "ENGLAND",
+            "UPRN": "38321540"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.PRIORITYONEMEDICAL.CO.UK"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO172",
+                "uniqueRoleId": "392999",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE5",
+            "uniqueRelId": "702441",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QYG"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "300742"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "GDK",
+        "status": "Active",
+        "role_id": "RO172",
+        "post_code": "L9 7BN",
+        "uprn": "38321540"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "BLAYDON CDC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "A9F7M"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-11-29"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BLAYDON PRIMARY CARE CENTRE",
+            "AddrLn2": "SHIBDON ROAD",
+            "Town": "BLAYDON-ON-TYNE",
+            "PostCode": "NE21 5NW",
+            "Country": "ENGLAND",
+            "UPRN": "10022993178"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "477267",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO317",
+                "uniqueRoleId": "477268",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "799752",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RR7"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "39280"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "A9F7M",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "NE21 5NW",
+        "uprn": "10022993178"
+    }
+}

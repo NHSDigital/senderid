@@ -1,0 +1,95 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "PRESCRIBER 160",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2003-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RVNP5"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2017-01-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "BLACKBERRY HILL HOSPITAL",
+            "AddrLn2": "MANOR ROAD",
+            "AddrLn3": "FISHPONDS",
+            "Town": "BRISTOL",
+            "County": "AVON",
+            "PostCode": "BS16 2EW",
+            "Country": "ENGLAND"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "0117 958 3678"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "79163",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2003-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "96314",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2003-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RVN"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "131791"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RVNP5",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "BS16 2EW",
+        "uprn": "Unknown"
+    }
+}

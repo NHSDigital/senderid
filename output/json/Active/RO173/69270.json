@@ -1,0 +1,89 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HOMERTON HOSPITAL LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "69270"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HOMERTON HOSPITAL",
+            "AddrLn2": "HOMERTON ROW",
+            "Town": "LONDON",
+            "County": "GREATER LONDON",
+            "PostCode": "E9 6SR",
+            "Country": "ENGLAND",
+            "UPRN": "10008242319"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO173",
+                "uniqueRoleId": "97830",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "45072",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RQX"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "37526"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "69270",
+        "status": "Active",
+        "role_id": "RO173",
+        "post_code": "E9 6SR",
+        "uprn": "10008242319"
+    }
+}

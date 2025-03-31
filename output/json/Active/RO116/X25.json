@@ -1,0 +1,143 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PUBLIC HEALTH ENGLAND",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2013-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2013-01-21"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "X25"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2013-01-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WELLINGTON HOUSE",
+            "AddrLn2": "133-155 WATERLOO ROAD",
+            "Town": "LONDON",
+            "County": "GREATER LONDON",
+            "PostCode": "SE1 8UG",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO116",
+                "uniqueRoleId": "166233",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2013-01-21"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "189271",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-01-21"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "XDH"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO126",
+                    "uniqueRoleId": "128996"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37130",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1310"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO189",
+                    "uniqueRoleId": "99809"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "X25",
+        "status": "Active",
+        "role_id": "RO116",
+        "post_code": "SE1 8UG",
+        "uprn": "Unknown"
+    }
+}

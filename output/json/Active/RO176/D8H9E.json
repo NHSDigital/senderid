@@ -1,0 +1,116 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CYGNET HOSPITAL WOLVERHAMPTON",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-10-21"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "D8H9E"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-10-21"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WOLVERHAMPTON ROAD",
+            "AddrLn2": "WEDNESFIELD",
+            "Town": "WOLVERHAMPTON",
+            "PostCode": "WV11 1UH",
+            "Country": "ENGLAND",
+            "UPRN": "10094889772"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO176",
+                "uniqueRoleId": "533436",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-10-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "854176",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-10-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NMJ"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "133366"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "854177",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-10-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300760"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "D8H9E",
+        "status": "Active",
+        "role_id": "RO176",
+        "post_code": "WV11 1UH",
+        "uprn": "10094889772"
+    }
+}

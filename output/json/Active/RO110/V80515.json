@@ -1,0 +1,145 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "MR ND MCLEAN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V80515"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-05-14"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NEIL D W MCLEAN'S DENTAL SURGERY",
+            "AddrLn2": "2A DELAHAYS DRIVE",
+            "AddrLn3": "HALE",
+            "Town": "ALTRINCHAM",
+            "PostCode": "WA15 8DP",
+            "Country": "ENGLAND",
+            "UPRN": "100012800901"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO110",
+                "uniqueRoleId": "307421",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "559387",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-04-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "14J"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "278956"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "709456",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QOP"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300740"
+                    }
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37507",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2016-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "V08204"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO110",
+                    "uniqueRoleId": "210653"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "V80515",
+        "status": "Active",
+        "role_id": "RO110",
+        "post_code": "WA15 8DP",
+        "uprn": "100012800901"
+    }
+}

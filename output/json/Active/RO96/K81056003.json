@@ -1,0 +1,115 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "DR GARGAV",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2004-04-03"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "K81056003"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "OVERDOWN ROAD SURGERY",
+            "AddrLn2": "6 OVERDOWN ROAD,",
+            "AddrLn3": "TILEHURST",
+            "Town": "READING",
+            "County": "BERKSHIRE",
+            "PostCode": "RG31 6PR",
+            "Country": "ENGLAND",
+            "UPRN": "100081320361"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO96",
+                "uniqueRoleId": "31510",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2004-04-03"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "22342",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2004-04-03"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "K81056"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO177",
+                    "uniqueRoleId": "89292"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "36585",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2004-04-03"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "K81045003"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO96",
+                    "uniqueRoleId": "100644"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "K81056003",
+        "status": "Active",
+        "role_id": "RO96",
+        "post_code": "RG31 6PR",
+        "uprn": "100081320361"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "HALESOWEN PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U55441"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-01"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ST MARGARETS WELL SURGERY",
+            "AddrLn2": "2 QUARRY LANE",
+            "Town": "HALESOWEN",
+            "PostCode": "B63 4WD",
+            "Country": "ENGLAND",
+            "UPRN": "90155740"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "387732",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "609365",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2021-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "05C"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161320"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "732267",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D2P2L"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "400451"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U55441",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "B63 4WD",
+        "uprn": "90155740"
+    }
+}

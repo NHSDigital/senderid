@@ -1,0 +1,122 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "LOWER GREEN PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2023-05-02"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FH253"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-05-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "LOWER STREET HEALTH CTR",
+            "AddrLn2": "TETTENHALL",
+            "Town": "WOLVERHAMPTON",
+            "PostCode": "WV6 9LL",
+            "Country": "ENGLAND",
+            "UPRN": "10007119957"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01902 793340"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO182",
+                "uniqueRoleId": "503787",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "825267",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "P3VT"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO181",
+                        "uniqueRoleId": "202336"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "825266",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2023-05-02"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300760"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "FH253",
+        "status": "Active",
+        "role_id": "RO182",
+        "post_code": "WV6 9LL",
+        "uprn": "10007119957"
+    }
+}

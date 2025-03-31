@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "FAIRFIELD SURGERY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "7A2QN"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "1 PARK CRESCENT",
+            "Town": "LLANELLI",
+            "County": "DYFED",
+            "PostCode": "SA15 3AE",
+            "Country": "WALES",
+            "UPRN": "100101001685"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO148",
+                "uniqueRoleId": "107067",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "19168",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "7A2"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO142",
+                    "uniqueRoleId": "40384"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "32543",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYNQN"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "86749"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "7A2QN",
+        "status": "Active",
+        "role_id": "RO148",
+        "post_code": "SA15 3AE",
+        "uprn": "100101001685"
+    }
+}

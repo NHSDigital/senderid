@@ -1,0 +1,89 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "CHILD HEALTH CLINIC - MURTON",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2010-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RXP16"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-02-04"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "21 WOODS TERRACE",
+            "AddrLn2": "MURTON",
+            "Town": "SEAHAM",
+            "County": "COUNTY DURHAM",
+            "PostCode": "SR7 9AG",
+            "Country": "ENGLAND",
+            "UPRN": "10013051688"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "76408",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2010-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "101050",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2010-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RXP"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "125071"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RXP16",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "SR7 9AG",
+        "uprn": "10013051688"
+    }
+}

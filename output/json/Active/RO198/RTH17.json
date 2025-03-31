@@ -1,0 +1,87 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "ST MARKS HOSPITAL LONDON",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "RTH17"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-04-05"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WATFORD ROAD",
+            "Town": "HARROW",
+            "PostCode": "HA1 3UJ",
+            "Country": "ENGLAND",
+            "UPRN": "202026960"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "344497",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "566184",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTH"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "128477"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "RTH17",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "HA1 3UJ",
+        "uprn": "202026960"
+    }
+}

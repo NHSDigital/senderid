@@ -1,0 +1,88 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SAPA 5 PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U79313"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-10-07"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "NORWOOD MEDICAL CENTRE",
+            "AddrLn2": "360 HERRIES AVENUE",
+            "Town": "SHEFFIELD",
+            "PostCode": "S5 7HD",
+            "Country": "ENGLAND",
+            "UPRN": "100052098476"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "388159",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "609801",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2019-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "03N"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "161476"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "U79313",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "S5 7HD",
+        "uprn": "100052098476"
+    }
+}

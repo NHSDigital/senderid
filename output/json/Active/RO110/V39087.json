@@ -1,0 +1,87 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "UNION STREET CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2016-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V39087"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-05-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "46 UNION STREET",
+            "Town": "HYDE",
+            "PostCode": "SK14 1NX",
+            "Country": "ENGLAND",
+            "UPRN": "200002857458"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO110",
+                "uniqueRoleId": "472123",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2016-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "795788",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "QOP"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO261",
+                    "uniqueRoleId": "300740"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "V39087",
+        "status": "Active",
+        "role_id": "RO110",
+        "post_code": "SK14 1NX",
+        "uprn": "200002857458"
+    }
+}

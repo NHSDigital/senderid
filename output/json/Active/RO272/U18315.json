@@ -1,0 +1,120 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "AT MEDICS STREATHAM PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U18315"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-07-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "STREATHAM HIGH PRACTICE",
+            "AddrLn2": "2-8 GRACEFIELD GARDENS",
+            "AddrLn3": "STREATHAM",
+            "Town": "LONDON",
+            "PostCode": "SW16 2ST",
+            "Country": "ENGLAND",
+            "UPRN": "100023317850"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "388950",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "610604",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "08K"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161277"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638200",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "72Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386495"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U18315",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "SW16 2ST",
+        "uprn": "100023317850"
+    }
+}

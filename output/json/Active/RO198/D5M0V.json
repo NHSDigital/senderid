@@ -1,0 +1,104 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "VIRTUAL WARD HOSPITAL@HOME",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2024-07-24"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "D5M0V"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-07-24"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SOUTH TEES SPA",
+            "AddrLn2": "WEST LOCALITY BASE, DAISY LANE",
+            "AddrLn3": "ORMESBY",
+            "Town": "MIDDLESBROUGH",
+            "County": "NORTH YORKSHIRE",
+            "PostCode": "TS7 9JF",
+            "Country": "ENGLAND"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO31",
+                "uniqueRoleId": "529055",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-07-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO198",
+                "uniqueRoleId": "529056",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-07-24"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "849904",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2024-07-24"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTR"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "76284"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "D5M0V",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "TS7 9JF",
+        "uprn": "Unknown"
+    }
+}

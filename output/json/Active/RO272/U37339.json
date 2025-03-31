@@ -1,0 +1,138 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SITTINGBOURNE PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U37339"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-03-18"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MEMORIAL MEDICAL CENTRE",
+            "AddrLn2": "BELL ROAD",
+            "Town": "SITTINGBOURNE",
+            "PostCode": "ME10 4XX",
+            "Country": "ENGLAND",
+            "UPRN": "200002532169"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "398050",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE4",
+            "uniqueRelId": "715800",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "91Q"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "386491"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "37802",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U57426"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO272",
+                        "uniqueRoleId": "388826"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37803",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "U08744"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO272",
+                        "uniqueRoleId": "388827"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U37339",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "ME10 4XX",
+        "uprn": "200002532169"
+    }
+}

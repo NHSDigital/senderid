@@ -1,0 +1,117 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "HARLAXTON PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "NT4F4"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-08-30"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "HARLAXTON SURGERY",
+            "AddrLn2": "SWINE HILL",
+            "AddrLn3": "HARLAXTON",
+            "Town": "GRANTHAM",
+            "PostCode": "NG32 1HT",
+            "Country": "ENGLAND",
+            "UPRN": "10007245961"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO176",
+                "uniqueRoleId": "395479",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "712689",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "NT4"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO172",
+                        "uniqueRoleId": "100453"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "712690",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QJM"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300754"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "NT4F4",
+        "status": "Active",
+        "role_id": "RO176",
+        "post_code": "NG32 1HT",
+        "uprn": "10007245961"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "FENS & BRECKS PCN",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2019-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "U13032"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-04-16"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "ST CLEMENTS SURGERY",
+            "AddrLn2": "CHURCHGATE WAY",
+            "AddrLn3": "TERRINGTON ST CLEMENT",
+            "Town": "KING'S LYNN",
+            "PostCode": "PE34 4LZ",
+            "Country": "ENGLAND",
+            "UPRN": "10024105937"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO272",
+                "uniqueRoleId": "388417",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "610059",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "07J"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161369"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "638186",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "26A"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "386489"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "U13032",
+        "status": "Active",
+        "role_id": "RO272",
+        "post_code": "PE34 4LZ",
+        "uprn": "10024105937"
+    }
+}

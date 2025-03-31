@@ -1,0 +1,142 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "NHS ENGLAND - X26 - LEEDS GOVERNMENT HUB",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2013-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2013-01-21"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "X2601"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-01-31"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "7-8 WELLINGTON PLACE",
+            "Town": "LEEDS",
+            "PostCode": "LS1 4AP",
+            "Country": "ENGLAND",
+            "UPRN": "72766088"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO90",
+                "uniqueRoleId": "166244",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2013-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2013-01-21"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "189283",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-01-21"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "X26"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO116",
+                    "uniqueRoleId": "166234"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "36590",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2013-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "T1431"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO191",
+                    "uniqueRoleId": "30905"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "X2601",
+        "status": "Active",
+        "role_id": "RO90",
+        "post_code": "LS1 4AP",
+        "uprn": "72766088"
+    }
+}

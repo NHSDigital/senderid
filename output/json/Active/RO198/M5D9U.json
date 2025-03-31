@@ -1,0 +1,87 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "WALTON HOSPITAL ACUTE BEDS",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "M5D9U"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-09-13"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "RODNEY ROAD",
+            "Town": "WALTON-ON-THAMES",
+            "PostCode": "KT12 3LD",
+            "Country": "ENGLAND",
+            "UPRN": "100062358911"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO198",
+                "uniqueRoleId": "472900",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "796464",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RTK"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "88049"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "M5D9U",
+        "status": "Active",
+        "role_id": "RO198",
+        "post_code": "KT12 3LD",
+        "uprn": "100062358911"
+    }
+}

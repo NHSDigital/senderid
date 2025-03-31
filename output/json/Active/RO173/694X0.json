@@ -1,0 +1,95 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "SOUTHAMPTON GENERAL HOSPITAL LABORATORY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2000-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "694X0"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "SOUTHAMPTON GENERAL HOSPITAL",
+            "AddrLn2": "TREMONA ROAD",
+            "Town": "SOUTHAMPTON",
+            "County": "HAMPSHIRE",
+            "PostCode": "SO16 6YD",
+            "Country": "ENGLAND",
+            "UPRN": "100062509013"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "02380 798431"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO173",
+                "uniqueRoleId": "133777",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2000-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE3",
+            "uniqueRelId": "45048",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2000-04-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RHM"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO197",
+                    "uniqueRoleId": "131784"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "694X0",
+        "status": "Active",
+        "role_id": "RO173",
+        "post_code": "SO16 6YD",
+        "uprn": "100062509013"
+    }
+}

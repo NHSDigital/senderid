@@ -1,0 +1,118 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "THE OLD SURGERY DENTAL PRACTICE",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2018-07-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "V45592"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-04-09"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "132 QUEEN STREET",
+            "Town": "CREWE",
+            "PostCode": "CW1 4AU",
+            "Country": "ENGLAND",
+            "UPRN": "100012596102"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO110",
+                "uniqueRoleId": "344589",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-07-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE4",
+                "uniqueRelId": "567958",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2018-07-01"
+                    },
+                    "End": {
+                        "value": "2020-03-31"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "13Y"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "230511"
+                    }
+                }
+            },
+            {
+                "id": "RE4",
+                "uniqueRelId": "709386",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QYG"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300742"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "V45592",
+        "status": "Active",
+        "role_id": "RO110",
+        "post_code": "CW1 4AU",
+        "uprn": "100012596102"
+    }
+}

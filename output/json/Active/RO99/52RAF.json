@@ -1,0 +1,143 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "TRENT BRIDGE HOUSE",
+    "Date": [
+        {
+            "Type": {
+                "value": "Legal"
+            },
+            "Start": {
+                "value": "2020-04-01"
+            }
+        },
+        {
+            "Type": {
+                "value": "Operational"
+            },
+            "Start": {
+                "value": "2019-10-23"
+            }
+        }
+    ],
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "52RAF"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2020-02-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "FOX ROAD",
+            "AddrLn2": "WEST BRIDGFORD",
+            "Town": "NOTTINGHAM",
+            "PostCode": "NG2 6BJ",
+            "Country": "ENGLAND",
+            "UPRN": "3040018028"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO99",
+                "uniqueRoleId": "391094",
+                "primaryRole": "true",
+                "Date": [
+                    {
+                        "Type": {
+                            "value": "Legal"
+                        },
+                        "Start": {
+                            "value": "2020-04-01"
+                        }
+                    },
+                    {
+                        "Type": {
+                            "value": "Operational"
+                        },
+                        "Start": {
+                            "value": "2019-10-23"
+                        }
+                    }
+                ],
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "619425",
+            "Date": [
+                {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2020-04-01"
+                    }
+                },
+                {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2019-10-23"
+                    }
+                }
+            ],
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "52R"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO98",
+                    "uniqueRoleId": "386500"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "37780",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2020-04-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "04NAD"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO99",
+                    "uniqueRoleId": "387376"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "52RAF",
+        "status": "Active",
+        "role_id": "RO99",
+        "post_code": "NG2 6BJ",
+        "uprn": "3040018028"
+    }
+}

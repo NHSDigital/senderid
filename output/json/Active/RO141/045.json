@@ -1,0 +1,125 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "BLAENAU GWENT UA",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "1996-04-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "045"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2019-09-19"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "MUNICIPAL OFFICES",
+            "AddrLn2": "CIVIC CENTRE",
+            "Town": "EBBW VALE",
+            "PostCode": "NP23 6XB",
+            "Country": "WALES",
+            "UPRN": "10091821210"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO40",
+                "uniqueRoleId": "174382",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2013-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            },
+            {
+                "id": "RO141",
+                "uniqueRoleId": "23509",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Succs": {
+        "Succ": [
+            {
+                "uniqueSuccId": "33746",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "1996-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "003"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO141",
+                        "uniqueRoleId": "57128"
+                    }
+                }
+            },
+            {
+                "uniqueSuccId": "37094",
+                "Date": {
+                    "Type": {
+                        "value": "Legal"
+                    },
+                    "Start": {
+                        "value": "2013-04-01"
+                    }
+                },
+                "Type": "Predecessor",
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "V400"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO119",
+                        "uniqueRoleId": "105225"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "045",
+        "status": "Active",
+        "role_id": "RO141",
+        "post_code": "NP23 6XB",
+        "uprn": "10091821210"
+    }
+}

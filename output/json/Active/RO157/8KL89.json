@@ -1,0 +1,124 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "JSF HEALTHCARE LTD",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2020-07-07"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "8KL89"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2022-12-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "61 DENEWOOD AVENUE",
+            "Town": "BIRMINGHAM",
+            "PostCode": "B20 2AF",
+            "Country": "ENGLAND",
+            "UPRN": "100070346019"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.JSFHEALTHCARE.COM"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO157",
+                "uniqueRoleId": "396506",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-07-07"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "713788",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-07-07"
+                    },
+                    "End": {
+                        "value": "2022-06-30"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QUA"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300760"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "808793",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-07-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QHL"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300762"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "8KL89",
+        "status": "Active",
+        "role_id": "RO157",
+        "post_code": "B20 2AF",
+        "uprn": "100070346019"
+    }
+}

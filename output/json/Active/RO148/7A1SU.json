@@ -1,0 +1,113 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "LEESWOOD CLINIC",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "7A1SU"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2012-05-15"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "QUEEN STREET",
+            "AddrLn2": "LEESWOOD",
+            "Town": "MOLD",
+            "County": "CLWYD",
+            "PostCode": "CH7 4RQ",
+            "Country": "WALES"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO148",
+                "uniqueRoleId": "100414",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "17609",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "7A1"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO142",
+                    "uniqueRoleId": "40382"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "23696",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYPSU"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "70233"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "7A1SU",
+        "status": "Active",
+        "role_id": "RO148",
+        "post_code": "CH7 4RQ",
+        "uprn": "Unknown"
+    }
+}

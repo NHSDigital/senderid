@@ -1,0 +1,95 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "WELL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FWF09"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-06-12"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "WEST CROSS MEDICAL CENTRE",
+            "AddrLn2": "WEST CROSS LANE",
+            "AddrLn3": "WEST CROSS",
+            "Town": "SWANSEA",
+            "PostCode": "SA3 5NN",
+            "Country": "WALES",
+            "UPRN": "10010022039"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01792 403578"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO182",
+                "uniqueRoleId": "503451",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "824738",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "P0MG"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO181",
+                    "uniqueRoleId": "16003"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "FWF09",
+        "status": "Active",
+        "role_id": "RO182",
+        "post_code": "SA3 5NN",
+        "uprn": "10010022039"
+    }
+}

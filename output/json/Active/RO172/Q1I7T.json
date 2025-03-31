@@ -1,0 +1,126 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "PRIMARY CARE SUPPORT SERVICES",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2022-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "Q1I7T"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2024-09-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "UNIT 27",
+            "AddrLn2": "THE JOINERY WORKSHOP",
+            "AddrLn3": "MAIN GATE ROAD",
+            "Town": "CHATHAM",
+            "PostCode": "ME4 4TZ",
+            "Country": "ENGLAND",
+            "UPRN": "44013122"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "http",
+            "value": "HTTP://WWW.PRIMARYCARESUPPORTSERVICES.COM"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO172",
+                "uniqueRoleId": "492567",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "851743",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2024-09-10"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QKS"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300803"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
+                "uniqueRelId": "814827",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-10-01"
+                    },
+                    "End": {
+                        "value": "2024-09-09"
+                    }
+                },
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QNX"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300805"
+                    }
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "Q1I7T",
+        "status": "Active",
+        "role_id": "RO172",
+        "post_code": "ME4 4TZ",
+        "uprn": "44013122"
+    }
+}

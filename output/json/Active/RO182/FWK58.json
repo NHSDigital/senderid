@@ -1,0 +1,93 @@
+{
+    "orgRecordClass": "RC1",
+    "Name": "CENTRAL PHARMACY",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2021-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "FWK58"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2023-11-10"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "68 HIGH STREET",
+            "Town": "FERNDALE",
+            "PostCode": "CF43 4RR",
+            "Country": "WALES",
+            "UPRN": "100100909977"
+        }
+    },
+    "Contacts": {
+        "Contact": {
+            "type": "tel",
+            "value": "01443 730585"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO182",
+                "uniqueRoleId": "503009",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2021-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "824119",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2021-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "P56P"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO181",
+                    "uniqueRoleId": "94986"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "FWK58",
+        "status": "Active",
+        "role_id": "RO182",
+        "post_code": "CF43 4RR",
+        "uprn": "100100909977"
+    }
+}

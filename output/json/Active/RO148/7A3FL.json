@@ -1,0 +1,114 @@
+{
+    "orgRecordClass": "RC2",
+    "Name": "TONNA HOSPITAL",
+    "Date": {
+        "Type": {
+            "value": "Operational"
+        },
+        "Start": {
+            "value": "2009-10-01"
+        }
+    },
+    "OrgId": {
+        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+        "assigningAuthorityName": "HSCIC",
+        "extension": "7A3FL"
+    },
+    "Status": {
+        "value": "Active"
+    },
+    "LastChangeDate": {
+        "value": "2021-01-28"
+    },
+    "GeoLoc": {
+        "Location": {
+            "AddrLn1": "TONNA UCHAF",
+            "AddrLn2": "TONNA",
+            "Town": "NEATH",
+            "County": "WEST GLAMORGAN",
+            "PostCode": "SA11 3LX",
+            "Country": "WALES",
+            "UPRN": "200002955539"
+        }
+    },
+    "Roles": {
+        "Role": [
+            {
+                "id": "RO148",
+                "uniqueRoleId": "84130",
+                "primaryRole": "true",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2009-10-01"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                }
+            }
+        ]
+    },
+    "Rels": {
+        "Rel": {
+            "id": "RE6",
+            "uniqueRelId": "19044",
+            "Date": {
+                "Type": {
+                    "value": "Operational"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Status": {
+                "value": "Active"
+            },
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "7A3"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO142",
+                    "uniqueRoleId": "40383"
+                }
+            }
+        }
+    },
+    "Succs": {
+        "Succ": {
+            "uniqueSuccId": "19511",
+            "Date": {
+                "Type": {
+                    "value": "Legal"
+                },
+                "Start": {
+                    "value": "2009-10-01"
+                }
+            },
+            "Type": "Predecessor",
+            "Target": {
+                "OrgId": {
+                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                    "assigningAuthorityName": "HSCIC",
+                    "extension": "RYMFL"
+                },
+                "PrimaryRoleId": {
+                    "id": "RO198",
+                    "uniqueRoleId": "62936"
+                }
+            }
+        }
+    },
+    "metadata": {
+        "org_id": "7A3FL",
+        "status": "Active",
+        "role_id": "RO148",
+        "post_code": "SA11 3LX",
+        "uprn": "200002955539"
+    }
+}
