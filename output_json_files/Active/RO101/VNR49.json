@@ -18,16 +18,16 @@
         "value": "Active"
     },
     "LastChangeDate": {
-        "value": "2023-10-11"
+        "value": "2025-03-21"
     },
     "GeoLoc": {
         "Location": {
-            "AddrLn1": "UNIT 4",
-            "AddrLn2": "326-340 DUNSTABLE ROAD",
-            "Town": "LUTON",
-            "PostCode": "LU4 8JS",
-            "Country": "ENGLAND",
-            "UPRN": "10024036089"
+            "AddrLn1": "SUITE 7, NJK HOUSE",
+            "AddrLn2": "HASLINGDEN ROAD",
+            "Town": "BLACKBURN",
+            "County": "LANCASHIRE",
+            "PostCode": "BB1 2EE",
+            "Country": "ENGLAND"
         }
     },
     "Roles": {
@@ -69,6 +69,32 @@
         "Rel": [
             {
                 "id": "RE5",
+                "uniqueRelId": "859947",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-03-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "00Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161399"
+                    }
+                }
+            },
+            {
+                "id": "RE5",
                 "uniqueRelId": "831941",
                 "Date": {
                     "Type": {
@@ -76,10 +102,13 @@
                     },
                     "Start": {
                         "value": "2023-09-06"
+                    },
+                    "End": {
+                        "value": "2025-03-20"
                     }
                 },
                 "Status": {
-                    "value": "Active"
+                    "value": "Inactive"
                 },
                 "Target": {
                     "OrgId": {
@@ -124,6 +153,8 @@
     "metadata": {
         "org_id": "VNR49",
         "status": "Active",
-        "role_id": "RO101"
+        "role_id": "RO101",
+        "post_code": "BB1 2EE",
+        "uprn": "Unknown"
     }
 }

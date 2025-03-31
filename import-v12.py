@@ -14,7 +14,7 @@ import threading
 print("Script started.")
 
 # Define the XML file path
-xml_file_path = "data.xml"  # Input file name
+xml_file_path = "HSCOrgRefData_Full_20250324.xml"  # Input file name
 
 # Define the base output directory for YAML files
 base_output_directory = "output_yaml_files"
@@ -102,6 +102,7 @@ def generate_organisation_yaml(org_element, org_count, batch_yaml_data):
     org_id_element = org_element.find("./OrgId")
     status_element = org_element.find("./Status")
     roles_element = org_element.find("./Roles")
+    geo_loc_element = org_element.find("./GeoLoc/Location")
 
     # Error if Roles collection is not found
     if roles_element is None:
@@ -124,6 +125,10 @@ def generate_organisation_yaml(org_element, org_count, batch_yaml_data):
 
     status_value = status_element.attrib.get("value") if status_element is not None else "Unknown"
 
+    # Extract PostCode and UPRN from GeoLoc/Location
+    post_code = geo_loc_element.findtext("PostCode", default="Unknown") if geo_loc_element is not None else "Unknown"
+    uprn = geo_loc_element.findtext("UPRN", default="Unknown") if geo_loc_element is not None else "Unknown"
+
     if org_id_element is not None:
         extension = org_id_element.get("extension")
 
@@ -132,7 +137,9 @@ def generate_organisation_yaml(org_element, org_count, batch_yaml_data):
             organisation_dict["metadata"] = {
                 "org_id": extension,
                 "status": status_value,
-                "role_id": role_id
+                "role_id": role_id,
+                "post_code": post_code,
+                "uprn": uprn
             }
             # Determine folder path based on Status and Role ID
             folder_path = os.path.join(base_output_directory, status_value, role_id)
@@ -170,15 +177,19 @@ def process_batch_elements(batch, org_count):
 
             role_ids = [role.get("id", "Unknown") for role in roles if isinstance(role, dict)]  # Ensure role is a dictionary
 
-            # Extract status from metadata
+            # Extract metadata fields
             status = content["metadata"].get("status", "Unknown")
+            post_code = content["metadata"].get("post_code", "Unknown")
+            uprn = content["metadata"].get("uprn", "Unknown")
 
             summary_entry = {
                 "org_id": content["metadata"]["org_id"],
                 "name": content.get("Name", "Unknown"),
                 "primary_role_id": content["metadata"]["role_id"],
                 "role_ids": role_ids,
-                "status": status  # Add status to the summary entry
+                "status": status,
+                "post_code": post_code,
+                "uprn": uprn
             }
 
             # Update the global summary data

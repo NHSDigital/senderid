@@ -18,7 +18,7 @@
         "value": "Active"
     },
     "LastChangeDate": {
-        "value": "2021-01-13"
+        "value": "2025-03-01"
     },
     "GeoLoc": {
         "Location": {
@@ -66,36 +66,69 @@
         ]
     },
     "Rels": {
-        "Rel": {
-            "id": "RE6",
-            "uniqueRelId": "721354",
-            "Date": {
-                "Type": {
-                    "value": "Operational"
+        "Rel": [
+            {
+                "id": "RE6",
+                "uniqueRelId": "721354",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2020-10-01"
+                    },
+                    "End": {
+                        "value": "2025-02-28"
+                    }
                 },
-                "Start": {
-                    "value": "2020-10-01"
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D81028"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "92698"
+                    }
                 }
             },
-            "Status": {
-                "value": "Active"
-            },
-            "Target": {
-                "OrgId": {
-                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
-                    "assigningAuthorityName": "HSCIC",
-                    "extension": "D81028"
+            {
+                "id": "RE6",
+                "uniqueRelId": "858809",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-03-01"
+                    }
                 },
-                "PrimaryRoleId": {
-                    "id": "RO177",
-                    "uniqueRoleId": "92698"
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "D81612"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO177",
+                        "uniqueRoleId": "92762"
+                    }
                 }
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "K9N7T",
         "status": "Active",
-        "role_id": "RO96"
+        "role_id": "RO96",
+        "post_code": "CB24 6BL",
+        "uprn": "100091421128"
     }
 }

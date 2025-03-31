@@ -18,16 +18,16 @@
         "value": "Active"
     },
     "LastChangeDate": {
-        "value": "2023-12-12"
+        "value": "2025-02-27"
     },
     "GeoLoc": {
         "Location": {
-            "AddrLn1": "C/O GIANT GROUP SPACES",
-            "AddrLn2": "THE CHARTER BUILDING",
-            "AddrLn3": "CHARTER PLACE",
-            "Town": "UXBRIDGE",
-            "PostCode": "UB8 1JG",
-            "Country": "ENGLAND"
+            "AddrLn1": "LEWIS BUILDING",
+            "AddrLn2": "35 BULL STREET",
+            "Town": "BIRMINGHAM",
+            "PostCode": "B4 6EQ",
+            "Country": "ENGLAND",
+            "UPRN": "100071461957"
         }
     },
     "Contacts": {
@@ -57,36 +57,69 @@
         ]
     },
     "Rels": {
-        "Rel": {
-            "id": "RE5",
-            "uniqueRelId": "807080",
-            "Date": {
-                "Type": {
-                    "value": "Operational"
+        "Rel": [
+            {
+                "id": "RE5",
+                "uniqueRelId": "858782",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-02-27"
+                    }
                 },
-                "Start": {
-                    "value": "2022-04-01"
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QHL"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300762"
+                    }
                 }
             },
-            "Status": {
-                "value": "Active"
-            },
-            "Target": {
-                "OrgId": {
-                    "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
-                    "assigningAuthorityName": "HSCIC",
-                    "extension": "QMF"
+            {
+                "id": "RE5",
+                "uniqueRelId": "807080",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2022-04-01"
+                    },
+                    "End": {
+                        "value": "2025-02-26"
+                    }
                 },
-                "PrimaryRoleId": {
-                    "id": "RO261",
-                    "uniqueRoleId": "300832"
+                "Status": {
+                    "value": "Inactive"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "QMF"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO261",
+                        "uniqueRoleId": "300832"
+                    }
                 }
             }
-        }
+        ]
     },
     "metadata": {
         "org_id": "L2C6V",
         "status": "Active",
-        "role_id": "RO172"
+        "role_id": "RO172",
+        "post_code": "B4 6EQ",
+        "uprn": "100071461957"
     }
 }

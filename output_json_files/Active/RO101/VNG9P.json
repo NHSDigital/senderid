@@ -18,17 +18,16 @@
         "value": "Active"
     },
     "LastChangeDate": {
-        "value": "2022-03-10"
+        "value": "2025-03-21"
     },
     "GeoLoc": {
         "Location": {
-            "AddrLn1": "SUITE 203",
-            "AddrLn2": "DENNING HOUSE",
+            "AddrLn1": "ROOM 40 ,STAFFORD BUSINESS VILLAGE",
             "AddrLn3": "1A GEORGE STREET",
-            "Town": "WOLVERHAMPTON",
-            "PostCode": "WV2 4DP",
-            "Country": "ENGLAND",
-            "UPRN": "100071562684"
+            "Town": "LICHFIELD",
+            "County": "STAFFORDSHIRE",
+            "PostCode": "WS13 6QG",
+            "Country": "ENGLAND"
         }
     },
     "Roles": {
@@ -98,6 +97,32 @@
                 }
             },
             {
+                "id": "RE5",
+                "uniqueRelId": "859938",
+                "Date": {
+                    "Type": {
+                        "value": "Operational"
+                    },
+                    "Start": {
+                        "value": "2025-03-21"
+                    }
+                },
+                "Status": {
+                    "value": "Active"
+                },
+                "Target": {
+                    "OrgId": {
+                        "root": "2.16.840.1.113883.2.1.3.2.4.18.48",
+                        "assigningAuthorityName": "HSCIC",
+                        "extension": "05Q"
+                    },
+                    "PrimaryRoleId": {
+                        "id": "RO98",
+                        "uniqueRoleId": "161329"
+                    }
+                }
+            },
+            {
                 "id": "RE6",
                 "uniqueRelId": "715678",
                 "Date": {
@@ -132,10 +157,13 @@
                     },
                     "Start": {
                         "value": "2022-02-17"
+                    },
+                    "End": {
+                        "value": "2025-03-20"
                     }
                 },
                 "Status": {
-                    "value": "Active"
+                    "value": "Inactive"
                 },
                 "Target": {
                     "OrgId": {
@@ -154,6 +182,8 @@
     "metadata": {
         "org_id": "VNG9P",
         "status": "Active",
-        "role_id": "RO101"
+        "role_id": "RO101",
+        "post_code": "WS13 6QG",
+        "uprn": "Unknown"
     }
 }
