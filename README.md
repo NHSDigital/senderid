@@ -23,11 +23,17 @@ TODO: Complete aims
 
 ## Name Analysis
 
+### GPS
+
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
 
-TODO: Complete aims
+### Trusts
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
 
 ## RCS
 
@@ -40,6 +46,22 @@ The universally accepted standard for the displayed name of an RBM agent is 25 c
 NHSNoReply is required prefix for all agents that will not be monitoring the reply from participants (approximately 90% of current SMS traffic from the NHS fits this description).
 
 If the agent is designed to be 2 way, NHS may be substituted instead of NHSNoReply.
+
+##### Rule Flow
+
+```mermaid
+
+flowchart TD;
+  questionOne[Request for RBM]
+  decisonOne{Do you have a valid ODS code?}
+  questionOne-->decisonOne
+  ruleOne[Allowed NHSNoReply **#91;OSDCode#93;**]
+  decisonOne--yes-->ruleOne
+  questionTwo{Is primary role R0177 with additional role of R076?}
+  ruleOne--Want a more specific sender id-->questionTwo
+  ruleTwo[Allowed NHSNoReply GP **#91;OSDCode#93;**]
+  questionTwo--yes-->ruleTwo
+```
 
 ##### Rule 1
 
