@@ -98,6 +98,14 @@ General Practice:
 * Opt 2: [Custom name set by Org]
 		{0-7 Characters}
 
+| Example type | Example RBM Agent Display Name |
+|:---|:--- |
+|RBM Agent Opt1 |NHSNoReply GP Y01008 |
+|RBM Agent Opt2 |NHSNoReply BMG Y01008 |
+|SMS Sender ID (Fallback) |NHSgpY01008 |
+|NHS App |NHSNoReply GP Bay Medical Group (Y01008) |
+|3rd Party App |NHSNoReply GP Bay Medical Group (Y01008) |
+
 Trusts excl. Ambulance:
 10 Characters remaining
 * Opt 1: [Abbreviation of initials]
@@ -111,6 +119,22 @@ Ambulance Services:
 		{3-7 Characters}
 * Opt 2: [Custom name set by Org]
 		{0-10 Characters}
+
+
+| Ambulance Trust Name | Website | Phone | Used Abbreviation |  Suggested RBM Agent Display Name | Character Count |
+|:---|:--- |:--- |:--- |:--- |:--- |
+| North East Ambulance Service NHS Foundation Trust | https://www.neas.nhs.uk | 0191 430 2000 | NEAS | NHSNoReply NEAS RX6 | 19 |
+| Yorkshire Ambulance Service NHS Trust | https://www.yas.nhs.uk | 0330 678 4100 | YAS | NHSNoReply YAS RX8 | 18 |
+| North West Ambulance Service NHS Trust | https://www.nwas.nhs.uk | 0345 112 0999 | NWAS | NHSNoReply NWAS RX7 | 19 |
+| West Midlands Ambulance Service University NHS Foundation Trust | https://www.wmas.nhs.uk | 01384 215 555 | WMAS | NHSNoReply WMAS RYA | 19 |
+| East Midlands Ambulance Service NHS Trust | https://www.emas.nhs.uk | 0115 919 3399 | EMAS | NHSNoReply EMAS RX9 | 19 |
+| South Western Ambulance Service NHS Foundation Trust | https://www.swast.nhs.uk | 0300 369 0130 | SWAST | NHSNoReply SWAST RYF | 20 |
+| South Central Ambulance Service NHS Foundation Trust | https://www.scas.nhs.uk | 01869 365 000 | SCAS | NHSNoReply SCAS RYE | 19 |
+| South East Coast Ambulance Service NHS Foundation Trust | https://www.secamb.nhs.uk | 00300 123 9242 | SECAMB | NHSNoReply SECAMB RYD | 21 |
+| London Ambulance Service NHS Trust | https://www.londonambulance.nhs.uk | 020 7783 2000 | LONDAMB | NHSNoReply LONDAMB RRU | 22 |
+| East of England Ambulance Service NHS Trust  | https://www.eastamb.nhs.uk | 0345 601 3733 | EASTAMB | NHSNoReply EASTAMB RYC | 22 |
+| Welsh Ambulance Services University NHS Trust | https://www.ambulance.nhs.wales |  | WAST | NHSNoReply WAST RT4 | 19 |
+
 
 - https://developers.google.com/business-communications/rcs-business-messaging 
 - https://sinch.com/apis/messaging/rcs/
